@@ -1,0 +1,15 @@
+dispatch:
+  - url: "dev.ibms-iot.com/*"
+    service: dev
+
+  - url: "sennomori.ibms-iot.com/*"
+    service: kaieikan
+
+  - url: "space-demo.ibms-iot.com/*"
+    service: space-demo
+
+  - url: "suyama.ibms-iot.com/*"
+    service: suyama
+
+  - url: "ibms-iot.com/"
+    service: default

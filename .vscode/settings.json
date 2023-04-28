@@ -1,0 +1,66 @@
+{
+    // PHP simple formatter setup
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.useTabStops": true,
+        "editor.insertSpaces": true,
+        "editor.trimAutoWhitespace": true,
+        "editor.comments.insertSpace": true,
+        "editor.formatOnSave": true,
+    },
+
+    // Select Vetur extension as default formatter for Vue files
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur",
+        "editor.formatOnSave": true
+    },
+
+    // Configure Vetur extension
+    // See documentation below for Vetur extension settings
+    // https://vuejs.github.io/vetur/guide/formatting.html#formatters
+    "vetur.format.enable": true,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.options.useTabs": false,
+    "vetur.format.scriptInitialIndent": false,
+    "vetur.format.styleInitialIndent": false,
+    "vetur.completion.autoImport": true,
+    "vetur.completion.tagCasing": "initial",
+
+    // Set JS Beatify as formatter for template part of Vue file
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+
+    // Set Prettier as formatter for script part of Vue file
+    "vetur.format.defaultFormatter.js": "prettier",
+
+    // Set Prettier as formatter for style part of Vue file
+    "vetur.format.defaultFormatter.css": "prettier",
+
+    // Configure each formatter
+    "vetur.format.defaultFormatterOptions": {
+
+        // See documentation below for JS Beatify formatter
+        // https://github.com/beautify-web/js-beautify#css--html
+        "js-beautify-html": {
+            "wrap_attributes": "aligned-multiple",
+            "wrap_line_length": "120",
+            "brace_style": "expand"
+        },
+
+        // See documentation below for Prettier formatter
+        // https://prettier.io/docs/en/options.html
+        "prettier": {
+            "semi": false,
+            "singleQuote": true,
+            "trailingComma": "es5",
+            "bracketSpacing": true,
+            "arrowParens": "avoid",
+            "quoteProps": "as-needed",
+            "bracketSameLine": true,
+            "printWidth": 120
+        }
+    },
+    "namespaceResolver.autoSort": true,
+    "namespaceResolver.sortOnSave": true,
+    "namespaceResolver.sortAlphabetically": true,
+    "namespaceResolver.showMessageOnStatusBar": true
+}

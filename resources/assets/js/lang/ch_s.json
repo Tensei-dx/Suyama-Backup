@@ -1,0 +1,2219 @@
+{
+    "navbar":{
+        "dashboard":"仪表板",
+        "devop":"设备操作",
+        "userm":"用户管理",
+        "hardwarem":"硬件管理",
+        "gatewaym":"网关",
+        "devicem":"设备",
+        "bindingm":"绑定管理",
+        "ir-m":"遥控器",
+        "tabletReg":"平板电脑注册",
+        "floorm":"楼层管理",
+        "logs":"日志",
+        "about":"关于我们",
+        "notif":"通知",
+        "logout":"注销",
+        "help":"帮助",
+        "lang":"语言",
+        "logoutModalLabel":"准备离开了吗?",
+        "logoutMessage":"如果您准备结束当前会话，请选择注销.",
+        "confirmLogout":"注销",
+        "cancel":"取消"
+    },
+    "footer":"版权所有 © iBMS 2018 | 由 GTI 提供技术支持",
+    "about":{
+        "ab":"关于我们",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "text2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "commitment":"我们的承诺",
+        "mission":"我们的使命",
+        "provide":"为您提供世界一流的关怀。"
+    },
+    "dashboard":{
+        "gateway-summary":"网关概述",
+        "gateway-total":"网关总数",
+        "gateway-online":"在线网关",
+        "gateway-offline":"离线网关",
+        "devices-summary":"设备概述",
+        "devices-total":"设备总数",
+        "devices-online":"在线设备",
+        "devices-offline":"离线设备",
+        "electric-summary":"电量概述",
+        "event":"事件",
+        "data":" 数据",
+        "tableFields":{
+            "Target":"目标设备",
+            "Device":"设备",
+            "Command":"指令",
+            "Date":"日期"
+        },
+        "summaryLabels":{
+            "Room":"房间",
+            "Count":"数量",
+            "show_devices":"设备",
+            "DEVICE_NAME":"设备名称",
+            "DEVICE_TYPE":"设备类型",
+            "ip_address":"IP地址",
+            "Floor":"楼层",
+            "Device":"设备"
+        },
+        "chart":{
+            "date":"日期",
+            "temp":"温度",
+            "opened":"打开/触发次数",
+            "status":"状态"
+        }
+    },
+    "devop":{
+        "devop":"设备操作",
+        "view":"查看",
+        "devices":"设备",
+        "lastupdate":"最后更新于",
+        "notavailable":"设备不可用",
+        "noremote":"此遥控器无数据",
+        "nostatus":"无状态显示",
+        "carouselnodevice":"设备不可用",
+        "gateways":"网关",
+        "nogateway":"无可用网关",
+        "nodevice":"无可用设备",
+        "searchdev": "搜索设备",
+        "searchroom": "搜索房间",
+        "daily":"按天",
+        "monthly":"按月",
+        "total":"总计",
+        "temp":"温度",
+        "temperature":"温度",
+        "power":"功率",
+        "hum":"湿度",
+        "tableView":{
+            "floor.FLOOR_NAME":"楼层名称",
+            "ROOM_NAME":"房间名称",
+            "show_gateway_details":"网关",
+            "show_device_details":"设备",
+            "GATEWAY_NAME":"网关名称",
+            "NEW_ONLINE_FLAG":"状态",
+            "DEVICE_NAME":"设备名称",
+            "DEVICE_TYPE":"设备类型",
+            "DATA":"设备状态"
+        },
+        "remoteLogs":{
+            "TARGET":"设备",
+            "BRAND":"品牌",
+            "COMMAND":"指令",
+            "DATE":"日期"
+        },
+        "chart":{
+            "date":"日期",
+            "status":"状态"
+        }
+    },
+    "user":{
+        "allusers":"所有用户",
+        "active":"活跃",
+        "inactive":"不活跃",
+        "users":"用户",
+        "add":"添加用户",
+        "disable": "禁用",
+        "enable": "启用",
+        "profile": "配置文件",
+        "designation": "职务",
+        "userLocation": "用户位置",
+        "userModules": "用户模块",
+        "save": "保存",
+        "cancel": "取消",
+        "changepass": "更改密码",
+        "usertype":"用户类型",
+        "username":"序列号",
+        "userlogo":"用户徽标",
+        "password":"PIN码",
+        "confirmpass":"确认密码",
+        "contact": "联系电话",
+        "alert": "警报选项",
+        "module":"模块",
+        "pickmod":"选择模块",
+        "location":"位置",
+        "email":"电子邮件",
+        "noData":"无可用数据",
+        "type":{
+            "gtiAdmin":"前往Tensei管理员",
+            "genAdmin":"普通管理员",
+            "nurse":"护士"
+        },
+        "all":"所有",
+        "goTenseiAd":"前往Tensei管理员",
+        "genAd":"普通管理员",
+        "nurse":"护士",
+        "userTable":{
+            "USERNAME":"用户名",
+            "USER_ID":"用户ID",
+            "USERROLE":"用户角色",
+            "STATUS":"状态"
+        },
+        "modalText":{
+            "disable":"您即将禁用此用户",
+            "sure":"您确定吗?",
+            "enable":"您即将启用此用户",
+            "disabled":"已禁用!",
+            "disabledUser":"此用户已被禁用",
+            "enabled":"已启用!",
+            "enabledUser":"此用户已被启用",
+            "passSuccess":"此用户已被启用!",
+            "saveSuccess":"保存成功"
+        }
+    },
+    "gateway":{
+        "gatewayInfo": "网关信息",
+        "header":"硬件管理 / 网关管理",
+        "sysGateway":"系统网关",
+        "modbusGateway":"Modbus网关",
+        "cameraGateway":"摄像头网关",
+        "noData":"无可用数据",
+        "gatewayCat":{
+            "regist":"已注册",
+            "unregist":"未注册",
+            "blocked":"已阻止",
+            "deleted":"已删除"
+        },
+        "gatewayIp":"网关IP",
+        "devSerialNo":"设备序列号",
+        "onlineStat":"在线状态",
+        "scan":"扫描中",
+        "scanSuccessful":"扫描成功",
+        "scanFailed": "扫描失败",
+        "rescan":"重新扫描",
+        "rescanning": "重新扫描中",
+        "save":"保存",
+        "saving":"正在保存",
+        "addGateway":"添加网关",
+        "manufacturer":"制造商",
+        "gatewayName":"网关名称",
+        "gatewaySerial":"网关序列号",
+        "floor":"楼层",
+        "modalText":{
+            "activeModbus":"激活Modbus网关",
+            "sure":"您确定吗?",
+            "activatedModbus":"Modbus网关已激活",
+            "modbusActivate":"Modbus网关已激活",
+            "modbusCantActivate":"Modbus网关无法激活",
+            "modbusDelete":"Modbus网关已被删除",
+            "modbusCantDelete":"Modbus网关无法删除",
+            "gatewayUpdate":"网关已成功更新",
+            "delGateway":"删除网关",
+            "deleted":"已删除",
+            "gatewayDel":"网关已被删除.",
+            "contDelete":"继续删除吗?",
+            "gatewayCantDelete":"无法删除网关。",
+            "blockGateway":"阻止网关",
+            "gatewayBlock":"网关已被阻止。",
+            "block":"阻止",
+            "gatewayCantBlock":"无法阻止网关.",
+            "unblockGateway":"解除网关阻止",
+            "unblock":"解除",
+            "gatewayUnblock":"网关已解除阻止.",
+            "gatewayCantUnblock":"无法解除网关阻止.",
+            "noContact":"无法联系网关.",
+            "cantUpdate":"无法更新网关",
+            "regGateway":"注册网关",
+            "gatewayRegister":"网关已注册.",
+            "gatewayCantRegister":"网关注册失败.",
+            "modGatewayRegister":"Modbus网关已注册.",
+            "modGatewayNameExists":"Modbus网关名称已存在",
+            "modGatewayCantRegister":"Modbus网关注册失败.",
+            "camGatewayRegister":"摄像头网关已注册",
+            "camGatewayCantRegister":"摄像头网关注册失败"
+        },
+        "gatewayTable":{
+            "GATEWAY_ID":"ID",
+            "FLOOR_NAME":"楼层名称",
+            "ROOM_NAME":"房间名称",
+            "ip":"网关IP",
+            "GATEWAY_NAME":"网关名称",
+            "serial_no":"网关序列号",
+            "action":"操作",
+            "GATEWAY_IP":"网关IP",
+            "MANUFACTURER_NAME":"制造商"
+        }
+    },
+    "device":{
+        "header":"硬件管理/设备管理",
+        "sysDevice":"系统设备",
+        "modDevice":"Modbus电表r",
+        "bacnetDevice":"Bacnet设备",
+        "cameraDevice": "摄像头",
+        "gatewayName":"网关名称",
+        "devType":"设备类型",
+        "devName":"设备名称",
+        "devSerial":"设备序列号",
+        "devCat":"设备分类",
+        "onStatus":"在线状态",
+        "modbusIp":"网关IP",
+        "modbusSerial":"电表序列号.",
+        "modbusSlave":"电表从机ID",
+        "device":"设备",
+        "save":"保存",
+        "gang":"操作",
+        "addMeter":"添加电表",
+        "addDevice":"添加设备",
+        "deviceTable":{
+            "DEVICE_ID":"ID",
+            "FLOOR_NAME":"楼层名称",
+            "ROOM_NAME":"房间名称",
+            "DEVICE_NAME":"设备名称",
+            "DEVICE_TYPE":"设备类型",
+            "METER_ID":"ID",
+            "SERIAL_NO":"序列号",
+            "gateway":"网关名称E",
+            "devtype":"设备类型",
+            "serialno":"设备序列号",
+            "action":"操作",
+            "BACNETDEVICE_ID":"ID"
+        },
+        "deviceModals":{
+            "failedModbus":"无法检索Modbus数据",
+            "failedDevice":"无法检索设备数据",
+            "activateModbus":"激活Modbus电表",
+            "sure":"确定吗?",
+            "yes":"是的",
+            "activatedModbus":"已激活Modbus电表",
+            "modbusActivated":"Modbus电表已激活",
+            "error":"错误",
+            "cantActivateModbus":"无法激活Modbus电表",
+            "delete":"删除 ",
+            "deleted":"已删除",
+            "hasDeleted":" 已被删除.",
+            "cantDelete":" 无法删除.",
+            "blockDev":"锁定设备",
+            "devBlock":"设备已被锁定",
+            "cantBlock":"无法锁定设备",
+            "block":"锁定",
+            "unblockDev":"解锁设备",
+            "devUnblock":"设备已解锁",
+            "cantUnblock":"无法解锁设备",
+            "unblock":"解锁",
+            "delDevice":"删除设备",
+            "devDeleted":"设备已被删除",
+            "devCantDelete":"无法删除设备",
+            "successfullyUpdated":"成功更新",
+            "cantUpdate":"无法更新设备",
+            "devRegistered":"设备已注册",
+            "cantRegister":"无法注册设备"
+        }
+    },
+    "binding":{
+        "header": "硬件管理/绑定管理",
+        "floor": "楼层",
+        "sensorDevice": "传感器到设备",
+        "sensorSensor": "传感器到传感器",
+        "cameraDevice": "摄像头到设备",
+        "sensorAlert": "传感器到警报",
+        "addDevice": "添加传感器到设备绑定",
+        "addSensor": "添加传感器到传感器绑定",
+        "addCamera": "添加摄像头到设备绑定",
+        "addAlert": "添加传感器到警报绑定",
+        "total": "总数",
+        "room": "房间",
+        "sensors": "传感器",
+        "targetFloor": "选择目标楼层",
+        "targetRoom": "选择目标房间",
+        "devCondition": "设备条件",
+        "targetDevice": "目标设备",
+        "selectAllDev": "全选设备",
+        "selectAllSen": "全选传感器",
+        "min": "分钟",
+        "createDevice": "创建传感器到设备绑定",
+        "createSensor": "创建传感器到传感器绑定",
+        "createAlert": "创建传感器到警报绑定",
+        "noDevice": "无可用设备",
+        "noBinding": "无可用绑定",
+        "delBind": "删除绑定",
+        "sure": "您确定要删除绑定吗？",
+        "noBindingAvailable": "无可用绑定",
+        "bindingDevice":{
+            "target_device.DEVICE_TYPE": "设备类型",
+            "target_device.DEVICE_NAME": "设备名称",
+            "binding_list.TARGET_DEVICE_CONDITION": "设备状态",
+            "time": "时间间隔"
+        },
+        "modalText":{
+            "groupDisable": "已禁用群组绑定。",
+            "groupEnable": "已启用群组绑定。",
+            "bindingEnable": "已启用设备绑定。",
+            "bindingDisable": "已禁用设备绑定。",
+            "enable": "已启用！",
+            "disable": "已禁用！",
+            "deviceDeleted": "设备绑定已删除。",
+            "deleted": "已删除！",
+            "bindingDeleted": "绑定已删除。",
+            "sure": "您确定吗？",
+            "delBinding": "删除此绑定？",
+            "delDevice": "删除此设备绑定？",
+            "disBinding": "禁用此绑定？",
+            "disGroup": "禁用此绑定组？",
+            "enBinding": "启用此绑定？",
+            "enGroup": "启用此绑定组？",
+            "delUser": "删除此用户警报绑定？"
+        }
+    },
+    "ir":{
+        "header": "硬件管理 / 红外管理",
+        "appliancetab": "家电",
+        "createappliance": "添加家电",
+        "createir": "添加红外列表",
+        "irlisttab": "红外列表",
+        "add": "添加列表",
+        "floor": "楼层",
+        "room": "房间",
+        "irdevice": "红外设备",
+        "appliance": "家电",
+        "appliancename": "家电名称",
+        "appliancetype": "家电类型",
+        "appliancedetails": "家电详情",
+        "brandname": "品牌名称",
+        "operation": "操作",
+        "learning": "红外学习值",
+        "save": "保存",
+        "cancel": "取消",
+        "listTable": {
+            "DEVICE_NAME": "红外设备",
+            "APPLIANCE_NAME": "名称",
+            "APPLIANCE_TYPE": "类型",
+            "BRAND_NAME": "品牌",
+            "STATUS": "状态",
+            "OPERATION_NAME": "操作"
+        }
+    },
+    "natureIr": {
+        "header": "硬件管理 / Nature Remo红外管理",
+        "search": "搜索",
+        "appliances": {
+            "tab": "家电",
+            "table": {
+                "name": "名称",
+                "type": "类型",
+                "brand": "品牌",
+                "action": "操作",
+                "ifEmpty": "暂无数据"
+            },
+            "details": {
+                "appliance": {
+                    "title": "家电详情",
+                    "name": "家电名称",
+                    "type": "家电类型",
+                    "brand": "品牌名称"
+                },
+                "operation": {
+                    "title": "操作",
+                    "ifEmpty": "暂无已注册操作"
+                }
+            },
+            "create": {
+                "button": "添加家电",
+                "header": {
+                    "title": "添加新家电"
+                },
+                "body": {
+                    "form": {
+                        "applianceType": {
+                            "label": "家电类型",
+                            "info": "选择一种家电类型",
+                            "placeholder": "请选择...",
+                            "choices": {
+                                "tv": "电视",
+                                "ac": "空调",
+                                "light": "智能灯",
+                                "ir": "通用红外支持的家电"
+                            },
+                            "errors": {
+                                "ifEmpty": "未选择家电类型"
+                            }
+                        },
+                        "applianceName": {
+                            "label": "家电名称",
+                            "info": "请输入家电名称。名称应为3至25个字符。只允许使用字母数字、空格、短横线和下划线。",
+                            "errors": {
+                                "ifEmpty": "家电名称不能为空",
+                                "ifInvalid": "长度不能超过25个字符",
+                                "ifRegexFailed": "只允许使用字母数字、短横线、下划线和空格",
+                                "ifTaken": "该家电名称已存在"
+                            }
+                        },
+                        "brandName": {
+                            "label": "品牌名称",
+                            "info": "请输入品牌名称。名称应为3至25个字符。只允许使用字母数字、空格、短横线和下划线。",
+                            "placeholder": "请选择...",
+                            "errors": {
+                                "ifEmpty": "品牌名称不能为空",
+                                "ifInvalid": "长度不能超过25个字符",
+                                "ifRegexFailed": "只允许使用字母数字、短横线、下划线和空格"
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "save": "保存",
+                    "saving": "保存中",
+                    "cancel": "取消"
+                },
+                "success": "设备创建成功",
+                "fail": "设备创建失败"
+            },
+            "delete": {
+                "title": "删除设备",
+                "message": "您确定要删除此设备吗？",
+                "confirm": "确定",
+                "cancel": "取消",
+                "success": "设备删除成功",
+                "fail": "设备删除失败"
+            }
+        },
+        "operations": {
+            "tab": "操作",
+            "table": {
+                "appliance": "家电",
+                "applianceType": "类型",
+                "name": "操作名称",
+                "action": "操作",
+                "ifEmpty": "暂无数据"
+            },
+            "filters": {
+                "appliance": {
+                    "all": "所有电器"
+                }
+            },
+            "details": {
+                "operation": {
+                    "title": "操作详情",
+                    "name": "操作名称",
+                    "applianceName": "电器名称",
+                    "applianceType": "电器类型"
+                }
+            },
+            "create": {
+                "button": "添加操作",
+                "header": {
+                    "title": "新增操作"
+                },
+                "body": {
+                    "step1": {
+                        "title": "第一步",
+                        "text": "输入操作信息",
+                        "form": {
+                            "appliance": {
+                                "label": "家电",
+                                "info": "请选择要保存操作的家电。",
+                                "placeholder": "请选择...",
+                                "errors": {
+                                    "ifEmpty": "请选择一个家电。"
+                                }
+                            },
+                            "name": {
+                                "label": "操作名称",
+                                "info": "请输入操作名称。名称长度应为3到25个字符。只允许字母数字、空格、破折号和下划线。",
+                                "placeholder": "请选择...",
+                                "options": {
+                                    "power": "电源",
+                                    "tv": {
+                                        "source": "信号源",
+                                        "vol_up": "增加音量",
+                                        "vol_down": "降低音量",
+                                        "ch_up": "增加频道",
+                                        "ch_down": "降低频道"
+                                    },
+                                    "ac": {
+                                        "cool": "制冷模式",
+                                        "warm": "制热模式",
+                                        "dry": "除湿模式",
+                                        "dehum": "干燥模式",
+                                        "temp_up": "升高温度",
+                                        "temp_down": "降低温度",
+                                        "fan_up": "增加风速",
+                                        "fan_down": "降低风速"
+                                    }
+                                },
+                                "errors": {
+                                    "ifEmpty": "操作名称不能为空",
+                                    "ifInvalid": "操作名称不得超过25个字符。",
+                                    "ifRegexFailed": "只允许使用字母数字、连字符、下划线和空格"
+                                }
+                            }
+                        }
+                    },
+                    "step2": {
+                        "title": "第二步",
+                        "text": "获取红外信号数据",
+                        "form": {
+                            "label": "选择接收数据的红外设备。",
+                            "placeholder": "请选择..."
+                        },
+                        "message1": "将遥控器对准Nature Remo并按下要注册的按钮。",
+                        "message2": "请确保Nature Remo的蓝色环正在闪烁。"
+                    },
+                    "step3": {
+                        "title": "步骤 3",
+                        "text": "测试操作",
+                        "message1": "通过将操作发送到以下选择的红外设备来测试操作。",
+                        "message2": "请确保Nature Remo和您要操作的设备之间没有障碍物。",
+                        "form": {
+                            "label": "选择将发送数据的红外设备。",
+                            "placeholder": "选择..."
+                        }
+                    },
+                    "step4": {
+                        "title": "步骤 4",
+                        "text": "确认操作",
+                        "message1": "操作正常吗？",
+                        "message2": "点击是将保存该操作。",
+                        "message3": "点击否将返回第 2 步。"
+                    },
+                    "success": {
+                        "title": "操作已成功创建"
+                    },
+                    "error": {
+                        "title": "错误",
+                        "ifEmpty": "IR信号数据为空或为空值",
+                        "message": "请重试第2步。"
+                    }
+                },
+                "footer": {
+                    "retry": "重试",
+                    "cancel": "取消",
+                    "save": "保存",
+                    "saving": "正在保存",
+                    "fetch": "获取",
+                    "fetching": "正在获取",
+                    "send": "发送",
+                    "sending": "正在发送",
+                    "back": "返回",
+                    "next": "下一步",
+                    "yes": "是",
+                    "no": "否",
+                    "finish": "完成"
+                }
+            },
+            "delete": {
+                "title": "删除操作",
+                "message": "您确定吗？",
+                "confirm": "确定",
+                "cancel": "取消",
+                "success": "操作已成功删除",
+                "fail": "删除操作失败"
+            }
+        },
+        "irDevices": {
+            "tab": "红外设备",
+            "table": {
+                "floor": "楼层",
+                "room": "房间",
+                "name": "红外设备",
+                "ifEmpty": "暂无数据"
+            },
+            "details": {
+                "irDevice": {
+                    "title": "红外设备详情",
+                    "floor": "楼层名称",
+                    "room": "房间名称",
+                    "name": "红外设备名称"
+                },
+                "appliance": {
+                    "title": "家电清单",
+                    "select": {
+                        "placeholder": "请选择...",
+                        "edit": "编辑",
+                        "save": "保存",
+                        "saving": "保存中",
+                        "cancel": "取消"
+                    }
+                },
+                "success": "电器列表更新成功",
+                "fail": "电器列表更新失败"
+            },
+            "filters": {
+                "floor": {
+                    "all": "所有楼层"
+                },
+                "room": {
+                    "all": "所有房间"
+                }
+            },
+            "delete": {
+                "title": "删除"
+            }
+        },
+        "errors": {
+            "showDetails": "showDetails：未找到元素"
+        }
+    },
+    "floor":{
+        "header": "楼层管理",
+        "floor": "楼层",
+        "searchFloor": "搜索楼层",
+        "room": "房间",
+        "searchRoom": "搜索房间",
+        "floorPlot": "楼层规划",
+        "addFloor": "添加楼层",
+        "addRoom": "添加房间",
+        "addGateway": "将网关添加到房间",
+        "gateway": "网关",
+        "clear": "清除",
+        "setPlot": "设置规划",
+        "floorName": "楼层名称",
+        "uploadFloor": "上传楼层图像",
+        "roomName": "房间名称",
+        "editFloor": "编辑楼层",
+        "editRoom": "编辑房间",
+        "noGateway": "该房间没有可用的网关。",
+        "plotDevice": "规划设备",
+        "noRooms": "当前楼层中没有房间",
+        "noFloors": "尚未添加任何楼层",
+        "devicePlot": "设备规划",
+        "selectDevice": "选择设备",
+        "deviceNote": "注意：规划设备将覆盖其现有坐标。",
+        "noDevice": "找不到设备。",
+        "proceed": "继续",
+        "savePlot": "保存规划",
+        "selectRoom": "选择房间",
+        "pleaseSelect": "请选择房间",
+        "tableLabels":{
+            "FLOOR_ID": "楼层ID",
+            "FLOOR_NAME": "楼层名称",
+            "button": "操作",
+            "ROOM_ID": "房间ID",
+            "ROOM_NAME": "房间名称",
+            "show_details": "网关",
+            "GATEWAY_ID": "网关ID",
+            "GATEWAY_IP": "网关IP",
+            "GATEWAY_NAME": "网关名称"
+        }
+    },
+    "logs":{
+        "sysLogs": "系统日志",
+        "auditLogs": "审计日志",
+        "noData": "无可用数据",
+        "export": "导出文件",
+        "chooseFormat": "选择文件格式",
+        "auditTable": {
+            "AUDIT_LOGS_ID": "ID",
+            "IP": "IP地址",
+            "HOST": "主机",
+            "MODULE": "模块",
+            "INSTRUCTION": "指令",
+            "CREATED_AT": "日期"
+        },
+        "systemTable": {
+            "LOGS_ID": "ID",
+            "TYPE": "类型",
+            "INSTRUCTION_TYPE": "指令类型",
+            "CONTENT": "内容",
+            "HOST": "发送方",
+            "CREATED_AT": "日期"
+        },
+        "pdfDownload": "PDF文件即将下载，请稍候。",
+        "error": "出现错误！",
+        "rows": "行数过多！"
+    },
+    "notifs":{
+        "newNotifs":"新通知",
+        "viewAll":"查看所有通知",
+        "noNew":"没有新通知"
+    },
+    "prev": "上一页",
+    "next": "下一页",
+    "online": "在线",
+    "offline": "离线",
+    "add": "添加",
+    "reset": "重置",
+    "close": "关闭",
+    "open": "打开",
+    "search": "搜索",
+    "searchHere": "在此搜索",
+    "yes": "是",
+    "modalText":{
+        "floorExist": "楼层名称已存在",
+        "floorDelete": "楼层已删除。",
+        "editSuccess": "更新成功",
+        "roomExist": "房间名称已存在",
+        "roomDelete": "房间已删除。",
+        "delete": "删除",
+        "deleted": "已删除",
+        "sure": "确定吗？",
+        "error": "错误",
+        "success": "成功",
+        "successAdd": "添加成功",
+        "successCreate": "创建成功",
+        "successUpdate": "更新成功",
+        "selectDevice": "请选择设备。",
+        "floorData": "找不到楼层数据。",
+        "selectFloor": "请选择楼层",
+        "selectRoom": "请选择房间",
+        "inputFloorName": "请输入楼层名称",
+        "inputRoomName": "请输入房间名称",
+        "emptyCoor": "坐标为空",
+        "addGate": "添加网关",
+        "addGateway": "向房间添加网关",
+        "deleteDevicePlot": "删除设备坐标",
+        "devicePlotDeleted": "设备坐标已删除",
+        "notificationsExcess": "通知超过100条。请查看日志获取详情。"
+    },
+    "error_message_code":{
+        "220050000":"错误_220050000: 未找到网关",
+        "220050001":"错误_220050001: 未找到设备",
+        "220050002":"错误_220050002: 未找到房间",
+        "220050003":"错误_220050003: 网关已存在",
+        "220050004":"错误_220050004: 更新失败",
+        "220050005":"错误_220050005: 删除失败",
+        "220060000":"错误_220060000: 此字段为必填项",
+        "230010000":"您输入的信息有误。",
+        "230010001":"已超过预订时间。",
+        "230010002":"您无法再次办理入住手续，请向前台咨询。",
+        "230010003":"连接失败，请联系前台。",
+        "230060000":"错误_230060000: 无效的电子邮件",
+        "310060000":"错误_310060000: 用户名已存在",
+        "310060001":"错误_310060001: 电子邮件已存在",
+        "320010000":"错误_320010000: 请填写此字段"
+    },
+    "errorMessage":"存在不支持的错误。请检查通知。",
+    "errorList":{
+        "message":"",
+        "response":"",
+        "E001": {
+            "message":"PMS连接失败。无法获取预订信息。",
+            "response":"请按预订信息更新按钮。如果按下更新预订信息按钮无法解决错误，请联系支持。"
+        },
+        "E002": {
+            "message":"（入住日期）：未输入客人姓名。",
+            "response":"请在PMS上输入客人姓名。"
+        },
+        "E003": {
+            "message":"（入住日期）：未输入客人电子邮件地址。",
+            "response":"请在PMS上输入客人的电子邮件地址。"
+        },
+        "E004": {
+            "message":"（入住日期）：未输入客人的入住日期和时间。",
+            "response":"请在PMS上输入客人的入住日期和时间。"
+        },
+        "E005": {
+            "message":"（入住日期）：未输入客人的退房日期和时间。",
+            "response":"请在PMS上输入客人的退房日期和时间。"
+        },
+        "E006": {
+            "message":"（入住日期）：未输入客人的人数。",
+            "response":"请在PMS上输入客人的人数。"
+        },
+        "E007": {
+            "message":"无法发放智能锁钥匙。",
+            "response":"请联系支持。有可能是智能锁系统出现故障。在解决故障之前，请使用物理钥匙。"
+        },
+        "E008": {
+            "message":"连续5次输入智能锁PIN码失败。",
+            "response":"客人可能无法进入房间或非法进入房间。请联系客人以确保PIN码正确。"
+        },
+        "E009": {
+            "message":"进入房间已经过去1小时，但在iBMS上未执行入住操作。",
+            "response":"请联系房间并鼓励他们使用iBMS执行入住操作。"
+        },
+        "E010": {
+            "message":"退房时间已过，但在iBMS中未执行退房操作。",
+            "response":"请联系房间，查看客人是否已经退房。如果客人正在退房，请执行iBMS退房操作。"
+        },
+        "E011": {
+            "message":"智能门锁电池已耗尽。",
+            "response":"请更换智能门锁电池。"
+        },
+        "E012": {
+            "message":"智能门锁的网络连接已丢失。",
+            "response":"请设置智能门锁的 Wi-Fi 连接。"
+        },
+        "E013": {
+            "message":"多功能传感器（占用/灯光/温度）的电池已耗尽。",
+            "response":"请更换多功能传感器（占用/灯光/温度）的电池。如果更换电池后仍然收到此消息，请联系支持人员。传感器可能已经损坏。"
+        },
+        "E014": {
+            "message":"窗户/门传感器的电池已耗尽。",
+            "response":"请更换窗户/门传感器的电池。如果更换电池后仍然收到此消息，请联系支持人员。传感器可能已经损坏。"
+        },
+        "E015": {
+            "message":"CO2/温度/湿度传感器已断开连接。",
+            "response":"请联系支持人员。传感器可能已经损坏。"
+        },
+        "E016": {
+            "message":"智能门锁钥匙无法删除。",
+            "response":"请联系支持人员。智能门锁系统可能出现故障。在解决问题之前，请使用实体钥匙。"
+        },
+        "E017": {
+            "message":"客人出现紧急情况。",
+            "response":"请联系房间客人并确认情况。如果无法联系到客人，请前往房间查看。"
+        },
+        "E018": {
+            "message":"紧急按钮的电池已耗尽。",
+            "response":"请更换紧急按钮的电池。如果更换电池后仍然收到此消息，请联系支持人员。传感器可能已经损坏。"
+        },
+        "I001":"已向客人发送预订信息的电子邮件。",
+        "I002":"空调已关闭。",
+        "I003":"空调已设置为制冷。",
+        "I004":"空调已设置为制热。",
+        "I005":"空调已设置为除湿。",
+        "I006":"空调已设置为自动模式。",
+        "I007":"已进入房间。",
+        "I008":"已完成办理入住手续。",
+        "I009":"已拍摄客人信息照片，请检查是否有任何问题。",
+        "I010":"已完成退房手续。",
+        "I011":"有一项预订。",
+        "I012":"预订信息已更新。",
+        "I013":"有一项预订取消。",
+        "I014":"Staysee预订数据同步完成。",
+        "I015":"已插入客人卡。",
+        "W001":"智能锁的电池电量低。",
+        "W002":"多功能传感器（占用/光/温度）的电池电量即将耗尽。",
+        "W003":"窗/门传感器的电池电量低。",
+        "W004":"紧急按钮的电池电量非常低。",
+        "W005": "已过了一个小时进入房间，但iBMS上未执行办理入住手续。",
+        "W006": "已过了退房时间，但iBMS上未执行退房手续。"
+    },
+    "hotel": {
+        "address": "CARRY CUBE，须山总部",
+        "login": {
+            "nomatch": "凭证错误",
+            "disabled": "用户已禁用",
+            "nobookingfortoday": "今天您没有预订！",
+            "nobooking": "您没有预订。",
+            "recheckin": "不允许重新入住。 请前往前台。"
+        },
+        "co2_monitor": "CO2监测仪",
+        "monitoring": "监测中",
+        "external": {
+            "legends": {
+                "low": "低",
+                "normal": "正常",
+                "elevated": "升高",
+                "dangerous": "高"
+            }
+        },
+        "help": {
+            "title": "二氧化碳浓度",
+            "body": "为了顾客的安全，测量空气中的二氧化碳浓度。",
+            "low": {
+                "amount": "低于800 ppm",
+                "status": "（低）"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "（正常）"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "（升高）"
+            },
+            "dangerous": {
+                "amount": "超过2501 ppm",
+                "status": "（危险）"
+            }
+        }
+    },
+    "mobile": {
+        "control": {
+            "aircon": {
+                "aircon": "空调",
+                "power": "电源",
+                "mode": "模式",
+                "temp": "温度",
+                "fan": "风速",
+                "cool": "制冷",
+                "dry": "除湿",
+                "warm": "制热",
+                "dehum": "抽湿",
+                "auto": "自动",
+                "on": "开",
+                "off": "关"
+            },
+            "lights": {
+                "lights": "灯光",
+                "all": "全部",
+                "cool": "冷色",
+                "warm": "暖色",
+                "on": "开",
+                "off": "关",
+                "min": "最小",
+                "mid": "中等",
+                "max": "最大",
+                "night": "夜间模式",
+                "up": "加亮",
+                "down": "减亮",
+                "wind":"风速",
+                "light":"灯光"
+            },
+            "tv": {
+                "tv": "电视",
+                "power": "电源",
+                "source": "信号源",
+                "volume": "音量",
+                "channel": "频道",
+                "mute": "静音"
+            },
+            "doorlock": {
+                "doorlock": "门锁",
+                "entrancedoor": "入口门"
+            },
+            "airpurifier": {
+                "exhaustfan": "排气扇",
+                "airpurifier": "空气净化器"
+            },
+            "restroom": {
+                "restroom": "洗手间",
+                "nosensor": "无感应器",
+                "occupied": "已占用",
+                "vacant": "空闲"
+            },
+            "showerstatus": {
+                "showerstatus": "淋浴房",
+                "occupied": "已占用",
+                "empty": "空闲",
+                "nosensor": "无感应器"
+            },
+            "emergency":{
+                "emergencyStatus": "紧急按钮",
+                "emergencyHeader": "您确定吗？",
+                "notify": "通知员工，员工将会前来。",
+                "yes": "是",
+                "sos":"求救",
+                "sosButton": "SOS按钮已按下。",
+                "staff": "请等待员工到达。",
+                "close": "关闭",
+                "cancel": "取消",
+                "roomNotification":"将通知客人并进行公告。",
+                "guest1":"请向客人进行通告。",
+                "guest2":"※按下「紧急呼叫」按钮会启动语音通告应用程序。",
+                "call":"紧急呼叫"
+            }
+        },
+        "displaydata": {
+            "temp": {
+                "temp": "温度"
+            },
+            "hum": {
+                "hum": "湿度"
+            },
+            "co2": {
+                "co2": "CO2"
+            },
+            "dust": {
+                "dust": "粉尘"
+            }
+        },
+        "menu": {
+            "alarm": "警报",
+            "notif": "通知",
+            "checkintime": "入住时间",
+            "checkouttime": "退房时间",
+            "message": "消息",
+            "home": "主页",
+            "roomservice": "客房服务",
+            "roommanual": "客房手册",
+            "frontdesk": "前台呼叫",
+            "about": "关于 iBMS",
+            "roomnumber": "房间号",
+            "checkin": "入住",
+            "checkout": "退房",
+            "greeting": "你好",
+            "greetingextension": " ",
+            "phone": "Skype",
+            "synch": "同步",
+            "editguest": "客人卡可以重新输入。",
+            "success": "成功",
+            "order": "订单"
+        },
+        "welcome": {
+            "welcome": "欢迎来到CARRY CUBE! 请随意享用。",
+            "next": "下一步",
+            "prev": "上一步",
+            "roomguide": "客房指南",
+            "roominfo": "房间信息",
+            "start": "开始"
+        },
+        "checkout": {
+            "title": "准备离开吗？",
+            "body": "如果您准备好退房，请选择下面的“Check out”。",
+            "cancel": "取消",
+            "checkout": "Check out",
+            "checkInScreen":"转到入住屏幕",
+            "checkOutTitle":"非常感谢您入住我们酒店。",
+            "caution":"※此屏幕将在60秒后自动重定向。",
+            "return":"退房后将无法返回此屏幕。"
+        },
+        "roomservice":{
+            "menu":"菜单",
+            "facilityDescription": "设施指南",
+            "roomDescription":"客房指南",
+            "evacuationRoute":"避难路线",
+            "evacuationRouteMap": "避难路线指南地图",
+            "entertainment":"娱乐",
+            "food":"餐饮 (DEMO)",
+            "amenities":"设施 (DEMO)",
+            "sightseeingMap":"旅游指南",
+            "rentalservices": "租赁服务 (DEMO)",
+            "foodMenu":"餐饮菜单 (DEMO)",
+            "amenityMenu":"设施菜单 (DEMO)",
+            "sightseeingMenu":"旅游菜单",
+            "rentalserviceMenu": "租赁服务菜单 (DEMO)",
+            "total":"总计",
+            "order":"下单",
+            "rent": "租赁",
+            "operationGuest":{
+                "tabName": "Facility Guide",
+                "linkName":"Facility Guide Page"
+            },
+            "special_product":"特色产品",
+            "special_product_introduction":"特色产品介绍",
+            "special_product_link":"特色产品列表",
+            "items": {
+                "hair_dryer": "吹风机",
+                "tv": "电视",
+                "pillow": "枕头",
+                "remote_control": "遥控器",
+                "toothbrush": "牙刷",
+                "shampoo": "洗发水",
+                "charger": "充电器",
+                "comforter": "被子",
+                "tissue": "纸巾",
+                "lock": "锁",
+                "aircon":"空调",
+                "sofa": "沙发",
+                "table": "桌子",
+                "wash_basin": "洗手盆",
+                "mirror": "镜子",
+                "shower_booth": "淋浴房",
+                "toilet": "厕所",
+                "bath":"露天温泉",
+                "dining_space": "用餐区域",
+                "amenity": "设施",
+                "bbq_grill": "燃气烧烤炉（租赁）"
+            }
+        },
+        "roommanual":{
+            "wifiInformation":"Wi-Fi信息",
+            "wifiName":"Wi-Fi名称",
+            "wifiPassword":"Wi-Fi密码"
+        },
+        "general_terms_and_conditions":{
+            "title": "一般条款和条件",
+            "titletab": "条款和条件"
+        },
+        "terms_of_usage": {
+            "title": "使用条款",
+            "agree": "我已阅读并同意使用条款。"
+        },
+        "ibms_manual": {
+            "title": "iBMS 操作手册",
+            "info": "手册显示"
+        },
+        "pet_terms_of_usage": {
+            "title": "宠物使用条款",
+            "agree": "我已阅读并同意使用条款。"
+        }
+    },
+    "management": {
+        "roomStatus": "房间状态",
+        "users": "用户",
+        "floors": "楼层管理",
+        "rooms": "房间管理",
+        "key": "客人",
+        "cleaning": "清洁管理",
+        "logs": "日志",
+        "logout": "退出",
+        "noDevice": "没有可用设备",
+        "clean": "已清洁",
+        "co2": "二氧化碳",
+        "monitoring": "监控",
+        "hardware": "硬件",
+        "manual": "手册",
+        "header":"> 网关管理",
+        "device": "> 设备管理",
+        "search":"搜索",
+        "resetFilters": "重置过滤器",
+        "clear":"清空",
+        "manuals":{
+            "manual": "手册",
+            "manualitem": "各种手册",
+            "cleaningVideo": "清洁（视频）",
+            "cleaningImage": "清洁（图片）",
+            "operationGuest": {
+                "tabName": "客户端操作指南",
+                "linkName":"iBMS客户端操作指南"
+            },
+            "operationAdmin": {
+                "tabName": "管理员操作指南",
+                "linkName":"iBMS管理员操作指南"
+            },
+            "batteryExchange": "电池更换",
+            "pmsSetting": "PMS设置",
+            "ibmsScreen": {
+                "tabName": "iBMS屏幕说明",
+                "linkName":"iBMS屏幕说明"
+            },
+            "pmsOfficial": "PMS官方文档",
+            "support": "支持",
+            "operationFlow": "业务操作流程",
+            "device": "设备",
+            "smartlock": "智能门锁 (RemoteLock)",
+            "netvox": "设备（Netvox）",
+            "initialize": "平板初始化",
+            "manualSmartlock": "iBMS智能门锁手册",
+            "manualSensor": "iBMS设备说明书",
+            "manualSupport": "联系方式",
+            "manualTrouble": "故障处理说明书"
+        },
+        "roomStats": {
+            "roomStatus": "房间状态",
+            "buttonStatus": "状态",
+            "status": {
+                "available": "可用",
+                "reserved": "预订",
+                "checkedIn": "入住",
+                "checkedOut": "退房",
+                "unavailable": "钥匙不可用"
+            },
+            "checkInTime": "入住时间",
+            "checkOutTime": "退房时间",
+            "arrivalTime": "到达时间",
+            "departureTime": "离开时间",
+            "noMessage": "无留言",
+            "dontDisturb": "请勿打扰",
+            "cleanUpTime": "清洁时间"
+        },
+        "roomInfo": {
+            "deviceControl": "设备信息",
+            "remoteLock": "远程锁",
+            "windowDoorSensor": "门窗传感器",
+            "occTempLight": "人体红外/温湿度/光照传感器",
+            "co2TempHum": "CO2/温湿度传感器",
+            "peopleCountCamera": "人数统计摄像头",
+            "deviceName": "设备名称",
+            "battery": "电池",
+            "low": "低",
+            "elevated": "中等",
+            "normal": "正常",
+            "dangerous": "危险",
+            "serialNumber": "序列号",
+            "hum": "湿度",
+            "co2Level": "CO2含量",
+            "people": "人员",
+            "stripLight":"灯带",
+            "turnOn":"开启",
+            "turnOff":"关闭",
+            "status":"状态"
+        },
+        "roomOperation": {
+            "roomInfo": "房间信息",
+            "status":"状态",
+            "message":"消息",
+            "checkInTime": "入住时间",
+            "checkOutTime": "退房时间",
+            "peopleCount": "人数",
+            "doorSensor": "门传感器",
+            "camera": "摄像头",
+            "co2": "CO2",
+            "temp": "温度",
+            "hum": "湿度",
+            "toggleSlide": "开关滑块",
+            "deviceList": "设备列表",
+            "editStatus": "编辑房间状态",
+            "occupied": "已占用",
+            "vacant": "空闲",
+            "people": "人",
+            "shower": "淋浴",
+            "rest": "休息",
+            "room": "房间",
+            "toilet": "洗手间",
+            "checkguestcard":"检查客人卡",
+            "guestcardcheck":"客人卡检查",
+            "update": "更新",
+            "cancel": "取消",
+            "updateStatus": "更新",
+            "questionMark":"？",
+            "updateStatusJa": "",
+            "updateRoomStatus": "更新房间状态？",
+            "lock": "锁定",
+            "locking": "正在锁定",
+            "lockSuccess": "已执行锁定操作。下一次设备操作时将被锁定。",
+            "lockFailed": "锁定操作失败。",
+            "unlock": "解锁",
+            "unlocking": "正在解锁",
+            "unlockSuccess": "已执行解锁操作。下一次设备操作时将被解锁。",
+            "unlockFailed": "解锁操作失败。",
+            "updated": "房间状态已更新",
+            "failedUpdate": "更新房间状态失败",
+            "noBooking": "今天该房间没有预订",
+            "areYouSure": "你确定吗？",
+            "updateReserveInstead": "改为“已预订”状态吗？",
+            "updateReserveAvailable": "今天该房间已有预订。状态将改为“已预订”而不是“空闲”。",
+            "reservation": "个预订",
+            "roomHave": "该房间有 ",
+            "low": "低",
+            "medium": "中",
+            "strong": "强",
+            "locked": "已锁定",
+            "unlocked": "已解锁"
+        },
+        "logoutbtn": {
+            "title": "确定要退出吗？",
+            "body": "选择“退出”按钮以继续。",
+            "cancel": "取消",
+            "logout": "退出"
+        },
+        "cleaningPage": {
+            "subtitle": "可以添加可选的清洁管理功能。",
+            "card1": {
+                "title": "管理员仪表盘功能",
+                "content1": "由清洁管理功能更新的信息将反映在管理员仪表盘中。"
+            },
+            "card2": {
+                "title": "清洁管理功能",
+                "content1": "实时可视化当前清洁状态。",
+                "content2": "清洁人员可以检查时间表。",
+                "content3": "清洁人员可以自由地注册清洁注释和照片。"
+            },
+            "r2l": "共享房间的最新状态",
+            "l2r": "更新清洁状态",
+            "listview": "列表视图",
+            "calview": "日历视图"
+        },
+        "keyManagementPage": {
+            "keytext1": "可以连接到预订系统来发行一把钥匙",
+            "keytext2": "仅在客人入住期间有效。",
+            "keytext3": "钥匙是一个四位数的数字（PIN码），注册的PIN码",
+            "keytext4": "将在入住前一天通过电子邮件发送给客人。",
+            "keytext5": "尝试手动生成钥匙",
+            "genkey": "生成钥匙",
+            "userAndGuestAccount": "用户",
+            "users": "管理员",
+            "guests": "客人",
+            "number": "编号",
+            "name": "姓名",
+            "username": "用户名",
+            "serial": "序列号",
+            "expiration": "过期日期",
+            "accessCode": "PIN码",
+            "status": "状态",
+            "checkIn": "入住",
+            "checkOut": "退房",
+            "arrivalTime": "到达时间",
+            "departureTime": "离开时间",
+            "room": "房间",
+            "createAdminAccount": "创建管理员帐户",
+            "createGuestAccount": "创建客户帐户",
+            "noUserAccountsRegister":"未注册用户帐户",
+            "noGuestAccountsRegister":"未注册客户帐户",
+            "generateNewPin" : "生成新的PIN码",
+            "updateGuestAccount" : "更新客户帐户",
+            "updateUserAccount" : "更新用户帐户",
+            "updateAdminAccount" : "更新管理员帐户",
+            "ok":"确定",
+            "successUpdatingGuestAccount": "成功更新客户帐户",
+            "deleteGuestAccount":"删除客户帐户",
+            "deleteAdminAccount":"删除管理员帐户",
+            "deleteModal":"确定要删除此帐户吗？",
+            "cancel":"取消",
+            "create": "创建",
+            "creating": "创建中",
+            "update": "更新",
+            "updating": "更新中",
+            "delete":"删除",
+            "deleting": "删除中",
+            "clear": "清除",
+            "email": "电子邮件地址",
+            "action": "操作",
+            "reset": "重置"
+        },
+        "systemLogs": {
+            "system": "系统日志",
+            "app": "审计日志",
+            "error": "错误",
+            "warning": "警告",
+            "info": "信息",
+            "date": "日期",
+            "userInfo": "用户信息",
+            "processingObj": "处理对象",
+            "errorCode": "错误码",
+            "processingDetails": "处理细节",
+            "events": "事件",
+            "content": "内容",
+            "roomName": "房间名称",
+            "message": "消息",
+            "responseModal": {
+                "title": "错误",
+                "date": "日期",
+                "room": "房间",
+                "message": "消息",
+                "response": "响应消息",
+                "responder": "响应者",
+                "responseTime": "响应时间",
+                "done": "已响应"
+            }
+        },
+        "remotelock": {
+            "title": "远程锁",
+            "scan": "扫描",
+            "scanning": "正在扫描",
+            "scanSuccess": "扫描成功",
+            "scanFailed": "扫描失败",
+            "deleteConfirm": "删除设备？",
+            "deleteSuccess": "删除成功",
+            "deleteFailed": "删除失败",
+            "noRoomData": "-",
+            "registered": "已注册",
+            "unregistered": "未注册",
+            "online": "在线",
+            "offline": "离线",
+            "fields": {
+                "serialNo": "序列号",
+                "name": "名称",
+                "room": "房间",
+                "status": "状态",
+                "action": "操作"
+            },
+            "form": {
+                "registerTitle": "注册远程锁设备",
+                "editTitle": "编辑远程锁设备",
+                "serialNo": "设备序列号",
+                "deviceName": "设备名称",
+                "roomName": "房间名称",
+                "register": "注册",
+                "registering": "正在注册",
+                "registerSuccess": "注册成功",
+                "registerFailed": "注册失败",
+                "update": "更新",
+                "updating": "正在更新",
+                "updatingSuccess": "更新成功",
+                "updateSuccess": "更新成功",
+                "updatingFailed": "更新失败"
+            }
+        },
+        "natureRemo": {
+            "title": "远程控制器",
+            "tabTitleAccounts": "账户",
+            "tabTitleDevices": "设备",
+            "tabTitleAppliances": "家电",
+            "tabTitleSignals": "信号",
+            "account": "账户",
+            "device": "设备",
+            "room": "房间",
+            "registerStatus": "状态",
+            "appliance": "家电",
+            "applianceType": "类型",
+            "all": "全部",
+            "search": "搜索",
+            "send": "发送",
+            "selectAccount": "选择账户",
+            "selectDevice": "选择设备",
+            "selectRoom": "选择房间",
+            "selectStatus": "选择状态",
+            "selectAppliance": "选择家电",
+            "selectType": "选择类型",
+            "resetFilters": "重置筛选",
+            "scanDevices": "扫描设备",
+            "scanAppliances": "扫描家电",
+            "showCreateAccountFormModal": "显示创建账户表单弹窗",
+            "showRegisterDeviceModal": "显示注册设备表单弹窗",
+            "tableNoData": "没有数据",
+            "deleteAccount": "删除账户",
+            "status": {
+                "registered": "已注册",
+                "unregistered": "未注册"
+            },
+            "type": {
+                "ac": "空调",
+                "light":"智能灯",
+                "tv":"电视",
+                "ir":"通用"
+            },
+            "tableFields": {
+                "id": "ID",
+                "uuid": "UUID",
+                "name": "名称",
+                "token": "Token",
+                "accountName": "账户名",
+                "deviceName": "设备名",
+                "roomName": "房间名",
+                "applianceName":"家电名称",
+                "deviceId": "设备ID",
+                "type": "类型",
+                "applianceId": "家电ID",
+                "roomId": "房间ID",
+                "label": "标签",
+                "serialNumber": "序列号",
+                "macAddress": "MAC地址",
+                "regFlag": "已注册",
+                "deviceCount": "设备数",
+                "applianceCount": "家电数",
+                "signalCount": "信号数",
+                "createdAt": "创建时间",
+                "dateAdded": "添加日期",
+                "action": ""
+            },
+            "modalTitleCreateAccount": "添加Nature Remo账户",
+            "modalTitleRegisterDevice": "注册Nature Remo设备",
+            "formFields": {
+                "accountName": "账户名",
+                "accessToken": "访问令牌",
+                "accessTokenPlaceholder": "在此粘贴您的访问令牌",
+                "serialNumber": "序列号",
+                "room": "房间",
+                "deviceName": "设备名称"
+            },
+            "save": "保存",
+            "saving": "保存中",
+            "alert": {
+                "deleteAccount": {
+                    "title": "您确定吗？",
+                    "text": "与此帐户关联的设备、家电和信号将被删除",
+                    "confirm": "确认",
+                    "cancel": "取消",
+                    "onSuccess": "帐户删除成功",
+                    "onFail": "删除帐户失败"
+                },
+                "createAccount": {
+                    "onSuccess": "账户创建成功",
+                    "onFail": "账户创建失败"
+                },
+                "scanDevices": {
+                    "onSuccess": "扫描完成",
+                    "onFail": "设备扫描失败"
+                },
+                "registerDevice": {
+                    "onSuccess": "设备注册成功",
+                    "onFail": "设备注册失败"
+                },
+                "scanAppliances": {
+                    "onSuccess": "扫描完成",
+                    "onFail": "家电扫描失败"
+                },
+                "sendSignals": {
+                    "onSuccess": "信号发送成功",
+                    "onFail": "信号发送失败"
+                }
+            }
+        },
+        "param":{
+            "title": "PARAM设置",
+            "ac": "空调",
+            "staysee": "Staysee",
+            "pincode": "PIN码",
+            "mail": "邮件",
+            "wifi": "Wi-Fi",
+            "acHeader": "入住前自动开启空调设置",
+            "autoStart": "自动启动",
+            "on": "开",
+            "off": "关",
+            "checkIn":"入住时间",
+            "hoursBefore": "提前小时数",
+            "hoursOption1": "0.0",
+            "hoursOption2": "0.5",
+            "dropDownMode": "模式",
+            "warmMode": "制暖",
+            "coolMode": "制冷",
+            "dryMode": "抽湿",
+            "autoMode": "自动",
+            "stayseeHeader": "Staysee自动同步频率设置",
+            "syncFrequency": "同步频率",
+            "minutesFrequency": "分钟频率",
+            "pinHeader": "PIN码数字位数设置",
+            "numberOfDigits": "位数",
+            "digits": "位",
+            "mailHeader": "邮件文本和提醒邮件设置",
+            "enThankyouMail": "ThankYou邮件英文文本",
+            "jaThankyouMail": "ThankYou邮件日文文本",
+            "remindMail": "提醒邮件发送日期",
+            "dateThankyouMail": "发送感谢邮件的日期",
+            "dayBefore": "提前天数",
+            "dayAfter": "退房后几天",
+            "mailText": "邮件文本",
+            "wifiHeader": "Wi-Fi名称和密码在客户屏幕上的显示设置",
+            "wifiName": "Wi-Fi名称",
+            "wifiPassword": "密码",
+            "apply": "应用",
+            "applying": "应用中",
+            "reset": "重置",
+            "attention": "※使用NETFLIX和其他应用的注意事项\n　如果您已经使用自己的账户登录\n　请在使用完应用后务必注销。",
+            "tempAdjustment": "温度调节",
+            "setTemp": "设定温度",
+            "autoStartTemp": "自动启动温度",
+            "heatStart": "加热启动温度",
+            "coolStart": "制冷启动温度",
+            "heating": "加热",
+            "cooling": "制冷"
+        }
+    },
+    "remotelock": {
+        "accounttype": "账户类型",
+        "adminTitle": "创建管理员账户",
+        "guestTitle": "创建客户账户",
+        "username": "用户名",
+        "name": "姓名",
+        "firstname": "名",
+        "lastname": "姓",
+        "checkin": "入住日期和时间",
+        "checkout": "退房日期和时间",
+        "email": "电子邮件地址",
+        "phoneNumber": "电话号码",
+        "pin": "PIN码",
+        "room": "房间",
+        "device": "设备",
+        "send": "发送",
+        "back": "返回",
+        "status": "房间状态",
+        "checkedIn": "已入住",
+        "checkedOut": "已退房",
+        "available": "可用",
+        "unavailable": "不可用",
+        "booked": "已预订",
+        "updateGuestAccount": "更新客户账户",
+        "update":"更新",
+        "generateNewPin": "生成新的PIN码",
+        "updatePinFlag": "请求新的PIN码？",
+        "errors": {
+            "firstName": {
+                "empty": "请输入名字。"
+            },
+            "lastName": {
+                "empty": "请输入姓氏。"
+            },
+            "checkIn": {
+                "empty": "请选择入住日期和时间。",
+                "later": "入住日期和时间必须早于退房日期和时间。"
+            },
+            "checkOut": {
+                "empty": "请选择退房日期和时间。",
+                "earlier": "退房日期和时间必须晚于入住日期和时间。"
+            },
+            "email": {
+                "empty": "请输入电子邮件地址。",
+                "invalid": "电子邮件无效。"
+            },
+            "phoneNumber": {
+                "empty": "请输入客人的电话号码。"
+            },
+            "remoteLockId": {
+                "empty": "请选择房间",
+                "no_available": "没有可用房间"
+            },
+            "createRemoteLockGuestAccount": {
+                "general": "创建远程锁客户帐户的过程失败了。"
+            },
+            "createiBMSGuestAccount": {
+                "general": "创建iBMS客户帐户的过程失败了。",
+                "duplicate": "创建iBMS客户帐户的过程失败了：用户名已被使用。"
+            },
+            "sendAlertEmail": {
+                "general": "发送警报电子邮件的过程失败了。"
+            },
+            "authCode": {
+                "empty": "此页面没有授权代码。"
+            },
+            "pin": {
+                "empty": "请输入您的6位PIN码。",
+                "invalid": "PIN码最少为6位数字。",
+                "duplicate": "PIN码已被使用。请输入另一个PIN码"
+            },
+            "unknownError": {
+                "title": "错误！",
+                "redirect": "此页面将在3秒钟内重定向到iBMS管理仪表板屏幕。"
+            }
+        },
+        "message": {
+            "success": {
+                "title": "成功!",
+                "body": "预订和账户信息已发送至以下电子邮件。此页面将在3秒钟内重定向到iBMS管理仪表板屏幕。"
+            },
+            "successCancel": {
+                "title": "成功",
+                "body": "预订取消详细信息已发送至客人的电子邮件。此页面将在3秒钟内重定向到iBMS管理仪表板屏幕。"
+            }
+        }
+    },
+    "restaurant": {
+        "admin": {
+            "menu": {
+                "home": "首页",
+                "monitor": "空气监测",
+                "registry": "注册",
+                "logs": "日志",
+                "notifications": "通知",
+                "logout": "登出"
+            },
+            "home": {
+                "rooms": "房间",
+                "devices": "设备",
+                "air_sensor": "空气传感器"
+            },
+            "chart": {
+                "co2_level": "CO2水平"
+            },
+            "external": {
+                "legends": {
+                    "low": "低",
+                    "normal": "正常",
+                    "elevated": "偏高",
+                    "dangerous": "高"
+                }
+            },
+            "restroom": {
+                "title": "洗手间监测",
+                "occupied": "占用",
+                "vacant": "空闲",
+                "no_vacant": "没有空闲的"
+            }
+        },
+        "guest": {
+            "menu": {
+                "home": "首页",
+                "order": "点餐",
+                "history": "历史",
+                "payment": "支付",
+                "logout": "退出登录"
+            },
+            "home": {
+                "air_monitor": "空气监测",
+                "sound_level": "声音级别",
+                "co2_level": "二氧化碳水平",
+                "restroom_status": "洗手间使用情况",
+                "occupied": "占用",
+                "vacant": "空闲"
+            },
+            "restroom": {
+                "title": "洗手间使用情况",
+                "occupied": "占用",
+                "vacant": "空闲"
+            }
+        },
+        "help": {
+            "title": "二氧化碳浓度",
+            "body": "测量空气中二氧化碳浓度，保障客户的安全。",
+            "low": {
+                "amount": "低于800 ppm",
+                "status": "（低）"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "（正常）"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "（升高）"
+            },
+            "dangerous": {
+                "amount": "高于2501 ppm",
+                "status": "（危险）"
+            }
+        },
+        "logout": {
+            "title": "确认",
+            "content": "我将注销。您确定吗？"
+        }
+    },
+    "tablet": {
+        "tabletBtn": "注册设备",
+        "regist":"注册",
+        "uuid": "设备UUID",
+        "room": "房间名称",
+        "userType": "管理员/访客",
+        "placeholder": "请选择...",
+        "tabletTable": {
+            "uuid": "UUID",
+            "room": "房间名称",
+            "admin": "管理员"
+        },
+        "choices": {
+            "admin": "管理员",
+            "guest": "访客"
+        },
+        "footer": {
+            "save": "保存",
+            "saving": "保存中",
+            "cancel": "取消"
+        },
+        "success": "设备注册成功",
+        "fail": "设备注册失败",
+        "errors": {
+            "ifEmptyRoom": "未选择房间",
+            "ifEmptyUser": "未选择用户"
+        },
+        "deleteMessage": {
+            "deleteUuid": "删除UUID ",
+            "deleteModal": "确定要删除此UUID账户吗？",
+            "cancel":"取消",
+            "delete":"删除"
+        },
+        "message": {
+            "success": "UUID账户已成功删除。",
+            "fail": "删除UUID账户失败。"
+        }
+    },
+    "termsAndCondition": {
+        "title": "通用条款和条件",
+        "backBtn": "返回",
+        "nxtBtn": "下一步",
+        "agree": "我接受并同意通用条款和条件"
+    },
+    "clientCode": {
+        "checkIn": "入住",
+        "checkOut": "退房",
+        "lateCheckIn":"晚到",
+        "reCheckIn":"重新入住",
+        "lateCheckOut": "延迟退房",
+        "failedCheckOut": "退房失败"
+    },
+    "notificationCode":{
+        "notification":"通知",
+        "event":"事件类型",
+        "message": "消息",
+        "roomName": "房间名称",
+        "date": "日期"
+    },
+    "roomMessageCode": {
+        "noMessage": "无消息",
+        "dontDisturb": "请勿打扰",
+        "cleanUpTime": "打扫时间"
+    },
+    "imageWarning":{
+        "inputWarning": "!输入内容应为3至20个字符。"
+    },
+    "guestcard": {
+        "guestcardTitle": "住客登记卡",
+        "require": "必填",
+        "go": "",
+        "haku": "晚",
+        "date": "日期",
+        "print": "姓名拼音",
+        "name": "姓名",
+        "guests": "人数",
+        "adult": "成人",
+        "child": "儿童",
+        "toddler": "幼儿",
+        "toddlerName": "幼儿姓名",
+        "toddlerNamePrint": "幼儿姓名拼音",
+        "mei": "名",
+        "sum": "总数",
+        "addressNumber": "邮政编号",
+        "address": "地址",
+        "receipt": "发票抬头",
+        "tel1": "电话1",
+        "tel2": "电话2",
+        "car": "车辆型号和车牌号",
+        "birthday": "出生日期",
+        "email": "电子邮件",
+        "nationality": "请选择您的国籍。",
+        "passport_no": "护照号",
+        "photo": "拍摄护照照片",
+        "representative": "代表人",
+        "companion": "同行人员",
+        "instructions": "※如果代表人或同行人员是外国人，请勾选「外国人」框。",
+        "images": "请拍摄护照照片。",
+        "images_desc1": "※ 请仅为外国人拍摄护照照片。",
+        "images_desc2": "※ 请拍摄包含您的面部和护照号码页的照片。",
+        "japanese_nationality": "日本国籍",
+        "foreign_nationality": "外国籍",
+        "purpose": {
+            "purpose": "旅游目的",
+            "sightseeing": "观光",
+            "gourmet": "美食",
+            "hotSprings": "温泉",
+            "refreshment": "休息放松",
+            "rest": "休息和治疗",
+            "familyFriends": "与家人和朋友共度时光",
+            "nature": "与自然接触",
+            "Other": "其他",
+            "business": "商务"
+        },
+        "questionnaire": "是否愿意收到我们的特刊（Hakuba no moto）？",
+        "answer1": "愿意",
+        "answer2": "已收到",
+        "next": "下一页",
+        "prev": "上一页",
+        "complete": "完成",
+        "placeholder": {
+            "name": "约翰·史密斯",
+            "ruby": "约翰·史密斯",
+            "addressNumber": "399-9301",
+            "receipt": "约翰·史密斯",
+            "address": "长野县北安昙美村北阿智村21582",
+            "tel1": "090-1234-5678",
+            "tel2": "0776-00-1122",
+            "car": "紧凑型汽车 长野300 A 00-00",
+            "email": "sample@sample.com",
+            "purpose": "(选择)"
+        },
+        "errors": {
+            "nights": {
+                "empty": "请输入您的入住日期。",
+                "invalid": "入住日期范围不正确。"
+            },
+            "sumGuests": {
+                "invalid": "请输入正确的“客人人数”字段。"
+            },
+            "namePrint": {
+                "empty": "请输入您的姓名拼音。",
+                "invalid": "请输入50个字符以内的有效姓名拼音。"
+            },
+            "name": {
+                "empty": "请输入'姓名'。",
+                "invalid": "请输入50个字符或更少的'姓名'。"
+            },
+            "toddlerNamePrint": {
+                "empty": "Please enter 'Toddler Ruby'.",
+                "invalid": "Please enter 'Toddler Ruby' within 50 characters."
+            },
+            "toddlerName": {
+                "empty": "请输入儿童姓名。",
+                "invalid": "请输入少于50个字符的儿童姓名。"
+            },
+            "addressNumber": {
+                "invalid": "请输入不超过10位数的“地址编号”。",
+                "empty": "请输入“地址编号”。"
+            },
+            "address": {
+                "empty": "Please enter 'Address'.",
+                "invalid": "Please enter 'Address' in 255 characters or less."
+            },
+            "receiptName": {
+                "empty": "请输入'收据姓名'。",
+                "invalid": "请输入不超过50个字符的'收据姓名'。"
+            },
+            "tel1": {
+                "invalid": "请输入不超过20个数字的'Tel1'。",
+                "empty": "请输入'Tel1'。"
+            },
+            "tel2": {
+                "invalid": "请填写不超过20位的“电话2”。"
+            },
+            "car": {
+                "invalid": "请在50个字符以内输入“车型，车牌号码”"
+            },
+            "birthday": {
+                "empty": "请输入出生日期。"
+            },
+            "email": {
+                "empty": "请输入电子邮件。",
+                "invalid": "电子邮件地址无效。",
+                "invalid_characters": "请输入255个字符或更少的电子邮件。"
+            },
+            "purpose": {
+                "empty": "请输入目的。"
+            },
+            "questionnaire": {
+                "empty": "请选择调查。"
+            },
+            "passport_no": {
+                "empty": "请输入护照号码。"
+            },
+            "guestcard_image": "请拍摄至少一张护照照片。"
+        }
+    },
+    "spareKeys": {
+        "tabName": "备用钥匙",
+        "tableHeaders": {
+            "id": "钥匙编号",
+            "pinCode": "PIN码",
+            "roomID": "房间编号",
+            "roomName": "房间名称",
+            "deviceId": "设备编号",
+            "deviceName": "设备名称",
+            "period": "有效期限"
+        },
+        "error": {
+            "tableEmpty": "暂无备用钥匙数据"
+        },
+        "refresh": "刷新",
+        "refreshing": "正在刷新"
+    },
+    "emergency": {
+        "modal": {
+            "header": "紧急情况",
+            "body1": "紧急按钮已被按下。",
+            "body2": "员工应立即检查情况。",
+            "body3": "请等待工作人员的通知。",
+            "close": "关闭"
+        }
+    },
+    "logoutScreen": {
+        "content1": "请在前台结清任何额外的订单。",
+        "content2": "离开建筑物前，请检查是否遗忘任何物品。",
+        "content3": "如果离开房间后忘记东西，请打开智能锁并在退房时间之前进入房间。",
+        "content4": "如果已超过退房时间，请到前台处理。"
+    },
+    "termsAndConditions": {
+        "termsOfUse": "使用条款",
+        "termsOfHotel": "酒店条款和条件",
+        "introduction": "为了确保客人的安全和舒适的住宿，酒店根据酒店条款第10条制定了以下规定，并请求您的合作。如果您未能遵守规定，我们可能会拒绝根据酒店条款第7条第1款允许使用客房和酒店设施。请注意，如果客人不合作导致任何事故发生，酒店不能承担任何责任。",
+        "safety": {
+            "title": "必须严格遵守的安全预防措施",
+            "1": "请勿携带如取暖、烹饪等火源设备和熨斗等物品进入房间，除非它们是被借给您的。",
+            "2": "请勿在床上或其他易燃区域吸烟。",
+            "3": "请勿从事任何可能引起火灾的其他活动。",
+            "4": "请检查每个房间门内侧显示的疏散路线图。",
+            "5": "在您入住期间离开房间时，请确保门锁好（酒店有自动锁系统）。",
+            "6": "在您入住期间，特别是睡觉时，请用内部钥匙（门闩）锁好房门。如果有访客，请不要在没有门闩的情况下打开门，或使用猫眼检查门外。如果您认为有可疑人员，请联系前台工作人员。",
+            "7": "请不要在房间里接待访客。",
+            "8": "只有注册的客人才能入住酒店。"
+        },
+        "handling": {
+            "title": "贵重物品和存放物品的处理方式",
+            "1": "请在您的住宿期间使用前台的保险箱管理您的现金和贵重物品。如果您不按照以上程序操作而导致现金或贵重物品丢失、损坏或被盗，我们不承担任何赔偿责任。",
+            "2": "除非另有规定，所有失物招领物品将按照法律进行处理。"
+        },
+        "payment": {
+            "title": "支付政策",
+            "1": "请用酒店认可的货币、旅行支票、酒店票据或信用卡支付您的账单。然而，在您的住宿期间，每次酒店出示账单时都必须付款。",
+            "2": "如果您希望更改您的住宿天数，请提前与前台工作人员联系。如果您希望延长住宿时间，请确保在您离开前支付完毕。"
+        },
+        "actions": {
+            "title": "需避免的行为",
+            "1": "请勿携带可能会干扰其他客人的物品进入酒店。",
+            "a": "一般而言，未经酒店事先允许的动物和宠物，包括狗、猫、鸟等。",
+            "b": "易爆物、挥发性油和可能引发火灾或爆炸的危险品。",
+            "c": "散发恶臭或强烈气味的物品。",
+            "d": "未经授权的枪支和刀剑。",
+            "e": "过量的行李和物品。",
+            "f": "其他根据法律禁止的物品。",
+            "2": "请避免赌博、扰乱公共道德或公共安全，或任何可能给酒店其他客人带来不便或不适的活动。",
+            "3": "请勿在您房间的窗户上悬挂或展示任何可能损坏酒店外观的物品。",
+            "4": "请勿未经允许在酒店内散发广告或促销材料，或销售物品。",
+            "5": "请避免将酒店的设施和设备用于规定之外的目的，或以可能严重损坏它们的现状的方式使用。",
+            "6": "未经允许为商业目的在酒店内拍摄照片可能会受到法律诉讼。",
+            "7": "请勿将个人物品留在走廊或大堂。",
+            "8": "除非有紧急情况或无法避免的情况，否则请勿进入紧急楼梯、屋顶、旅馆、机房等未保留给客人的设施。",
+            "9": "未经父母或监护人允许，未满18岁的客人不得独自入住酒店。",
+            "10": "任何财产（包括结构物、家具、设备或其他物品）由于除不可抗力之外的原因受损、污染或丢失，您可能需要支付合理的赔偿。",
+            "11": "请避免从酒店外接收食品和饮料送货。",
+            "footer": "※送货请在一楼大堂或外部取货。"
+        },
+        "article1": {
+            "header": "(适用范围)",
+            "title": "第1条",
+            "1": "本饭店与宾客订立的住宿契约及有关协议，应符合本《通用条款》的规定。本《通用条款》未约定的事项，应根据法令、法规或惯例等一般原则处理。",
+            "2": "饭店对不违反法令、法规、惯例等特殊的协议，以特别协议为准，即使同前项规定相冲突，也不影响特别协议的效力。"
+        },
+        "article2": {
+            "header": "(住宿契约申请)",
+            "title": "第2条",
+            "1": {
+                "content": "欲与本饭店订立住宿契约的宾客，应提供以下的信息。",
+                "1": "旅客姓名",
+                "2": "住宿日期和到达时间",
+                "3": "饭店要求提供的其他信息，包括宾客人数、联系方式（电话号码）、房间类型等。"
+            },
+            "2": "如果宾客在住宿期间要求继续居住，超出前项第2款规定的住宿期间，本饭店应在宾客提出要求时，视为新的住宿契约的申请。"
+        },
+        "article3": {
+            "header": "（住宿合同的形成等）",
+            "title": "第3条",
+            "1": "当酒店接受前条所述的申请时，住宿合同即成立。但是，酒店证明未同意时，不适用本条规定。",
+            "2": "按照前款规定成立住宿合同时，应在酒店指定的日期前支付由酒店规定的申请费，该费用仅限于住宿期间的基本住宿费（如果住宿期超过三天，则限于三天）。",
+            "3": "申请费用首先应用于支付客人最终应支付的住宿费用；此外，如果发生适用第6条和第18条的情况，申请费用应用于罚款后的赔偿费用，任何剩余金额应在按照第12条规定支付费用时退还。",
+            "4": "如未在附随文件的规定下，按照酒店指定的日期支付第2款规定的申请费，则住宿合同将不再有效。但是，这仅适用于酒店已将申请费用的付款日期通知客人的情况。"
+        },
+        "article4": {
+            "header": "（不需要支付申请费用的特别规定）",
+            "title": "第4条",
+            "1": "不考虑前一条第2款的规定，酒店可以在合同成立后接受不要求支付该款规定中的申请费用的特别协议。",
+            "2": "如果酒店在接受住宿合同申请时未要求支付前一条第2款规定的申请费用，或未指定申请费用的付款日期，则视为已遵守前一条的特别规定。"
+        },
+        "article5": {
+            "header": "（拒绝订房）",
+            "title": "第5条",
+            "1": {
+                "content": "在以下情况下，本旅馆可能不接受订房：",
+                "1": "申请订房不符合这些条款和条件的情况。",
+                "2": "由于客房已满，无法提供客房的情况。",
+                "3": "认为打算入住旅馆的人可能会违反法律法规、公共秩序或公德的情况。",
+                "4": "明显认为打算入住旅馆的人患有传染病的情况。",
+                "5": "打算入住旅馆的人实施暴力、威胁、敲诈勒索或其他不合理的暴力或胁迫要求，或要求超出住宿合理范围的负担的情况。",
+                "6": "因自然灾害、设施故障或其他不可抗力等无法为客人提供住宿的情况。",
+                "7": "打算入住或使用旅馆的其他客人产生危险或不安全感的噪音、可疑行为或言行的情况。",
+                "8": "客人在过去曾在本旅馆实施过第(3)、(5)或(7)项中的任何一项行为。",
+                "9": "打算入住旅馆的人是犯罪团伙的成员、与犯罪团伙有关的人员，或者是犯罪团伙的成员担任职务或受犯罪团伙成员控制业务活动的企业或其他犯罪团伙的相关人员。",
+                "10": "打算入住旅馆的人是反社会组织、该组织的成员或其他除本条第(9)项之外的反社会势力。",
+                "11": "由于吸毒或饮酒而导致精神或身体虚弱或精神错乱，难以保证打算入住人员的安全的情况。",
+                "12": "适用于《旅馆业法实施条例》第5条规定的情况。",
+                "13": "存在其他类似于上述各项的理由拒绝提供住宿。"
+            }
+        },
+        "article6": {
+            "header": "（客人取消合同的权利）",
+            "title": "第6条",
+            "1": "客人可以通过向本旅馆提出请求来取消住宿合同。",
+            "2": "如果客人基于归责于客人的原因（但是，如果本旅馆已经指定了申请费用的付款期限并要求依据第3条第2款的规定支付该费用，并且客人在支付该费用之前取消住宿合同，则除外），取消全部或部分住宿合同，本旅馆将根据附录2的规定收取罚款。在这种情况下，旅馆将根据附录2收取罚款。但是，在应用第4条第1款中的特殊条款时，仅当本旅馆通知客人有义务支付罚款时，才适用此款。",
+            "3": "如果客人在入住当天的中午12点之前未到达旅馆（如果事先清楚指示预计到达时间，则在该时间之后两个小时），并且没有通知旅馆，则旅馆可以视为客人已经取消住宿合同。"
+        },
+        "article7": {
+            "header": "（我们取消合同的权利）",
+            "title": "第7条",
+            "1": {
+                "content": "在以下情况下，本旅馆可以取消住宿合同。",
+                "1": "适用第5条的任何项目或发现适用。",
+                "2": "在卧室内睡觉，损坏防火设备或违反旅馆使用条款中的其他禁止行为（仅限于防火必要的禁止行为）。"
+            },
+            "2": "当本旅馆基于前款规定取消住宿条件时，旅馆将不收取客人尚未接受的住宿服务等费用。"
+        },
+        "article8": {
+            "header": "（住宿登记）",
+            "title": "第8条",
+            "1": {
+                "content": "客人需要在入住当天在酒店前台登记以下信息。",
+                "1": "客人姓名、年龄、性别和职业、电话号码",
+                "2": "在外国国籍的情况下，护照号码、入境地和入境日期",
+                "3": "离店日期和预计离店时间",
+                "4": "酒店认为必要的其他事项"
+            },
+            "2": "如果客人打算用旅行支票、住宿券或信用卡等可转换为货币的方式支付第12条规定的费用，客人需要在前述第1款规定的登记时间提前出示。"
+        },
+        "article9": {
+            "header": "（客房使用时间）",
+            "title": "第9条",
+            "1": "客人可以在下午4点到第二天早上10点之间使用酒店的客房。然而，在连续住宿的情况下，客人可以在抵达当天和离开当天以外的日子全天使用客房。",
+            "2": {
+                "content": "不考虑前款的规定，酒店需要在同一款中指定的时间外提供客房使用。在这种情况下，以下额外费用将适用",
+                "1": "中午12点前：每间客房2,000日元（含税）",
+                "2": "中午1点前：每间客房3,000日元（含税）",
+                "3": "中午1点后，需要再支付一晚费用。"
+            }
+        },
+        "article10": {
+            "header": "（遵守使用规则）",
+            "title": "第10条",
+            "content": "所有客人都需要遵守酒店管理制定的使用条款。"
+        },
+        "article11": {
+            "header": "（营业时间）",
+            "title": "第11条",
+            "1": "酒店主要设施的营业时间将在提供的手册、各个位置张贴的公告和客房信息册中详细说明。",
+            "2": "前款所述时间如有必要或不可避免地进行临时更改的情况，我们将通过适当的方式通知您。"
+            },
+        "article12": {
+            "header": "（费用支付）",
+            "title": "第12条",
+            "1": "客人需支付的住宿费用及其他费用的详细情况列在附表1中。",
+            "2": "入住时，酒店要求客人支付住宿费用，如前款所述，以本酒店认可的旅行支票、住宿券、信用卡等货币或可替代货币的方式支付。",
+            "3": "即使客人在酒店提供客房并可供使用后不自愿入住，也会收取住宿费。"
+            },
+        "article13": {
+            "header": "（酒店的责任）",
+            "title": "第13条",
+            "1": "如果本酒店在履行住宿合同或与其相关的任何合同时造成客人损害，或由于未履行而造成损害，本酒店将赔偿该损害。但是，如果原因不是本酒店的过错，则不适用此项规定。",
+            "2": "酒店已购买了旅馆责任保险，以防火灾等事故。"
+        },
+        "article14": {
+            "header": "（无法提供合同房间的处理）",
+            "title": "第14条",
+            "1": "若酒店无法为客人提供合同房间，酒店将征得客人同意，尽可能为其安排相同条件的其他住宿。",
+            "2": "即使根据前款规定，酒店无法找到其他住宿，如果原因不是酒店无法控制的原因，则应向客人支付相当于合同价格的赔偿费用，并且赔偿费用将由损害赔偿金额承担。"
+            },
+        "article15": {
+            "header": "（存放物品的处理）",
+            "title": "第15条",
+            "1": "如果客人在前台寄存财产、现金或贵重物品，且因此丢失、损坏或造成其他损害，除非遇到不可避免的情况，酒店将对此进行赔偿。但是，对于现金和贵重物品，如果酒店要求客人声明此类物品的类型和价值，而客人未能这样做，则酒店将赔偿最高达150,000日元的损失。",
+            "2": "如果客人携带的财产、现金或贵重物品没有放在前台而是带入酒店，且因酒店的失误或疏忽造成丢失、损坏或造成其他损害，酒店将对此进行赔偿。但是，对于未事先指定类型和价值的物品，酒店将赔偿最高达150,000日元的损失，除非酒店存在故意行为或重大过失。"
+        },
+        "article16": {
+            "header": "（存放客人行李或个人物品）",
+            "title": "第16条",
+            "1": "如果客人的行李在入住前到达酒店，酒店只有在事先同意寄存行李的情况下才负责存放，并在客人在前台办理入住手续时交还给客人。但是，我们不接受需要冷藏的物品。",
+            "2": "如果客人在退房后在酒店遗留行李或个人物品，且可以确认物主身份，酒店将征求物主的指示。但是，如果没有物主的指示，或者找不到物主，则将物品保管7天（包括发现当天），然后报告给最近的警察局。",
+            "3": "对于前两个条款，本酒店对客人行李或个人物品的保管责任应与前一条第1款的规定相同，对于前一条第2款的情况，适用同一条第2款的规定。"
+        },
+        "article17": {
+            "header": "（停车场责任）",
+            "title": "第17条",
+            "content": "如客人使用酒店的停车场，无论是否已经寄存车辆钥匙，酒店仅提供使用停车位的场所，不对车辆进行管理，如因酒店管理停车场时的故意或过失行为而造成损害的，酒店应负责赔偿。"
+        },
+        "article18": {
+            "header": "（客人责任）",
+            "title": "第18条",
+            "content": "如因客人的故意或过失行为导致酒店受损的，客人应对酒店进行赔偿。赔偿金额将按照正常费率计算，并根据损失程度进行确定。"
+        },
+        "table1": {
+            "header1": "附表1　房价计算方法",
+            "header2": "（相关条款：第2条第1款、第3条第2款、第12条第1款）",
+            "thead": {
+                "th": "项目"
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "付款人应付总额",
+                    "td1": "住宿费",
+                    "td2": "标准房价（房间费）"
+                },
+                "tr2": {
+                    "td1": "额外费用",
+                    "td2": "餐饮、饮料及其他杂费"
+                },
+                "tr3": {
+                    "td1": "税金",
+                    "td2": "消费税"
+                }
+            },
+            "remarks": "注　住宿费根据前台公示的房价表计算。"
+        },
+        "table2": {
+            "header1": "附表2　违约金",
+            "header2": "（相关条款：第6条第2款）",
+            "thead": {
+                "tr1": {
+                    "th1": "解约通知接到日",
+                    "th2": "不到店",
+                    "th3": "指定日",
+                    "th4": "前一日",
+                    "th5": "9日前",
+                    "th6": "20日前"
+                },
+                "tr2": {
+                    "th1": "契约申请人数"
+                }
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "普通",
+                    "td1": "14人以内"
+                },
+                "tr2": {
+                    "th": "团体",
+                    "td1": "15～99人"
+                },
+                "tr3": {
+                    "td1": "100人以上"
+                }
+            }
+        },
+        "safetyRemarks": {
+            "title": "安全提示",
+            "content": "为了确保您安全、舒适的住宿体验，我们已建立了完善的防灾体系。",
+            "1": "■防灾中心全天24小时监控酒店内的各种设施，以应对各类灾害。",
+            "2": "■酒店设有自己的消防队，一旦发生紧急情况，将立即响应。",
+            "3": "■除了安装了烟雾探测器外，还安装了防火门，以防火势扩散。",
+            "4": "■如果您有任何问题，请联系前台工作人员。"
+        }
+    },
+    "termsOfUse": {
+        "introduction": "为确保客人的安全和舒适，我们为使用集装箱房屋制定了以下规则。",
+        "items": {
+            "title": "防火注意事项",
+            "1": "请勿在可能引起火灾的区域，尤其是床上吸烟。",
+            "2": "请勿从事任何可能引起火灾的活动。"
+        },
+        "matters": {
+            "title": "安全注意事项",
+            "1": "只有注册的客人才能住在房间里。",
+            "2": "请将您的现金和贵重物品存放在床下的保险箱中。"
+        },
+        "parking": {
+            "title": "如何使用停车场",
+            "1": "每人仅限一个停车位。",
+            "2": "原则上，除旅游巴士外，我们不允许停放超过一辆车。"
+        },
+        "hotelRules": {
+            "title": "酒店规则",
+            "1": "酒店客人不得将房间转让给第三方，即使客人支付的期限尚未到期。",
+            "2": "未在酒店办理入住手续的人员只能在上午7:00至晚上10:00间入住酒店客房。晚上10:00后仍停留在房间内的人员必须入住酒店。",
+            "3": "酒店可能拒绝接受严重违反上次入住期间酒店规则和法规，损害酒店或客人财产，对其他住客、酒店员工或其他住宿酒店或以其他方式违反其他住客住宿或酒店功能的人员。"
+        }
+    }
+}

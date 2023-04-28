@@ -1,0 +1,41 @@
+cron:
+
+- description: 'cron job for default service'
+  url: /scheduler
+  target: default
+  schedule: every 1 mins
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: 'cron job for dev service'
+  url: /scheduler
+  target: dev
+  schedule: every 1 mins
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: 'cron job for kaieikan service'
+  url: /scheduler
+  target: kaieikan
+  schedule: every 1 mins
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: 'cron job for space-demo service'
+  url: /scheduler
+  target: space-demo
+  schedule: every 1 mins
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5
+
+- description: 'cron job for suyama service'
+  url: /scheduler
+  target: suyama
+  schedule: every 1 mins
+  retry_parameters:
+    min_backoff_seconds: 2.5
+    max_doublings: 5

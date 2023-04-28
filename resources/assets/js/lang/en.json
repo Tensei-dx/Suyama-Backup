@@ -1,0 +1,2234 @@
+{
+    "navbar":{
+        "dashboard":"Dashboard",
+        "devop":"Device Operation",
+        "userm":"User Management",
+        "hardwarem":"Hardware Management",
+        "gatewaym":"GATEWAY",
+        "devicem":"DEVICE",
+        "bindingm":"Binding Management",
+        "ir-m":"REMOTE CONTROLLER",
+        "tabletReg":"Tablet Registration",
+        "floorm":"Floor Management",
+        "logs":"Logs",
+        "about":"About Us",
+        "notif":"Notifications",
+        "logout":"Logout",
+        "help":"Help",
+        "lang":"Language",
+        "logoutModalLabel":"Ready to Leave?",
+        "logoutMessage":"Select Logout below if you are ready to end your current session.",
+        "confirmLogout":"Logout",
+        "cancel":"Cancel"
+    },
+    "footer":"Copyright © iBMS 2018 | Powered By: GTI ",
+    "about":{
+        "ab":"about",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "text2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "commitment":"Our Commitment",
+        "mission":"Our Mission",
+        "provide":"To provide world-class care within your hand."
+    },
+    "dashboard":{
+        "gateway-summary":"Summary of Gateway",
+        "gateway-total":"Total Gateway",
+        "gateway-online":"Online Gateway",
+        "gateway-offline":"Offline Gateway",
+        "devices-summary":"Summary of Devices",
+        "devices-total":"Total Devices",
+        "devices-online":"Online Devices",
+        "devices-offline":"Offline Devices",
+        "electric-summary":"Electricity Summary",
+        "event":"Events",
+        "data":" Data",
+        "tableFields":{
+            "Target":"Target Appliance",
+            "Device":"Device",
+            "Command":"Command",
+            "Date":"Date"
+        },
+        "summaryLabels":{
+            "Room":"Room",
+            "Count":"Count",
+            "show_devices":"Devices",
+            "DEVICE_NAME":"Device Name",
+            "DEVICE_TYPE":"Device Type",
+            "ip_address":"IP Address",
+            "Floor":"Floor",
+            "Device":"Device"
+        },
+        "chart":{
+            "date":"Date",
+            "temp":"Temperature",
+            "opened":"Times Opened/Triggered",
+            "status":"Status"
+        }
+    },
+    "devop":{
+        "devop":"Device Operation",
+        "view":"View",
+        "devices":"Devices",
+        "lastupdate":"Last update at",
+        "notavailable":"Devices Not Available",
+        "noremote":"No Data for this Remote",
+        "nostatus":"No Status display",
+        "carouselnodevice":"Devices not Available",
+        "gateways":"Gateways",
+        "nogateway":"No Gateway Available",
+        "nodevice":"No Device Available",
+        "searchdev": "Search Device",
+        "searchroom": "Search Room",
+        "daily":"Daily",
+        "monthly":"Monthly",
+        "total":"Total",
+        "temp":"Temp",
+        "temperature":"Temperature",
+        "power":"Power",
+        "hum":"Humidity",
+        "tableView":{
+            "floor.FLOOR_NAME":"Floor Name",
+            "ROOM_NAME":"Room Name",
+            "show_gateway_details":"Gateways",
+            "show_device_details":"Devices",
+            "GATEWAY_NAME":"Gateway Name",
+            "NEW_ONLINE_FLAG":"Status",
+            "DEVICE_NAME":"Device Name",
+            "DEVICE_TYPE":"Device Type",
+            "DATA":"Device Status"
+        },
+        "remoteLogs":{
+            "TARGET":"Appliance",
+            "BRAND":"Brand",
+            "COMMAND":"Command",
+            "DATE":"Date"
+        },
+        "chart":{
+            "date":"Date",
+            "status":"Status"
+        }
+    },
+    "user":{
+        "allusers":"All Users",
+        "active":"Active",
+        "inactive":"Inactive",
+        "users":"Users",
+        "add":"Add User",
+        "disable": "Disable",
+        "enable": "Enable",
+        "profile": "PROFILE",
+        "designation": "DESIGNATION",
+        "userLocation": "User Location",
+        "userModules": "User Modules",
+        "save": "Save",
+        "cancel": "Cancel",
+        "changepass": "Change Password",
+        "usertype":"User Type",
+        "username":"Serial ID",
+        "userlogo":"User Logo",
+        "password":"PIN code",
+        "confirmpass":"Confirm Password",
+        "contact": "Contact Number",
+        "alert": "Alert Options",
+        "module":"Module",
+        "pickmod":"Pick Module",
+        "location":"Location",
+        "email":"Email",
+        "noData":"No Data Available",
+        "type":{
+            "gtiAdmin":"Go Tensei Admin",
+            "genAdmin":"General Admin",
+            "nurse":"Nurse"
+        },
+        "all":"All",
+        "goTenseiAd":"Go Tensei Admin",
+        "genAd":"General Admin",
+        "nurse":"Nurse",
+        "userTable":{
+            "USERNAME":"USERNAME",
+            "USER_ID":"USER ID",
+            "USERROLE":"USER ROLE",
+            "STATUS":"STATUS"
+        },
+        "modalText":{
+            "disable":"You are about to disable this user",
+            "sure":"Are you sure?",
+            "enable":"You are about to enable this user",
+            "disabled":"Disabled!",
+            "disabledUser":"This user has been disabled",
+            "enabled":"Enabled!",
+            "enabledUser":"This user has been enabled",
+            "passSuccess":"Successfully changed password!",
+            "saveSuccess":"Successfully Saved"
+        }
+    },
+    "gateway":{
+        "gatewayInfo": "Gateway Info",
+        "header":"Hardware Management / Gateway Management",
+        "sysGateway":"System Gateway",
+        "modbusGateway":"Modbus Gateway",
+        "cameraGateway":"Camera Gateway",
+        "noData":"No Data Available",
+        "gatewayCat":{
+            "regist":"Registered",
+            "unregist":"Unregistered",
+            "blocked":"Blocked",
+            "deleted":"Deleted"
+        },
+        "gatewayIp":"Gateway IP",
+        "devSerialNo":"Device Serial No",
+        "onlineStat":"Online Status",
+        "scan":"Scanning",
+        "scanSuccessful":"Scan Successful",
+        "scanFailed": "Scan Failed",
+        "rescan":"Re-scan",
+        "rescanning": "Re-scanning",
+        "save":"Save",
+        "saving":"Saving",
+        "addGateway":"Add gateway",
+        "manufacturer":"Manufacturer",
+        "gatewayName":"Gateway Name",
+        "gatewaySerial":"Gateway Serial No.",
+        "floor":"Floor",
+        "modalText":{
+            "activeModbus":"Activate Modbus Gateway",
+            "sure":"Are you sure?",
+            "activatedModbus":"Activated Modbus Gateway",
+            "modbusActivate":"ModBus Gateway has been activated",
+            "modbusCantActivate":"ModBus Gateway can't be activated",
+            "modbusDelete":"Modbus Gateway has been deleted",
+            "modbusCantDelete":"Modbus Gateway can't be deleted",
+            "gatewayUpdate":"Gateway Successfully Updated",
+            "delGateway":"Delete Gateway",
+            "deleted":"Deleted",
+            "gatewayDel":"Gateway has been deleted.",
+            "contDelete":"Continue with deletion?",
+            "gatewayCantDelete":"Gateway can't be deleted.",
+            "blockGateway":"Block Gateway",
+            "gatewayBlock":"Gateway has been blocked.",
+            "block":"Block",
+            "gatewayCantBlock":"Unable to block gateway.",
+            "unblockGateway":"Unblock Gateway",
+            "unblock":"Unblock",
+            "gatewayUnblock":"Gateway has been unblocked.",
+            "gatewayCantUnblock":"Unable to unblock gateway.",
+            "noContact":"Unable to contact gateway.",
+            "cantUpdate":"Unable to update gateway",
+            "gatewayNameExists":"Gateway Name already Exits",
+            "regGateway":"Register Gateway",
+            "gatewayRegister":"Gateway has been Registered.",
+            "gatewayCantRegister":"Gateway Registration Failed.",
+            "floorRequired":"Floor Required",
+            "roomRequired":"Room Required",
+            "gatewaySerialNoRequired":"Gateway Serial Number is Required",
+            "gatewayNameRequired":"Gateway Name is Required",
+            "modGatewayRegister":"Modbus Gateway has been Registered.",
+            "modGatewayNameExists":"Modbus Gateway Name Already Exists",
+            "modGatewayCantRegister":"Modbus Gateway Registration Failed.",
+            "camGatewayRegister":"Camera Gateway has been Registered",
+            "camGatewayCantRegister":"Camera Gateway Registration Failed"
+        },
+        "gatewayTable":{
+            "GATEWAY_ID":"ID",
+            "FLOOR_NAME":"FLOOR NAME",
+            "ROOM_NAME":"ROOM NAME",
+            "ip":"GATEWAY IP",
+            "GATEWAY_NAME":"GATEWAY NAME",
+            "serial_no":"GATEWAY SERIAL NO",
+            "action":"ACTION",
+            "GATEWAY_IP":"GATEWAY IP",
+            "MANUFACTURER_NAME":"MANUFACTURER"
+        }
+    },
+    "device":{
+        "header":"Hardware Management / Device Management",
+        "sysDevice":"System Device",
+        "modDevice":"Modbus Meter",
+        "bacnetDevice":"Bacnet Device",
+        "cameraDevice": "Camera",
+        "gatewayName":"Gateway Name",
+        "devType":"Device Type",
+        "devName":"Device Name",
+        "devSerial":"Device Serial Number",
+        "devCat":"Device Category",
+        "onStatus":"Online Status",
+        "modbusIp":"Gateway IP",
+        "modbusSerial":"Meter Serial No.",
+        "modbusSlave":"Meter Slave ID",
+        "device":"Device",
+        "save":"Save",
+        "gang":"Gang",
+        "addMeter":"Add Electric Meter",
+        "addDevice":"Add Device",
+        "deviceTable":{
+            "DEVICE_ID":"ID",
+            "FLOOR_NAME":"FLOOR NAME",
+            "ROOM_NAME":"ROOM NAME",
+            "DEVICE_NAME":"DEVICE NAME",
+            "DEVICE_TYPE":"DEVICE TYPE",
+            "METER_ID":"ID",
+            "SERIAL_NO":"SERIAL NO",
+            "gateway":"GATEWAY NAME",
+            "devtype":"DEVICE TYPE",
+            "serialno":"DEVICE SERIAL NO",
+            "action":"ACTION",
+            "BACNETDEVICE_ID":"ID"
+        },
+        "deviceModals":{
+            "failedModbus":"Error retrieving data for Modbus",
+            "failedDevice":"Error retrieving data for Devices",
+            "activateModbus":"Activate Modbus Meter",
+            "sure":"Are you sure?",
+            "yes":"Yes",
+            "activatedModbus":"Activated Modbus Meter",
+            "modbusActivated":"Modbus Meter has been Activated",
+            "error":"Error",
+            "cantActivateModbus":"Modbus Meter can't be Activated",
+            "delete":"Delete ",
+            "deleted":"Deleted",
+            "hasDeleted":" has been deleted.",
+            "cantDelete":" can't delete.",
+            "blockDev":"Block Device",
+            "devBlock":"Device has been Blocked",
+            "cantBlock":"Unable to block device",
+            "block":"Block",
+            "unblockDev":"Unblock Device",
+            "devUnblock":"Device has been unblocked",
+            "cantUnblock":"Unable to unblock device",
+            "unblock":"Unblock",
+            "delDevice":"Delete Device",
+            "devDeleted":"Device has been deleted",
+            "devCantDelete":"Unable to delete device",
+            "successfullyUpdated":"Successfully Updated",
+            "cantUpdate":"Unable to update device",
+            "devRegistered":"Device Registered",
+            "cantRegister":"Unable to register device"
+        }
+    },
+    "binding":{
+        "header":"Hardware Management / Binding Management",
+        "floor":"FLOORS",
+        "sensorDevice":"Sensor to Device",
+        "sensorSensor":"Sensor to Sensor",
+        "cameraDevice": "Camera to Device",
+        "sensorAlert":"Sensor to Alert",
+        "addDevice":"Add Sensor to Device Binding",
+        "addSensor":"Add Sensor to Sensor Binding",
+        "addCamera": "Add Camera to Device Binding",
+        "addAlert":"Add Sensor to Alert Binding",
+        "total":"Total items",
+        "room":"ROOMS",
+        "sensors":"SENSORS",
+        "targetFloor":"CHOOSE TARGET Floor",
+        "targetRoom":"CHOOSE TARGET ROOM",
+        "devCondition":"DEVICE CONDITION",
+        "targetDevice":"Target Device(s)",
+        "selectAllDev":"Select All Devices",
+        "selectAllSen":"Select All Sensors",
+        "min":"min",
+        "createDevice":"Create Sensor to Device Binding",
+        "createSensor":"Create Sensor to Sensor Binding",
+        "createAlert": "Create Sensor to Alert Binding",
+        "noDevice":"No Devices Available",
+        "noBinding":"No Binding Available",
+        "delBind":"Delete Bind",
+        "sure":"Are you sure you want to remove binding of",
+        "noBindingAvailable":"No Binding Available",
+        "bindingDevice":{
+            "target_device.DEVICE_TYPE":"DEVICE TYPE",
+            "target_device.DEVICE_NAME":"DEVICE NAME",
+            "binding_list.TARGET_DEVICE_CONDITION":"DEVICE CONDITION",
+            "time":"TIME INTERVAL"
+        },
+        "modalText":{
+            "groupDisable":"Group binding has been Disabled.",
+            "groupEnable":"Group binding has been Enabled.",
+            "bindingEnable":"Device binding has been enabled.",
+            "bindingDisable":"Device binding has been disabled.",
+            "enable":"Enabled!",
+            "disable":"Disabled!",
+            "deviceDeleted":"Device Binding has been Deleted.",
+            "deleted":"Deleted!",
+            "bindingDeleted":"Binding has been Deleted.",
+            "sure":"Are you sure?",
+            "delBinding":"Delete this Binding?",
+            "delDevice":"Delete this Device Binding?",
+            "disBinding":"Disable this Binding?",
+            "disGroup":"Disable this Binding group?",
+            "enBinding":"Enable this Binding?",
+            "enGroup":"Enable this Binding group?",
+            "delUser": "Delete this User Alert Binding?"
+        }
+    },
+    "ir":{
+        "header":"Hardware Management / IR Management",
+        "appliancetab":"Appliance",
+        "createappliance":"Add Appliance",
+        "createir":"Add IR List",
+        "irlisttab":"IR List",
+        "add":"Add List",
+        "floor":"Floor",
+        "room":"Room",
+        "irdevice":"IR Device",
+        "appliance":"Appliances",
+        "appliancename":"Appliance Name",
+        "appliancetype":"Appliance Type",
+        "appliancedetails":"APPLIANCE DETAILS",
+        "brandname":"Brand Name",
+        "operation":"Operations",
+        "learning":"IR Learning Value",
+        "save":"Save",
+        "cancel":"Cancel",
+        "listTable":{
+            "DEVICE_NAME":"IR DEVICE",
+            "APPLIANCE_NAME":"NAME",
+            "APPLIANCE_TYPE":"TYPE",
+            "BRAND_NAME":"BRAND",
+            "STATUS":"STATUS",
+            "OPERATION_NAME":"OPERATION"
+        }
+    },
+    "natureIr": {
+        "header": "Hardware Management / Nature Remo IR Management",
+        "search": "Search",
+        "appliances": {
+            "tab": "Appliance",
+            "table": {
+                "name": "NAME",
+                "type": "TYPE",
+                "brand": "BRAND",
+                "action": "ACTION",
+                "ifEmpty": "No Data"
+            },
+            "details": {
+                "appliance": {
+                    "title": "APPLIANCE DETAILS",
+                    "name": "APPLIANCE NAME",
+                    "type": "APPLIANCE TYPE",
+                    "brand": "BRAND NAME"
+                },
+                "operation": {
+                    "title": "OPERATIONS",
+                    "ifEmpty": "No operation registered yet"
+                }
+            },
+            "create": {
+                "button": "Add Appliance",
+                "header": {
+                    "title": "Add New Appliance"
+                },
+                "body": {
+                    "form": {
+                        "applianceType": {
+                            "label": "Appliance Type",
+                            "info": "Select an appliance type",
+                            "placeholder": "Choose...",
+                            "choices": {
+                                "tv": "Television",
+                                "ac": "Air Conditioner",
+                                "light": "Smart Light",
+                                "ir": "Generic IR-supported appliance"
+                            },
+                            "errors": {
+                                "ifEmpty": "No selected appliance type"
+                            }
+                        },
+                        "applianceName": {
+                            "label": "Appliance Name",
+                            "info": "Please input the name of the appliance. Name should be 3 to 25 characters only. Only alphanumeric, spaces, dashes and underscores are allowed.",
+                            "errors": {
+                                "ifEmpty": "Appliance Name is required",
+                                "ifInvalid": "Value must not exceed 25 characters.",
+                                "ifRegexFailed": "Only alphanumeric, dash, underscore and space are allowed",
+                                "ifTaken": "Appliance Name was already taken"
+                            }
+                        },
+                        "brandName": {
+                            "label": "Brand Name",
+                            "info": "Please input the name of the brand. Name should be 3 to 25 characters only. Only alphanumeric, spaces, dashes and underscores are allowed.",
+                            "placeholder": "Choose...",
+                            "errors": {
+                                "ifEmpty": "Brand Name is required",
+                                "ifInvalid": "Value must not exceed 25 characters.",
+                                "ifRegexFailed": "Only alphanumeric, dash, underscore and space are allowed"
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "save": "Save",
+                    "saving": "Saving",
+                    "cancel": "Cancel"
+                },
+                "success": "Appliance created successfully",
+                "fail": "Failed creating appliance"
+            },
+            "delete": {
+                "title": "Delete Appliance",
+                "message": "Are you sure?",
+                "confirm": "Yes",
+                "cancel": "Cancel",
+                "success": "Appliance deleted successfully",
+                "fail": "Failed deleting appliance"
+            }
+        },
+        "operations": {
+            "tab": "Operation",
+            "table": {
+                "appliance": "APPLIANCE",
+                "applianceType": "TYPE",
+                "name": "OPERATION",
+                "action": "ACTION",
+                "ifEmpty": "No Data"
+            },
+            "filters": {
+                "appliance": {
+                    "all": "All Appliances"
+                }
+            },
+            "details": {
+                "operation": {
+                    "title": "OPERATION DETAILS",
+                    "name": "OPERATION NAME",
+                    "applianceName": "APPLIANCE NAME",
+                    "applianceType": "APPLIANCE TYPE"
+                }
+            },
+            "create": {
+                "button": "Add Operation",
+                "header": {
+                    "title": "Add New Operation"
+                },
+                "body": {
+                    "step1": {
+                        "title": "Step 1",
+                        "text": "Input operation information",
+                        "form": {
+                            "appliance": {
+                                "label": "Appliance",
+                                "info": "Please select an appliance where to save the operation.",
+                                "placeholder": "Choose...",
+                                "errors": {
+                                    "ifEmpty": "Please select an appliance."
+                                }
+                            },
+                            "name": {
+                                "label": "Operation Name",
+                                "info": "Please input the name of the operation. Name should be 3 to 25 characters only. Only alphanumeric, spaces, dashes and underscores are allowed.",
+                                "placeholder": "Choose...",
+                                "options": {
+                                    "power": "Power",
+                                    "tv": {
+                                        "source": "Source",
+                                        "vol_up": "Volume Up",
+                                        "vol_down": "Volume Down",
+                                        "ch_up": "Channel Up",
+                                        "ch_down": "Channel Down"
+                                    },
+                                    "ac": {
+                                        "cool": "Cool Mode",
+                                        "warm": "Warm Mode",
+                                        "dry": "Dry Mode",
+                                        "dehum": "Dehumidify Mode",
+                                        "temp_up": "Temperature Up",
+                                        "temp_down": "Temperature Down",
+                                        "fan_up": "Fan Speed Up",
+                                        "fan_down": "Fan Speed Down"
+                                    }
+                                },
+                                "errors": {
+                                    "ifEmpty": "Operation Name is required",
+                                    "ifInvalid": "Value must not exceed 25 characters.",
+                                    "ifRegexFailed": "Only alphanumeric, dash, underscore and space are allowed"
+                                }
+                            }
+                        }
+                    },
+                    "step2": {
+                        "title": "Step 2",
+                        "text": "Fetch the IR signal data",
+                        "form": {
+                            "label": "Select which IR device will receive the data.",
+                            "placeholder": "Choose..."
+                        },
+                        "message1": "Point the remote control at Nature Remo and press the button you want to register.",
+                        "message2": "Please make sure the blue ring is blinking for Nature Remo."
+                    },
+                    "step3": {
+                        "title": "Step 3",
+                        "text": "Test the operation",
+                        "message1": "Test the operation by sending it to the selected IR device below.",
+                        "message2": "Please make sure there are no obstacles between Nature Remo and Appliance that you operate.",
+                        "form": {
+                            "label": "Select which IR device will send the data.",
+                            "placeholder": "Choose..."
+                        }
+                    },
+                    "step4": {
+                        "title": "Step 4",
+                        "text": "Confirm the operation",
+                        "message1": "Does the operation work correctly?",
+                        "message2": "Clicking Yes will save the operation.",
+                        "message3": "Clicking No will go back to step 2."
+                    },
+                    "success": {
+                        "title": "Operation created successfully"
+                    },
+                    "error": {
+                        "title": "Error",
+                        "ifEmpty": "The IR signal data is empty or null",
+                        "message": "Please retry step 2."
+                    }
+                },
+                "footer": {
+                    "retry": "Retry",
+                    "cancel": "Cancel",
+                    "save": "Save",
+                    "saving": "Saving",
+                    "fetch": "Fetch",
+                    "fetching": "Fetching",
+                    "send": "Send",
+                    "sending": "Sending",
+                    "back": "Back",
+                    "next": "Next",
+                    "yes": "Yes",
+                    "no": "No",
+                    "finish": "Finish"
+                }
+            },
+            "delete": {
+                "title": "Delete Operation",
+                "message": "Are you sure?",
+                "confirm": "Yes",
+                "cancel": "Cancel",
+                "success": "Operation deleted successfully",
+                "fail": "Failed deleting operation"
+            }
+        },
+        "irDevices": {
+            "tab": "IR Device",
+            "table": {
+                "floor": "FLOOR",
+                "room": "ROOM",
+                "name": "IR DEVICE",
+                "ifEmpty": "No Data"
+            },
+            "details": {
+                "irDevice": {
+                    "title": "IR DEVICE DETAILS",
+                    "floor": "FLOOR NAME",
+                    "room": "ROOM NAME",
+                    "name": "IR DEVICE NAME"
+                },
+                "appliance": {
+                    "title": "APPLIANCE LIST",
+                    "select": {
+                        "placeholder": "Choose...",
+                        "edit": "Edit",
+                        "save": "Save",
+                        "saving": "Saving",
+                        "cancel": "Cancel"
+                    }
+                },
+                "success": "Appliance List updated successfully",
+                "fail": "Failed updating Appliance List"
+            },
+            "filters": {
+                "floor": {
+                    "all": "All Floors"
+                },
+                "room": {
+                    "all": "All Rooms"
+                }
+            },
+            "delete": {
+                "title": "Delete"
+            }
+        },
+        "errors": {
+            "showDetails": "showDetails: Element not found"
+        }
+    },
+    "floor":{
+        "header":"Floor Management",
+        "floor":"Floor",
+        "searchFloor":"Search Floor",
+        "room":"Room",
+        "searchRoom":"Search Room",
+        "floorPlot":"Floor Plotting",
+        "addFloor":"Add Floor",
+        "addRoom":"Add Room",
+        "addGateway":"Add Gateway to Room",
+        "gateway":"Gateway",
+        "clear":"Clear",
+        "setPlot":"Set Plot",
+        "floorName":"Floor Name",
+        "uploadFloor":"Upload Floor Image",
+        "roomName":"Room Name",
+        "editFloor":"Edit Floor",
+        "editRoom":"Edit Room",
+        "noGateway":"No Gateways available to the room.",
+        "plotDevice":"Plotted Device",
+        "noRooms":"No Rooms in Current Floor",
+        "noFloors":"No Floors have been added yet",
+        "devicePlot":"Plot Device",
+        "selectDevice":"Select Device",
+        "deviceNote":"Note: Plotted device will overwrite its existing coordinates.",
+        "noDevice":"Device not found.",
+        "proceed":"Proceed",
+        "savePlot":"Save Plot",
+        "selectRoom":"Select Room",
+        "pleaseSelect":"Please Select Room",
+        "tableLabels":{
+            "FLOOR_ID":"Floor ID",
+            "FLOOR_NAME":"Floor Name",
+            "button":"Action",
+            "ROOM_ID":"Room ID",
+            "ROOM_NAME":"Room Name",
+            "show_details":"Gateways",
+            "GATEWAY_ID":"Gateway ID",
+            "GATEWAY_IP":"Gateway IP",
+            "GATEWAY_NAME":"Gateway Name"
+        }
+    },
+    "logs":{
+        "sysLogs":"System Logs",
+        "auditLogs":"Audit Trail Logs",
+        "noData":"No Data Available",
+        "export":"Export File",
+        "chooseFormat":"Choose File Format",
+        "auditTable":{
+            "AUDIT_LOGS_ID":"ID",
+            "IP":"IP",
+            "HOST":"Host",
+            "MODULE":"Module",
+            "INSTRUCTION":"Instruction",
+            "CREATED_AT":"Date"
+        },
+        "systemTable":{
+            "LOGS_ID":"ID",
+            "TYPE":"Type",
+            "INSTRUCTION_TYPE":"Instruction Type",
+            "CONTENT":"Content",
+            "HOST":"Sender",
+            "CREATED_AT":"Date"
+        },
+        "pdfDownload":"The PDF file will be downloaded shortly. Please wait.",
+        "error":"An error has occured!",
+        "rows":"Too many rows!"
+    },
+    "notifs":{
+        "newNotifs":"New Notifications",
+        "viewAll":"View All Notifications",
+        "noNew":"No New Notifications"
+    },
+    "prev":"Previous",
+    "next":"Next",
+    "online":"Online",
+    "offline":"Offline",
+    "add":"Add",
+    "reset":"Reset",
+    "close":"Close",
+    "open":"Open",
+    "search":"Search",
+    "searchHere":"Search Here",
+    "yes":"Yes",
+    "modalText":{
+        "floorExist":"Floor Name Already Exists",
+        "floorDelete":"Floor has been deleted.",
+        "floorDeleteError":"Floors cannot be deleted.",
+        "addFloorError":"Error adding floor.",
+        "editSuccess":"Successfully Updated",
+        "roomExist":"Room Name Already Exists",
+        "roomDelete":"Room has been deleted.",
+        "roomDeleteError":"Rooms cannot be deleted.",
+        "delete":"Delete",
+        "deleted":"Deleted",
+        "sure":"Are you sure?",
+        "error":"Error",
+        "success":"Success",
+        "successAdd":"Successfully Added",
+        "successCreate":"Successfully Created",
+        "successUpdate":"Successfully Updated",
+        "selectDevice":"Please select device.",
+        "duplicateImg":"A duplicate image was found.",
+        "duplicateRoom":"Duplicate room name!",
+        "floorData":"Can't find floor data.",
+        "selectFloor":"Please select Floor",
+        "selectRoom":"Please select Room",
+        "roomData":"Room data not found.",
+        "addGatewayError":"Error adding room.",
+        "inputFloorName":"Please input Floor name",
+        "inputRoomName":"Please input Room name",
+        "emptyCoor":"Coordinates are empty",
+        "addGate":"Add Gateway",
+        "addGateway":"Add Gateway to ",
+        "deleteDevicePlot":"Delete device plot",
+        "devicePlotDeleted":"Device plot has been deleted",
+        "notificationsExcess": "There are more than 100 notifications. Please check the logs for details."
+    },
+    "error_message_code":{
+        "220050000":"ERROR_220050000: Gateway Not Found",
+        "220050001":"ERROR_220050001: Device Not Found",
+        "220050002":"ERROR_220050002: Room Not Found",
+        "220050003":"ERROR_220050003: Gateway Already Exist",
+        "220050004":"ERROR_220050004: Updating Failed",
+        "220050005":"ERROR_220050005: Deleting Failed",
+        "220060000":"ERROR_220060000: This Field is required",
+        "230010000":"The information you entered is incorrect.",
+        "230010001":"Out of reservation time.",
+        "230010002":"You cannot check in again. Please ask the receptionist for assistance.",
+        "230010003":"Connection failed. Please contact the receptionist.",
+        "230060000":"ERROR_230060000: Invalid email",
+        "310060000":"ERROR_310060000: Username already exist",
+        "310060001":"ERROR_310060001: Email already exist",
+        "320010000":"ERROR_320010000: Please fill out this field"
+    },
+    "errorMessage":"There are unsupported errors. Please check the notification.",
+    "errorList":{
+        "message":"",
+        "response":"",
+        "E001": {
+            "message":"PMS connection failed. The reservation information could not be obtained.",
+            "response":"Please press the reservation information update button.If pressing the update reservationinformation button does not resolve the error, please contact support."
+        },
+        "E002": {
+            "message":" (check-in date) : The name of the guest was not entered.",
+            "response":"Please enter the guest's name on PMS."
+        },
+        "E003": {
+            "message":" (check-in date) : The e-mail address of the guest was not entered.",
+            "response":"Please enter the guest's email address on PMS."
+        },
+        "E004": {
+            "message":" (check-in date) : The check-in date and time of the guest was not entered.",
+            "response":"Please enter the guest's check-in date and time on PMS."
+        },
+        "E005": {
+            "message":" (check-in date) : The check-out date and time of the guest was not entered.",
+            "response":"Please enter the guest's check-out date and time on PMS."
+        },
+        "E006": {
+            "message":" (check-in date) : The number of guests has not been entered.",
+            "response":"Please enter the number of guests on PMS."
+        },
+        "E007": {
+            "message":"The smart lock key could not be issued.",
+            "response":"Contact support.There is a possibility of a smart lock system failure.Please use the physical key until resolve."
+        },
+        "E008": {
+            "message":"Failed to enter the PIN code of the smart lock 5 times in a row.",
+            "response":"Guests may not be able to enter the room or may have entered the room illegally.Please contact the guest to make sure the PIN code is correct."
+        },
+        "E009": {
+            "message":"One hour has passed since entered the room, but the check-in operation has not been performed on iBMS.",
+            "response":"Please contact the room and encourage them to perform a check-in operation with iBMS."
+        },
+        "E010": {
+            "message":"The checkout time has passed, but the checkout operation has not been performed in iBMS.",
+            "response":"Please contact the room to see if the guest has checked out.If the guest is checking out, please perform the iBMS check-out operation."
+        },
+        "E011": {
+            "message":"The smart lock battery has run out.",
+            "response":"Replace the smart lock battery."
+        },
+        "E012": {
+            "message":"The smart lock network connection has been lost.",
+            "response":"Please set the Wi-Fi setting of the smart lock."
+        },
+        "E013": {
+            "message":"The battery of the multi-function sensor (occupancy / light / temperature) has run out.",
+            "response":"Replace the battery of the multi-function sensor (occupancy / light / temperature). If you still get the message after replacing the battery, contact support. The sensor may have malfunctioned."
+        },
+        "E014": {
+            "message":"The battery of the window / door sensor has run out.",
+            "response":"Replace the battery of the window /door sensor. If you still get the message after replacing the battery, contact support. The sensor may have malfunctioned."
+        },
+        "E015": {
+            "message":"The CO2 / temperature / humidity sensor is disconnected.",
+            "response":"Please contact support. The sensor may have failed."
+        },
+        "E016": {
+            "message":"The smart lock key could not be deleted.",
+            "response":"Please contact support.There is a possibility of smart lock system failure.Please use the physical key until the issue is resolve."
+        },
+        "E017": {
+            "message":"An emergency has occurred for the guest.",
+            "response":"Please contact the room and check with the guest.If you can't contact, please go to the room and check."
+        },
+        "E018": {
+            "message":"The battery of the Emergency Button has run out.",
+            "response":"Replace the battery of the Emergency Button. If you still get the message after replacing the battery, contact support. The sensor may have malfunctioned."
+        },
+        "I001":"An email with reservation information has been sent to the guest.",
+        "I002":"Air conditioner is turned off.",
+        "I003":"Air conditioner is set to cooling.",
+        "I004":"Air conditioner is set to heating.",
+        "I005":"Air conditioner is set to dehumidified.",
+        "I006":"Air conditioner is set to automatic",
+        "I007":"Entered the room",
+        "I008":"Checked in",
+        "I009":"I took a picture of the guest information. Please check if there is any problem.",
+        "I010":"Checked out",
+        "I011":"There was a reservation.",
+        "I012":"The reservation information has been updated.",
+        "I013":"There was a reservation cancellation.",
+        "I014":"The syncing of Staysee reservation data is done.",
+        "I015":"A guest card has been entered.",
+        "W001":"The battery level of the smart lock is low",
+        "W002":"The battery level of the multi-function sensor (occupancy / light / temperature) is running low.",
+        "W003":"The battery level of the window / door sensor is low.",
+        "W004":"The battery level of the Emergency Button is very low.",
+        "W005": "One hour has passed since entered the room, but the check-in operation has not been performed on iBMS.",
+        "W006": "The checkout time has passed, but the checkout operation has not been performed in iBMS."
+    },
+    "hotel": {
+        "address": "CARRY CUBE, SUYAMA HEAD OFFICE",
+        "login": {
+            "nomatch": "Wrong credentials",
+            "disabled": "User is disabled",
+            "nobookingfortoday": "You have no booking for today!",
+            "nobooking": "You have no booking.",
+            "recheckin": "Recheck-in is not allowed. Please go to the front desk."
+        },
+        "co2_monitor": "CO2 Monitor",
+        "monitoring": "Monitoring",
+        "external": {
+            "legends": {
+                "low": "Low",
+                "normal": "Normal",
+                "elevated": "Elevated",
+                "dangerous": "High"
+            }
+        },
+        "help": {
+            "title": "Co2 Concentration",
+            "body": "Measures the amount of Co2 concentration in the air for the safety of the customers.",
+            "low": {
+                "amount": "Below 800 ppm",
+                "status": "(Low)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(Normal)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(Elevated)"
+            },
+            "dangerous": {
+                "amount": "Beyond 2501 ppm",
+                "status": "(Dangerous)"
+            }
+        }
+    },
+    "mobile": {
+        "control": {
+            "aircon": {
+                "aircon": "AIRCON",
+                "power": "POWER",
+                "mode": "MODE",
+                "temp": "TEMP",
+                "fan": "FAN",
+                "cool": "COOL",
+                "dry": "DRY",
+                "warm": "WARM",
+                "dehum": "DEHUM",
+                "auto": "AUTO",
+                "on": "ON",
+                "off": "OFF"
+            },
+            "lights": {
+                "lights": "UZUKAZE",
+                "all": "ALL",
+                "cool": "COOL",
+                "warm": "WARM",
+                "on": "ON",
+                "off": "OFF",
+                "min": "MIN",
+                "mid": "MID",
+                "max": "MAX",
+                "night": "NIGHT",
+                "up": "UP",
+                "down": "DOWN",
+                "wind":"WIND",
+                "light":"LIGHT"
+            },
+            "tv": {
+                "tv": "TV",
+                "power": "POWER",
+                "source": "SOURCE",
+                "volume": "VOL",
+                "channel": "CH",
+                "mute": "MUTE"
+            },
+            "doorlock": {
+                "doorlock": "DOOR LOCK",
+                "entrancedoor": "ENTRANCE DOOR"
+            },
+            "airpurifier": {
+                "exhaustfan": "EXHAUST FAN",
+                "airpurifier": "AIR PURIFIER"
+            },
+            "restroom": {
+                "restroom": "RESTROOM",
+                "nosensor": "NO SENSOR",
+                "occupied": "OCCUPIED",
+                "vacant": "VACANT"
+            },
+            "showerstatus": {
+                "showerstatus": "SHOWER ROOM",
+                "occupied": "OCCUPIED",
+                "empty": "VACANT",
+                "nosensor": "NO SENSOR"
+            },
+            "emergency":{
+                "emergencyStatus": "Emergency button",
+                "emergencyHeader": "Are you sure?",
+                "notify": "Notify staff and staff will come here.",
+                "yes": "Yes",
+                "sos":"SOS",
+                "sosButton": "SOS button has been clicked.",
+                "staff": "Please wait until the staff arrives.",
+                "close": "Close",
+                "cancel": "Cancel",
+                "roomNotification":"Guests will be notified and announcements will be made.",
+                "guest1":"Please make an announcement to the guests.",
+                "guest2":"※Pressing the「EmergencyCall」 button activates the voice announcement application.",
+                "call":"EmergencyCall"
+            }
+        },
+        "displaydata": {
+            "temp": {
+                "temp": "TEMPERATURE"
+            },
+            "hum": {
+                "hum": "HUMIDITY"
+            },
+            "co2": {
+                "co2": "CO2"
+            },
+            "dust": {
+                "dust": "DUST"
+            }
+        },
+        "menu": {
+            "alarm": "ALARM",
+            "notif": "NOTIFICATION",
+            "checkintime": "CHECK IN",
+            "checkouttime": "CHECK OUT",
+            "message": "MESSAGE",
+            "home": "HOME",
+            "roomservice": "ROOM SERVICE",
+            "roommanual": "ROOM MANUAL",
+            "frontdesk": "CALL FRONT DESK",
+            "about": "ABOUT iBMS",
+            "roomnumber": "ROOM",
+            "checkin": "CHECK IN",
+            "checkout": "CHECK OUT",
+            "greeting": "Hi",
+            "greetingextension": " ",
+            "phone": "SKYPE",
+            "synch": "SYNCH",
+            "editguest": "Guestcards can be re-entered.",
+            "success": "Success",
+            "order": "Order"
+        },
+        "welcome": {
+            "welcome": "Welcome to CARRY CUBE! Please make yourself at home.",
+            "next": "NEXT",
+            "prev": "BACK",
+            "roomguide": "Room Guide",
+            "roominfo": "Room Information",
+            "start": "Start"
+        },
+        "checkout": {
+            "title": "Ready to leave?",
+            "body": "Select \"Check out\" below if you are ready to check out.",
+            "cancel": "Cancel",
+            "checkout": "Check out",
+            "checkInScreen":"Go to the check-in screen",
+            "checkOutTitle":"Thank you very much for staying with us.",
+            "caution":"※This screen will automatically redirect after 60 seconds.",
+            "return":"You cannot return to this screen after checking out."
+        },
+        "roomservice":{
+            "menu":"Menu",
+            "facilityDescription": "Facility Guide",
+            "roomDescription":"Room Guide",
+            "evacuationRoute":"Evacuation Route",
+            "evacuationRouteMap": "Evacuation Route Guide Map",
+            "entertainment":"Entertainment",
+            "food":"Food (DEMO)",
+            "amenities":"Amenities (DEMO)",
+            "sightseeingMap":"Sightseeing Map",
+            "rentalservices": "Rental Services (DEMO)",
+            "foodMenu":"Food Menu (DEMO)",
+            "amenityMenu":"Amenity Menu (DEMO)",
+            "sightseeingMenu":"Sightseeing Menu",
+            "rentalserviceMenu": "Rental Service Menu (DEMO)",
+            "total":"Total",
+            "order":"ORDER",
+            "rent": "RENT",
+            "operationGuest":{
+                "tabName": "Facility Guide",
+                "linkName":"Facility Guide Page"
+            },
+            "special_product":"Special Product",
+            "special_product_introduction":"Special Product Introduction",
+            "special_product_link":"List of Special Products",
+            "items": {
+                "hair_dryer": "Hair Dryer",
+                "tv": "TV",
+                "pillow": "Pillow",
+                "remote_control": "Remote Control",
+                "toothbrush": "Toothbrush",
+                "shampoo": "Shampoo",
+                "charger": "Charger",
+                "comforter": "Comforter",
+                "tissue": "Tissue",
+                "lock": "Lock",
+                "aircon":"Aircon",
+                "sofa": "Sofa",
+                "table": "Table",
+                "wash_basin": "Wash Basin",
+                "mirror": "Mirror",
+                "shower_booth": "Shower Booth",
+                "toilet": "Toilet",
+                "bath":"Open-air Bath",
+                "dining_space": "Dining Space",
+                "amenity": "Amenity",
+                "bbq_grill": "Gas BBQ Grill(Rental)"
+            }
+        },
+        "roommanual":{
+            "wifiInformation":"Wifi Information",
+            "wifiName":"Wifi Name",
+            "wifiPassword":"Wifi Password"
+        },
+        "general_terms_and_conditions":{
+            "title": "General Terms and Conditions",
+            "titletab": "Terms and Conditions"
+        },
+        "terms_of_usage": {
+            "title": "Terms of Use",
+            "agree": "I have read the Terms of Use."
+        },
+        "ibms_manual": {
+            "title": "iBMS Operation Manual",
+            "info": "Manual display"
+        },
+        "pet_terms_of_usage": {
+            "title": "Terms of Use for Pets",
+            "agree": "I have read the Terms of Use."
+        }
+    },
+    "management": {
+        "roomStatus": "ROOM STATUS",
+        "dashboard": "DASHBOARD",
+        "users": "USERS",
+        "floors": "FLOOR MANAGEMENT",
+        "rooms": "ROOM MANAGEMENT",
+        "key": "GUEST",
+        "cleaning": "CLEANING MANAGEMENT",
+        "logs": "LOGS",
+        "logout": "LOG OUT",
+        "noDevice": "NO DEVICE AVAILABLE",
+        "clean": "CLEANED UP",
+        "co2": "CO2",
+        "monitoring": "MONITORING",
+        "hardware": "HARDWARE",
+        "manual": "MANUAL",
+        "header":"> Gateway Management",
+        "device": "> Device Management",
+        "search":"Search",
+        "resetFilters": "Reset Filters",
+        "clear":"Clear",
+        "manuals":{
+            "manual": "MANUAL",
+            "manualitem": "Various Manuals",
+            "cleaningVideo": "Cleaning (Video)",
+            "cleaningImage": "Cleaning (Image)",
+            "operationGuest": {
+                "tabName": "Operation (for Guest)",
+                "linkName":"iBMS Operation Manual (for Guest)"
+            },
+            "operationAdmin": {
+                "tabName": "Operation (for Admin)",
+                "linkName":"iBMS Operation Manual (for Admin)"
+            },
+            "batteryExchange": "Battery Exchange",
+            "pmsSetting": "PMS Setting",
+            "ibmsScreen": {
+                "tabName": "iBMS Screen Description",
+                "linkName":"iBMS Screen Description"
+            },
+            "pmsOfficial": "PMS Official",
+            "support": "Support",
+            "operationFlow": "Business Operation Flow",
+            "device": "Device",
+            "smartlock": "SmartLock (RemoteLock)",
+            "netvox": "Device (Netvox)",
+            "initialize": "Tablet Initialization",
+            "manualSmartlock": "iBMS SmartLock Manual",
+            "manualSensor": "iBMS Device Manual",
+            "manualSupport": "Contact Information",
+            "manualTrouble": "Trouble Manual"
+        },
+        "roomStats": {
+            "roomStatus": "ROOM STATUS",
+            "buttonStatus": "STATUS",
+            "status": {
+                "available": "AVAILABLE",
+                "reserved": "RESERVED",
+                "checkedIn": "CHECKED IN",
+                "checkedOut": "CHECKED OUT",
+                "unavailable": "KEY UNAVAILABLE"
+            },
+            "checkInTime": "CHECK IN TIME",
+            "checkOutTime": "CHECK OUT TIME",
+            "arrivalTime": "ARRIVAL TIME",
+            "departureTime": "DEPARTURE TIME",
+            "noMessage": "NO MESSAGE",
+            "dontDisturb": "DO NOT DISTURB",
+            "cleanUpTime": "CLEAN UP TIME"
+        },
+        "roomInfo": {
+            "deviceControl": "Device Info",
+            "remoteLock": "Remote Lock",
+            "windowDoorSensor": "Window/Door Sensor",
+            "occTempLight": "Occupancy/Temp/Light Sensor",
+            "co2TempHum": "Co2/Temp/Humid Sensor",
+            "peopleCountCamera": "People Count Camera",
+            "deviceName": "Name",
+            "battery": "Battery",
+            "low": "Low",
+            "elevated": "Elevated",
+            "normal": "Normal",
+            "dangerous": "Dangerous",
+            "serialNumber": "Serial Number",
+            "hum": "Hum",
+            "co2Level": "Co2 Level",
+            "people": "People",
+            "stripLight":"StripLight",
+            "turnOn":"Turn On",
+            "turnOff":"Turn Off",
+            "status":"Status"
+        },
+        "roomOperation": {
+            "roomInfo": "ROOM INFO",
+            "status":"Status",
+            "message":"Message",
+            "checkInTime": "Check In Time",
+            "checkOutTime": "Check Out Time",
+            "peopleCount": "People",
+            "doorSensor": "Door Sensor",
+            "camera": "Camera",
+            "co2": "CO2",
+            "temp": "Temp",
+            "hum": "Hum",
+            "toggleSlide": "Toggle Slide",
+            "deviceList": "Device List",
+            "editStatus": "Edit Room Status",
+            "occupied": "Occupied",
+            "vacant": "Vacant",
+            "people": "People",
+            "shower": "Shower",
+            "rest": "Rest",
+            "room": "Room",
+            "toilet": "Toilet",
+            "checkguestcard":"Check guest card",
+            "guestcardcheck":"GUEST CARD CHECK",
+            "update": "Update",
+            "cancel": "Cancel",
+            "updateStatus": "Update status of ",
+            "questionMark":"?",
+            "updateStatusJa": "",
+            "updateRoomStatus": "Update Room Status?",
+            "lock": "Lock",
+            "locking": "Locking",
+            "lockSuccess": "An lock operation has been applied. It will be locked at the next device operation.",
+            "lockFailed": "Lock operation failed.",
+            "unlock": "Unlock",
+            "unlocking": "Unlocking",
+            "unlockSuccess": "An unlock operation has been applied. It will be unlocked at the next device operation.",
+            "unlockFailed": "Unlock operation failed.",
+            "updated": "Room status has been updated",
+            "failedUpdate": "Failed updating the room status",
+            "noBooking": "The room has no booking today",
+            "areYouSure": "Are you sure?",
+            "updateReserveInstead": "Update to RESERVED instead?",
+            "updateReserveAvailable": "This room has reservation today. Status will be change to RESERVED instead of AVAILABLE.",
+            "reservation": " reservation/s",
+            "roomHave": "This room have ",
+            "low": "Low",
+            "medium": "Meduim",
+            "strong": "Strong",
+            "locked": "Locked",
+            "unlocked": "Unlocked"
+        },
+        "logoutbtn": {
+            "title":"Are you sure you want to log out?",
+            "body":"Select the Log out button to proceed.",
+            "cancel": "Cancel",
+            "logout":"Log out"
+        },
+        "cleaningPage": {
+            "subtitle": "An optional cleaning management function can be added.",
+            "card1": {
+                "title": "Admin Dashboard Functions",
+                "content1": "Information updated by the cleaning management function is reflected in the administrator dashboard."
+            },
+            "card2": {
+                "title": "Cleaning Management Functions",
+                "content1": "Real-time visualization of the current cleaning status.",
+                "content2": "Janitors can check the schedule.",
+                "content3": "Janitors can freely register cleaning notes and photos."
+            },
+            "r2l": "Share the latest status of the room",
+            "l2r": "Update cleaning status",
+            "listview": "List View",
+            "calview": "Calendar View"
+        },
+        "keyManagementPage": {
+            "keytext1": "It can be linked to a reservation system to issue a key",
+            "keytext2": "that is valid only for the guest's stay.",
+            "keytext3": "The key is a four-digit number (PIN code), and the registered PIN code",
+            "keytext4": "will be sent to the guest by e-mail the day before check-in.",
+            "keytext5": "Try to generate the key manually",
+            "genkey": "Generate a Key",
+            "userAndGuestAccount": "USERS",
+            "users": "ADMINS",
+            "guests": "GUESTS",
+            "number": "No.",
+            "name": "Name",
+            "username": "Username",
+            "serial": "Serial ID",
+            "expiration": "Expiration Date",
+            "accessCode": "PIN Code",
+            "status": "Status",
+            "checkIn": "Check In",
+            "checkOut": "Check Out",
+            "arrivalTime": "Arrival Time",
+            "departureTime": "Departure Time",
+            "room": "Room",
+            "createAdminAccount": "Create Admin Account",
+            "createGuestAccount": "Create Guest Account",
+            "noUserAccountsRegister":"NO USER ACCOUNTS REGISTER",
+            "noGuestAccountsRegister":"NO GUEST ACCOUNTS REGISTER",
+            "generateNewPin" : "Generate New Pin",
+            "updateGuestAccount" : "Update Guest Account",
+            "updateUserAccount" : "Update User Account",
+            "updateAdminAccount" : "Update Admin Account",
+            "ok":"ok",
+            "successUpdatingGuestAccount": "Success Updating Guest Account",
+            "deleteGuestAccount":"Delete Guest Account",
+            "deleteAdminAccount":"Delete Admin Account",
+            "deleteModal":"Are you sure you want to delete this account?  ",
+            "cancel":"Cancel",
+            "create": "Create",
+            "creating": "Creating",
+            "update": "Update",
+            "updating": "Updating",
+            "delete":"Delete",
+            "deleting": "Deleting",
+            "clear": "Clear",
+            "email": "Email Address",
+            "action": "Action",
+            "reset": "Reset"
+        },
+        "systemLogs": {
+            "system":"SYSTEM LOGS",
+            "app":"AUDIT LOGS",
+            "error":"ERROR",
+            "warning":"WARNING",
+            "info":"INFORMATION",
+            "date":"Date",
+            "userInfo":"User Information",
+            "processingObj":"Processing Object",
+            "errorCode":"Error Code",
+            "processingDetails":"Processing Details",
+            "events":"Events",
+            "content":"Content",
+            "roomName":"Room Name",
+            "message":"Message",
+            "responseModal":{
+                "title":"ERROR",
+                "date":"Date",
+                "room":"Room",
+                "message":"Message",
+                "response":"Response Message",
+                "responder":"Respondent",
+                "responseTime":"Response Time",
+                "done":"RESPONDED"
+            }
+        },
+        "remotelock": {
+            "title": "REMOTE LOCK",
+            "scan": "Scan",
+            "scanning": "Scanning",
+            "scanSuccess": "Scan Successful",
+            "scanFailed": "Scan Failed",
+            "deleteConfirm": "Delete Device?",
+            "deleteSuccess": "Delete Successful",
+            "deleteFailed": "Delete Failed",
+            "noRoomData": "-",
+            "registered": "Registered",
+            "unregistered": "Unregistered",
+            "online": "Online",
+            "offline": "Offline",
+            "fields": {
+                "serialNo": "SERIAL NO.",
+                "name": "NAME",
+                "room": "ROOM",
+                "status": "STATUS",
+                "action": "ACTION"
+            },
+            "form": {
+                "registerTitle": "Register Remote Lock Device",
+                "editTitle": "Edit Remote Lock Device",
+                "serialNo": "Device Serial Number",
+                "deviceName": "Device Name",
+                "roomName": "Room Name",
+                "register": "Register",
+                "registering": "Registering",
+                "registerSuccess": "Registration Successful",
+                "registerFailed": "Registration Failed",
+                "update": "Update",
+                "updating": "Updating",
+                "updatingSuccess": "Update Successful",
+                "updateSuccess": "Updated Successfully",
+                "updatingFailed": "Updating Failed"
+            }
+        },
+        "natureRemo": {
+            "title": "Remote Controller",
+            "tabTitleAccounts": "Accounts",
+            "tabTitleDevices": "Devices",
+            "tabTitleAppliances": "Appliances",
+            "tabTitleSignals": "Signals",
+            "account": "Account",
+            "device": "Device",
+            "room": "Room",
+            "registerStatus": "Status",
+            "appliance": "Appliance",
+            "applianceType": "Type",
+            "all": "All",
+            "search": "Search",
+            "send": "Send",
+            "selectAccount": "Select Account",
+            "selectDevice": "Select Device",
+            "selectRoom": "Select Room",
+            "selectStatus": "Select Status",
+            "selectAppliance": "Select Appliance",
+            "selectType": "Select Type",
+            "resetFilters": "Reset Filters",
+            "scanDevices": "Scan Devices",
+            "scanAppliances": "Scan Appliances",
+            "showCreateAccountFormModal": "Show Create Account Form Modal",
+            "showRegisterDeviceModal": "Show Register Device Form Modal",
+            "tableNoData": "No Data",
+            "deleteAccount": "Delete Account",
+            "status": {
+                "registered": "Registered",
+                "unregistered": "Unregistered"
+            },
+            "type": {
+                "ac": "Air Conditioner",
+                "light":"Smart Light",
+                "tv":"Television",
+                "ir":"Generic"
+            },
+            "tableFields": {
+                "id": "ID",
+                "uuid": "UUID",
+                "name": "Name",
+                "token": "Token",
+                "accountName": "Account Name",
+                "deviceName": "Device Name",
+                "roomName": "Room Name",
+                "applianceName":"Appliance Name",
+                "deviceId": "Device ID",
+                "type": "Type",
+                "applianceId": "Appliance ID",
+                "roomId": "Room ID",
+                "label": "Label",
+                "serialNumber": "Serial Number",
+                "macAddress": "MAC Address",
+                "regFlag": "Registered",
+                "deviceCount": "Devices",
+                "applianceCount": "Appliances",
+                "signalCount": "Signals",
+                "createdAt": "Created At",
+                "dateAdded": "Date Added",
+                "action": ""
+            },
+            "modalTitleCreateAccount": "Add Nature Remo Account",
+            "modalTitleRegisterDevice": "Register Nature Remo Device",
+            "formFields": {
+                "accountName": "Account Name",
+                "accessToken": "Access Token",
+                "accessTokenPlaceholder": "Paste your access token here",
+                "serialNumber": "Serial Number",
+                "room": "Room",
+                "deviceName": "Device Name"
+            },
+            "save": "Save",
+            "saving": "Saving",
+            "alert": {
+                "deleteAccount": {
+                    "title": "Are you sure?",
+                    "text": "The devices, appliances, and signals associated with this account will be deleted",
+                    "confirm": "Confirm",
+                    "cancel": "Cancel",
+                    "onSuccess": "Account deleted successfully",
+                    "onFail": "Deleting account failed"
+                },
+                "createAccount": {
+                    "onSuccess": "Account created successfully",
+                    "onFail": "Creating account failed"
+                },
+                "scanDevices": {
+                    "onSuccess": "Scan complete",
+                    "onFail": "Scanning devices failed"
+                },
+                "registerDevice": {
+                    "onSuccess": "Device registered successfully",
+                    "onFail": "Registering device failed"
+                },
+                "scanAppliances": {
+                    "onSuccess": "Scan complete",
+                    "onFail": "Scanning appliances failed"
+                },
+                "sendSignals": {
+                    "onSuccess": "Signal sent successfully",
+                    "onFail": "Sending signal failed"
+                }
+            }
+        },
+        "param":{
+            "title": "PARAM Setting",
+            "ac": "AC",
+            "staysee": "Staysee",
+            "pincode": "PIN CODE",
+            "mail": "Mail",
+            "wifi": "Wi-Fi",
+            "acHeader": "Auto AC startup setting before check-in time.",
+            "autoStart": "Auto startup",
+            "on": "ON",
+            "off": "OFF",
+            "checkIn":"Check In",
+            "hoursBefore": "hours before",
+            "hoursOption1": "0.0",
+            "hoursOption2":"0.5",
+            "dropDownMode": "Mode",
+            "warmMode": "warm",
+            "coolMode": "cool",
+            "dryMode": "dry",
+            "autoMode": "auto",
+            "stayseeHeader": "Auto synchronization frequency setting for Staysee",
+            "syncFrequency": "Sync frequency",
+            "minutesFrequency": "minutes frequency",
+            "pinHeader": "Setting the number of digits in PIN code.",
+            "numberOfDigits": "The number of digits",
+            "digits": "digits",
+            "mailHeader": "Mail text and remind mail settings",
+            "enThankyouMail": "The English text of ThankYou mail",
+            "jaThankyouMail": "The Japanese text of ThankYou mail",
+            "remindMail": "Date of sending remind mail",
+            "dateThankyouMail": "Date of sending thank you mail",
+            "dayBefore": "days before",
+            "dayAfter": "days after checkout",
+            "mailText": "Mail Text",
+            "wifiHeader": "Wi-fi name and password display settings for guest screen",
+            "wifiName": "Wi-fi name",
+            "wifiPassword": "Password",
+            "apply": "Apply",
+            "applying": "Applying",
+            "reset": "Reset",
+            "attention": "※Cautions on the use of NETFLIX and other apps\n　If you have logged in with your own account\n　Please be sure to log out after you finish using the\n　application.",
+            "tempAdjustment": "Temperature Adjustment",
+            "setTemp": "Set Temperature",
+            "autoStartTemp": "Auto Start Temperature",
+            "heatStart": "Heating Start Temperature",
+            "coolStart": "Cooling Start Temperature",
+            "heating": "Heating",
+            "cooling": "Cooling"
+        }
+    },
+    "remotelock": {
+        "accounttype": "ACCOUNT TYPE",
+        "adminTitle": "Create Admin Account",
+        "guestTitle": "Create Guest Account",
+        "username": "USERNAME",
+        "name": "NAME",
+        "firstname": "FIRST NAME",
+        "lastname": "LAST NAME",
+        "checkin": "CHECK IN DATE AND TIME",
+        "checkout": "CHECK OUT DATE AND TIME",
+        "email": "EMAIL ADDRESS",
+        "phoneNumber": "PHONE NUMBER",
+        "pin": "PIN CODE",
+        "room": "ROOM",
+        "device": "DEVICE",
+        "send": "SEND",
+        "back": "BACK",
+        "status": "ROOM STATUS",
+        "checkedIn": "CHECKED IN",
+        "checkedOut": "CHECKED OUT",
+        "available": "AVAILABLE",
+        "unavailable": "UNAVAILABLE",
+        "booked": "BOOKED",
+        "updateGuestAccount": "UPDATE GUEST ACCOUNT",
+        "update":"UPDATE",
+        "generateNewPin": "Generate New PIN",
+        "updatePinFlag": "Request a new PIN?",
+        "errors": {
+            "firstName": {
+                "empty": "Please input first name."
+            },
+            "lastName": {
+                "empty": "Please input last name."
+            },
+            "checkIn": {
+                "empty": "Please select a checkin date and time.",
+                "later": "Checkin date and time must come before checkout date and time"
+            },
+            "checkOut": {
+                "empty": "Please select a checkout date and time.",
+                "earlier": "Checkin date and time must come before checkout date and time"
+            },
+            "email": {
+                "empty": "Please input email address.",
+                "invalid": "Email is invalid."
+            },
+            "phoneNumber": {
+                "empty": "Please enter the guest's phone number."
+            },
+            "remoteLockId": {
+                "empty": "Please select a Room",
+                "no_available": "No Available Room"
+            },
+            "createRemoteLockGuestAccount": {
+                "general": "The createRemoteLockGuestAccount process have failed."
+            },
+            "createiBMSGuestAccount": {
+                "general": "The createiBMSGuestAccount process have failed.",
+                "duplicate": "The createiBMSGuestAccount process have failed: the username was already used."
+            },
+            "sendAlertEmail": {
+                "general": "The sendAlertEmail process have failed."
+            },
+            "authCode": {
+                "empty": "This page has no authorization code."
+            },
+            "pin": {
+                "empty": "Please enter your 6 digit PIN.",
+                "invalid": "PIN has a minimum of 6 digits.",
+                "duplicate": "PIN is already taken. Please input another PIN"
+            },
+            "unknownError": {
+                "title": "Error!",
+                "redirect": "This page will redirect to the iBMS Management Dashboard screen in 3 seconds."
+            }
+        },
+        "message": {
+            "success": {
+                "title": "Success!",
+                "body": "The reservation and account information was sent to the email below. This page will redirect to the iBMS Management Dashboard screen in 3 seconds."
+            },
+            "successCancel": {
+                "title": "Success",
+                "body": "Reservation cancellation details has been sent to guest's email. This page will redirect to the iBMS Management Dashboard screen in 3 seconds."
+            }
+        }
+    },
+    "restaurant": {
+        "admin": {
+            "menu": {
+                "home": "Home",
+                "monitor": "Air Monitor",
+                "registry": "Registry",
+                "logs": "Logs",
+                "notifications": "Notifications",
+                "logout": "Logout"
+            },
+            "home": {
+                "rooms": "Rooms",
+                "devices": "Devices",
+                "air_sensor": "Air Sensor"
+            },
+            "chart": {
+                "co2_level": "Co2 Level"
+            },
+            "external": {
+                "legends": {
+                    "low": "Low",
+                    "normal": "Normal",
+                    "elevated": "Elevated",
+                    "dangerous": "High"
+                }
+            },
+            "restroom": {
+                "title": "Toilet Monitor",
+                "occupied": "Occupied",
+                "vacant": "Vacant",
+                "no_vacant": "No Vacant"
+            }
+        },
+        "guest": {
+            "menu": {
+                "home": "Home",
+                "order": "Order",
+                "history": "History",
+                "payment": "Payment",
+                "logout": "Logout"
+            },
+            "home": {
+                "air_monitor": "Air Monitor",
+                "sound_level": "Sound Level",
+                "co2_level": "Co2 Level",
+                "restroom_status": "Restroom Status",
+                "occupied": "Occupied",
+                "vacant": "Vacant"
+            },
+            "restroom": {
+                "title": "Restroom usage",
+                "occupied": "Occupied",
+                "vacant": "Vacant"
+            }
+        },
+        "help": {
+            "title": "Co2 Concentration",
+            "body": "Measures the amount of Co2 concentration in the air for the safety of the customers.",
+            "low": {
+                "amount": "Below 800 ppm",
+                "status": "(Low)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(Normal)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(Elevated)"
+            },
+            "dangerous": {
+                "amount": "Beyond 2501 ppm",
+                "status": "(Dangerous)"
+            }
+        },
+        "logout": {
+            "title": "Confirmation",
+            "content": "I'm going to log out. Are you sure?"
+        }
+    },
+    "tablet": {
+        "tabletBtn": "Register Device",
+        "regist":"Register",
+        "uuid": "Device UUID",
+        "room": "Room Name",
+        "userType": "Admin/Guest",
+        "placeholder": "Choose...",
+        "tabletTable": {
+            "uuid": "UUID",
+            "room": "ROOM NAME",
+            "admin": "ADMIN"
+        },
+        "choices": {
+            "admin": "ADMIN",
+            "guest": "GUEST"
+        },
+        "footer": {
+            "save": "Save",
+            "saving": "Saving",
+            "cancel": "Cancel"
+        },
+        "success": "Device registered successfully",
+        "fail": "Failed to register the device",
+        "errors": {
+            "ifEmptyRoom": "No selected room",
+            "ifEmptyUser": "No selected user"
+        },
+        "deleteMessage": {
+            "deleteUuid": "DELETE UUID ",
+            "deleteModal": "Are you sure you want to delete this uuid account?",
+            "cancel":"Cancel",
+            "delete":"Delete"
+        },
+        "message": {
+            "success": "The uuid account is successfully deleted.",
+            "fail": "Deleting uuid account is failed."
+        }
+    },
+    "termsAndCondition": {
+        "title": "General Terms and Conditions",
+        "backBtn": "BACK",
+        "nxtBtn": "NEXT",
+        "agree": "I accept and agree to the General Terms and Conditions"
+    },
+    "clientCode": {
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "lateCheckIn":"Late Check In",
+        "reCheckIn":"Trying to recheck-in",
+        "lateCheckOut": "Late Check Out",
+        "failedCheckOut": "Failed Checkout"
+    },
+    "notificationCode":{
+        "notification":"Notifications",
+        "event":"Event Type",
+        "message": "Message",
+        "roomName": "Room Name",
+        "date": "Date"
+    },
+    "roomMessageCode": {
+        "noMessage": "NO MESSAGE",
+        "dontDisturb": "DON'T DISTURB",
+        "cleanUpTime": "CLEAN UP TIME"
+    },
+    "imageWarning":{
+        "inputWarning": "!Input should only contain 3 to 20 characters."
+    },
+    "guestcard": {
+        "guestcardTitle": "GUEST REGISTRATION CARD",
+        "require": "required",
+        "go": "",
+        "haku": "nights",
+        "date": "Date",
+        "print": "Ruby",
+        "name": "Name",
+        "guests": "Number",
+        "adult": "Adult",
+        "child": "Child",
+        "toddler": "Toddler",
+        "toddlerName": "Toddler Name",
+        "toddlerNamePrint": "Toddler Ruby",
+        "mei": "People",
+        "sum": "Sum",
+        "addressNumber": "Address number",
+        "address": "Address",
+        "receipt": "Receipt name",
+        "tel1": "Tel1",
+        "tel2": "Tel2",
+        "car": "Model of car, number plate",
+        "birthday": "Date of birth",
+        "email": "email",
+        "nationality": "Please select your nationality.",
+        "passport_no": "Passport No",
+        "photo": "Take passport",
+        "representative": "Representative",
+        "companion": "Companion",
+        "instructions": "※ If the representative or accompanying person is a foreign national, please check the 「Foreign National」 box.",
+        "images": "Please take a passport photo.",
+        "images_desc1": "※ Pleas take passport photos only for foreign nationals.",
+        "images_desc2": "※ Please take a picture of your face and the page with your passport number.",
+        "japanese_nationality": "Japanese National",
+        "foreign_nationality": "Foreign National",
+        "purpose": {
+            "purpose": "Purpose of trip",
+            "sightseeing": "Sightseeing",
+            "gourmet": "Gourmet",
+            "hotSprings": "Hotsprings",
+            "refreshment": "Refreshment",
+            "rest": "Rest and Healing",
+            "familyFriends": "Spend time with family and friends",
+            "nature": "Contact with nature",
+            "Other": "Other",
+            "business": "Business"
+        },
+        "questionnaire": "Would you like to receive our special magazine (Hakuba no moto)?",
+        "answer1": "I wish to",
+        "answer2": "I already got it.",
+        "next": "Next",
+        "prev": "Prev",
+        "complete": "Complete",
+        "placeholder": {
+            "name": "John Smith",
+            "ruby": "John Smith",
+            "addressNumber": "399-9301",
+            "receipt": "John Smith",
+            "address": "21582 Hokujo Hakuba-mura,Kitaazumi-gun, Nagano-ken",
+            "tel1": "090-1234-5678",
+            "tel2": "0776-00-1122",
+            "car": "compact car Nagano 300 A 00-00",
+            "email": "sample@sample.com",
+            "purpose": "(Select)"
+        },
+        "errors": {
+            "nights": {
+                "empty":  "Please enter 'date of your stay'.",
+                "invalid":  "The 'Date of stay' period is incorrect."
+            },
+            "sumGuests": {
+                "invalid": "The 'Number of Guests' field is incorrect."
+            },
+            "namePrint": {
+                "empty": "Please enter 'Ruby'.",
+                "invalid": "Please enter 'Ruby' in 50 characters or less."
+            },
+            "name": {
+                "empty": "Please enter 'Name'.",
+                "invalid": "Please enter 'Name' in 50 characters or less."
+            },
+            "toddlerNamePrint": {
+                "empty": "Please enter 'Toddler Ruby'.",
+                "invalid": "Please enter 'Toddler Ruby' in 50 characters or less."
+            },
+            "toddlerName": {
+                "empty": "Please enter 'Toddler Name'.",
+                "invalid": "Please enter 'Toddler Name' in 50 characters or less."
+            },
+            "addressNumber": {
+                "invalid": "Please enter 'Address number' with no more than 10 digits.",
+                "empty": "Please enter 'Address number'."
+            },
+            "address": {
+                "empty": "Please enter 'Address'.",
+                "invalid": "Please enter 'Address' in 255 characters or less."
+
+            },
+            "receiptName": {
+                "empty": "Please enter 'Receipt Name'.",
+                "invalid": "Please enter 'Receipt name' in 50 characters or less."
+            },
+            "tel1": {
+                "invalid": "Please enter 'Tel1' with no more than 20 digits.",
+                "empty": "Please enter 'Tel1'."
+            },
+            "tel2": {
+                "invalid": "Please enter 'Tel2' with no more than 20 digits."
+            },
+            "car": {
+                "invalid": "Please enter 'Model of car, number plate' in 50 characters or less."
+            },
+            "birthday": {
+                "empty": "Please enter 'Date of birth'."
+            },
+            "email": {
+                "empty": "Please enter 'email'.",
+                "invalid": "Invalid 'email address'.",
+                "invalid_characters": "Please enter 'email' in 255 characters or less."
+            },
+            "purpose": {
+                "empty": "Please enter 'Purpose'."
+            },
+            "questionnaire": {
+                "empty": "Please select 'Survey.'"
+            },
+            "passport_no": {
+                "empty": "Please enter 'Passprot No.'"
+            },
+            "guestcard_image": "Please take at least one passport photo."
+        }
+    },
+    "spareKeys": {
+        "tabName": "Spare Keys",
+        "tableHeaders": {
+            "id": "Key ID",
+            "pinCode": "PIN Code",
+            "roomID": "Room ID",
+            "roomName": "Room Name",
+            "deviceId": "Device ID",
+            "deviceName": "Device Name",
+            "period": "Validated Period"
+        },
+        "error": {
+            "tableEmpty": "No Spare Key Data"
+        },
+        "refresh": "Refresh",
+        "refreshing": "Refreshing"
+    },
+    "emergency": {
+        "modal": {
+            "header": "Emergency",
+            "body1": "The emergency button has been pressed.",
+            "body2": "Staff should immediately check the situation.",
+            "body3": "Please wait for an announcement from the staff.",
+            "close": "Close"
+        }
+    },
+    "logoutScreen": {
+        "content1": "Please pay for any additional orders at the front desk.",
+        "content2": "Please check if you have not forgotten anything before leaving the building.",
+        "content3": "If you forget something after leaving the room, open the smart lock and enter the room until check-out time.",
+        "content4": "If it is past the check-out time, please come to the front desk."
+    },
+    "termsAndConditions": {
+        "termsOfUse": "Terms of Use",
+        "termsOfHotel": "Terms and Conditions of the Hotel",
+        "introduction": "In order to ensure a safe and comfortable stay for our guests, the hotel has established the following regulations based on Article 10 of the Terms & Conditions of the Hotel and asks for your cooperation. If you fail to comply, we may refuse to allow the usage of the guest rooms and facilities of the hotel in accordance with Article 7, Section 1 of the Terms and Conditions of the Hotel. Please note that the hotel cannot take responsibility for any accidents that may occur as a result of lack of cooperation from guests.",
+        "safety": {
+            "title": "Safety and security precautions to be strictly observed",
+            "1": "Please refrain from bringing items such as fire equipment for heating, cooking, etc., and irons, etc., into your room unless they are lent to you.",
+            "2": "Please do not smoke in beds or other fire prone areas.",
+            "3": "Do not engage in any other activities that may cause a fire.",
+            "4": "Please check the evacuation route map displayed inside the door of each room.",
+            "5": "Please make sure that the door is locked when you leave the room during your stay. (The hotel has an automatic lock system.)",
+            "6": "During your stay, especially when you go to bed, please lock the door with the internal key (door latch). If you receive a visitor, please do not open the door without the door latch in place, or use the peephole to check the door. If you think that there is someone suspicious, please contact the front desk staff.",
+            "7": "Please refrain from having visitors in your room.",
+            "8": "Only registered guests are allowed to stay at the hotel."
+        },
+        "handling": {
+            "title": "Handling of Valuables and Deposited Items",
+            "1": "Please use the safe deposit box at the front desk to manage your cash and valuables during your stay. If you do not follow the above procedure and your cash or valuables are lost, damaged, or stolen, we are not responsible for any compensation.",
+            "2": "As a general rule, all lost and found items will be handled in accordance with the law unless otherwise specified."
+        },
+        "payment": {
+            "title": "Payment Policy",
+            "1": "Please pay your bill in currency or with a traveler's check, hotel ticket, or credit card approved by the hotel. However, payment must be made each time a bill is presented by the hotel during your stay.",
+            "2": "If you wish to change the scheduled number of nights of your stay, please contact the front desk staff in advance. If you wish to extend your stay, please make sure to complete the payment up to the end of your stay."
+        },
+        "actions": {
+            "title": "Actions to be avoided",
+            "1": "Please do not bring any items into the hotel that may disturb other guests.",
+            "a": "Animals and pets in general, including dogs, cats, birds, etc., that have not received prior permission from the hotel.",
+            "b": "Explosives, volatile oils, and potentially hazardous products that may ignite or catch fire",
+            "c": "Objects that emit foul odors or strong smells",
+            "d": "Unauthorized firearms and swords",
+            "e": "Excessive amounts of baggage and goods",
+            "f": "Other items that are prohibited by law",
+            "2": "Please refrain from gambling, disturbance of public morals or public safety, or any other activities that may cause inconvenience or discomfort to other guests in the hotel.",
+            "3": "Please do not hang or display anything in the windows of your room that would damage the appearance of the hotel.",
+            "4": "Please do not distribute advertising or promotional materials or sell goods in the hotel without permission.",
+            "5": "Please refrain from using the hotel's facilities and equipment for purposes other than those specified, or in a manner that would seriously damage their current condition.",
+            "6": "Photos taken in the hotel for business purposes without permission may be subject to legal action.",
+            "7": "Please do not leave personal belongings in the hallways or lobby.",
+            "8": "Refrain from entering emergency stairways, rooftops, boarding houses, machine rooms, and other facilities not reserved for guests unless there is an emergency or unavoidable circumstances.",
+            "9": "Guests under the age of 18 are not allowed to stay at the hotel by themselves without the permission of a parent or guardian.",
+            "10": "In the event of damage, contamination, or loss of any property, including structures, furniture, equipment, or other items, due to reasons other than force majeure, you may be required to pay a reasonable amount of compensation.",
+            "11": "Please refrain from taking food and beverage deliveries from outside the hotel.",
+            "footer": "※For delivery, please pick up your order in the lobby on the first floor or outside."
+        },
+        "article1": {
+            "header": "(Application Scope)",
+            "title": "Article 1",
+            "1": "The accommodation contract and related agreements that this hotel concludes with guests shall be in accordance with the provisions of these General Conditions. Matters not specified in these terms and conditions shall be governed by laws and regulations or generally established customs.",
+            "2": "In the event that this hotel agrees to a special agreement to the extent that it does not violate laws, regulations and customs, such special agreement shall prevail notwithstanding the provisions of the preceding paragraph."
+        },
+        "article2": {
+            "header": "(Application for Accommodation Contract)",
+            "title": "Article 2",
+            "1": {
+                "content": "Guests who wants to apply for a lodging contract with this hotel shall provide the following information.",
+                "1": "Lodger Name",
+                "2": "Lodging date and arrival time",
+                "3": "Other information as required by the hotel Number of guests, contact information (phone number), room type"
+            },
+            "2": "In the event that a guest requests to continue his/her stay beyond the accommodation date set forth in paragraph 2 of the preceding paragraph during his/her stay, this hotel shall treat the request as an application for a new accommodation contract at the time the request is made."
+        },
+        "article3": {
+            "header": "(Formation of Accommodation Contract, etc.)",
+            "title": "Article 3",
+            "1": "The accommodation contract shall be concluded when this hotel has accepted the application as described in the preceding article. However, this provision shall not apply when this hotel proves that it has not given its consent.",
+            "2": "When an accommodation contract is concluded in accordance with the preceding paragraph, the application fee specified by this hotel, which is limited to the basic accommodation charge for the period of stay (three days if the period exceeds three days), shall be paid by the date specified by this hotel.",
+            "3": "The application fee shall first be used to cover the final accommodation charge to be paid by the guest, and in addition, if a situation arises in which the provisions of Articles 6 and 18 apply, the application fee shall be used for the penalty charge followed by the compensation charge, and any remaining amount shall be returned at the time of payment of the charge in accordance with the provisions of Article 12.",
+            "4": "The accommodation contract shall cease to be effective if the application fee specified in Paragraph 2 is not paid by the date specified by this hotel in accordance with the provisions of the accompanying document. However, this applies only when the hotel has notified the guest of the payment date of the application fee."
+        },
+        "article4": {
+            "header": "(Special provisions not requiring the payment of an application fee)",
+            "title": "Article 4",
+            "1": "Regardless of the provisions of Section 2 of the preceding Article, the Hotel may accept a special agreement not to require the payment of the application fee specified in the same Section after the conclusion of the contract.",
+            "2": "In the event that this hotel does not request payment of the application fee specified in Section 2 of the preceding article when accepting an application for a lodging contract, or does not specify the date of payment of the application fee, the hotel shall be treated as aving complied with the special provisions of the preceding section."
+        },
+        "article5": {
+            "header": "(Refusal to conclude a lodging contract)",
+            "title": "Article 5",
+            "1": {
+                "content": "This hotel may not accept the conclusion of an accommodation contract in the following cases",
+                "1": "When the application for accommodation is not in accordance with these terms and conditions.",
+                "2": "When there is no room available due to full occupancy.",
+                "3": "When it is recognized that a person who intends to stay at the hotel is likely to commit an act that is against the provisions of laws and regulations, public order, or good morals.",
+                "4": "When it is evidently recognized that the person who intends to stay at the hotel is a person with a contagious disease.",
+                "5": "When a person who intends to stay at the hotel commits an act of violence, threats, extortion, or other violent or intimidating unreasonable demands, or demands a burden that exceeds the reasonable range regarding accommodation.",
+                "6": "When the hotel is unable to accommodate guests due to natural disaster, breakdown of facilities, or other unavoidable circumstances.",
+                "7": "When a person who intends to stay at the hotel makes a disturbing noise, behaves suspiciously, or speaks or acts in a way that causes danger or anxiety to other guests staying at or utilizing the hotel.",
+                "8": "The guest has committed an act that falls under any of the items (3), (5) or (7) of this Article at the Hotel in the past.",
+                "9": "If the person who intends to stay at the hotel is a member of a crime syndicate, a person related to a crime syndicate, or an officer or a person related to a corporation or other crime syndicate whose officers are members of a crime syndicate or whose business activities are controlled by members of a crime syndicate.",
+                "10": "If the person who intends to stay at the hotel is an anti-social organization, a member thereof, or any other anti-social force other than those listed in item (9) of this article.",
+                "11": "In the event that it is difficult to ensure the safety of the person who intends to stay due to mental or physical weakness or insanity caused by drugs or alcohol consumption.",
+                "12": "In cases falling under the provisions of Article 5 of the Tokyo Metropolitan Ordinance for Enforcement of the Ryokan Business Law.",
+                "13": "When there are other justifiable reasons for refusal of accommodation equivalent to each of the above items."
+            }
+        },
+        "article6": {
+            "header": "(Guest's right to cancel the contract)",
+            "title": "Article 6",
+            "1": "The guest may cancel the accommodation contract by making a request to this hotel.",
+            "2": "In the event that the guest cancels the accommodation contract in whole or in part for reasons attributable to the guest (except in the event that this hotel has specified a due date for payment of the application fee and requested payment thereof pursuant to the provisions of Section 2 of Article 3, and the guest cancels the accommodation contract prior to such payment), this hotel shall charge a penalty fee in accordance with the provisions of Appendix 2. In this case, the hotel shall charge a penalty fee in accordance with Appendix 2. However, when the special clause in Article 4, Section 1 is applied, this clause shall be applied only when this hotel informs the guest of the obligation to pay a penalty in the event that the guest cancels the accommodation contract.",
+            "3": "3 If the guest does not arrive at the hotel by 12:00 p.m. on the day of the stay (if the estimated time of arrival has been clearly indicated in advance, two hours after that time) without notifying the hotel, the hotel may treat the accommodation contract as having been cancelled by the guest."
+        },
+        "article7": {
+            "header": "(Our right to terminate the contract)",
+            "title": "Article 7",
+            "1": {
+                "content": "This hotel may cancel the accommodation contract in the following cases.",
+                "1": "When any of the items in Article 5 applies or is found to be applicable.",
+                "2": "Sleeping in the bedroom, tampering with fire-fighting equipment, or disobeying other prohibitions (limited to those necessary for fire prevention) in the hotel's Terms of Use."
+            },
+            "2": "When this hotel cancels the terms and conditions of stay based on the provisions of the preceding paragraph, the hotel will not charge for accommodation services, etc. that the guest has not yet received."
+        },
+        "article8": {
+            "header": "(Register for lodging)",
+            "title": "Article 8",
+            "1": {
+                "content": "Guests are required to register the following information at the front desk of the hotel on the day of their stay.",
+                "1": "Name, age, gender and occupation of the guest, TEL No.",
+                "2": "In the case of foreign nationality, passport number, place of entry, and date of entry",
+                "3": "Departure date and scheduled departure time",
+                "4": "Other matters recognized as necessary by the hotel"
+            },
+            "2": "When a guest intends to make payment of the charges set forth in Article 12 by a method that can be changed into currency, such as a travel check, accommodation coupon, or credit card, the guest is requested to present them in advance at the time of registration set forth in the preceding section."
+        },
+        "article9": {
+            "header": "(Room usage time)",
+            "title": "Article 9",
+            "1": "Guests may use the rooms of the hotel from 4:00 p.m. to 10:00 a.m. the following morning. However, in the case of consecutive stays, guests may use the rooms for the entire day, except for the day of arrival and departure.",
+            "2": {
+                "content": "Regardless of the provisions of the preceding clause, this hotel needs to accommodate the use of rooms outside the hours specified in the same clause. In such a case, the following additional charges shall apply",
+                "1": "Before 12:00 p.m.: JPY 2,000 per room (tax included)",
+                "2": "Before 1:00 p.m.: 3,000 JPY per room (tax included)",
+                "3": "After 1:00 p.m., for an additional night."
+            }
+        },
+        "article10": {
+            "header": "(Compliance with usage rules)",
+            "title": "Article 10",
+            "content": "All guests are required to follow the Terms of Use posted in the hotel as determined by the management."
+        },
+        "article11": {
+            "header": "(Business Hours)",
+            "title": "Article 11",
+            "1": "The hours of operation of the hotel's main facilities will be specified in the pamphlet provided, posted at various locations, and in the information book in the guest room.",
+            "2": "The time mentioned in the preceding clause is subject to change on a temporary basis when necessary or unavoidable. In such cases, we will notify you by an appropriate method."
+        },
+        "article12": {
+            "header": "(Payment of fees)",
+            "title": "Article 12",
+            "1": "The breakdown of the accommodation charge and other charges to be paid by guests shall be as listed in Appended Table 1.",
+            "2": "Payment of the accommodation charge, such as those mentioned in the preceding clause, shall be made at the front desk at the time of arrival of the guest or at the request of this hotel, in currency or by a method that can be used in place of a travel check, accommodation ticket, credit card, etc. approved by this hotel.",
+            "3": "Accommodation fees will be charged even if the guest does not voluntarily stay after the hotel has provided the guest with a room and it is available for use."
+        },
+        "article13": {
+            "header": "(Responsibilities of the Hotel)",
+            "title": "Article 13",
+            "1": "In the event that this hotel causes damage to a guest in the performance of the accommodation contract or any contract related to it, or due to non-performance thereof, this hotel will compensate for such damage. However, this shall not apply if the reason is not the fault of this hotel.",
+            "2": "The hotel is insured against fire and other accidents by the Ryokan Liability Insurance."
+
+        },
+        "article14": {
+            "header": "(Treatment of cases where the contracted room cannot be provided)",
+            "title": "Article 14",
+            "1": "In the event that the hotel is unable to provide the guest with the contracted room, the hotel shall, with the consent of the guest, guide the guest to other accommodations with the same conditions as much as possible.",
+            "2": "If this hotel is unable to find other accommodation regardless of the provisions of the preceding clause, it will pay a compensation fee equivalent to the contract price to the guest, and the compensation fee will be covered by the amount of damages. However, if the failure to provide a room is not due to reasons that are beyond the control of the Hotel, no compensation fee shall be paid."
+        },
+        "article15": {
+            "header": "(Handling of Deposited Items)",
+            "title": "Article 15",
+            "1": "In the event of loss, damage, or any other damage to the property, cash, or valuables deposited at the front desk by the guest, this hotel will compensate for such damage, except in cases of unavoidable circumstances. However, with regard to cash and valuables, if this hotel requests a declaration of the type and value of such items, and the guest fails to do so, this hotel will compensate for the damage up to 150,000 JPY.",
+            "2": "In the event of loss, damage, or any other damage caused by the failure or negligence of this hotel with regard to property, cash, or valuables that the guest has brought into this hotel and has not left at the front desk, this hotel will compensate for such damage. However, for items of which the type and value have not been specified in advance by the guest, the hotel will compensate for damages up to 150,000 JPY, except in the case of willful misconduct or gross negligence on the part of the hotel."
+        },
+        "article16": {
+            "header": "(Storage of baggage or personal belongings of guests)",
+            "title": "Article 16",
+            "1": "In the event that a guest's baggage arrives at the hotel prior to the stay, the hotel will take responsibility for storing it only when the hotel has agreed to do so prior to the arrival of the baggage, and will hand it over to the guest when the guest checks in at the front desk.However, we do not accept items that require refrigeration.",
+            "2": "In the event that a guest's baggage or personal belongings are left unattended in this hotel after the guest has checked out, and the owner of the baggage or personal belongings is identified, this hotel shall seek instructions from the owner. However, if there are no instructions from the owner, or if the owner cannot be found, keep the item for 7 days including the day it was found, and then report it to the nearest police station.",
+            "3": "In the case of the two previous sections, this hotel's responsibility for the custody of the guests' baggage or personal belongings shall be the same as the provisions of Section 1 of the preceding article in the case of Section 1, and the provisions of Section 2 of the same article in the case of the preceding section."
+        },
+        "article17": {
+            "header": "(Parking Lot Responsibility)",
+            "title": "Article 17",
+            "content": "In the event that a guest uses the hotel's parking lot, regardless of whether the key to the vehicle has been deposited, the hotel will only lend the space and will not be responsible for the management of the vehicle. However, in the event that damage is caused by the intentional or negligent act of the hotel in managing the parking lot, the hotel shall be responsible for compensation."
+        },
+        "article18": {
+            "header": "(Responsibility of the guest)",
+            "title": "Article 18",
+            "content": "In the event that this hotel suffers damage due to the willful misconduct or negligence of a guest, the guest shall compensate this hotel for the damage. The amount of compensation will be calculated based on the regular rate and will be determined according to the extent of the damage."
+        },
+        "table1": {
+            "header1": "Appended Table 1 Calculation Method of Room Rates",
+            "header2": "(Related to Article 2, Section 1, Article 3, Section 2, and Article 12, Section 1)",
+            "thead": {
+                "th": "Breakdown"
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "Total amount payable by payer",
+                    "td1": "Accommodation fee",
+                    "td2": "Standard room rate (room charge)"
+                },
+                "tr2": {
+                    "td1": "Additional charge",
+                    "td2": "Food, beverage, and other utility charges"
+                },
+                "tr3": {
+                    "td1": "Tax",
+                    "td2": "Consumption tax"
+                }
+            },
+            "remarks": "Remarks　 Accommodation rates are based on the rate list posted at the front desk."
+        },
+        "table2": {
+            "header1": "Appendix Table 2: Penalties",
+            "header2": "(Related to Article 6, Section 2)",
+            "thead": {
+                "tr1": {
+                    "th1": "Contract cancellation notice received",
+                    "th2": "No-show",
+                    "th3": "Appointed day",
+                    "th4": "Previous day",
+                    "th5": "9 days before",
+                    "th6": "20 days before"
+                },
+                "tr2": {
+                    "th1": "Number of contract applicants"
+                }
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "General",
+                    "td1": "Up to 14 people"
+                },
+                "tr2": {
+                    "th": "Organization",
+                    "td1": "15 to 99 people"
+                },
+                "tr3": {
+                    "td1": "100 people or more"
+                }
+            }
+        },
+        "safetyRemarks": {
+            "title": "For safety",
+            "content": "We have a full disaster prevention system in order to ensure a safe and comfortable stay.",
+            "1": "■The Disaster Prevention Center monitors all hotel facilities for disasters 24 hours a day.",
+            "2": "■The hotel has its own fire department and will respond immediately in case of emergency.",
+            "3": "■In addition to smoke detectors, we have installed fire doors to prevent the spread of fire.",
+            "4": "■If you have any questions, please contact the front desk staff."
+        }
+    },
+    "termsOfUse": {
+        "introduction": "In order to ensure the safety and comfort of our guests, we have established the following rules for the use of our container house.",
+        "items": {
+            "title": "Items to be observed for fire prevention",
+            "1": "Please do not smoke in areas that may cause fires, especially in beds.",
+            "2": "Please do not engage in any other activities that may cause a fire."
+        },
+        "matters": {
+            "title": "Matters to be observed for security reasons",
+            "1": "Only registered guests are allowed to stay in the room.",
+            "2": "Please keep your cash and valuables in the safe under your bed."
+        },
+        "parking": {
+            "title": "How to use the parking lot",
+            "1": "The number of parking spaces is limited to one per person.",
+            "2": "In principle, we do not permit parking more than one car, except for tourist buses."
+        },
+        "hotelRules": {
+            "title": "Rules inside hotel",
+            "1": "The hotel guest cannot hand over a room to third persons, even if the period for which the guest paid has not yet expired.",
+            "2": "Persons who are not checked-in the hotel may stay in a hotel room from 07:00 a.m. till 10:00 p.m. Persons staying in a room after 10:00 p.m. must check in the hotel.",
+            "3": "The hotel may refuse to accept the guests who grossly violated the Hotel Rules and Regulations during the last stay by damaging the hotel's or guests' property or by inflicting damage on other guests, hotel employees or other persons staying in the hotel or in other way violated the stay of other guests or the functioning of the hotel."
+        }
+    }
+}

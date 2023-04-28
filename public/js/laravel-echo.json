@@ -1,0 +1,16 @@
+{
+	"apps":[
+		{
+			"name":"laravel-echo-server-hoteres",
+			"script":"laravel-echo-server",
+			"args":"start",
+			"cwd":"/usr/share/nginx/html/iBMS-HoteRes/"
+		},
+		{
+			"name":"udp.js-hoteres",
+			"script":"udp.js",
+			"args":"start",
+			"cwd":"/usr/share/nginx/html/iBMS-HoteRes/public/js/"
+		}
+	]
+}

@@ -1,0 +1,2223 @@
+{
+    "navbar":{
+        "dashboard":"ダッシュボード",
+        "devop":"デバイス操作",
+        "userm":"ユーザー管理",
+        "hardwarem":"ハードウェア管理",
+        "gatewaym":"ゲートウェイ",
+        "devicem":"デバイス",
+        "bindingm":"バインディング管理",
+        "ir-m":"リモコン",
+        "tabletReg":"タブレット登録",
+        "floorm":"フロア管理",
+        "logs":"ログ",
+        "about":"会社概要",
+        "notif":"お知らせ",
+        "logout":"ログアウト",
+        "help":"ヘルプ",
+        "lang":"言語",
+        "logoutModalLabel":"出発する準備はできましたか？",
+        "logoutMessage":"現在のセッションを終了する準備ができている場合は、下の[ログアウト]を選択してください。",
+        "confirmLogout":"ログアウト",
+        "cancel":"キャンセル"
+    },
+    "footer":"著作権 © iBMS 2018 | によって供給 by: GTI ",
+    "about":{
+        "ab":"約",
+        "commitment":"我々のコミットメント",
+        "mission":"我々の使命",
+        "text":"プレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダー",
+        "text2":"プレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダープレースホルダー",
+        "provide":"あなたの手の中に世界クラスのケアを提供する。"
+    },
+    "dashboard":{
+        "gateway-summary":"ゲートウェイサマリー",
+        "gateway-total":"合計ゲートウェイ",
+        "gateway-online":"ンラインゲートウェイー",
+        "gateway-offline":"オフラインゲートウェイ",
+        "devices-summary":"デバイスサマリー",
+        "devices-total":"合計デバイス",
+        "devices-online":"オンラインデバイス",
+        "devices-offline":"オフラインデバイス",
+        "electric-summary":"電気サマリー",
+        "event":"イベント",
+        "data":" データ",
+        "tableFields":{
+            "Target":"ターゲット",
+            "Device":"デバイス",
+            "Command":"コマンド",
+            "Date":"日付"
+        },
+        "summaryLabels":{
+            "Room":"ルーム",
+            "Count":"カウント",
+            "show_devices":"デバイス",
+            "DEVICE_NAME":"デバイス名",
+            "DEVICE_TYPE":"デバイスタイプ",
+            "ip_address":"IPアドレス",
+            "Floor":"フロア",
+            "Device":"デバイス"
+        },
+        "chart":{
+            "date":"日付",
+            "temp":"気温",
+            "opened":"トリガーされた回数",
+            "status":"ステータス"
+        }
+    },
+    "devop":{
+        "devop":"デバイス操作",
+        "view":"見る",
+        "devices":"デバイス",
+        "lastupdate":"最終更新日",
+        "notavailable":"デバイスが利用できません",
+        "noremote":"このリモコンのデータがありません",
+        "nostatus":"ステータス表示なし",
+        "carouselnodevice":"デバイスが利用できません",
+        "gateways":"ゲートウェイ",
+        "nogateway":"ゲートウェイが無い",
+        "nodevice":"デバイスが無い",
+        "searchdev": "デバイス検索",
+        "searchroom": "ルーム検索",
+        "daily":"毎日",
+        "monthly":"毎月",
+        "total":"総計",
+        "temp":"温度",
+        "temperature":"気温",
+        "power":"電源",
+        "hum":"湿気",
+        "tableView":{
+            "floor.FLOOR_NAME":"フロア名",
+            "ROOM_NAME":"ルーム名",
+            "show_gateway_details":"ゲートウェイ",
+            "show_device_details":"デバイス",
+            "GATEWAY_NAME":"ゲートウェイ名",
+            "NEW_ONLINE_FLAG":"ステータス",
+            "DEVICE_NAME":"デバイス名",
+            "DEVICE_TYPE":"デバイスタイプ",
+            "DATA":"デバイスステータス"
+        },
+        "remoteLogs":{
+            "TARGET":"電化製品",
+            "BRAND":"ブランド",
+            "COMMAND":"コマンド",
+            "DATE":"日付"
+        },
+        "chart":{
+            "date":"日付",
+            "status":"ステータス"
+        }
+    },
+    "user":{
+        "allusers":"すべてのユーザー",
+        "active":"アクティブ",
+        "inactive":"非アクティブ",
+        "users":"ユーザー",
+        "add":"追加",
+        "disable": "無効に",
+        "enable": "有効にー",
+        "profile": "プロファイル",
+        "designation": "指定",
+        "userLocation": "ユーザーロケーション",
+        "userModules": "ユーザモジュール",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "changepass": "パスワード変更",
+        "usertype":"ユーザータイプ",
+        "username":"シリアルID",
+        "userlogo":"ユーザーログ",
+        "password":"PINコード",
+        "confirmpass":"パスワード確認",
+        "contact": "連絡先番号",
+        "alert": "アラートオプション",
+        "module":"モジュール",
+        "pickmod":"ピックモジュール",
+        "location":"ロケーション",
+        "email":"イーメール",
+        "noData":"データがありません",
+        "type":{
+            "gtiAdmin":"Go 天晴 Admin",
+            "genAdmin":"プレースホルダー Admin",
+            "nurse":"ナース"
+        },
+        "all":"万事",
+        "goTenseiAd":"Go Tensei 管理者",
+        "genAd":"一般管理者",
+        "nurse":"ナース",
+        "userTable":{
+            "USERNAME":"ユーザー名",
+            "USER_ID":"ユーザーID",
+            "USERROLE":"ユーザーロール",
+            "STATUS":"ステータス"
+        },
+        "modalText":{
+            "disable":"このユーザーを無効にしようとしています",
+            "sure":"確定でよろしいですか。",
+            "enable":"このユーザーを有効にしようとしています",
+            "disabled":"無効!",
+            "disabledUser":"このユーザーは無効になっています",
+            "enabled":"有効にする!",
+            "enabledUser":"このユーザーは有効になっていますd",
+            "passSuccess":"パスワードの変更に完了しました!",
+            "saveSuccess":"保存が完了しました。"
+        }
+    },
+    "gateway":{
+        "gatewayInfo": "ゲートウェイ情報",
+        "header":"ハードウェア管理 / ゲートウェイ管理",
+        "sysGateway":"システムゲートウェイ",
+        "modbusGateway":"Modbusゲートウェイ",
+        "cameraGateway":"カメラゲートウェイ",
+        "noData":"データがありません",
+        "gatewayCat":{
+            "regist":"登録済",
+            "unregist":"未登録",
+            "blocked":"ブロック済",
+            "deleted":"削除済"
+        },
+        "gatewayIp":"ゲートウェイIP",
+        "devSerialNo":"デバイスシリアル番号",
+        "onlineStat":"オンラインステータス",
+        "scan":"スキャン",
+        "scanSuccessful":"スキャン完了",
+        "scanFailed": "スキャン失敗",
+        "rescan":"再スキャン",
+        "rescanning":"再スキャン",
+        "save":"保存",
+        "saving":"保存中",
+        "addGateway":"ゲートウェイ追加",
+        "manufacturer":"メーカー",
+        "gatewayName":"ゲートウェイ名",
+        "gatewaySerial":"ゲートウェイSerial番号",
+        "floor":"フロア",
+        "modalText":{
+            "activeModbus":"アクティベートModbusゲートウェイ",
+            "sure":"確定でよろしいですか。",
+            "activatedModbus":"起動したModbusゲートウェイ",
+            "modbusActivate":"Modbusゲートウェイがアクティブしました",
+            "modbusCantActivate":"Modbusゲートウェイをアクティブ化できません",
+            "modbusDelete":"Modbusゲートウェイが削除されました。",
+            "modbusCantDelete":"Modbusゲートウェイは削除できません",
+            "gatewayUpdate":"ゲートウェイが正常に更新されました",
+            "delGateway":"ゲートウェイを削除",
+            "deleted":"削除しました。",
+            "gatewayDel":"ゲートウェイが削除されました.",
+            "contDelete":"通す?",
+            "gatewayCantDelete":"ゲートウェイは削除できません。",
+            "blockGateway":"ブロックゲートウェイ",
+            "gatewayBlock":"ゲートウェイがブロックされました。",
+            "block":"ブロック",
+            "gatewayCantBlock":"ゲートウェイをブロックできません。",
+            "unblockGateway":"アンブロック・ゲートウェイ",
+            "unblock":"アンブロック",
+            "gatewayUnblock":"ゲートウェイがブロック解除された。",
+            "gatewayCantUnblock":"ゲートウェイのブロックを解除できません。",
+            "noContact":"ゲートウェイに接続できません",
+            "cantUpdate":"ゲートウェイを更新できません。",
+            "gatewayNameExists":"同じゲートウェイ名が存在する",
+            "regGateway":"ゲートウェイ登録",
+            "gatewayRegister":"ゲートウェイ登録しました",
+            "gatewayCantRegister":"ゲートウェイ登録が失敗しました",
+            "floorRequired":"フロアが必要です。",
+            "roomRequired":"ルームが必要です。",
+            "gatewaySerialNoRequired":"ゲートウェイシリアルナンバーが必要です。",
+            "gatewayNameRequired":"ゲートウェイ名が必要です。",
+            "modGatewayRegister":"Modbusゲートウェイが登録されました。",
+            "modGatewayNameExists":"Modbusゲートウェイ名は既に存在します",
+            "modGatewayCantRegister":"Modbusゲートウェイ登録が失敗しました",
+            "camGatewayRegister":"カメラ　ゲートウェイが登録されました。",
+            "camGatewayCantRegister":"カメラ　ゲートウェイ登録が失敗しました"
+        },
+        "gatewayTable":{
+            "GATEWAY_ID":"ID",
+            "FLOOR_NAME":"フロア名",
+            "ROOM_NAME":"ルーム名",
+            "ip":"ルームIP",
+            "GATEWAY_NAME":"ゲートウェイ名",
+            "serial_no":"ルームシリアルナンバー",
+            "action":"作用",
+            "GATEWAY_IP":"ゲートウェイIP",
+            "MANUFACTURER_NAME":"メーカー"
+        }
+    },
+    "device":{
+        "header":"ハードウェア管理 / デバイス管理",
+        "sysDevice":"システム デバイス",
+        "modDevice":"Modbus デバイス",
+        "bacnetDevice":"Bacnet デバイス",
+        "cameraDevice": "カメラ",
+        "gatewayName":"ゲートウェイ名",
+        "devType":"デバイスタイプ",
+        "devName":"デバイス名",
+        "devSerial":"デバイスシリアル番号",
+        "devCat":"デバイスカテゴリ",
+        "onStatus":"オンラインステータス",
+        "modbusIp":"ルーム IP",
+        "modbusSerial":"計器 シリアルナンバー",
+        "modbusSlave":"計器スレーブID",
+        "device":"デバイス",
+        "save":"保存",
+        "gang":"ギャング",
+        "addMeter":"電気メーターの追加",
+        "addDevice":"デバイス追加",
+        "deviceTable":{
+            "DEVICE_ID":"ID",
+            "FLOOR_NAME":"フロア名",
+            "ROOM_NAME":"ルーム名",
+            "DEVICE_NAME":"デバイス名",
+            "DEVICE_TYPE":"デバイスタイプ",
+            "METER_ID":"ID",
+            "SERIAL_NO":"シリアル番号",
+            "gateway":"ゲートウェイ名",
+            "devtype":"デバイスタイプ",
+            "serialno":"デバイスシリアルナンバー",
+            "action":"作用",
+            "BACNETDEVICE_ID":"ID"
+        },
+        "deviceModals":{
+            "failedModbus":"Modbusのデータ取得のエラー。",
+            "failedDevice":"デバイスのデータ取得のエラー。",
+            "activateModbus":"Modbusメーターをアクティブにする。",
+            "sure":"確定でよろしいですか。",
+            "yes":"はい",
+            "activatedModbus":"有効化されたModbusメーター。",
+            "modbusActivated":"Modbusメーターがアクティブになりました。",
+            "error":"エラー",
+            "cantActivateModbus":"Modbusメータをアクティブ化できません",
+            "delete":"削除 ",
+            "deleted":"削除された",
+            "hasDeleted":"削除されました。",
+            "cantDelete":" 削除できません。",
+            "blockDev":"デバイスブロック",
+            "devBlock":"デバイスがブロックされました。",
+            "cantBlock":"デバイスをブロックできません。",
+            "block":"ブロック",
+            "unblockDev":"アンブロック・デバイス",
+            "devUnblock":"デバイスのブロックが解除されました。",
+            "cantUnblock":"デバイスのブロック解除ができません。",
+            "unblock":"アンブロック",
+            "delDevice":"デバイス削除",
+            "devDeleted":"デバイスが削除されました。",
+            "devCantDelete":"デバイスの削除ができません。",
+            "successfullyUpdated":" 更新が完了しました。",
+            "cantUpdate":"デバイスの更新ができません。",
+            "devRegistered":"デバイスが登録されました。",
+            "cantRegister":"デバイスの登録ができません。"
+        }
+    },
+    "binding":{
+        "header":"ハードウェア管理 / バインディング管理",
+        "floor":"フロア",
+        "sensorDevice":"センサーtoデバイス",
+        "sensorSensor":"センサーtoセンサー",
+        "cameraDevice": "カメラtoデバイス",
+        "sensorAlert": "センサーto注意喚起",
+        "addDevice":"デバイスバインディングセンサーを追加する",
+        "addSensor":"センサーバインディングにセンサーを追加する",
+        "addCamera": "デバイスバインディングにカメラを追加する",
+        "addAlert":"アラートバインディングにセンサーを追加",
+        "total":"Total プレースホルダー",
+        "room":"ルーム",
+        "sensors":"センサー／デバイス",
+        "targetFloor":"対象フロアを選択",
+        "targetRoom":"対象ルームを選択",
+        "devCondition":"装置状態",
+        "targetDevice":"ターゲットデバイス",
+        "selectAllDev":"すべてのデバイスを選択",
+        "selectAllSen":"すべてのセンサーを選択",
+        "min":"分",
+        "createDevice":"デバイスバインディングにセンサーを作成する",
+        "createSensor":"センサーバインディングにセンサーを作成する",
+        "createAlert": "バインディングを警告するセンサーの作成",
+        "noDevice":"利用可能なデバイスがありません",
+        "noBinding":"利用可能なバインディングがありません",
+        "delBind":"バインディングを削除",
+        "sure":"バインディングを削除してよろしいですか",
+        "noBindingAvailable":"バインディングなし",
+        "bindingDevice":{
+            "target_device.DEVICE_TYPE":"デバイスタイプ",
+            "target_device.DEVICE_NAME":"デバイス名",
+            "binding_list.TARGET_DEVICE_CONDITION":"デバイス条件",
+            "time":"時間間隔"
+        },
+        "modalText":{
+            "groupDisable":"グループバインドは無効になっています。",
+            "groupEnable":"グループバインディングが有効になりました。",
+            "bindingEnable":"デバイスバインディングが有効になりました.",
+            "bindingDisable":"デバイスのバインドが無効になっています.",
+            "enable":"有効化!",
+            "disable":"無効!",
+            "deviceDeleted":"デバイスバインディングが削除されました.",
+            "deleted":"削除しました!",
+            "bindingDeleted":"バインディングが削除されました.",
+            "sure":"確定でよろしいですか。",
+            "delBinding":"このバインディングを削除?",
+            "delDevice":"このデバイスバインディングを削除?",
+            "disBinding":"このバインドを無効にする?",
+            "disGroup":"このバインドグループを無効にする?",
+            "enBinding":"このバインディングを有効にする?",
+            "enGroup":"このバインドグループを有効にする?",
+            "delUser": "このユーザー アラート バインディングを削除しますか?"
+        }
+    },
+    "ir":{
+        "header":"ハードウェア管理 / IR管理",
+        "appliancetab":"アプライアンス",
+        "createappliance":"アプライアンス作成",
+        "createir":"IRリスト作成",
+        "irlisttab":"IR リスト",
+        "add":"追加",
+        "floor":"フロア",
+        "room":"ルーム",
+        "irdevice":"IR デバイス",
+        "appliance":"アプライアンス",
+        "appliancename":"アプライアンス名",
+        "appliancetype":"アプライアンスタイプ",
+        "appliancedetails":"アプライアンス情報",
+        "brandname":"ブランド名",
+        "operation":"オペレーション",
+        "learning":"IR学習値",
+        "save":"保存",
+        "cancel":"キャンセル",
+        "listTable":{
+            "DEVICE_NAME":"IR デバイス",
+            "APPLIANCE_NAME":"アプライアンス名",
+            "APPLIANCE_TYPE":"タイプ",
+            "BRAND_NAME":"ブランド名",
+            "STATUS":"ステータス",
+            "OPERATION_NAME":"オペレーション"
+        }
+    },
+    "natureIr": {
+        "header": "ハードウェア管理　/　Nature IR管理",
+        "search": "検索",
+        "appliances": {
+            "tab": "電化製品",
+            "table": {
+                "name": "名前",
+                "type": "タイプ",
+                "brand": "メーカー",
+                "action": "アクション",
+                "ifEmpty": "データがありません"
+            },
+            "details": {
+                "appliance": {
+                    "title": "電化製品の詳細",
+                    "name": "電化製品名",
+                    "type": "電化製品タイプ",
+                    "brand": "メーカー名"
+                },
+                "operation": {
+                    "title": "赤外線信号リスト",
+                    "ifEmpty": "操作未登録"
+                }
+            },
+            "create": {
+                "button": "電化製品の追加",
+                "header": {
+                    "title": "電化製品の新規追加"
+                },
+                "body": {
+                    "form": {
+                        "applianceType": {
+                            "label": "電化製品タイプ",
+                            "info": "電化製品を選択する",
+                            "placeholder": "(選択)",
+                            "choices": {
+                                "tv": "テレビ",
+                                "ac": "エアコン",
+                                "light": "スマートライト",
+                                "ir": "一般赤外線コントロール電化製品"
+                            },
+                            "errors": {
+                                "ifEmpty": "電化製品未選択"
+                            }
+                        },
+                        "applianceName": {
+                            "label": "電化製品名",
+                            "info": "アプライアンスの名前を入力してください。 名前は3〜25文字のみにする必要があります。 英数字、スペース、ダッシュ、およびアンダースコアのみが許可されます。",
+                            "errors": {
+                                "ifEmpty": "電化製品名必須",
+                                "ifInvalid": "25文字以内で入力してください",
+                                "ifRegexFailed": "英数字、ダッシュ、アンダースコア、アンド、スペースのみ入力可能です",
+                                "ifTaken": "既に存在する電化製品です"
+                            }
+                        },
+                        "brandName": {
+                            "label": "メーカー名",
+                            "info": "ブランド名を入力してください。 名前は3〜25文字のみにする必要があります。 英数字、スペース、ダッシュ、およびアンダースコアのみが許可されます。",
+                            "placeholder": "(選択)",
+                            "errors": {
+                                "ifEmpty": "メーカー名必須",
+                                "ifInvalid": "25文字以内で入力してください",
+                                "ifRegexFailed": "英数字、ダッシュ、アンダースコア、アンド、スペースのみ入力可能です"
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "save": "保存",
+                    "saving": "保存中",
+                    "cancel": "キャンセル"
+                },
+                "success": "電化製品は正常に追加されました",
+                "fail": "電化製品の作成に失敗しました"
+            },
+            "delete": {
+                "title": "削除",
+                "message": "確定してよろしいですか？",
+                "confirm": "はい",
+                "cancel": "キャンセル",
+                "success": "電化製品が正常に削除されました",
+                "fail": "電化製品の削除に失敗しました"
+            }
+        },
+        "operations": {
+            "tab": "赤外線信号",
+            "table": {
+                "appliance": "電化製品",
+                "applianceType": "タイプ",
+                "name": "赤外線信号",
+                "action": "アクション",
+                "ifEmpty": "データがありません"
+            },
+            "filters": {
+                "appliance": {
+                    "all": "全電化製品"
+                }
+            },
+            "details": {
+                "operation": {
+                    "title": "赤外線信号の詳細",
+                    "name": "赤外線信号名",
+                    "applianceName": "電化製品名",
+                    "applianceType": "電化製品タイプ"
+                }
+            },
+            "create": {
+                "button": "赤外線信号の追加",
+                "header": {
+                    "title": "赤外線信号の新規追加"
+                },
+                "body": {
+                    "step1": {
+                        "title": "ステップ１",
+                        "text": "赤外線操作の情報を入力する",
+                        "form": {
+                            "appliance": {
+                                "label": "電化製品",
+                                "info": "操作を保存するアプライアンスを選択してください。",
+                                "placeholder": "(選択)",
+                                "errors": {
+                                    "ifEmpty": "電化製品を選択する"
+                                }
+                            },
+                            "name": {
+                                "label": "操作名",
+                                "info": "操作名を入力してください。 名前は3〜25文字のみにする必要があります。 英数字、スペース、ダッシュ、およびアンダースコアのみが許可されます。",
+                                "placeholder": "(選択)",
+                                "options": {
+                                    "power": "電源",
+                                    "tv": {
+                                        "source": "入力切替",
+                                        "vol_up": "音量＋",
+                                        "vol_down": "音量－",
+                                        "ch_up": "チャンネルアップ",
+                                        "ch_down": "チャンネルダウン"
+                                    },
+                                    "ac": {
+                                        "cool": "冷房",
+                                        "warm": "暖房",
+                                        "dry": "除湿",
+                                        "dehum": "乾燥",
+                                        "temp_up": "設定温度＋",
+                                        "temp_down": "設定温度－",
+                                        "fan_up": "風量アップ",
+                                        "fan_down": "風量ダウン"
+                                    }
+                                },
+                                "errors": {
+                                    "ifEmpty": "操作名必須",
+                                    "ifInvalid": "25文字以内で入力してください",
+                                    "ifRegexFailed": "英数字、ダッシュ、アンダースコア、アンド、スペースのみ入力可能です"
+                                }
+                            }
+                        }
+                    },
+                    "step2": {
+                        "title": "ステップ２",
+                        "text": "赤外線信号データを取得する",
+                        "form": {
+                            "label": "データを受信するデバイスを選択してください。",
+                            "placeholder": "(選択)"
+                        },
+                        "message1": "リモコンを赤外線操作デバイスに向けて、登録したいボタンを押してください。",
+                        "message2": "青いリングが点滅していることを確認してください。"
+                    },
+                    "step3": {
+                        "title": "ステップ３",
+                        "text": "操作の確認",
+                        "message1": "以下で選択されたデバイスへ、信号を送信し動作確認をします。",
+                        "message2": "操作する電化製品と赤外線操作デバイスの間に障害物がないことを確認してください。",
+                        "form": {
+                            "label": "どの赤外線操作デバイスを使用するか選択してください。",
+                            "placeholder": "(選択)"
+                        }
+                    },
+                    "step4": {
+                        "title": "ステップ４",
+                        "text": "操作の確定",
+                        "message1": "操作により電化製品は正しく動作しましたか？",
+                        "message2": "「はい」を押すと、信号は保存されます。",
+                        "message3": "「いいえ」を押すと、ステップ２へ戻ります。"
+                    },
+                    "success": {
+                        "title": "信号は正常に追加されました。"
+                    },
+                    "error": {
+                        "title": "エラー",
+                        "ifEmpty": "赤外線信号が空もしくはNULLです。",
+                        "message": "ステップ２からやり直してください。"
+                    }
+                },
+                "footer": {
+                    "retry": "リトライ",
+                    "cancel": "キャンセル",
+                    "save": "保存",
+                    "saving": "保存中",
+                    "fetch": "取得",
+                    "fetching": "取得中",
+                    "send": "送信",
+                    "sending": "送信中",
+                    "back": "戻る",
+                    "next": "次へ",
+                    "yes": "はい",
+                    "no": "いいえ",
+                    "finish": "完了"
+                }
+            },
+            "delete": {
+                "title": "削除",
+                "message": "確定してよろしいですか？",
+                "confirm": "はい",
+                "cancel": "キャンセル",
+                "success": "操作が正常に削除されました",
+                "fail": "操作の削除に失敗しました"
+            }
+        },
+        "irDevices": {
+            "tab": "IR デバイス",
+            "table": {
+                "floor": "フロア名",
+                "room": "ルーム名",
+                "name": "デバイス名",
+                "ifEmpty": "データがありません"
+            },
+            "details": {
+                "irDevice": {
+                    "title": "デバイスの詳細",
+                    "floor": "フロア名",
+                    "room": "ルーム名",
+                    "name": "デバイス名"
+                },
+                "appliance": {
+                    "title": "電化製品リスト",
+                    "select": {
+                        "placeholder": "(選択)",
+                        "edit": "Edit",
+                        "save": "Save",
+                        "saving": "Saving",
+                        "cancel": "キャンセル"
+                    }
+                },
+                "success": "アプライアンスリストが正常に更新されました",
+                "fail": "アプライアンスリストの更新に失敗しました"
+            },
+            "filters": {
+                "floor": {
+                    "all": "全フロア"
+                },
+                "room": {
+                    "all": "全ルーム"
+                }
+            },
+            "delete": {
+                "title": "削除"
+            }
+        },
+        "errors": {
+            "showDetails": "詳細を表示：要素が見つかりません"
+        }
+    },
+    "floor":{
+        "header":"フロア管理",
+        "floor":"フロア",
+        "searchFloor":"検索フロア",
+        "room":"ルーム",
+        "searchRoom":"検索ルーム",
+        "floorPlot":"フロアプロット",
+        "addFloor":"フロアを追加",
+        "addRoom":"ルームを追加",
+        "addGateway":"ルームにデートウェイを追加する。",
+        "gateway":"ゲートウェイ",
+        "clear":"クリア",
+        "setPlot":"Set プレースホルダー",
+        "floorName":"フロア名",
+        "uploadFloor":"フロアイメージをアップロードする",
+        "roomName":"ルーム名",
+        "editFloor":"フロアを編集",
+        "editRoom":"ルームを編集",
+        "noGateway":"ルームに利用可能なゲートウェイはありません。",
+        "plotDevice":"プロットされたデバイス",
+        "noRooms":"現在のフロアにルームがありません。",
+        "noFloors":"フロアはまだ追加されていません。",
+        "devicePlot":"プロットされたデバイス",
+        "selectDevice":"デバイスを選択",
+        "deviceNote":"注：プロットされたデバイスは、既存の座標が上書きされます。",
+        "noDevice":"デバイスが見つかりません。",
+        "proceed":"進む",
+        "savePlot":"保存",
+        "selectRoom":"ルームを選択してください。",
+        "pleaseSelect":"ルームを選択してください。",
+        "tableLabels":{
+            "FLOOR_ID":"フロア ID",
+            "FLOOR_NAME":"フロア名",
+            "button":"オプションボタン",
+            "ROOM_ID":"ルームID",
+            "ROOM_NAME":"ルーム名",
+            "show_details":"ゲートウェイ",
+            "GATEWAY_ID":"ゲートウェイID",
+            "GATEWAY_IP":"ゲートウェイIP",
+            "GATEWAY_NAME":"ゲートウェイ名"
+        }
+    },
+    "logs":{
+        "sysLogs":"システムログ",
+        "auditLogs":"監査証跡ログ",
+        "noData":"データがありません",
+        "export":"エクスポートファイル",
+        "chooseFormat":"ファイル形式を選択",
+        "auditTable":{
+            "AUDIT_LOGS_ID":"ID",
+            "IP":"IP",
+            "HOST":"ホスト",
+            "MODULE":"モジュール",
+            "INSTRUCTION":"命令",
+            "CREATED_AT":"日付"
+        },
+        "systemTable":{
+            "LOGS_ID":"ログID",
+            "TYPE":"タイプ",
+            "INSTRUCTION_TYPE":"命令タイプ",
+            "CONTENT":"内容",
+            "HOST":"送り主",
+            "CREATED_AT":"日付"
+        },
+        "pdfDownload":"PDFファイルはまもなくダウンロードされます。お待ちください.",
+        "error":"エラーが発生しました!",
+        "rows":"行は多すぎる!"
+    },
+    "notifs":{
+        "newNotifs":"新しい通知",
+        "viewAll":"すべての通知を見る",
+        "noNew":"新しい通知がない"
+    },
+    "prev":"前の",
+    "next":"次",
+    "online":"オンライン",
+    "offline":"オフライン",
+    "add":"追加",
+    "reset":"リセット",
+    "close":"閉じる",
+    "open":"開く",
+    "search":"検索",
+    "searchHere":"ここに検索",
+    "yes":"はい",
+    "modalText":{
+        "floorExist":"フロア名は既に存在します。",
+        "floorDelete":"フロアが削除されました。",
+        "floorDeleteError":"フロアを削除することはできません。",
+        "addFloorError":"フロア追加エラー",
+        "editSuccess":"編集成功しました。",
+        "roomExist":"ルーム名は既に存在します。",
+        "roomDelete":"ルームが削除されました。.",
+        "roomDeleteError":"ルームを削除することはできません。",
+        "delete":"削除",
+        "deleted":"削除しました",
+        "sure":"確定でよろしいですか。",
+        "error":"エラー",
+        "success":"完了",
+        "successAdd":"追加が完了いたしました。",
+        "successCreate":"作成が完了いたしました。",
+        "successUpdate":"更新が完了いたしました。",
+        "selectDevice":"デバイスを選択してください。",
+        "duplicateImg":"重複した画像が見つかりました。",
+        "duplicateRoom":"重複したルーム名！",
+        "floorData":"フロアデータが見つかりません。",
+        "selectFloor":"フロアを選択してください。",
+        "selectRoom":"ルームを選択してください。",
+        "roomData":"ルームデータが見つかりません。",
+        "addGatewayError":"ルームの追加エラー",
+        "inputFloorName":"フロアを入力してください。",
+        "inputRoomName":"ルームを入力してください。",
+        "emptyCoor":"座標が空です",
+        "addGate":"ルームを追加",
+        "addGateway":"にルームを追加",
+        "deleteDevicePlot":"デバイスプロットを削除する。",
+        "devicePlotDeleted":"デバイスプロットは削除されました。",
+        "notificationsExcess": "通知が100件以上あります。詳細はログを確認してください。"
+    },
+    "error_message_code":{
+        "220050000":"ERROR_220050000: ゲートウェイが見つかりません",
+        "220050001":"ERROR_220050001: デバイスが見つかりません",
+        "220050002":"ERROR_220050002: ルームが見つかりません",
+        "220050003":"ERROR_220050003: ゲートウェイは既に登録済みです",
+        "220050004":"ERROR_220050004: ゲートウェイの更新に失敗しました",
+        "220050005":"ERROR_220050005: 削除に失敗しました",
+        "220060000":"ERROR_220060000: このフィールドは必須です",
+        "230010000":"入力情報が間違っています",
+        "230010001":"予約時間外です。",
+        "230010002":"再チェックインはできません。受付にお申し付けください。",
+        "230010003":"接続失敗。 受付にお申し付けください。",
+        "230060000":"ERROR_230060000: 無効な「メールアドレス」です。",
+        "310060000":"ERROR_310060000: ユーザー名は既に存在しています。",
+        "310060001":"ERROR_310060001: メールアドレスは既に存在しています。",
+        "320010000":"ERROR_320010000: この欄に記入してください。"
+    },
+    "errorMessage":"未対応のエラーがあります。通知を確認してください。",
+    "errorList":{
+        "message":"",
+        "response":"",
+        "E001": {
+            "message":"PMSの接続に失敗しました。予約情報が取得できませんでした。",
+            "response":"予約情報更新ボタンを押下してください。予約情報更新ボタンを押下してもエラーが解決しない場合は、サポートに問い合わせください。"
+        },
+        "E002": {
+            "message":"(チェックイン日)：宿泊者の氏名が未入力でした。",
+            "response":"PMS上で宿泊者の氏名を入力してください。"
+        },
+        "E003": {
+            "message":"(チェックイン日)：宿泊者のメールアドレスが未入力でした。",
+            "response":"PMS上で宿泊者のメールアドレスを入力してください。"
+        },
+        "E004": {
+            "message":"(チェックイン日)：宿泊者のチェックイン時刻が未入力でした。",
+            "response":"PMS上で宿泊者のチェックイン時刻を入力してください。"
+        },
+        "E005": {
+            "message":"(チェックイン日)：宿泊者のチェックアウト時刻が未入力でした。",
+            "response":"PMS上で宿泊者のチェックアウト時刻を入力してください。"
+        },
+        "E006": {
+            "message":"(チェックイン日)：宿泊者の利用人数が未入力でした。",
+            "response":"PMS上で宿泊者の利用人数を入力してください。"
+        },
+        "E007": {
+            "message":"スマートロックの鍵が発行できませんでした。",
+            "response":"サポートに問い合わせください。スマートロックシステム障害の可能性があります。復旧まで物理鍵をお使いください。"
+        },
+        "E008": {
+            "message":"スマートロックのPINコードの入力を5回連続で失敗しました。",
+            "response":"宿泊者が入室できない、または不正入室の可能性があります。宿泊者に連絡し、PINコードが正しいか確認してください。"
+        },
+        "E009": {
+            "message":"入室から1時間経過しましたが、iBMSでチェックイン操作が行われていません。",
+            "response":"部屋に連絡し、iBMSでチェックイン操作を行うように促してください。"
+        },
+        "E010": {
+            "message":"チェックアウト時刻を過ぎましたが、iBMSでチェックアウト操作が行われていません。",
+            "response":"部屋に連絡し、宿泊者がチェックアウトしたか確認してください。宿泊者がチェックアウトしている場合は、iBMSのチェックアウト操作を行ってください。"
+        },
+        "E011": {
+            "message":"スマートロックの電池が切れました。",
+            "response":"スマートロックの電池を交換してください。"
+        },
+        "E012": {
+            "message":"スマートロックのネットワーク接続が切断されました。",
+            "response":"スマートロックのWi-Fi設定を行ってください。"
+        },
+        "E013": {
+            "message":"多機能センサー（人感/照度/温度）の電池が切れました。",
+            "response":"多機能センサー（人感/照度/温度）の電池を交換してください。電池を交換してもエラーが解決しない場合は、サポートに問い合わせください。センサーが故障した可能性があります。"
+        },
+        "E014": {
+            "message":"開閉センサーの電池が切れました。",
+            "response":"開閉センサーの電池を交換してください。電池を交換してもエラーが解決しない場合は、サポートに問い合わせください。センサーが故障した可能性があります。"
+        },
+        "E015": {
+            "message":"CO2/温湿度センサーの接続が切れました。",
+            "response":"サポートに問い合わせください。センサーが故障した可能性があります。"
+        },
+        "E016": {
+            "message":"スマートロックの鍵が削除できませんでした。",
+            "response":"サポートに問い合わせください。スマートロックシステム障害の可能性があります。復旧まで物理鍵をお使いください。"
+        },
+        "E017": {
+            "message":"宿泊者に緊急事態が発生しました。",
+            "response":"部屋に連絡し、宿泊者に確認してください。連絡がつかない場合は、部屋に移動して確認してください。"
+        },
+        "E018": {
+            "message":"緊急ボタンの電池が切れました。",
+            "response":"緊急ボタンの電池を交換してください。電池を交換してもエラーが解決しない場合は、サポートに問い合わせください。センサーが故障した可能性があります。"
+        },
+        "I001":"宿泊者に予約情報のメールが送信されました。",
+        "I002":"エアコンをOFFにしました。",
+        "I003":"エアコンを冷房にしました。",
+        "I004":"エアコンを暖房にしました。",
+        "I005":"エアコンを除湿にしました。",
+        "I006":"エアコンを自動にしました。",
+        "I007":"入室しました。",
+        "I008":"チェックインしました。",
+        "I009":"宿泊者情報の写真を撮影しました。問題ないか確認してください。",
+        "I010":"チェックアウトしました。",
+        "I011":"新規予約がありました。",
+        "I012":"予約情報を更新しました。",
+        "I013":"予約キャンセルがありました。",
+        "I014":"Stayseeとの予約情報の同期が完了しました。",
+        "I015":"受付カードが入力されました。",
+        "W001":"スマートロックの電池残量が残りわずかになりました。",
+        "W002":"多機能センサー（人感/照度/温度）の電池残量が残りわずかになりました。",
+        "W003":"開閉センサーの電池残量が残りわずかになりました。",
+        "W004":"緊急ボタンの電池残量が残りわずかになりました。",
+        "W005": "入室から1時間経過しましたが、iBMSでチェックイン操作が行われていません。",
+        "W006": "チェックアウト時刻を過ぎましたが、iBMSでチェックアウト操作が行われていません。"
+    },
+    "hotel": {
+        "address": "CARRY CUBE, SUYAMA HEAD OFFICE",
+        "login": {
+            "nomatch": "ユーザー情報が間違っています。",
+            "disabled": "無効なユーザーです。",
+            "nobookingfortoday": "本日の予約はありません。",
+            "nobooking": "予約がありません。",
+            "recheckin": "再チェックインはできません。受付にお申し付けください。"
+        },
+        "co2_monitor": "CO2モニター",
+        "monitoring": "モニタリング",
+        "external": {
+            "legends": {
+                "low": "安全",
+                "normal": "正常",
+                "elevated": "換気注意",
+                "dangerous": "換気必須"
+            }
+        },
+        "help": {
+            "title": "CO2 濃度",
+            "body": "CO2濃度の目安は以下の通りです。緑の状態を維持できるように換気を心がけてください。",
+            "low": {
+                "amount": "800 ppm 未満",
+                "status": "(安全)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(正常)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(換気注意)"
+            },
+            "dangerous": {
+                "amount": "2501 ppm 以上",
+                "status": "(換気必須)"
+            }
+        }
+    },
+    "mobile": {
+        "control": {
+            "aircon": {
+                "aircon": "エアコン",
+                "power": "電源",
+                "mode": "モード",
+                "temp": "温度",
+                "fan": "風量設定",
+                "cool": "冷房",
+                "dry": "除湿",
+                "warm": "暖房",
+                "dehum": "乾燥",
+                "auto": "自動",
+                "on": "ON",
+                "off": "OFF"
+            },
+            "lights": {
+                "lights": "UZUKAZE",
+                "all": "ALL",
+                "cool": "寒色",
+                "warm": "暖色",
+                "on": "ON",
+                "off": "OFF",
+                "min": "弱",
+                "mid": "中",
+                "max": "強",
+                "night": "常夜灯",
+                "up": "UP",
+                "down": "DOWN",
+                "wind":"送風",
+                "light":"照明"
+            },
+            "tv": {
+                "tv": "テレビ",
+                "power": "電源",
+                "source": "入力切替",
+                "volume": "音量",
+                "channel": "CH",
+                "mute": "消音"
+            },
+            "doorlock": {
+                "doorlock": "ルームキー",
+                "entrancedoor": "入口ドア"
+            },
+            "airpurifier": {
+                "exhaustfan": "空気清浄機",
+                "airpurifier": "空気清浄機"
+            },
+            "restroom": {
+                "restroom": "トイレ",
+                "nosensor": "センサーなし",
+                "occupied": "使用中",
+                "vacant": "空"
+            },
+            "showerstatus": {
+                "showerstatus": "シャワールーム",
+                "occupied": "使用中",
+                "empty": "空",
+                "nosensor": "センサーなし"
+            },
+            "emergency":{
+                "emergencyStatus": "緊急ボタン",
+                "emergencyHeader": "緊急ボタンを押しますか",
+                "notify": "フロントへ通知され、スタッフが参ります。",
+                "yes": "押す",
+                "sos":"SOS",
+                "sosButton": "緊急ボタンを押しました。",
+                "staff": "スタッフが来るまでお待ちください。",
+                "close": "閉じる",
+                "cancel": "キャンセル",
+                "roomNotification":"宿泊者へ通知され、アナウンスを行います。",
+                "guest1":"宿泊者へアナウンスをお願いします。",
+                "guest2":"※「緊急アナウンス」ボタン押下で音声アナウンスアプリが起動します。",
+                "call":"緊急アナウンス"
+            }
+        },
+        "displaydata": {
+            "temp": {
+                "temp": "温度"
+            },
+            "hum": {
+                "hum": "湿度"
+            },
+            "co2": {
+                "co2": "CO2"
+            },
+            "dust": {
+                "dust": "ダスト"
+            }
+        },
+        "menu": {
+            "alarm": "アラーム",
+            "notif": "通知",
+            "checkintime": "チェックイン",
+            "checkouttime": "チェックアウト",
+            "message": "メッセージ",
+            "home": "ホーム",
+            "roomservice": "ルームサービス",
+            "roommanual": "ルームマニュアル",
+            "frontdesk": "フロント電話",
+            "about": "iBMSについて",
+            "roomnumber": "ルーム",
+            "checkin": "チェックイン",
+            "checkout": "チェックアウト",
+            "greeting": "ようこそ、",
+            "greetingextension": "様",
+            "phone": "SKYPE",
+            "synch": "同期",
+            "editguest": "受付カードの再入力が可能です。",
+            "success": "成功",
+            "order": "注文確定"
+        },
+        "welcome": {
+            "welcome": "ようこそ！CarryCubeへ。おくつろぎください。",
+            "next": "次へ",
+            "prev": "戻る",
+            "roomguide": "お部屋のご案内",
+            "roominfo": "お部屋のご案内",
+            "start": "スタート"
+        },
+        "checkout": {
+            "title": "出発の準備は整いましたか?",
+            "body": "準備ができましたら下の \"チェックアウト\" を選択してください。",
+            "cancel": "キャンセル",
+            "checkout": "チェックアウト",
+            "checkInScreen":"チェックイン画面へ",
+            "checkOutTitle":"ご宿泊いただきありがとうございました。",
+            "caution":"※この画面は、60秒後に自動的に遷移いたします。",
+            "return": "チェックアウト後、この画面へは戻れません。"
+        },
+        "roomservice":{
+            "menu":"メニュー",
+            "facilityDescription": "施設のご案内",
+            "roomDescription":"お部屋のご案内",
+            "evacuationRoute":"避難所案内",
+            "evacuationRouteMap": "避難経路案内図",
+            "entertainment":"エンターテイメント",
+            "food":"フード (デモ) ",
+            "amenities":"アメニティ (デモ)",
+            "sightseeingMap":"観光案内",
+            "rentalservices":"レンタルサービス(デモ)",
+            "foodMenu":"フードメニュー (デモ) ",
+            "amenityMenu":"アメニティメニュー (デモ)",
+            "sightseeingMenu":"近辺観光地マップ",
+            "rentalserviceMenu": "レンタルサービスメニュー (デモ)",
+            "total":"合計",
+            "order":"注文確定",
+            "rent":"レンタル",
+            "operationGuest":{ "tabName": "施設のご案内", "linkName":"施設ご案内ページ"},
+            "special_product":"特産品",
+            "special_product_introduction":"特産品紹介",
+            "special_product_link":"特産品一覧",
+            "items": {
+                "hair_dryer": "ドライヤー",
+                "tv": "テレビ",
+                "pillow": "枕",
+                "remote_control": "リモコン",
+                "toothbrush": "歯ブラシ",
+                "shampoo": "シャンプー",
+                "charger": "充電器",
+                "comforter": "掛け布団",
+                "tissue": "ティッシュ",
+                "lock": "鍵",
+                "aircon":"エアコン",
+                "sofa": "ソファー",
+                "table": "テーブル",
+                "wash_basin": "洗面",
+                "mirror": "ミラー",
+                "shower_booth": "シャワーブース",
+                "toilet": "トイレ",
+                "bath": "露天風呂",
+                "dining_space": "食事スペース",
+                "amenity": "アメニティ",
+                "bbq_grill": "ガスBBQグリル(有料)"
+            }
+        },
+        "roommanual":{
+            "wifiInformation":"Wi-fi 情報",
+            "wifiName":"Wi-Fi名",
+            "wifiPassword":"Wi-Fiパスワード"
+        },
+        "general_terms_and_conditions":{
+            "title": "宿泊約款",
+            "titletab": "宿泊約款"
+        },
+        "terms_of_usage": {
+            "title": "利用規約",
+            "agree": "利用規約を確認しました。"
+        },
+        "ibms_manual": {
+            "title": "iBMS操作マニュアル",
+            "info": "マニュアル表示"
+        },
+        "pet_terms_of_usage": {
+            "title": "ペットの利用規約",
+            "agree": "利用規約を確認しました。"
+        }
+    },
+    "management":{
+        "roomStatus": "ルーム状況",
+        "dashboard": "ダッシュボード",
+        "users": "ユーザ",
+        "floors": "フロア管理",
+        "rooms": "部屋管理",
+        "key": "鍵",
+        "cleaning": "清掃管理",
+        "logs": "ログ",
+        "logout": "ログアウト",
+        "noDevice": "利用可能なデバイスがありません",
+        "clean": "クリーンアップ",
+        "co2": "CO2",
+        "monitoring": "モニタリング",
+        "hardware": "ハードウェア",
+        "manual": "マニュアル",
+        "header":"> ゲートウェイ管理",
+        "device": "> デバイス管理",
+        "search": "検索",
+        "resetFilters": "フィルタをリセット",
+        "clear":"クリア",
+        "manuals":{
+            "manual": "マニュアル",
+            "manualitem": "各種マニュアル",
+            "cleaningVideo": "清掃 (動画)",
+            "cleaningImage": "清掃 (画像)",
+            "operationGuest":{ "tabName": "操作 (宿泊者向け)", "linkName":"iBMS操作マニュアル (宿泊者向け)"},
+            "operationAdmin": { "tabName":"操作 (運営者向け)", "linkName":"iBMS操作マニュアル (運営者向け)"},
+            "batteryExchange": "電池交換",
+            "pmsSetting": "PMS設定",
+            "ibmsScreen": { "tabName": "iBMS画面説明", "linkName":"iBMS画面説明書"},
+            "pmsOfficial": "PMS公式",
+            "support": "サポート対応",
+            "operationFlow": "業務運用フロー",
+            "device": "デバイス",
+            "smartlock": "スマートロック (RemoteLock)",
+            "netvox": "デバイス (Netvox)",
+            "initialize": "タブレット初期化",
+            "manualSmartlock": "スマートロック マニュアル",
+            "manualSensor": "デバイスマニュアル",
+            "manualSupport": "お問い合わせ情報",
+            "manualTrouble": "トラブル対応マニュアル"
+        },
+        "roomStats":{
+            "roomStatus": "ルーム状況",
+            "buttonStatus": "ステータス",
+            "status":{
+                "available": "利用可",
+                "reserved": "予約済",
+                "checkedIn": "チェックイン済",
+                "checkedOut": "チェックアウト済",
+                "unavailable": "鍵利用不可"
+            },
+            "checkInTime": "チェックイン時刻",
+            "checkOutTime": "チェックアウト時刻",
+            "arrivalTime": "到着時刻",
+            "departureTime": "出発時刻",
+            "noMessage": "メッセージなし",
+            "dontDisturb": "起こさないで下さい",
+            "cleanUpTime": "清掃して下さい"
+        },
+        "roomInfo": {
+            "deviceControl": "デバイス情報",
+            "remoteLock": "リモートロック",
+            "windowDoorSensor": "開閉センサー",
+            "occTempLight": "人感センサー",
+            "co2TempHum": "CO2センサー",
+            "peopleCountCamera": "人数カウントカメラ",
+            "deviceName": "デバイス名",
+            "battery": "電池残量",
+            "low": "安全",
+            "elevated": "換気注意",
+            "normal": "正常",
+            "dangerous": "換気必須",
+            "serialNumber": "シリアル番号",
+            "hum": "湿度",
+            "co2Level": "CO2レベル",
+            "people": "人数",
+            "stripLight":"テープライト",
+            "turnOn":"点灯",
+            "turnOff":"消灯",
+            "status":"ステータス"
+        },
+        "roomOperation":{
+            "roomInfo": "ルーム情報",
+            "status":"ステータス",
+            "message":"メッセージ",
+            "checkInTime": "チェックイン時刻",
+            "checkOutTime": "チェックアウト時刻",
+            "peopleCount": "人数",
+            "doorSensor": "ドアセンサー",
+            "camera": "カメラ",
+            "co2": "CO2",
+            "temp": "温度",
+            "hum": "湿度",
+            "toggleSlide": "スライドの切り替え",
+            "deviceList": "デバイスリスト",
+            "editStatus":"ルーム状況を編集",
+            "vacant": "空",
+            "occupied": "使用中",
+            "people": "人",
+            "shower": "シャワー",
+            "room":"ルーム",
+            "toilet": "トイレ",
+            "checkguestcard":"チェックゲストカード",
+            "guestcardcheck":"宿泊者カードチェック",
+            "update": "更新",
+            "cancel": "キャンセル",
+            "updateStatus": "",
+            "questionMark":"",
+            "updateStatusJa": " のステータス更新しますか ",
+            "updateRoomStatus": "ルームステータスを更新しますか。",
+            "lock": "ロック",
+            "locking": "ロックアップ",
+            "lockSuccess": "ロック操作を申請しました。次のデバイス操作時にロックが解除されます。",
+            "lockFailed": "ロック操作が失敗しました。",
+            "unlock": "ロック解除",
+            "unlocking": "ロック解除中",
+            "unlockSuccess": "ロック解除操作を申請しました。次のデバイス操作時にロックが解除されます。",
+            "unlockFailed": "ロック解除操作が失敗しました。",
+            "updated": "ルームステータスが更新されました。",
+            "failedUpdate": "ルームステータスの更新に失敗しました",
+            "noBooking": "本日はルームには予約がありません。",
+            "areYouSure": "よろしいですか。",
+            "updateReserveInstead": "代わりに予約済みに更新しますか。",
+            "updateReserveAvailable": "このルームは本日予約があります。 ステータスは、利用可ではなく予約済に変更されます。",
+            "reservation": "予約があり。",
+            "roomHave": "このルームは",
+            "low": "低",
+            "medium": "中",
+            "strong": "強",
+            "locked": "施錠",
+            "unlocked": "開錠"
+        },
+        "logoutbtn": {
+            "title":"ログアウトしますか？",
+            "body":"ログアウトするには、ログアウトボタンを選択してください。",
+            "cancel": "キャンセル",
+            "logout":"ログアウト"
+        },
+        "cleaningPage": {
+            "subtitle": "オプションで清掃管理機能を追加できます。",
+            "card1": {
+                "title": "管理者ダッシュボード機能",
+                "content1": "清掃管理機能で更新した情報を管理者ダッシュボードへ反映"
+            },
+            "card2": {
+                "title": "清掃管理機能",
+                "content1": "現在の清掃ステータスをリアルタイムで可視化",
+                "content2": "清掃員がスケジュールを確認",
+                "content3": "清掃員が清掃メモや写真を自由に登録"
+            },
+            "r2l": "部屋の最新状態を共有",
+            "l2r": "清掃ステータスを更新",
+            "listview": "リストビュー",
+            "calview": "カレンダビュー"
+        },
+        "keyManagementPage": {
+            "keytext1": "予約システムと連動させ、宿泊者の滞在時のみに有効な鍵を",
+            "keytext2": "発行することができます。",
+            "keytext3": "鍵は4桁の数字(PINコード)となっており、登録されたPINコードは",
+            "keytext4": "チェックイン前日までに宿泊者にメールで送付されます。",
+            "keytext5": "手動で鍵を生成してみる",
+            "genkey": "鍵を生成",
+            "userAndGuestAccount": "ユーザ",
+            "users": "管理者",
+            "guests": "ゲスト",
+            "number": "No.",
+            "name": "名前",
+            "username": "ユーザ名",
+            "serial": "シリアルID",
+            "expiration": "有効期限",
+            "accessCode": "PINコード",
+            "status": "ステータス",
+            "checkIn": "チェックイン",
+            "checkOut": "チェックアウト",
+            "arrivalTime": "到着時刻",
+            "departureTime": "出発時刻",
+            "room": "ルーム",
+            "createAdminAccount": "管理者アカウントの作成",
+            "createGuestAccount": "ゲストアカウントの作成",
+            "noUserAccountsRegister":"ユーザアカウントが登録されていません",
+            "noGuestAccountsRegister":"ゲストアカウントが登録されていません",
+            "generateNewPin" : "新しいPINの生成",
+            "updateGuestAccount" : "ゲストのアカウント更新",
+            "updateUserAccount" : "ユーザのアカウント更新",
+            "updateAdminAccount" : "管理者アカウント更新",
+            "ok":"OK",
+            "successUpdatingGuestAccount": "ゲストアカウントの更新成功",
+            "deleteGuestAccount":"ゲストアカウントの削除",
+            "deleteAdminAccount":"管理者アカウントの削除",
+            "deleteModal":"このアカウントを削除してよろしいですか?",
+            "cancel":"キャンセル",
+            "create": "作成",
+            "creating": "作成中",
+            "update": "更新",
+            "updating": "更新中",
+            "delete":"削除",
+            "deleting": "削除中",
+            "clear": "クリア",
+            "email":"メールアドレス",
+            "action": "アクション",
+            "reset":"リセット"
+        },
+        "systemLogs": {
+            "system":"システムログ",
+            "app":"アプリログ",
+            "error":"エラー",
+            "warning":"ワーニング",
+            "info":"インフォメーション",
+            "date":"日時",
+            "userInfo":"ユーザ情報",
+            "processingObj":"処理対象",
+            "errorCode":"エラーコード",
+            "processingDetails":"処理内容",
+            "events":"イベント",
+            "content":"内容",
+            "roomName":"ルーム名",
+            "message":"メッセージ",
+            "responseModal":{
+                "title":"エラー",
+                "date":"日付",
+                "room":"ルーム",
+                "message":"メッセージ",
+                "response":"対応メッセージ",
+                "responder":"対応者",
+                "responseTime":"対応時刻",
+                "done":"対応完了"
+            }
+        },
+        "remotelock": {
+            "title": "リモートロック",
+            "scan": "スキャン",
+            "scanning": "スキャン中",
+            "scanSuccess": "スキャン完了",
+            "scanFailed": "スキャン失敗",
+            "deleteConfirm": "デバイスを削除しますか？",
+            "deleteSuccess": "削除完了",
+            "deleteFailed": "削除失敗",
+            "noRoomData": "-",
+            "registered": "登録済",
+            "unregistered": "未登録",
+            "online": "オンライン",
+            "offline": "オフライン",
+            "fields": {
+                "serialNo": "シリアルナンバー",
+                "name": "デバイス名",
+                "room": "ルーム名",
+                "status": "ステータス",
+                "action": "アクション"
+            },
+            "form": {
+                "registerTitle": "リモートロックデバイス登録",
+                "editTitle": "リモートロックデバイス編集",
+                "serialNo": "デバイスシリアルNo",
+                "deviceName": "デバイス名",
+                "roomName": "ルーム名",
+                "register": "登録",
+                "registering": "登録中",
+                "registerSuccess": "登録完了",
+                "registerFailed": "登録失敗",
+                "update": "更新",
+                "updating": "更新中",
+                "updatingSuccess": "更新完了",
+                "updateSuccess": "更新成功",
+                "updatingFailed": "更新失敗"
+            }
+        },
+        "natureRemo": {
+            "title": "リモコン",
+            "tabTitleAccounts": "アカウント",
+            "tabTitleDevices": "デバイス",
+            "tabTitleAppliances": "電化製品",
+            "tabTitleSignals": "シグナル",
+            "account": "ｱｶｳﾝﾄ",
+            "device": "ﾃﾞﾊﾞｲｽ",
+            "room": "ﾙｰﾑ",
+            "registerStatus": "ｽﾃｰﾀｽ",
+            "appliance": "電化製品",
+            "applianceType": "ﾀｲﾌﾟ",
+            "all": "全て",
+            "search": "検索",
+            "send": "送信",
+            "selectAccount": "アカウントを選択",
+            "selectDevice": "デバイスを選択",
+            "selectRoom": "ルームを選択",
+            "selectStatus": "ステータスを選択",
+            "selectAppliance": "電化製品を選択",
+            "selectType": "タイプを選択",
+            "resetFilters": "フィルタをリセット",
+            "scanDevices": "スキャンデバイス",
+            "scanAppliances": "スキャンアプライアンス",
+            "showCreateAccountFormModal": "アカウント登録フォームを表示する",
+            "showRegisterDeviceModal": "デバイス登録フォームを表示する",
+            "tableNoData": "データがありません",
+            "deleteAccount": "アカウントを削除する",
+            "status": {
+                "registered": "登録済",
+                "unregistered": "未登録"
+            },
+            "type": {
+                "ac": "エアコン",
+                "light":"スマートライト",
+                "tv":"テレビ",
+                "ir":"ジェネリック"
+            },
+            "tableFields": {
+                "id": "ID",
+                "uuid": "UUID",
+                "name": "名前",
+                "token": "トークン",
+                "accountName": "アカウント名",
+                "deviceName": "デバイス名",
+                "roomName": "ルーム名",
+                "applianceName":"電化製品名",
+                "deviceId": "デバイスID",
+                "type": "タイプ",
+                "applianceId": "電化製品ID",
+                "roomId": "ルームID",
+                "label": "ラベル",
+                "serialNumber": "シリアルナンバー",
+                "macAddress": "MACアドレス",
+                "regFlag": "登録済",
+                "deviceCount": "デバイス数",
+                "applianceCount": "アプライアンス数",
+                "signalCount": "シグナル数",
+                "createdAt": "作成日",
+                "dateAdded": "追加日",
+                "action": ""
+            },
+            "modalTitleCreateAccount": "NatureRemoアカウントを追加する",
+            "modalTitleRegisterDevice": "NatureRemoデバイスを登録する",
+            "formFields": {
+                "accountName": "アカウント名",
+                "accessToken": "アクセストークン",
+                "accessTokenPlaceholder": "ここにアクセストークンを配置します",
+                "serialNumber": "シリアルナンバー",
+                "room": "ルーム",
+                "deviceName": "デバイス名"
+            },
+            "save": "保存",
+            "saving": "保存中",
+            "alert": {
+                "deleteAccount": {
+                    "title": "確定でよろしいですか。",
+                    "text": "このアカウントに関連付けられているデバイス、アプライアンス、およびシグナルも削除されます。",
+                    "confirm": "はい",
+                    "cancel": "キャンセル",
+                    "onSuccess": "アカウントが正常に削除されました",
+                    "onFail": "アカウントの削除に失敗しました"
+                },
+                "createAccount": {
+                    "onSuccess": "アカウントが正常に作成されました",
+                    "onFail": "アカウントの作成に失敗しました"
+                },
+                "scanDevices": {
+                    "onSuccess": "スキャンが完了しました",
+                    "onFail": "デバイスのスキャンに失敗しました"
+                },
+                "registerDevice": {
+                    "onSuccess": "デバイスが正常に登録されました",
+                    "onFail": "デバイスの登録に失敗しました"
+                },
+                "scanAppliances": {
+                    "onSuccess": "スキャンが完了しました",
+                    "onFail": "電化製品のスキャンに失敗しました"
+                },
+                "sendSignals": {
+                    "onSuccess": "シグナル送信成功",
+                    "onFail": "シグナルの送信に失敗しました"
+                }
+            }
+        },
+        "param":{
+            "title": "パラメータ設定",
+            "ac": "エアコン",
+            "staysee": "Staysee",
+            "pincode": "PINコード",
+            "mail": "メール",
+            "wifi": "Wi-Fi",
+            "acHeader": "チェックイン時刻前のエアコン自動起動設定",
+            "autoStart": "自動起動",
+            "on": "ON",
+            "off": "OFF",
+            "checkIn": "チェックイン",
+            "hoursBefore": "時間前",
+            "hoursOption1": "0.0",
+            "hoursOption2":"0.5",
+            "dropDownMode": "起動モード",
+            "warmMode": "暖房",
+            "coolMode": "冷房",
+            "dryMode": "除湿",
+            "autoMode": "自動",
+            "stayseeHeader": "Stayseeの自動同期間隔設定",
+            "syncFrequency": "同期間隔",
+            "minutesFrequency": "分間隔",
+            "pinHeader": "PIN コードの桁数設定",
+            "numberOfDigits": "桁数",
+            "digits": "桁",
+            "mailHeader": "メール文・リマインド設定",
+            "enThankyouMail": "英語お礼メール文",
+            "jaThankyouMail": "日本語お礼メール文",
+            "remindMail": "リマインドメール送信日",
+            "dateThankyouMail": "サンキューメール送信日",
+            "dayBefore": "日前",
+            "dayAfter": "チェックアウト日後",
+            "mailText": "メール文",
+            "wifiHeader": "ゲスト画面のWi-fi名・パスワード表示設定",
+            "wifiName": "Wi-fi名",
+            "wifiPassword": "パスワード",
+            "apply": "適用する",
+            "applying": "適用中",
+            "reset": "リセット",
+            "attention": "※NETFLIX等のアプリご使用の注意\n　ご自身のアカウントでログインした場合は、\n　ご使用終了後、必ずログアウトしてください。",
+            "tempAdjustment": "気温による調整",
+            "setTemp": "設定温度",
+            "autoStartTemp": "自動起動温度",
+            "heatStart": "暖房起動温度",
+            "coolStart": "冷房起動温度",
+            "heating": "暖房",
+            "cooling": "冷房"
+        }
+    },
+    "remotelock": {
+        "accounttype": "アカウントタイプ",
+        "adminTitle": "管理者アカウントの作成",
+        "guestTitle": "ゲストアカウントの作成",
+        "username": "ユーザー名",
+        "name": "名前",
+        "firstname": "名",
+        "lastname": "姓",
+        "checkin": "チェックイン日時",
+        "checkout": "チェックアウト日時",
+        "email": "メールアドレス",
+        "phoneNumber": "電話番号",
+        "pin": "PINコード",
+        "room":"ルーム",
+        "device": "デバイス",
+        "send": "送信",
+        "back": "戻る",
+        "status": "部屋のステータス",
+        "checkedIn": "チェックインした",
+        "checkedOut": "チェックアウトされた",
+        "available": "利用可能",
+        "unavailable": "利用できません",
+        "booked": "予約済み",
+        "updateGuestAccount": "ゲストアカウントを更新する",
+        "update":"更新",
+        "generateNewPin": "新しいPINの生成",
+        "updatePinFlag": "新しいPINをリクエストしますか?",
+        "errors": {
+            "firstName": {
+                "empty": "「名」を入力してください。"
+            },
+            "lastName": {
+                "empty": "「姓」を入力してください。"
+            },
+            "checkIn": {
+                "empty": "「チェックイン日時」を選択してください。",
+                "later": "チェックイン日時がチェックアウト日時より前でなければなりません。"
+            },
+            "checkOut": {
+                "empty": "「チェックアウト日時」を選択してください。",
+                "earlier": "チェックイン日時がチェックアウト日時より前でなければなりません。"
+            },
+            "email": {
+                "empty": "「メールアドレス」を入力してください。",
+                "invalid": "無効な「メールアドレス」です。"
+            },
+            "phoneNumber": {
+                "empty": "ゲストの「電話番号」を入力してください。"
+            },
+            "remoteLockId": {
+                "empty": "「ルーム」を選択してください。",
+                "no_available": "空き部屋がありません"
+            },
+            "createRemoteLockGuestAccount": {
+                "general": "リモートロックのゲストアカウント作成処理が失敗しました。"
+            },
+            "createiBMSGuestAccount": {
+                "general": "iBMSのゲストアカウント作成処理が失敗しました。",
+                "duplicate": "iBMSのゲストアカウント作成処理が失敗しました。このユーザー名は既に使用されています。"
+            },
+            "sendAlertEmail": {
+                "general": "アラートメール送信処理が失敗しました。"
+            },
+            "authCode": {
+                "empty": "このページには認証コードがありません。"
+            },
+            "pin": {
+                "empty": "6桁の暗証番号を入力してください。",
+                "invalid": "暗証番号は6桁以上の数字である必要があります。",
+                "duplicate": "暗証番号はすでに取られています。別の暗証番号を入力してください"
+            },
+            "unknownError": {
+                "title": "エラー!",
+                "redirect": "このページは、3秒後にiBMS管理用ダッシュボード画面にリダイレクトされます。"
+            }
+        },
+        "message": {
+            "success": {
+                "title": "成功",
+                "body": "以下のメールアドレスに予約情報とアカウント情報が送られました。この画面は3秒後に自動遷移します。"
+            },
+            "successCancel": {
+                "title": "成功",
+                "body": "予約キャンセルの詳細をお客様のメールに送信しました。 このページは、3秒後にiBMS管理用ダッシュボード画面にリダイレクトされます。"
+            }
+        }
+    },
+    "restaurant": {
+        "admin": {
+            "menu": {
+                "home": "ホーム",
+                "monitor": "環境モニター",
+                "registry": "スマレジ",
+                "logs": "ログ管理",
+                "notifications": "通知",
+                "logout": "ログアウト"
+            },
+            "home": {
+                "rooms": "ルーム",
+                "devices": "デバイス",
+                "air_sensor": "CO2温湿度センサー"
+            },
+            "chart": {
+                "co2_level": "Co2 Level"
+            },
+            "external": {
+                "legends": {
+                    "low": "安全",
+                    "normal": "正常",
+                    "elevated": "換気注意",
+                    "dangerous": "換気必須"
+                }
+            },
+            "restroom": {
+                "title": "トイレモニター",
+                "occupied": "使用中",
+                "vacant": "空",
+                "no_vacant": "満"
+            }
+        },
+        "guest": {
+            "menu": {
+                "home": "ホーム",
+                "order": "注文",
+                "history": "注文履歴",
+                "payment": "お会計",
+                "logout": "ログアウト"
+            },
+            "home": {
+                "air_monitor": "環境モニター",
+                "sound_level": "騒音レベル",
+                "co2_level": "Co2 Concentration",
+                "restroom_status": "トイレ使用状況",
+                "occupied": "Occupied",
+                "vacant": "Vacant"
+            },
+            "restroom": {
+                "title": "トイレの使い方",
+                "occupied": "占有",
+                "vacant": "空いている"
+            }
+        },
+        "help": {
+            "title": "CO2 濃度",
+            "body": "CO2濃度の目安は以下の通りです。緑の状態を維持できるように換気を心がけてください。",
+            "low": {
+                "amount": "800 ppm 未満",
+                "status": "(安全)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(正常)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(換気注意)"
+            },
+            "dangerous": {
+                "amount": "2501 ppm 以上",
+                "status": "(換気必須)"
+            }
+        },
+        "logout": {
+            "title": "確認",
+            "content": "ログアウトします。よろしいですか？"
+        }
+
+    },
+    "tablet": {
+        "tabletBtn": "登録",
+        "regist":"登録",
+        "uuid": "デバイスUUID",
+        "room": "ルーム名",
+        "userType": "管理者/ゲスト",
+        "placeholder": "(選択)",
+        "tabletTable":{
+            "uuid": "UUID",
+            "room": "ルーム名",
+            "admin": "管理者"
+        },
+        "choices": {
+            "admin": "管理者",
+            "guest": "ゲスト"
+        },
+        "footer": {
+            "save": "保存",
+            "saving": "保存中",
+            "cancel": "キャンセル"
+        },
+        "success": "デバイス正常に登録されました。",
+        "fail": "デバイスの登録に失敗しました。",
+        "errors": {
+            "ifEmptyRoom": "選択されたルームはありません。",
+            "ifEmptyUser": "選択されたユーザはありません。"
+        },
+        "deleteMessage": {
+            "deleteUuid": "UUID削除",
+            "deleteModal": "このUUIDアカウントを削除してよろしいですか？",
+            "cancel":"キャンセル",
+            "delete":"削除"
+        },
+        "message": {
+            "success": "UUIDアカウントの削除が完了しました。",
+            "fail": "UUIDアカウントの削除が失敗しました。"
+        }
+    },
+    "termsAndCondition": {
+        "title": "宿泊約款",
+        "backBtn": "戻る",
+        "nxtBtn": "次へ",
+        "agree": "宿泊約款に同意する"
+    },
+    "clientCode": {
+        "checkIn": "チェックイン",
+        "checkOut": "チェックアウト",
+        "lateCheckIn":"レイトチェックイン",
+        "reCheckIn":"再チェックイン",
+        "lateCheckOut": "レイトチェックアウト",
+        "failedCheckOut": "失敗したチェックアウト"
+    },
+    "notificationCode":{
+        "notification":"通知",
+        "event":"イベント種別",
+        "message": "メッセージ",
+        "roomName": "ルーム名",
+        "date": "発生日時"
+    },
+    "roomMessageCode": {
+        "noMessage": "メッセージなし",
+        "dontDisturb": "起こさないで下さい",
+        "cleanUpTime": "清掃して下さい"
+    },
+    "imageWarning":{
+        "inputWarning": "入力は3～20文字以内"
+    },
+    "guestcard": {
+        "guestcardTitle": "受付カード",
+        "require": "必須",
+        "go": "御",
+        "haku": "泊",
+        "date": "御宿泊日",
+        "print": "かな",
+        "name": "御芳名",
+        "guests": "御宿泊者数",
+        "adult": "大人",
+        "child": "子供",
+        "toddler": "幼児",
+        "toddlerName": "幼児名",
+        "toddlerNamePrint": "幼児かな",
+        "mei": "名",
+        "sum": "合計",
+        "addressNumber": "郵便番号",
+        "address": "御住所",
+        "receipt": "領収書名",
+        "tel1": "電話番号1",
+        "tel2": "電話番号2",
+        "car": "車種・ナンバー",
+        "birthday": "御生年月日",
+        "email": "ﾒｰﾙｱﾄﾞﾚｽ",
+        "nationality": "国籍を選択してください",
+        "passport_no": "旅券番号",
+        "photo": "パスポートを撮影する",
+        "representative": "代表者",
+        "companion": "同行者",
+        "instructions": "※ 代表者または同行者が外国籍の場合は「外国籍」を選択してください",
+        "images": "パスポートの写真を撮影してください。",
+        "images_desc1": "※パスポートの撮影は外国籍の方の分のみ行ってください。",
+        "images_desc2": "※顔写真と旅券番号の記載があるページを撮影してください。",
+        "japanese_nationality": "日本国籍",
+        "foreign_nationality": "外国籍",
+        "purpose": {
+            "purpose": "旅行目的",
+            "sightseeing": "観光",
+            "gourmet": "グルメ",
+            "hotSprings": "温泉",
+            "refreshment": "リフレッシュ",
+            "rest": "休養・癒し",
+            "familyFriends": "家族や友人と過ごす",
+            "nature": "自然とのふれあい",
+            "business": "ビジネス"
+        },
+        "questionnaire": "お得な情報誌(白馬のもと)を希望しますか？",
+        "answer1": "希望する",
+        "answer2": "すでに貰っている",
+        "next": "次へ",
+        "prev": "戻る",
+        "complete": "完了",
+        "id": "身分証明",
+        "placeholder": {
+            "name": "名前 太郎",
+            "ruby": "なまえ たろう",
+            "addressNumber": "399-9301",
+            "receipt": "名前 太郎",
+            "address": "長野県北安曇郡白馬村北城２１５８２",
+            "tel1": "090-1234-5678",
+            "tel2": "0776-00-1122",
+            "car": "軽　長野 300 あ 00-00",
+            "email": "sample@sample.com",
+            "purpose": "(選択)"
+        },
+        "errors": {
+            "nights": {
+                "empty":  "「御宿泊日」を入力してください。",
+                "invalid":  "「御宿泊日」の期間が不正です。"
+            },
+            "sumGuests": {
+                "invalid": "「御宿泊者数」の入力が不正です。"
+            },
+            "namePrint": {
+                "empty": "「かな」を入力してください。",
+                "invalid": "「かな」は50文字以内で入力してください。"
+            },
+            "name": {
+                "empty": "「御芳名」を入力してください。",
+                "invalid": "「御芳名」は50文字以内で入力してください。"
+            },
+            "toddlerNamePrint": {
+                "empty": "「幼児かな」を入力してください。",
+                "invalid": "「幼児かな」は50文字以内で入力してください。"
+            },
+            "toddlerName": {
+                "empty": "「幼児名」を入力してください。",
+                "invalid": "「幼児名」は50文字以内で入力してください。"
+            },
+            "addressNumber": {
+                "invalid": "「郵便番号」は10桁以内で入力してください。",
+                "empty": "「郵便番号」を入力してください。"
+            },
+            "address": {
+                "empty": "「御住所」を入力してください。",
+                "invalid": "「御住所」は255文字以内で入力してください。"
+            },
+            "receiptName": {
+                "empty": "「領収書名」を入力してください。",
+                "invalid": "「領収書名」は50文字以内で入力してください。"
+            },
+            "tel1": {
+                "invalid": "「電話番号1」は20桁以内で入力してください。",
+                "empty": "「電話番号1」を入力してください。"
+            },
+            "tel2": {
+                "invalid": "「電話番号2」は20桁以内で入力してください。"
+            },
+            "car": {
+                "invalid": "「車種・ナンバー」は50文字以内で入力してください。"
+            },
+            "birthday": {
+                "empty": "「御生年月日」を入力してください。"
+            },
+            "email": {
+                "empty": "「ﾒｰﾙｱﾄﾞﾚｽ」を入力してください。",
+                "invalid": "無効な「ﾒｰﾙｱﾄﾞﾚｽ」です。",
+                "invalid_characters": "「ﾒｰﾙｱﾄﾞﾚｽ」は255文字以内で入力してください。"
+            },
+            "purpose": {
+                "empty": "「旅行目的」を入力してください。"
+            },
+            "questionnaire": {
+                "empty": "「アンケート」を選択してください。"
+            },
+            "passport_no": {
+                "empty": "「旅券番号」を入力してください。"
+            },
+            "guestcard_image": "パスポートの写真は1枚以上撮影してください。"
+        }
+    },
+    "spareKeys": {
+        "tabName": "臨時キー",
+        "tableHeaders": {
+            "id": "臨時キーID",
+            "pinCode": "PINコード",
+            "roomID": "ルームID",
+            "roomName": "ルーム名",
+            "deviceId": "デバイスID",
+            "deviceName": "デバイス名",
+            "period": "有効期間"
+        },
+        "error": {
+            "tableEmpty": "臨時キーがありません"
+        },
+        "refresh": "更新",
+        "refreshing": "更新"
+    },
+    "emergency": {
+        "modal": {
+            "header": "緊急",
+            "body1": "緊急ボタンが押されました。",
+            "body2": "スタッフは直ちに対応してください。",
+            "body3": "スタッフからのアナウンスをお待ちください。",
+            "close": "閉じる"
+        }
+    },
+    "logoutScreen": {
+        "content1": "追加オーダーされた方は、フロントにてご精算をお願いいたします。",
+        "content2": "忘れ物がないかご確認の上、ご退出をお願いいたします。",
+        "content3": "退出後に忘れ物に気づかれた場合、チェックアウト時刻まではスマートロックを開錠し、入室することができます。",
+        "content4": "チェックアウト時刻を過ぎている場合は、フロントまでお越しいただくようお願いいたします。"
+    },
+    "termsAndConditions": {
+        "termsOfUse": "利用規則",
+        "termsOfHotel": "宿泊約款",
+        "introduction": "当ホテルでは、お客様が安全かつ快適にお過ごしいただくために、「宿泊約款　第10条」に基づいて、次の通り利用規則を定めておりますので、皆様のご協力をお願いしております。もし遵守いただけない場合には、やむを得ず、「宿泊約款　第7条　第1項」により客室及び当ホテル内の諸設備のご利用をお断り申し上げることがございます。また、お客様のご協力が得られなかった結果生じた事故については当ホテルでは責任を負いかねますので、その旨ご了承くださいますようお願い申し上げます。",
+        "safety": {
+            "title": "安全と保安上お守りいただきたい事項",
+            "1": "お部屋への、暖房用・炊事用等の火器及びお貸し出し以外のアイロン等のお持ち込みはご遠慮ください。",
+            "2": "ベッドの中など火災の発生しやすい場所での喫煙はご遠慮ください。",
+            "3": "その他、火災の原因になるような行為をなさらないでください。",
+            "4": "お部屋からの「避難経路図」は各客室ドア内側に表示しておりますのでご確認ください。",
+            "5": "ご滞在中、お部屋から出られるときには施錠をご確認ください。(当ホテルは自動施錠になっております。)",
+            "6": "ご滞在中、特にご就寝の時は、内鍵(ドアラッチ)をおかけください。ご来客があった場合には不用意に開扉なさらず、ドアラッチをかけたまま開扉するか、のぞき窓でご確認ください。万一、不審者と思われる場合には、フロントスタッフまでご連絡ください。",
+            "7": "ご訪問客とお部屋でのご面会はご遠慮ください。",
+            "8": "宿泊登録者以外のご宿泊は、固くお断りいたします。"
+        },
+        "handling": {
+            "title": "貴重品･お預かり品のお取扱いについて",
+            "1": "ご滞在中の現金・貴重品の管理には、フロントの貸金庫をご利用いただくようお願いいたします。上記手続きをおとりにならず、現金または貴重品を紛失したり、破損・盗難にあわれましても、その損害の賠償はいたしかねますのでご了承ください。",
+            "2": "原則としてお預かりいたしましたお忘れ物・遺失物は特にご指定のない限り、法令に基づいてお取扱いさせていただきます。"
+        },
+        "payment": {
+            "title": "お支払いについて",
+            "1": "料金は、通貨または当ホテルが認めた旅行小切手・宿泊券・クレジットカードでお支払いください。ただし、ご滞在中当ホテルからお勘定書の提示がございましたら、その都度ご精算をお願いいたします。",
+            "2": "ご予定の宿泊日数を変更なさる場合は、あらかじめフロントスタッフにご連絡ください。ご延長の場合は、それまでのお支払いをお願いいたします。"
+        },
+        "actions": {
+            "title": "おやめいただきたい行為",
+            "1": "ホテル内に他のお客様の迷惑になるようなものをお持ち込みにならないでください。",
+            "a": "事前に当ホテルの許可を得ていない犬・猫・小鳥等の動物、ペット類全般",
+            "b": "発火または引火しやすい火薬や揮発油類及び危険性のある製品",
+            "c": "悪臭及び強い臭いを発する物",
+            "d": "許可証のない銃砲、刀剣類",
+            "e": "著しく多量のお荷物及び物品",
+            "f": "その他、法令で所持を禁じられている物",
+            "2": "ホテル内で賭博や風紀、治安を乱すような行為、他のお客様の迷惑となったり不快感を与えるような行為はおやめください。",
+            "3": "ホテルの外観を損なうようなものをお部屋の窓に掛けたり窓側に陳列なさらないでください。",
+            "4": "ホテル内で許可なく、広告・宣伝物を配布したり、物品の販売をなさらないでください。",
+            "5": "ホテル内で施設・備品を所定の場所・用途以外で使用したり、現状を著しく損なうようなご利用はなさらないでください。",
+            "6": "ホテル内で撮影された写真等を許可なく営業上の目的で公になさることは法的措置の対象になることがあります。",
+            "7": "廊下やロビーに所持品を放置することはご遠慮ください。",
+            "8": "緊急事態あるいはやむを得ない事情が発生しない限り、非常階段・屋上・搭屋・機械室等、お客様用以外の施設には立ち入らないでください。",
+            "9": "18歳以下のお客様だけでのご宿泊は、保護者の許可がない限りお断りいたします。",
+            "10": "不可抗力以外の事由により、建造物・家具・備品・その他の物品を損傷・汚染または紛失された場合には、相当額を弁償していただくことがあります。",
+            "11": "ホテル外からの飲食物の出前をおとりになることはご遠慮ください。",
+            "footer": "※出前をおとりになる場合は1階ロビーや外での受け取りでお願いいたします。"
+        },
+        "article1": {
+            "header": "(適用範囲)",
+            "title": "第1条",
+            "1": "当ホテルが宿泊客との間で締結する宿泊契約及びこれに関する契約は、この約款の定めるところによるものとし、この約款に定めない事項については、法令または一般に確立された慣習によるものとします。",
+            "2": "当ホテルが、法令及び慣習に反しない範囲で特約に応じたときは、前項の規定にかかわらず、その特約が優先するものとします。"
+        },
+        "article2": {
+            "header": "(宿泊契約の申込み)",
+            "title": "第2条",
+            "1": {
+                "content": "当ホテルに宿泊契約の申込みをしようとするものは、次の事項を当ホテルに申し出ていただきます。",
+                "1": "宿泊者名",
+                "2": "宿泊日及び到着予定時刻",
+                "3": "その他当ホテルが必要と認める事項　宿泊人数、連絡先(電話番号)、部屋タイプ"
+            },
+            "2": "宿泊客が、宿泊中に前項第2項の宿泊日を超えて宿泊の継続を申し入れた場合、当ホテルは、その申し出がなされた時点で新たな宿泊契約の申込みがあったものとして取り扱います。"
+        },
+        "article3": {
+            "header": "(宿泊契約の成立等)",
+            "title": "第3条",
+            "1": "宿泊契約は、当ホテルが前条の申込みを承諾したときに成立するものとします。ただし、当ホテルが承諾をしなかったことを証明したときは、この限りではありません。",
+            "2": "前項の規定により宿泊契約が成立したときは、宿泊期間(3日を超えるときは3日間)の基本宿泊料を限度として当ホテルが定める申込金を、当ホテルが指定する日までに、お支払いいただきます。",
+            "3": "申込金は、まず、宿泊客が最終的に支払うべき宿泊料金に充当し、加えて、第6条及び第18条の規定を適用する事態が生じたときは、違約金に次いで賠償金の順序で充当し、なお残額があれば、第12条の規定による料金の支払いの際に返還します。",
+            "4": "第2項の申込金を同行の規定により当ホテルが指定した日までにお支払いいただけない場合は、宿泊契約はその効力を失うものとします。ただし、申込金の支払い期日を指定するに当たり、当ホテルがその旨を宿泊客に告知した場合に限ります。"
+        },
+        "article4": {
+            "header": "(申込金の支払いを要しないこととする特約)",
+            "title": "第4条",
+            "1": "前条第2項の規定にかかわらず、当ホテルは、契約の成立後同項の申込金の支払いを要しないこととする特約に応じることがあります。",
+            "2": "宿泊契約の申込みを承諾するに当たり、当ホテルが前条第2項の申込金の支払いを求めなかった場合及び当該申込金の支払期日を指定しなかった場合は、前項の特約に応じたものとして取り扱います。"
+        },
+        "article5": {
+            "header": "(宿泊契約締結の拒否)",
+            "title": "第5条",
+            "1": {
+                "content": "当ホテルは、次に掲げる場合において、宿泊契約の締結に応じないことがあります。",
+                "1": "宿泊の申込みが、この約款によらないとき。",
+                "2": "により客室の余裕がないとき。",
+                "3": "宿泊しようとする者が、宿泊に関し、法令の規定、公の秩序若しくは善良の風俗に反する行為をする恐れがあると認められたとき。",
+                "4": "宿泊しようとする者が、伝染病者であると明らかに認められたとき。",
+                "5": "宿泊しようとする者が、暴力、脅迫、恐喝等のほか、暴力的要求行為、威圧的な不当要求行為に及び、その他宿泊に関し合理的な範囲を超える負担を求めたとき。",
+                "6": "天災、施設の故障、その他やむを得ない事由により宿泊させることができないとき。",
+                "7": "宿泊しようとする者が、喧騒、挙動不審な行為のほか、当ホテルに宿泊または当ホテルを利用する他のお客様に、危険、不安等を感じさせる等の迷惑を及ぼす言動をしたとき。",
+                "8": "かつて当ホテルに於いて、本条第(3)(5)及び第(7)号の各号のいずれかに該当する行為をしたことがあるとき。",
+                "9": "宿泊しようとする者が、暴力団員、暴力団関係者、若しくはそれらの者が役員に就任しまたは事業活動を支配している法人その他の団員の役員ないしは関係者であるとき。",
+                "10": "宿泊しようとする者が、本条第(9)号以外の反社会的団体、その構成員またはその他の反社会的勢力であるとき。",
+                "11": "宿泊しようとする者が、薬物類及び飲酒等による心身衰弱、心神喪失等、本人の安全確保が困難であるとき。",
+                "12": "東京都旅館業法施行条例第5条の規定する場合に該当するとき。",
+                "13": "その他、上記各号に準ずる宿泊拒否に正当な事由があるとき。"
+            }
+        },
+        "article6": {
+            "header": "(宿泊契約締結の拒否)",
+            "title": "第6条",
+            "1": "宿泊客は、当ホテルに申し出て、宿泊契約を解除することができます。",
+            "2": "当ホテルは、宿泊客がその責めに帰すべき事由により宿泊契約の全部または一部を解除した場合(第3条第2項の規定により当ホテルが申込金の支払い期日を指定してその支払いを求めた場合であって、その支払いより前に宿泊客が宿泊契約を解除したときを除きます。)は、別表第2に掲げるところにより、違約金を申し受けます。ただし、第4条第1項の特約が適用される場合、同特約適用に当たって、宿泊客が宿泊契約を解除したときの違約金支払い義務について、当ホテルが宿泊客に告知したときに限り本条項を適用します。",
+            "3": "当ホテルは、宿泊客が連絡をしないで宿泊日当日の午後12時(あらかじめ到着予定時刻が明示されている場合は、その時刻を2時間経過した時刻)になっても到着しないときは、その宿泊契約は宿泊客により解除されたものと取り扱うことがあります。"
+        },
+        "article7": {
+            "header": "(当ホテルの契約解除権)",
+            "title": "第7条",
+            "1": {
+                "content": "当ホテルは、次に掲げる場合においては、宿泊契約を解除することがあります。",
+                "1": "第5条各号のいずれの事項に該当し、あるいは該当することが判明したとき。",
+                "2": "寝室での寝たばこ、消防用設備等に対するいたずら、その他当ホテルが定める利用規則の禁止事項"
+            },
+            "2": "当ホテルが前項の規定に基づいて宿泊約款を解除したときは、宿泊客がいまだ提供を受けていない宿泊サービス等の料金はいただきません。"
+        },
+        "article8": {
+            "header": "(宿泊の登録)",
+            "title": "第8条",
+            "1": {
+                "content": "宿泊客は宿泊日当日、当ホテルのフロントにおいて、次の事項を登録していただきます。",
+                "1": "宿泊客の氏名、年齢、性別、住所及び職業、TEL番号",
+                "2": "外国人にあっては、国籍、旅券番号、入国地及び入国年月日",
+                "3": "出発日及び出発予定時刻",
+                "4": "その他当ホテルが必要と認める事項"
+            },
+            "2": "宿泊客が第12条の料金の支払いを、旅行小切手、宿泊券、クレジットカード等通貨に変わり得る方法により行おうとするときは、あらかじめ、前項の登録時にそれらを呈示していただきます。"
+        },
+        "article9": {
+            "header": "(客室の使用時間)",
+            "title": "第9条",
+            "1": "宿泊客が当ホテルの客室を使用できる時間は、午後4時から翌朝10時までとします。ただし、連続して宿泊する場合においては、到着及び出発日を除き、終日使用することができます。",
+            "2": {
+                "content": "当ホテルは、前項の規定にかかわらず、同項に定める時間外の客室の使用に応じる必要があります。この場合には次に掲げる追加料金を申し受けます。",
+                "1": "午後12時までは、1室2,000円(税込)",
+                "2": "午後13時までは、1室3,000円(税込)",
+                "3": "午後13時過ぎは、追加1泊分"
+            }
+        },
+        "article10": {
+            "header": "(利用規則の遵守)",
+            "title": "第10条",
+            "content": "宿泊客は、当ホテル内においては、当ホテルが定めたホテル内に掲示した利用規則に従っていただきます。"
+        },
+        "article11": {
+            "header": "(営業時間)",
+            "title": "第11条",
+            "1": "当ホテルの主な施設等のご利用時間は、備付けパンフレット、各所の掲示、客室内のインフォメーションブック等でご案内いたします。",
+            "2": "前項の時間は、必要やむを得ない場合には臨時に変更することがあります。その場合には、適当な方法をもってお知らせします。"
+        },
+        "article12": {
+            "header": "(料金の支払い)",
+            "title": "第12条",
+            "1": "宿泊者が支払うべき宿泊料金等の内訳は、別表第1に掲げるところによります。",
+            "2": "前項の宿泊料金等の支払いは、通貨または当ホテルが認めた旅行小切手、宿泊券、クレジットカード等これに代わり得る方法により、宿泊客の到着の際または当ホテルが請求したとき、フロントにおいて行っていただきます。",
+            "3": "当ホテルが宿泊客に客室を提供し、使用が可能になった後、宿泊客が任意に宿泊しなかった場合においても、宿泊料金は申し受けます。"
+        },
+        "article13": {
+            "header": "(当ホテルの責任)",
+            "title": "第13条",
+            "1": "当ホテルは、宿泊契約及びこれに関する契約の履行に当たり、またはそれらの不履行により宿泊客に損害を与えたときは、その損害を賠償します。ただし、それが当ホテルの責めに帰すべき事由によるものでないときは、この限りではありません。",
+            "2": "当ホテルは、万一の火災等に対処するため、旅館賠償責任保険に加入しております。"
+
+        },
+        "article14": {
+            "header": "(契約した客室の提供ができないときの取扱い)",
+            "title": "第14条",
+            "1": "当ホテルは、宿泊客に契約した客室を提供できないときは、宿泊客の了解を得て、できる限り同一の条件による他の宿泊施設を案内するものとします。",
+            "2": "当ホテルは、前項の規定にかかわらず、他の宿泊施設のあっ旋ができないときは、契約金相当額の補償料を宿泊客に支払い、その補償料は損害賠償額に充当します。ただし、客室が提供できないことについて、当ホテルの責めに帰すべき事由によるものでないときは、補償料を支払いません。"
+        },
+        "article15": {
+            "header": "(寄託物等の取扱い)",
+            "title": "第15条",
+            "1": "宿泊客がフロントにお預けになった物品または現金並びに貴重品について、滅失、毀損等の損害が生じたときは、それが、不可抗力である場合を除き、当ホテルは、その損害を賠償します。ただし、現金及び貴重品については、当ホテルがその種類及び価額の明告を求めた場合であって、宿泊客がそれを行わなかったときは、当ホテルは15万円を限度としてその損害を賠償します。",
+            "2": "宿泊客が、当ホテル内にお持込みになりフロントにお預けにならなかった物品または現金並びに貴重品について、当ホテルの故障または過失により滅失、毀損等の損害が生じたときは、当ホテルはその損害を賠償します。ただし、宿泊客からあらかじめ種類及び価額の明告のなかったものについては、当ホテルに故意または重大な過失がある場合を除き、15万円を限度としてその損害を賠償します。"
+        },
+        "article16": {
+            "header": "(宿泊客の手荷物、または、携帯品の保管)",
+            "title": "第16条",
+            "1": "宿泊客の手荷物が、宿泊に先立って当ホテルに到着した場合は、その到着前に当ホテルが了解したときに限って責任を持って保管し、宿泊客がフロントにチェックインの際にお渡しします。なお、冷蔵などが必要なものに関してのお取り扱いはお断りしております。",
+            "2": "宿泊客がチェックアウトしたのち、宿泊客の手荷物または携帯品が当ホテルに置き忘れられていた場合において、その所有者が判明したときは、当ホテルは、当該所有者にその指示を求めるものとします。ただし、所有者の指示がない場合または所有者が判明しないときは、発見日を含め7日間保管し、その後最寄りの警察署に届けます。",
+            "3": "前2項の場合における宿泊客の手荷物または携帯品の保管についての当ホテルの責任は、第1項の場合にあっては前条第1項の規定に、前項の場合にあっては同条第2項の規定に準ずるものとします。"
+        },
+        "article17": {
+            "header": "(駐車場の責任)",
+            "title": "第17条",
+            "content": "宿泊客が当ホテルの駐車場をご利用になる場合、車両のキーの寄託の如何にかかわらず、当ホテルは場所をお貸しするものであって、車両の管理責任まで負うものではありません。ただし、駐車場の管理にあたり、当ホテルの故意または過失にとって損害を与えたときは、その賠償の責めに任じます。"
+        },
+        "article18": {
+            "header": "(宿泊客の責任)",
+            "title": "第18条",
+            "content": "宿泊客の故意または過失により当ホテルが損害を被ったときは、当該宿泊者は当ホテルに対し、その損害を賠償していただきます。なお、賠償金の算定は、正規料金を基準とし、損害の状況により決定いたします。"
+        },
+        "table1": {
+            "header1": "別表　第1　宿泊料金の算定方法",
+            "header2": "(第2条第1項、第3条第2項及び第12条第1項　関係)",
+            "thead": {
+                "th": "内訳"
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "支払い者が支払うべき総額",
+                    "td1": "宿泊料金",
+                    "td2": "正規基本宿泊料(室料)"
+                },
+                "tr2": {
+                    "td1": "追加料金",
+                    "td2": "飲食料及びその他の利用料金"
+                },
+                "tr3": {
+                    "td1": "税金",
+                    "td2": "消費税"
+                }
+
+            },
+            "remarks": "備考　基本宿泊料はフロントに掲示する料金表によります。"
+        },
+        "table2": {
+            "header1": "別表　第2　違約金",
+            "header2": "(第6条第2項　関係)",
+            "thead": {
+                "tr1": {
+                    "th1": "契約解除の通知を受けた日",
+                    "th2": "不泊",
+                    "th3": "当日",
+                    "th4": "前日",
+                    "th5": "9日前",
+                    "th6": "20日前"
+                },
+                "tr2": {
+                    "th1": "契約申込人数"
+                }
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "一般",
+                    "td1": "14名まで"
+                },
+                "tr2": {
+                    "th": "団体",
+                    "td1": "15～99名まで"
+                },
+                "tr3": {
+                    "td1": "100名以上"
+                }
+
+            }
+        },
+        "safetyRemarks": {
+            "title": "安全のために",
+            "content": "安全で快適にお過ごしいただくために、万全の防災体制をとっております。",
+            "1": "■防災センターでは24時間体制で、ホテル全施設の災害監視をしております。",
+            "2": "■ホテル自衛消防隊を組織しており、非常時には速やかに対応します。",
+            "3": "■煙感知器のほか、防火扉を設置し、延焼を未然に防ぎます。",
+            "4": "■ご不明な点がございましたら、フロントスタッフまでお問い合わせください。"
+        }
+    },
+    "termsOfUse": {
+        "introduction": "当コンテナハウスでは、お客様に安全かつ快適にご滞在いただくため、次の通り利用規則を定めておりますのでご協力くださいますようお願い申し上げます。",
+        "items": {
+            "title": "〈火災予防上お守り頂きたい事項〉",
+            "1": "火災の原因となりやすい場所（特にベット内）でご喫煙なさらないでください。",
+            "2": "その他火災原因になるような行為をなさらないでください。"
+        },
+        "matters": {
+            "title": "〈保安上お守り頂きたい事項〉",
+            "1": "宿泊者登録者のみでご宿泊をお願いいたします。",
+            "2": "現金、貴重品はベッド下の金庫にて保管をお願いいたします。"
+        },
+        "parking": {
+            "title": "〈駐車場のご利用方法〉",
+            "1": "駐車台数はお一人様１台とさせていただきます。",
+            "2": "観光バスを除き、１台枠を超える車両の駐車は原則お断りします。"
+        },
+        "hotelRules": {
+            "title": "ホテル内の規則",
+            "1": "宿泊客が支払った期間が経過していない場合でも、第三者に部屋を譲り渡すことはできません。",
+            "2": "ホテルにチェックインされていない方は、午前7時から午後10時までホテルの部屋にご宿泊いただけますが、午後10時以降にご宿泊の方はチェックインが必要です。",
+            "3": "当ホテルは、前回の滞在中に、当ホテルまたは宿泊者の財産を毀損し、または他の宿泊者、当ホテルの従業員その他の宿泊者に損害を与え、 その他他の宿泊者の滞在または当ホテルの機能を侵害する行為により、ホテル規則に著しく違反した宿泊者の受け入れをお断りすることがあります。"
+        }
+    }
+}

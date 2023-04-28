@@ -1,0 +1,2231 @@
+{
+    "navbar":{
+        "dashboard":"대시보드",
+        "devop":"장치 작동",
+        "userm":"사용자 관리",
+        "hardwarem":"하드웨어 관리",
+        "gatewaym":"게이트웨이",
+        "devicem":"장치",
+        "bindingm":"바인딩 관리",
+        "ir-m":"원격 컨트롤러",
+        "tabletReg":"태블릿 등록",
+        "floorm":"층 관리",
+        "logs":"로그",
+        "about":"회사 소개",
+        "notif":"알림",
+        "logout":"로그아웃",
+        "help":"도움말",
+        "lang":"언어",
+        "logoutModalLabel":"나가시겠습니까?",
+        "logoutMessage":"현재 세션을 종료하려면 아래의 로그아웃을 선택하세요.",
+        "confirmLogout":"로그아웃",
+        "cancel":"취소"
+    },
+    "footer":"저작권 © iBMS 2018 | 제작사: GTI",
+    "about":{
+        "ab":"회사 소개",
+        "text":"로렘 입섬 돌로르 시트 아멧, 콘섹테투르 아디피시싱 엘리트, 세드 도 에우모드",
+        "text2":"로렘 입섬 돌로르 시트 아멧, 콘섹테투르 아디피시싱 엘리트, 세드 도 에우모드",
+        "commitment":"우리의 약속",
+        "mission":"우리의 미션",
+        "provide":"당신의 손안에서 세계적 수준의 케어를 제공하기 위해 노력합니다."
+    },
+    "dashboard":{
+        "gateway-summary":"게이트웨이 요약",
+        "gateway-total":"총 게이트웨이 수",
+        "gateway-online":"온라인 게이트웨이 수",
+        "gateway-offline":"오프라인 게이트웨이 수",
+        "devices-summary":"장치 요약",
+        "devices-total":"총 장치 수",
+        "devices-online":"온라인 장치 수",
+        "devices-offline":"오프라인 장치 수",
+        "electric-summary":"전기 요약",
+        "event":"이벤트",
+        "data":" 데이터",
+        "tableFields":{
+            "Target":"대상 가전 제품",
+            "Device":"장치",
+            "Command":"명령",
+            "Date":"날짜"
+        },
+        "summaryLabels":{
+            "Room":"방",
+            "Count":"수량",
+            "show_devices":"장치",
+            "DEVICE_NAME":"장치 이름",
+            "DEVICE_TYPE":"장치 유형",
+            "ip_address":"IP 주소",
+            "Floor":"층",
+            "Device":"장치"
+        },
+        "chart":{
+            "date":"날짜",
+            "temp":"온도",
+            "opened":"작동/트리거 된 횟수",
+            "status":"상태"
+        }
+    },
+    "devop":{
+        "devop":"장치 작동",
+        "view":"보기",
+        "devices":"장치",
+        "lastupdate":"최종 업데이트 날짜",
+        "notavailable":"사용 불가능한 장치",
+        "noremote":"이 리모컨에 대한 데이터가 없습니다",
+        "nostatus":"상태 표시 없음",
+        "carouselnodevice":"사용 불가능한 장치",
+        "gateways":"게이트웨이",
+        "nogateway":"사용 가능한 게이트웨이 없음",
+        "nodevice":"사용 가능한 장치 없음",
+        "searchdev": "장치 검색",
+        "searchroom": "방 검색",
+        "daily":"일일",
+        "monthly":"월간",
+        "total":"전체",
+        "temp":"온도",
+        "temperature":"온도",
+        "power":"전력",
+        "hum":"습도",
+        "tableView":{
+            "floor.FLOOR_NAME":"층 이름",
+            "ROOM_NAME":"방 이름",
+            "show_gateway_details":"게이트웨이",
+            "show_device_details":"장치",
+            "GATEWAY_NAME":"게이트웨이 이름",
+            "NEW_ONLINE_FLAG":"상태",
+            "DEVICE_NAME":"장치 이름",
+            "DEVICE_TYPE":"장치 유형",
+            "DATA":"장치 상태"
+        },
+        "remoteLogs":{
+            "TARGET":"가전제품",
+            "BRAND":"브랜드",
+            "COMMAND":"명령",
+            "DATE":"날짜"
+        },
+        "chart":{
+            "date":"날짜",
+            "status":"상태"
+        }
+    },
+    "user":{
+        "allusers":"모든 사용자",
+        "active":"활성",
+        "inactive":"비활성",
+        "users":"사용자",
+        "add":"사용자 추가",
+        "disable": "비활성화",
+        "enable": "활성화",
+        "profile": "프로필",
+        "designation": "직위",
+        "userLocation": "사용자 위치",
+        "userModules": "사용자 모듈",
+        "save": "저장",
+        "cancel": "취소",
+        "changepass": "비밀번호 변경",
+        "usertype":"사용자 유형",
+        "username":"시리얼 ID",
+        "userlogo":"사용자 로고",
+        "password":"PIN 코드",
+        "confirmpass":"비밀번호 확인",
+        "contact": "연락처 번호",
+        "alert": "알림 옵션",
+        "module":"모듈",
+        "pickmod":"모듈 선택",
+        "location":"위치",
+        "email":"이메일",
+        "noData":"사용 가능한 데이터가 없습니다.",
+        "type":{
+            "gtiAdmin":"Go Tensei 관리자",
+            "genAdmin":"일반 관리자",
+            "nurse":"간호사"
+        },
+        "all":"모든",
+        "goTenseiAd":"Go Tensei 관리자",
+        "genAd":"일반 관리자",
+        "nurse":"간호사",
+        "userTable":{
+            "USERNAME":"사용자 이름",
+            "USER_ID":"사용자 ID",
+            "USERROLE":"사용자 역할",
+            "STATUS":"상태"
+        },
+        "modalText":{
+            "disable":"이 사용자를 비활성화하려고합니다",
+            "sure":"확실합니까?",
+            "enable":"이 사용자를 활성화하려고합니다",
+            "disabled":"비활성화되었습니다!",
+            "disabledUser":"이 사용자는 비활성화되었습니다.",
+            "enabled":"활성화되었습니다!",
+            "enabledUser":"이 사용자가 활성화되었습니다.",
+            "passSuccess":"비밀번호가 성공적으로 변경되었습니다!",
+            "saveSuccess":"성공적으로 저장되었습니다"
+        }
+    },
+    "gateway":{
+        "gatewayInfo": "게이트웨이 정보",
+        "header":"하드웨어 관리 / 게이트웨이 관리",
+        "sysGateway":"시스템 게이트웨이",
+        "modbusGateway":"모드버스 게이트웨이",
+        "cameraGateway":"카메라 게이트웨이",
+        "noData":"사용 가능한 데이터가 없습니다.",
+        "gatewayCat":{
+            "regist":"등록됨",
+            "unregist":"미등록",
+            "blocked":"차단됨",
+            "deleted":"삭제됨"
+        },
+        "gatewayIp":"게이트웨이 IP",
+        "devSerialNo":"장치 시리얼 번호",
+        "onlineStat":"온라인 상태",
+        "scan":"스캔 중",
+        "scanSuccessful":"스캔 성공",
+        "scanFailed": "스캔 실패",
+        "rescan":"재스캔",
+        "rescanning": "재스캔 중",
+        "save":"저장",
+        "saving":"저장 중",
+        "addGateway":"게이트웨이 추가",
+        "manufacturer":"제조사",
+        "gatewayName":"게이트웨이 이름",
+        "gatewaySerial":"게이트웨이 시리얼 번호",
+        "floor":"층",
+        "modalText":{
+            "activeModbus":"Modbus 게이트웨이 활성화",
+            "sure":"확실합니까?",
+            "activatedModbus":"Modbus 게이트웨이 활성화됨",
+            "modbusActivate":"Modbus 게이트웨이가 활성화되었습니다.",
+            "modbusCantActivate":"Modbus 게이트웨이를 활성화할 수 없습니다.",
+            "modbusDelete":"Modbus 게이트웨이가 삭제되었습니다.",
+            "modbusCantDelete":"Modbus 게이트웨이를 삭제할 수 없습니다.",
+            "gatewayUpdate":"게이트웨이가 성공적으로 업데이트되었습니다.",
+            "delGateway":"게이트웨이 삭제",
+            "deleted":"삭제됨",
+            "gatewayDel":"게이트웨이가 삭제되었습니다.",
+            "contDelete":"삭제를 계속하시겠습니까?",
+            "gatewayCantDelete":"게이트웨이를 삭제할 수 없습니다.",
+            "blockGateway":"게이트웨이 차단",
+            "gatewayBlock":"게이트웨이가 차단되었습니다.",
+            "block":"차단",
+            "gatewayCantBlock":"게이트웨이를 차단할 수 없습니다",
+            "unblockGateway":"게이트웨이 차단 해제",
+            "unblock":"차단 해제",
+            "gatewayUnblock":"게이트웨이가 해제되었습니다.",
+            "gatewayCantUnblock":"게이트웨이 해제를 할 수 없습니다.",
+            "noContact":"게이트웨이에 연결할 수 없습니다.",
+            "cantUpdate":"게이트웨이 업데이트를 할 수 없습니다.",
+            "gatewayNameExists":"게이트웨이 이름이 이미 존재합니다.",
+            "regGateway":"게이트웨이 등록",
+            "gatewayRegister":"게이트웨이가 등록되었습니다",
+            "gatewayCantRegister":"게이트웨이 등록 실패.",
+            "floorRequired":"층 수 필요합니다",
+            "roomRequired":"방이 필요합니다",
+            "gatewaySerialNoRequired":"게이트웨이 시리얼 넘버가 필요합니다",
+            "gatewayNameRequired":"게이트웨이 이름이 필요합니다",
+            "modGatewayRegister":"Modbus 게이트웨이가 등록되었습니다.",
+            "modGatewayNameExists":"Modbus 게이트웨이 이름이 이미 존재합니다",
+            "modGatewayCantRegister":"Modbus 게이트웨이 등록 실패.",
+            "camGatewayRegister":"카메라 게이트웨이가 등록되었습니다.",
+            "camGatewayCantRegister":"카메라 게이트웨이 등록 실패"
+        },
+        "gatewayTable":{
+            "GATEWAY_ID":"ID",
+            "FLOOR_NAME":"층 이름",
+            "ROOM_NAME":"방 이름",
+            "ip":"게이트웨이 IP",
+            "GATEWAY_NAME":"게이트웨이 이름",
+            "serial_no":"게이트웨이 일련번호",
+            "action":"동작",
+            "GATEWAY_IP":"게이트웨이 IP",
+            "MANUFACTURER_NAME":"제조사"
+        }
+    },
+    "device":{
+        "header":"하드웨어 관리 / 디바이스 관리",
+        "sysDevice":"시스템 디바이스",
+        "modDevice":"Modbus 미터",
+        "bacnetDevice":"Bacnet 디바이스",
+        "cameraDevice": "카메라",
+        "gatewayName":"게이트웨이 이름",
+        "devType":"디바이스 타입",
+        "devName":"디바이스 이름",
+        "devSerial":"디바이스 시리얼 넘버",
+        "devCat":"디바이스 카테고리",
+        "onStatus":"온라인 상태",
+        "modbusIp":"게이트웨이 IP",
+        "modbusSerial":"미터 시리얼 넘버",
+        "modbusSlave":"미터 슬레이브 ID",
+        "device":"디바이스",
+        "save":"저장",
+        "gang":"그룹",
+        "addMeter":"전기 미터 추가",
+        "addDevice":"디바이스 추가",
+        "deviceTable":{
+            "DEVICE_ID":"ID",
+            "FLOOR_NAME":"층 이름",
+            "ROOM_NAME":"방 이름",
+            "DEVICE_NAME":"디바이스 이름",
+            "DEVICE_TYPE":"디바이스 타입",
+            "METER_ID":"ID",
+            "SERIAL_NO":"시리얼 넘버",
+            "gateway":"게이트웨이 이름",
+            "devtype":"디바이스 타입",
+            "serialno":"디바이스 시리얼 넘버",
+            "action":"동작",
+            "BACNETDEVICE_ID":"ID"
+        },
+        "deviceModals":{
+            "failedModbus":"Modbus에 대한 데이터 검색 오류",
+            "failedDevice":"장치에 대한 데이터 검색 오류",
+            "activateModbus":"Modbus Meter 활성화",
+            "sure":"확실합니까?",
+            "yes":"예",
+            "activatedModbus":"Modbus Meter 활성화됨",
+            "modbusActivated":"Modbus Meter가 활성화되었습니다",
+            "error":"오류",
+            "cantActivateModbus":"Modbus Meter를 활성화할 수 없습니다",
+            "delete":"삭제",
+            "deleted":"삭제됨",
+            "hasDeleted":" 삭제되었습니다",
+            "cantDelete":" 삭제할 수 없음.",
+            "blockDev":"장치 차단.",
+            "devBlock":"장치가 차단되었습니다",
+            "cantBlock":"장치 차단할 수 없음",
+            "block":"차단",
+            "unblockDev":"장치 차단 해제",
+            "devUnblock":"장치가 차단 해제되었습니다",
+            "cantUnblock":"장치 차단을 해제할 수 없음",
+            "unblock":"차단 해제",
+            "delDevice":"장치 삭제",
+            "devDeleted":"장치가 삭제되었습니다.",
+            "devCantDelete":"장치를 삭제할 수 없음",
+            "successfullyUpdated":"성공적으로 업데이트됨",
+            "cantUpdate":"장치 업데이트할 수 없음",
+            "devRegistered":"장치 등록됨",
+            "cantRegister":"장치 등록할 수 없음"
+        }
+    },
+    "binding":{
+        "header":"하드웨어 관리 / 바인딩 관리",
+        "floor":"층",
+        "sensorDevice":"센서와 디바이스",
+        "sensorSensor":"센서와 센서",
+        "cameraDevice": "카메라와 디바이스",
+        "sensorAlert":"센서와 알림",
+        "addDevice":"센서-디바이스 바인딩 추가",
+        "addSensor":"센서-센서 바인딩 추가",
+        "addCamera": "카메라-디바이스 바인딩 추가",
+        "addAlert":"센서-알림 바인딩 추가",
+        "total":"전체 항목",
+        "room":"방",
+        "sensors":"센서",
+        "targetFloor":"대상 층 선택",
+        "targetRoom":"대상 방 선택",
+        "devCondition":"디바이스 상태",
+        "targetDevice":"대상 디바이스",
+        "selectAllDev":"모든 디바이스 선택",
+        "selectAllSen":"모든 센서 선택",
+        "min":"최소",
+        "createDevice":"센서-디바이스 바인딩 생성",
+        "createSensor":"센서-센서 바인딩 생성",
+        "createAlert": "센서-알림 바인딩 생성",
+        "noDevice":"사용 가능한 디바이스 없음",
+        "noBinding":"바인딩 없음",
+        "delBind":"바인딩 삭제",
+        "sure":"정말로 삭제하시겠습니까?",
+        "noBindingAvailable":"바인딩이 없습니다",
+        "bindingDevice":{
+            "target_device.DEVICE_TYPE":"장치 유형",
+            "target_device.DEVICE_NAME":"장치 이름",
+            "binding_list.TARGET_DEVICE_CONDITION":"장치 상태",
+            "time":"시간 간격"
+        },
+        "modalText":{
+            "groupDisable":"그룹 바인딩이 비활성화되었습니다.",
+            "groupEnable":"그룹 바인딩이 활성화되었습니다.",
+            "bindingEnable":"장치 바인딩이 활성화되었습니다.",
+            "bindingDisable":"장치 바인딩이 비활성화되었습니다.",
+            "enable":"활성화됨!",
+            "disable":"비활성화됨!",
+            "deviceDeleted":"장치 바인딩이 삭제되었습니다.",
+            "deleted":"삭제됨!",
+            "bindingDeleted":"바인딩이 삭제되었습니다.",
+            "sure":"확실합니까?",
+            "delBinding":"이 바인딩을 삭제하시겠습니까?",
+            "delDevice":"이 장치 바인딩을 삭제하시겠습니까?",
+            "disBinding":"이 바인딩을 비활성화하시겠습니까?",
+            "disGroup":"이 바인딩 그룹을 비활성화하시겠습니까?",
+            "enBinding":"이 바인딩을 활성화하시겠습니까?",
+            "enGroup":"이 바인딩 그룹을 활성화하시겠습니까?",
+            "delUser": "이 사용자 알림 바인딩을 삭제하시겠습니까?"
+        }
+    },
+    "ir":{
+        "header": "하드웨어 관리 / IR 관리",
+        "appliancetab": "가전제품",
+        "createappliance": "가전제품 추가",
+        "createir": "IR 목록 추가",
+        "irlisttab": "IR 목록",
+        "add": "목록 추가",
+        "floor": "층",
+        "room": "방",
+        "irdevice": "IR 디바이스",
+        "appliance": "가전제품",
+        "appliancename": "제품 이름",
+        "appliancetype": "제품 유형",
+        "appliancedetails": "가전제품 상세 정보",
+        "brandname": "브랜드 이름",
+        "operation": "작업",
+        "learning": "IR 학습 값",
+        "save": "저장",
+        "cancel": "취소",
+        "listTable":{
+            "DEVICE_NAME":"IR 디바이스",
+            "APPLIANCE_NAME":"이름",
+            "APPLIANCE_TYPE":"타입",
+            "BRAND_NAME":"브랜드",
+            "STATUS":"상태",
+            "OPERATION_NAME":"동작"
+        }
+    },
+    "natureIr": {
+        "header": "하드웨어 관리 / Nature Remo IR 관리",
+        "search": "검색",
+        "appliances": {
+            "tab": "가전제품",
+            "table": {
+                "name": "이름",
+                "type": "타입",
+                "brand": "브랜드",
+                "action": "액션",
+                "ifEmpty": "데이터 없음"
+            },
+            "details": {
+                "appliance": {
+                    "title": "기기 상세 정보",
+                    "name": "기기 이름",
+                    "type": "기기 유형",
+                    "brand": "브랜드 이름"
+                },
+                "operation": {
+                    "title": "작업",
+                    "ifEmpty": "아직 등록된 작업이 없습니다"
+                }
+            },
+            "create": {
+                "button": "가전기기 추가",
+                "header": {
+                    "title": "새 가전기기 추가"
+                },
+                "body": {
+                    "form": {
+                        "applianceType": {
+                            "label": "가전 제품 유형",
+                            "info": "가전 제품 유형을 선택하세요",
+                            "placeholder": "선택...",
+                            "choices": {
+                                "tv": "텔레비전",
+                                "ac": "에어컨",
+                                "light": "스마트 조명",
+                                "ir": "일반적인 IR 지원 가전제품"
+                            },
+                            "errors": {
+                                "ifEmpty": "선택된 가전제품 유형이 없습니다"
+                            }
+                        },
+                        "applianceName": {
+                            "label": "가전제품 이름",
+                            "info": "가전제품의 이름을 입력하세요. 이름은 3~25자 사이여야 합니다. 알파벳, 숫자, 공백, 대시(-)와 언더스코어(_)만 허용됩니다.",
+                            "errors": {
+                                "ifEmpty": "가전제품 이름을 입력해주세요",
+                                "ifInvalid": "값은 25자를 초과할 수 없습니다.",
+                                "ifRegexFailed": "알파벳, 숫자, 대시(-), 언더스코어(_)와 공백만 허용됩니다.",
+                                "ifTaken": "이미 사용 중인 가전제품 이름입니다."
+                            }
+                        },
+                        "brandName": {
+                            "label": "브랜드 이름",
+                            "info": "브랜드 이름을 입력하세요. 이름은 3~25자 사이여야 하며, 알파벳, 숫자, 공백, 대시(-)와 언더스코어(_)만 허용됩니다.",
+                            "placeholder": "선택하세요...",
+                            "errors": {
+                                "ifEmpty": "브랜드 이름을 입력해주세요",
+                                "ifInvalid": "값은 25자를 초과할 수 없습니다.",
+                                "ifRegexFailed": "알파벳, 숫자, 대시(-), 언더스코어(_)와 공백만 허용됩니다."
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "save": "저장",
+                    "saving": "저장 중",
+                    "cancel": "취소"
+                },
+                "success": "기기가 성공적으로 생성되었습니다.",
+                "fail": "기기 생성에 실패했습니다."
+            },
+            "delete": {
+                "title": "기기 삭제",
+                "message": "정말 삭제하시겠습니까?",
+                "confirm": "네",
+                "cancel": "취소",
+                "success": "기기 삭제가 성공적으로 완료되었습니다",
+                "fail": "기기 삭제에 실패했습니다"
+            }
+        },
+        "operations": {
+            "tab": "운영",
+            "table": {
+                "appliance": "가전제품",
+                "applianceType": "종류",
+                "name": "작동",
+                "action": "동작",
+                "ifEmpty": "데이터 없음"
+            },
+            "filters": {
+                "appliance": {
+                    "all": "모든 가전 제품"
+                }
+            },
+            "details": {
+                "operation": {
+                    "title": "운영 세부 정보",
+                    "name": "운영 이름",
+                    "applianceName": "가전 제품 이름",
+                    "applianceType": "가전 제품 유형"
+                }
+            },
+            "create": {
+                "button": "동작 추가하기",
+                "header": {
+                    "title": "새로운 작업 추가"
+                },
+                "body": {
+                    "step1": {
+                        "title": "1단계",
+                        "text": "동작 정보 입력",
+                        "form": {
+                            "appliance": {
+                                "label": "가전제품",
+                                "info": "동작을 저장할 가전제품을 선택해주세요.",
+                                "placeholder": "선택...",
+                                "errors": {
+                                    "ifEmpty": "가전제품을 선택해주세요."
+                                }
+                            },
+                            "name": {
+                                "label": "Operation Name",
+                                "info": "작업 이름을 입력하세요. 이름은 알파벳, 숫자, 공백, 대시(-), 언더바(_)만 사용할 수 있으며 3자에서 25자 사이여야 합니다.",
+                                "placeholder": "입력하세요...",
+                                "options": {
+                                    "power": "전원",
+                                    "tv": {
+                                        "source": "원본 선택",
+                                        "vol_up": "음량 높이기",
+                                        "vol_down": "음량 낮추기",
+                                        "ch_up": "채널 높이기",
+                                        "ch_down": "채널 낮추기"
+                                    },
+                                    "ac": {
+                                        "cool": "냉방 모드",
+                                        "warm": "난방 모드",
+                                        "dry": "건조 모드",
+                                        "dehum": "제습 모드",
+                                        "temp_up": "온도 높이기",
+                                        "temp_down": "온도 낮추기",
+                                        "fan_up": "선풍기 속도 높이기",
+                                        "fan_down": "선풍기 속도 낮추기"
+                                    }
+                                },
+                                "errors": {
+                                    "ifEmpty": "작업 이름은 필수입니다",
+                                    "ifInvalid": "값은 25자를 초과할 수 없습니다",
+                                    "ifRegexFailed": "알파벳, 숫자, 대시, 언더스코어, 공백만 허용됩니다"
+                                }
+                            }
+                        }
+                    },
+                    "step2": {
+                        "title": "2 단계",
+                        "text": "IR 신호 데이터 가져오기",
+                        "form": {
+                            "label": "IR 데이터를 수신하는 장치를 선택하세요.",
+                            "placeholder": "선택하세요..."
+                        },
+                        "message1": "리모컨을 Nature Remo에 대고 등록하려는 버튼을 누르세요.",
+                        "message2": "Nature Remo의 파란색 링이 깜박이는지 확인하세요."
+                    },
+                    "step3": {
+                        "title": "3단계",
+                        "text": "작업 테스트",
+                        "message1": "아래에서 선택한 IR 장치로 작업을 보내어 작동 여부를 테스트하세요.",
+                        "message2": "Nature Remo와 작동하려는 가전제품 사이에 장애물이 없는지 확인해주세요.",
+                        "form": {
+                            "label": "데이터를 보낼 IR 장치를 선택하세요.",
+                            "placeholder": "선택..."
+                        }
+                    },
+                    "step4": {
+                        "title": "단계 4",
+                        "text": "작업 확인",
+                        "message1": "작업이 올바르게 작동합니까?",
+                        "message2": "예를 클릭하면 작업이 저장됩니다.",
+                        "message3": "아니오를 클릭하면 단계 2로 돌아갑니다."
+                    },
+                    "success": {
+                        "title": "작업이 성공적으로 생성되었습니다."
+                    },
+                    "error": {
+                        "title": "오류",
+                        "ifEmpty": "IR 신호 데이터가 비어 있거나 null입니다.",
+                        "message": "단계 2를 다시 시도하십시오."
+                    }
+                },
+                "footer": {
+                    "retry": "재시도",
+                    "cancel": "취소",
+                    "save": "저장",
+                    "saving": "저장 중",
+                    "fetch": "불러오기",
+                    "fetching": "불러오는 중",
+                    "send": "전송",
+                    "sending": "전송 중",
+                    "back": "뒤로",
+                    "next": "다음",
+                    "yes": "예",
+                    "no": "아니오",
+                    "finish": "완료"
+                }
+            },
+            "delete": {
+                "title": "작업 삭제",
+                "message": "정말 삭제하시겠습니까?",
+                "confirm": "예",
+                "cancel": "취소",
+                "success": "작업이 성공적으로 삭제되었습니다",
+                "fail": "작업 삭제 실패"
+            }
+        },
+        "irDevices": {
+            "tab": "IR 기기",
+            "table": {
+                "floor": "층",
+                "room": "방",
+                "name": "기기 이름",
+                "ifEmpty": "데이터가 없습니다"
+            },
+            "details": {
+                "irDevice": {
+                    "title": "IR 디바이스 세부 정보",
+                    "floor": "층 이름",
+                    "room": "방 이름",
+                    "name": "IR 디바이스 이름"
+                },
+                "appliance": {
+                    "title": "가전제품 목록",
+                    "select": {
+                        "placeholder": "선택...",
+                        "edit": "편집",
+                        "save": "저장",
+                        "saving": "저장 중",
+                        "cancel": "취소"
+                    }
+                },
+                "success": "기기 목록이 업데이트되었습니다",
+                "fail": "기기 목록 업데이트에 실패했습니다"
+            },
+            "filters": {
+                "floor": {
+                    "all": "모든 층"
+                },
+                "room": {
+                    "all": "모든 방"
+                }
+            },
+            "delete": {
+                "title": "삭제"
+            }
+        },
+        "errors": {
+            "showDetails": "showDetails: 요소를 찾을 수 없습니다"
+        }
+    },
+    "floor":{
+        "header": "층 관리",
+        "floor": "층",
+        "searchFloor": "층 검색",
+        "room": "방",
+        "searchRoom": "방 검색",
+        "floorPlot": "층 도면",
+        "addFloor": "층 추가",
+        "addRoom": "방 추가",
+        "addGateway": "방에 게이트웨이 추가",
+        "gateway": "게이트웨이",
+        "clear": "초기화",
+        "setPlot": "도면 설정",
+        "floorName": "층 이름",
+        "uploadFloor": "층 이미지 업로드",
+        "roomName": "방 이름",
+        "editFloor": "층 수정",
+        "editRoom": "방 수정",
+        "noGateway": "해당 방에 사용 가능한 게이트웨이가 없습니다.",
+        "plotDevice": "플롯된 장치",
+        "noRooms": "현재 층에 방이 없습니다.",
+        "noFloors": "아직 추가된 층이 없습니다.",
+        "devicePlot": "장치 플롯",
+        "selectDevice": "장치 선택",
+        "deviceNote": "참고: 플롯된 장치는 기존 좌표를 덮어쓸 수 있습니다.",
+        "noDevice": "장치를 찾을 수 없습니다.",
+        "proceed": "진행",
+        "savePlot": "도면 저장",
+        "selectRoom": "방 선택",
+        "pleaseSelect": "방을 선택해주세요",
+        "tableLabels":{
+            "FLOOR_ID":"층 ID",
+            "FLOOR_NAME":"층 이름",
+            "button":"동작",
+            "ROOM_ID":"방 ID",
+            "ROOM_NAME":"방 이름",
+            "show_details":"게이트웨이",
+            "GATEWAY_ID":"게이트웨이 ID",
+            "GATEWAY_IP":"게이트웨이 IP",
+            "GATEWAY_NAME":"게이트웨이 이름"
+        }
+    },
+    "logs":{
+        "sysLogs": "시스템 로그",
+        "auditLogs": "감사 로그",
+        "noData": "데이터 없음",
+        "export": "파일 내보내기",
+        "chooseFormat": "파일 형식 선택",
+        "auditTable": {
+            "AUDIT_LOGS_ID": "ID",
+            "IP": "IP",
+            "HOST": "호스트",
+            "MODULE": "모듈",
+            "INSTRUCTION": "명령",
+            "CREATED_AT": "날짜"
+        },
+        "systemTable": {
+            "LOGS_ID": "ID",
+            "TYPE": "유형",
+            "INSTRUCTION_TYPE": "명령 유형",
+            "CONTENT": "내용",
+            "HOST": "송신자",
+            "CREATED_AT": "날짜"
+        },
+        "pdfDownload":"PDF 파일이 곧 다운로드됩니다. 잠시만 기다려주세요.",
+        "error":"오류가 발생했습니다!",
+        "rows":"행이 너무 많습니다!"
+    },
+    "notifs":{
+        "newNotifs":"새로운 알림",
+        "viewAll":"모든 알림 보기",
+        "noNew":"새로운 알림이 없습니다"
+    },
+    "prev":"이전",
+    "next":"다음",
+    "online":"온라인",
+    "offline":"오프라인",
+    "add":"추가",
+    "reset":"초기화",
+    "close":"닫기",
+    "open":"열기",
+    "search":"검색",
+    "searchHere":"여기에서 검색",
+    "yes":"예",
+    "modalText":{
+        "floorExist":"층 이름이 이미 존재합니다",
+        "floorDelete":"층이 삭제되었습니다.",
+        "floorDeleteError":"층은 삭제할 수 없습니다.",
+        "addFloorError":"층 추가 오류.",
+        "editSuccess":"성공적으로 업데이트되었습니다",
+        "roomExist":"방 이름이 이미 존재합니다",
+        "roomDelete":"방이 삭제되었습니다.",
+        "roomDeleteError":"방은 삭제할 수 없습니다.",
+        "delete":"삭제",
+        "deleted":"삭제됨",
+        "sure":"확실합니까?",
+        "error":"오류",
+        "success":"성공",
+        "successAdd":"성공적으로 추가되었습니다",
+        "successCreate":"성공적으로 생성되었습니다",
+        "successUpdate":"성공적으로 업데이트되었습니다",
+        "selectDevice":"장치를 선택해주세요.",
+        "duplicateImg":"중복된 이미지가 발견되었습니다.",
+        "duplicateRoom":"방 이름이 중복되었습니다!",
+        "floorData":"층 데이터를 찾을 수 없습니다.",
+        "selectFloor":"층을 선택해주세요",
+        "selectRoom":"방을 선택해주세요",
+        "roomData":"방 데이터를 찾을 수 없습니다.",
+        "addGatewayError":"에러가 방 추가에 있습니다.",
+        "inputFloorName":"층 이름을 입력해주세요",
+        "inputRoomName":"방 이름을 입력해주세요",
+        "emptyCoor":"좌표가 비어 있습니다",
+        "addGate":"게이트웨이 추가",
+        "addGateway":"게이트웨이 추가",
+        "deleteDevicePlot":"장치 플롯 삭제",
+        "devicePlotDeleted":"장치 플롯이 삭제되었습니다",
+        "notificationsExcess": "100개 이상의 알림이 있습니다. 자세한 내용은 로그를 확인해주세요."
+    },
+    "error_message_code":{
+        "220050000":"오류_220050000: 게이트웨이를 찾을 수 없습니다",
+        "220050001":"오류_220050001: 기기를 찾을 수 없습니다",
+        "220050002":"오류_220050002: 방을 찾을 수 없습니다",
+        "220050003":"오류_220050003: 게이트웨이가 이미 존재합니다",
+        "220050004":"오류_220050004: 업데이트 실패",
+        "220050005":"오류_220050005: 삭제 실패",
+        "220060000":"오류_220060000: 올바르지 않은 이메일",
+        "230010000":"입력한 정보가 올바르지 않습니다.",
+        "230010001":"예약 시간이 지났습니다.",
+        "230010002":"체크인 할 수 없습니다. 직원에게 도움을 요청하세요.",
+        "230010003":"연결에 실패했습니다. 직원에게 문의하세요.",
+        "230060000":"오류_230060000: 올바르지 않은 이메일",
+        "310060000":"오류_310060000: 사용자 이름이 이미 존재합니다",
+        "310060001":"오류_310060001: 이메일이 이미 존재합니다",
+        "320010000":"오류_320010000: 이 필드는 필수 항목입니다."
+    },
+    "errorMessage": "지원되지 않는 오류가 있습니다. 알림을 확인해주세요.",
+    "errorList":{
+        "message":"",
+        "response":"",
+        "E001": {
+            "message":"PMS 연결에 실패했습니다. 예약 정보를 가져올 수 없습니다.",
+            "response":"예약 정보 업데이트 버튼을 눌러주세요. 예약 정보 업데이트 버튼을 눌러도 문제가 해결되지 않으면, 지원팀에 문의해주세요."
+        },
+        "E002": {
+            "message":" (체크인 날짜) : 게스트의 이름이 입력되지 않았습니다.",
+            "response":"PMS에서 게스트의 이름을 입력해주세요."
+        },
+        "E003": {
+            "message":" (체크인 날짜) : 게스트의 이메일 주소가 입력되지 않았습니다.",
+            "response":"PMS에서 게스트의 이메일 주소를 입력해주세요."
+        },
+        "E004": {
+            "message":" (체크인 날짜) : 게스트의 체크인 날짜와 시간이 입력되지 않았습니다.",
+            "response":"PMS에서 게스트의 체크인 날짜와 시간을 입력해주세요."
+        },
+        "E005": {
+            "message":" (체크인 날짜) : 게스트의 체크아웃 날짜와 시간이 입력되지 않았습니다.",
+            "response":"PMS에서 게스트의 체크아웃 날짜와 시간을 입력해주세요."
+        },
+        "E006": {
+            "message":" (체크인 날짜) : 게스트의 인원 수가 입력되지 않았습니다.",
+            "response":"PMS에서 게스트의 인원 수를 입력해주세요."
+        },
+        "E007": {
+            "message":"스마트 락 키를 발급할 수 없습니다.",
+            "response":"지원팀에 문의해주세요. 스마트 락 시스템 오류가 발생했을 수 있습니다. 문제가 해결될 때까지 물리적인 열쇠를 사용해주세요."
+        },
+        "E008": {
+            "message":"스마트 락 PIN 코드를 5번 연속 실패했습니다.",
+            "response":"게스트가 방에 들어갈 수 없거나 불법적으로 방에 들어갔을 가능성이 있습니다. 게스트에게 PIN 코드가 올바른지 확인하도록 연락해주세요."
+        },
+        "E009": {
+            "message":"방에 입장한 지 1시간이 지났지만, iBMS에서 체크인 작업을 수행하지 않았습니다.",
+            "response":"방에 연락해서 iBMS에서 체크인 작업을 수행하도록 격려해주세요."
+        },
+        "E010": {
+            "message":"체크아웃 시간이 지났지만, iBMS에서 체크아웃 작업을 수행하지 않았습니다.",
+            "response":"방에 연락해서 게스트가 체크아웃했는지 확인해주세요. 게스트가 체"
+        },
+        "E011": {
+            "message":"스마트 잠금 장치 배터리가 방전되었습니다.",
+            "response":"스마트 잠금 장치 배터리를 교체하십시오."
+        },
+        "E012": {
+            "message":"스마트 잠금 장치 네트워크 연결이 끊어졌습니다.",
+            "response":"스마트 잠금 장치의 Wi-Fi 설정을 확인해주세요."
+        },
+        "E013": {
+            "message":"멀티 기능 센서 (점유 / 빛 / 온도) 배터리가 방전되었습니다.",
+            "response":"멀티 기능 센서 (점유 / 빛 / 온도) 배터리를 교체하십시오. 배터리를 교체한 후에도 메시지가 표시되면 지원팀에 문의하십시오. 센서가 고장난 경우가 있습니다."
+        },
+        "E014": {
+            "message":"창문 / 문 센서 배터리가 방전되었습니다.",
+            "response":"창문 / 문 센서 배터리를 교체하십시오. 배터리를 교체한 후에도 메시지가 표시되면 지원팀에 문의하십시오. 센서가 고장난 경우가 있습니다."
+        },
+        "E015": {
+            "message":"CO2 / 온도 / 습도 센서가 연결이 끊겼습니다.",
+            "response":"지원팀에 문의해주세요. 센서가 고장난 경우가 있습니다."
+        },
+        "E016": {
+            "message":"스마트 잠금 키를 삭제할 수 없습니다.",
+            "response":"지원팀에 문의해주세요. 스마트 잠금 시스템 장애 가능성이 있으므로 문제가 해결될 때까지 물리적인 열쇠를 사용해주세요."
+        },
+        "E017": {
+            "message":"손님에게 긴급 상황이 발생했습니다.",
+            "response":"방으로 연락하여 손님과 확인해주세요. 연락이 되지 않으면 방으로 가서 확인해주세요."
+        },
+        "E018": {
+            "message":"비상 버튼 배터리가 방전되었습니다.",
+            "response":"비상 버튼 배터리를 교체하십시오. 배터리를 교체한 후에도 메시지가 표시되면 지원팀에 문의하십시오. 센서가 고장난 경우가 있습니다."
+        },
+        "I001": "예약 정보가 포함된 이메일이 손님에게 전송되었습니다.",
+        "I002": "에어컨이 꺼졌습니다.",
+        "I003": "에어컨이 냉방으로 설정되었습니다.",
+        "I004": "에어컨이 난방으로 설정되었습니다.",
+        "I005": "에어컨이 제습으로 설정되었습니다.",
+        "I006": "에어컨이 자동으로 설정되었습니다.",
+        "I007": "객실에 입장했습니다.",
+        "I008": "체크인 되었습니다.",
+        "I009": "손님 정보의 사진을 찍었습니다. 문제가 없는지 확인해주세요.",
+        "I010": "체크아웃 되었습니다.",
+        "I011": "예약이 있었습니다.",
+        "I012": "예약 정보가 업데이트되었습니다.",
+        "I013": "예약 취소가 있었습니다.",
+        "I014": "Staysee 예약 데이터의 동기화가 완료되었습니다.",
+        "I015": "게스트 카드가 입력되었습니다.",
+        "W001": "스마트 락의 배터리 잔량이 낮습니다.",
+        "W002": "다기능 센서(점유/조명/온도)의 배터리 잔량이 낮습니다.",
+        "W003": "창문/도어 센서의 배터리 잔량이 낮습니다.",
+        "W004": "응급 버튼의 배터리 잔량이 매우 낮습니다.",
+        "W005": "객실에 입장한 지 1시간이 지났으나, iBMS에서 체크인 작업이 수행되지 않았습니다.",
+        "W006": "체크아웃 시간이 지났으나, iBMS에서 체크아웃 작업이 수행되지 않았습니다."
+    },
+    "hotel": {
+        "address": "캐리 큐브, 스야마 본사",
+        "login": {
+            "nomatch": "잘못된 자격 증명입니다.",
+            "disabled": "사용자가 비활성화되었습니다.",
+            "nobookingfortoday": "오늘 예약이 없습니다!",
+            "nobooking": "예약이 없습니다.",
+            "recheckin": "재체크인은 허용되지 않습니다. 프론트 데스크로 이동해주세요."
+        },
+        "co2_monitor": "이산화탄소 모니터",
+        "monitoring": "모니터링 중",
+        "external": {
+            "legends": {
+                "low": "낮음",
+                "normal": "보통",
+                "elevated": "높음",
+                "dangerous": "매우 높음"
+            }
+        },
+        "help": {
+            "title": "이산화탄소 농도",
+            "body": "고객 안전을 위해 공기 중 이산화탄소 농도를 측정합니다.",
+            "low": {
+                "amount": "800 ppm 미만",
+                "status": "(낮음)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(보통)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(높음)"
+            },
+            "dangerous": {
+                "amount": "2501 ppm 이상",
+                "status": "(위험)"
+            }
+        }
+    },
+    "mobile": {
+        "control": {
+            "aircon": {
+                "aircon": "에어컨",
+                "power": "전원",
+                "mode": "모드",
+                "temp": "온도",
+                "fan": "선풍기",
+                "cool": "냉방",
+                "dry": "제습",
+                "warm": "난방",
+                "dehum": "제습",
+                "auto": "자동",
+                "on": "켜짐",
+                "off": "꺼짐"
+            },
+            "lights": {
+                "lights": "조명",
+                "all": "전체",
+                "cool": "냉색",
+                "warm": "온색",
+                "on": "켜짐",
+                "off": "꺼짐",
+                "min": "최소",
+                "mid": "중간",
+                "max": "최대",
+                "night": "야간",
+                "up": "밝기 올리기",
+                "down": "밝기 내리기",
+                "wind":"바람",
+                "light":"조명"
+            },
+            "tv": {
+                "tv": "TV",
+                "power": "전원",
+                "source": "입력 소스",
+                "volume": "음량",
+                "channel": "채널",
+                "mute": "음소거"
+            },
+            "doorlock": {
+                "doorlock": "도어락",
+                "entrancedoor": "출입문"
+            },
+            "airpurifier": {
+                "exhaustfan": "배기팬",
+                "airpurifier": "공기청정기"
+            },
+            "restroom": {
+                "restroom": "화장실",
+                "nosensor": "센서 없음",
+                "occupied": "사용 중",
+                "vacant": "빈 자리"
+            },
+            "showerstatus": {
+                "showerstatus": "샤워실",
+                "occupied": "사용 중",
+                "empty": "빈 자리",
+                "nosensor": "센서 없음"
+            },
+            "emergency":{
+                "emergencyStatus": "비상 버튼",
+                "emergencyHeader": "확인해 주세요",
+                "notify": "직원에게 알릴 것이며, 곧 도착할 예정입니다.",
+                "yes": "예",
+                "sos":"SOS",
+                "sosButton": "SOS 버튼이 눌렸습니다.",
+                "staff": "직원이 도착할 때까지 기다려주세요.",
+                "close": "닫기",
+                "cancel": "취소",
+                "roomNotification": "손님들에게 알림이 전달되며 방송이 됩니다.",
+                "guest1": "손님들에게 방송을 해주세요.",
+                "guest2": "※「긴급호출」버튼을 누르면 음성방송 앱이 작동됩니다.",
+                "call": "긴급호출"
+            }
+        },
+        "displaydata": {
+            "temp": {
+                "temp": "온도"
+            },
+            "hum": {
+                "hum": "습도"
+            },
+            "co2": {
+                "co2": "이산화탄소"
+            },
+            "dust": {
+                "dust": "미세먼지"
+            }
+        },
+        "menu": {
+            "alarm": "알람",
+            "notif": "알림",
+            "checkintime": "체크인",
+            "checkouttime": "체크아웃",
+            "message": "메시지",
+            "home": "홈",
+            "roomservice": "룸 서비스",
+            "roommanual": "룸 매뉴얼",
+            "frontdesk": "프론트 데스크 호출",
+            "about": "iBMS 소개",
+            "roomnumber": "방 번호",
+            "checkin": "체크인",
+            "checkout": "체크아웃",
+            "greeting": "안녕하세요",
+            "greetingextension": " ",
+            "phone": "SKYPE",
+            "synch": "동기화",
+            "editguest": "게스트 카드는 재입력이 가능합니다.",
+            "success": "성공",
+            "order": "주문"
+        },
+        "welcome": {
+            "welcome": "CARRY CUBE에 오신 것을 환영합니다! 마음 편히 쉬세요.",
+            "next": "다음",
+            "prev": "이전",
+            "roomguide": "객실 안내",
+            "roominfo": "객실 정보",
+            "start": "시작"
+        },
+        "checkout": {
+            "title": "체크아웃 하시겠습니까?",
+            "body": "결제할 준비가 되었으면 아래에서 \"체크 아웃\"을 선택하세요.",
+            "cancel": "취소",
+            "checkout": "체크아웃",
+            "checkInScreen":"체크인 화면으로 이동",
+            "checkOutTitle":"이용해 주셔서 감사합니다.",
+            "caution":"※ 이 화면은 60초 후 자동으로 이동됩니다.",
+            "return":"체크아웃 후 이 화면으로 돌아올 수 없습니다."
+        },
+        "roomservice":{
+            "menu":"메뉴",
+            "facilityDescription": "시설 안내",
+            "roomDescription":"객실 안내",
+            "evacuationRoute":"대피로",
+            "evacuationRouteMap": "대피로 안내 지도",
+            "entertainment":"엔터테인먼트",
+            "food":"음식 (데모)",
+            "amenities":"어메니티 (데모)",
+            "sightseeingMap":"관광지 안내",
+            "rentalservices": "렌탈 서비스 (데모)",
+            "foodMenu":"음식 메뉴 (데모)",
+            "amenityMenu":"어메니티 메뉴 (데모)",
+            "sightseeingMenu":"관광지 메뉴",
+            "rentalserviceMenu": "렌탈 서비스 메뉴 (데모)",
+            "total":"합계",
+            "order":"주문",
+            "rent": "대여",
+            "operationGuest":{
+                "tabName": "시설 안내",
+                "linkName":"시설 안내 페이지"
+            },
+            "special_product":"특별 상품",
+            "special_product_introduction":"특별 상품 소개",
+            "special_product_link":"특별 상품 목록",
+            "items": {
+                "hair_dryer": "헤어 드라이기",
+                "tv": "TV",
+                "pillow": "베개",
+                "remote_control": "리모컨",
+                "toothbrush": "칫솔",
+                "shampoo": "샴푸",
+                "charger": "충전기",
+                "comforter": "이불",
+                "tissue": "휴지",
+                "lock": "자물쇠",
+                "aircon":"에어컨",
+                "sofa": "소파",
+                "table": "테이블",
+                "wash_basin": "세면대",
+                "mirror": "거울",
+                "shower_booth": "샤워 부스",
+                "toilet": "화장실",
+                "bath": "온천",
+                "dining_space": "식사 공간",
+                "amenity": "어메니티",
+                "bbq_grill": "가스 그릴 대여"
+            }
+        },
+        "roommanual":{
+            "wifiInformation":"와이파이 정보",
+            "wifiName":"와이파이 이름",
+            "wifiPassword":"와이파이 비밀번호"
+        },
+        "general_terms_and_conditions":{
+            "title": "일반 약관",
+            "titletab": "약관"
+        },
+        "terms_of_usage": {
+            "title": "이용 약관",
+            "agree": "이용 약관을 읽고 동의합니다."
+        },
+        "ibms_manual": {
+            "title": "iBMS 운영 매뉴얼",
+            "info": "매뉴얼 표시"
+            },
+        "pet_terms_of_usage": {
+            "title": "반려동물 이용 약관",
+            "agree": "약관을 읽고 동의합니다."
+        }
+    },
+    "management": {
+        "roomStatus": "객실 상태",
+        "users": "사용자",
+        "floors": "층 관리",
+        "rooms": "객실 관리",
+        "key": "게스트",
+        "cleaning": "청소 관리",
+        "logs": "로그",
+        "logout": "로그아웃",
+        "noDevice": "사용 가능한 기기 없음",
+        "clean": "청소 완료",
+        "co2": "이산화탄소",
+        "monitoring": "모니터링",
+        "hardware": "하드웨어",
+        "manual": "매뉴얼",
+        "header":"> 게이트웨이 관리",
+        "device": "> 기기 관리",
+        "search":"검색",
+        "resetFilters": "필터 초기화",
+        "clear":"지우기",
+        "manuals":{
+            "manual": "매뉴얼",
+            "manualitem": "다양한 매뉴얼",
+            "cleaningVideo": "청소 (비디오)",
+            "cleaningImage": "청소 (이미지)",
+            "operationGuest": {
+                "tabName": "게스트용 운영",
+                "linkName":"iBMS 게스트 운영 매뉴얼"
+            },
+            "operationAdmin": {
+                "tabName": "관리자용 운영",
+                "linkName":"iBMS 관리자 운영 매뉴얼"
+            },
+            "batteryExchange": "배터리 교체",
+            "pmsSetting": "PMS 설정",
+            "ibmsScreen": {
+                "tabName": "iBMS 화면 설명",
+                "linkName":"iBMS 화면 설명"
+            },
+            "pmsOfficial": "PMS 공식",
+            "support": "지원",
+            "operationFlow": "비즈니스 운영 흐름",
+            "device": "장치",
+            "smartlock": "스마트락 (RemoteLock)",
+            "netvox": "장치 (넷복스)",
+            "initialize": "태블릿 초기화",
+            "manualSmartlock": "iBMS 스마트락 매뉴얼",
+            "manualSensor": "iBMS 장치 메뉴얼",
+            "manualSupport": "문의처",
+            "manualTrouble": "장애 처리 메뉴얼"
+        },
+        "roomStats": {
+            "roomStatus": "객실 상태",
+            "buttonStatus": "상태",
+            "status": {
+                "available": "사용 가능",
+                "reserved": "예약됨",
+                "checkedIn": "체크인 됨",
+                "checkedOut": "체크아웃 됨",
+                "unavailable": "열쇠 사용 불가능"
+            },
+            "checkInTime": "체크인 시간",
+            "checkOutTime": "체크아웃 시간",
+            "arrivalTime": "도착 시간",
+            "departureTime": "출발 시간",
+            "noMessage": "메시지 없음",
+            "dontDisturb": "방해 금지",
+            "cleanUpTime": "청소 시간"
+        },
+        "roomInfo": {
+            "deviceControl": "장치 정보",
+            "remoteLock": "원격 잠금",
+            "windowDoorSensor": "창문/문 센서",
+            "occTempLight": "점유/온도/조도 센서",
+            "co2TempHum": "Co2/온도/습도 센서",
+            "peopleCountCamera": "인원 카메라",
+            "deviceName": "이름",
+            "battery": "배터리",
+            "low": "낮음",
+            "elevated": "보통",
+            "normal": "높음",
+            "dangerous": "위험",
+            "serialNumber": "일련번호",
+            "hum": "습도",
+            "co2Level": "Co2 농도",
+            "people": "사람",
+            "stripLight":"스트립 라이트",
+            "turnOn":"켜기",
+            "turnOff":"끄기",
+            "status":"상태"
+        },
+        "roomOperation": {
+            "roomInfo": "객실 정보",
+            "status":"상태",
+            "message":"메시지",
+            "checkInTime": "체크인 시간",
+            "checkOutTime": "체크아웃 시간",
+            "peopleCount": "인원",
+            "doorSensor": "도어 센서",
+            "camera": "카메라",
+            "co2": "이산화탄소",
+            "temp": "온도",
+            "hum": "습도",
+            "toggleSlide": "슬라이드 전환",
+            "deviceList": "장치 목록",
+            "editStatus": "객실 상태 편집",
+            "occupied": "사용중",
+            "vacant": "비어있음",
+            "people": "명",
+            "shower": "샤워",
+            "rest": "휴식",
+            "room": "객실",
+            "toilet": "화장실",
+            "checkguestcard":"게스트 카드 확인",
+            "guestcardcheck":"게스트 카드 확인",
+            "update": "업데이트",
+            "cancel": "취소",
+            "updateStatus": "상태 업데이트: ",
+            "questionMark":"?",
+            "updateStatusJa": "",
+            "updateRoomStatus": "객실 상태 업데이트?",
+            "lock": "잠금",
+            "locking": "잠금 중",
+            "lockSuccess": "잠금 작업이 적용되었습니다. 다음 장치 작업에서 잠금 상태가 됩니다.",
+            "lockFailed": "잠금 작업 실패",
+            "unlock": "잠금 해제",
+            "unlocking": "잠금 해제 중",
+            "unlockSuccess": "잠금 해제 작업이 적용되었습니다. 다음 장치 작업에서 잠금 해제 상태가 됩니다.",
+            "unlockFailed": "잠금 해제 작업 실패",
+            "updated": "객실 상태가 업데이트되었습니다.",
+            "failedUpdate": "객실 상태 업데이트 실패",
+            "noBooking": "오늘 예약된 객실이 없습니다.",
+            "areYouSure": "확실합니까?",
+            "updateReserveInstead": "대신 예약 상태로 업데이트 하시겠습니까?",
+            "updateReserveAvailable": "오늘 이 객실은 예약이 있습니다. 상태가 사용 가능에서 예약으로 변경됩니다.",
+            "reservation": " 예약",
+            "roomHave": "이 객실에는 ",
+            "low": "낮은",
+            "medium": "중간",
+            "strong": "강한",
+            "locked": "잠금",
+            "unlocked": "잠금 해제"
+        },
+        "logoutbtn": {
+            "title":"로그아웃 하시겠습니까?",
+            "body":"로그아웃 버튼을 선택하여 진행하시겠습니까?",
+            "cancel": "취소",
+            "logout":"로그아웃"
+        },
+        "cleaningPage": {
+            "subtitle": "선택적으로 청소 관리 기능을 추가할 수 있습니다.",
+            "card1": {
+                "title": "관리자 대시보드 기능",
+                "content1": "청소 관리 기능에 의해 업데이트된 정보는 관리자 대시보드에 반영됩니다."
+            },
+            "card2": {
+                "title": "청소 관리 기능",
+                "content1": "현재 청소 상태의 실시간 시각화.",
+                "content2": "청소원들은 일정을 확인할 수 있습니다.",
+                "content3": "청소원들은 청소 노트와 사진을 자유롭게 등록할 수 있습니다."
+            },
+            "r2l": "방의 최신 상태 공유하기",
+            "l2r": "청소 상태 업데이트하기",
+            "listview": "리스트 보기",
+            "calview": "달력 보기"
+        },
+        "keyManagementPage": {
+            "keytext1": "예약 시스템과 연동하여 손님의 체류 기간 동안 유효한 키를 발급할 수 있습니다.",
+            "keytext2": "키는 4자리 숫자(PIN 코드)이며 등록된 PIN 코드는 체크인 하루 전에 손님에게 이메일로 전송됩니다.",
+            "keytext3": "수동으로 키를 생성해 보세요",
+            "keytext4": "",
+            "keytext5": "",
+            "genkey": "키 생성",
+            "userAndGuestAccount": "사용자 및 손님 계정",
+            "users": "관리자",
+            "guests": "손님",
+            "number": "번호",
+            "name": "이름",
+            "username": "사용자 이름",
+            "serial": "시리얼 ID",
+            "expiration": "만료일",
+            "accessCode": "PIN 코드",
+            "status": "상태",
+            "checkIn": "체크인",
+            "checkOut": "체크아웃",
+            "arrivalTime": "도착 시간",
+            "departureTime": "출발 시간",
+            "room": "방",
+            "createAdminAccount": "관리자 계정 생성",
+            "createGuestAccount": "손님 계정 생성",
+            "noUserAccountsRegister":"등록된 사용자 계정 없음",
+            "noGuestAccountsRegister":"등록된 손님 계정 없음",
+            "generateNewPin" : "새 PIN 생성",
+            "updateGuestAccount" : "손님 계정 업데이트",
+            "updateUserAccount" : "사용자 계정 업데이트",
+            "updateAdminAccount" : "관리자 계정 업데이트",
+            "ok":"확인",
+            "successUpdatingGuestAccount": "손님 계정 업데이트 성공",
+            "deleteGuestAccount":"손님 계정 삭제",
+            "deleteAdminAccount":"관리자 계정 삭제",
+            "deleteModal":"이 계정을 삭제하시겠습니까?",
+            "cancel":"취소",
+            "create": "생성",
+            "creating": "생성 중",
+            "update": "업데이트",
+            "updating": "업데이트 중",
+            "delete":"삭제",
+            "deleting": "삭제 중",
+            "clear": "지우기",
+            "email": "이메일 주소",
+            "action": "작업",
+            "reset": "재설정"
+        },
+        "systemLogs": {
+            "system": "시스템 로그",
+            "app": "감사 로그",
+            "error": "오류",
+            "warning": "경고",
+            "info": "정보",
+            "date": "날짜",
+            "userInfo": "사용자 정보",
+            "processingObj": "처리 대상",
+            "errorCode": "오류 코드",
+            "processingDetails": "처리 세부 정보",
+            "events": "이벤트",
+            "content": "내용",
+            "roomName": "방 이름",
+            "message": "메시지",
+            "responseModal": {
+                "title": "오류",
+                "date": "날짜",
+                "room": "방",
+                "message": "메시지",
+                "response": "응답 메시지",
+                "responder": "응답자",
+                "responseTime": "응답 시간",
+                "done": "응답 완료"
+            }
+        },
+        "remotelock": {
+            "title": "원격 잠금",
+            "scan": "스캔",
+            "scanning": "스캔 중",
+            "scanSuccess": "스캔 성공",
+            "scanFailed": "스캔 실패",
+            "deleteConfirm": "장치를 삭제하시겠습니까?",
+            "deleteSuccess": "삭제 성공",
+            "deleteFailed": "삭제 실패",
+            "noRoomData": "-",
+            "registered": "등록됨",
+            "unregistered": "미등록",
+            "online": "온라인",
+            "offline": "오프라인",
+            "fields": {
+                "serialNo": "시리얼 번호",
+                "name": "이름",
+                "room": "객실",
+                "status": "상태",
+                "action": "조작"
+            },
+            "form": {
+                "registerTitle": "원격 잠금장치 등록",
+                "editTitle": "원격 잠금장치 수정",
+                "serialNo": "장치 일련번호",
+                "deviceName": "장치 이름",
+                "roomName": "방 이름",
+                "register": "등록",
+                "registering": "등록 중",
+                "registerSuccess": "등록 성공",
+                "registerFailed": "등록 실패",
+                "update": "업데이트",
+                "updating": "업데이트 중",
+                "updatingSuccess": "업데이트 성공",
+                "updateSuccess": "성공적으로 업데이트되었습니다",
+                "updatingFailed": "업데이트 실패"
+            }
+        },
+        "natureRemo": {
+            "title": "원격 제어기",
+            "tabTitleAccounts": "계정",
+            "tabTitleDevices": "장치",
+            "tabTitleAppliances": "가전제품",
+            "tabTitleSignals": "신호",
+            "account": "계정",
+            "device": "장치",
+            "room": "방",
+            "registerStatus": "상태",
+            "appliance": "가전제품",
+            "applianceType": "유형",
+            "all": "전체",
+            "search": "검색",
+            "send": "전송",
+            "selectAccount": "계정 선택",
+            "selectDevice": "장치 선택",
+            "selectRoom": "방 선택",
+            "selectStatus": "상태 선택",
+            "selectAppliance": "가전제품 선택",
+            "selectType": "유형 선택",
+            "resetFilters": "필터 초기화",
+            "scanDevices": "장치 스캔",
+            "scanAppliances": "가전제품 스캔",
+            "showCreateAccountFormModal": "계정 생성 폼 모달 표시",
+            "showRegisterDeviceModal": "장치 등록 폼 모달 표시",
+            "tableNoData": "데이터 없음",
+            "deleteAccount": "계정 삭제",
+            "status": {
+                "registered": "등록됨",
+                "unregistered": "등록되지 않음"
+            },
+            "type": {
+                "ac": "에어컨",
+                "light":"스마트 조명",
+                "tv":"텔레비전",
+                "ir":"일반"
+            },
+            "tableFields": {
+                "id": "ID",
+                "uuid": "UUID",
+                "name": "이름",
+                "token": "토큰",
+                "accountName": "계정 이름",
+                "deviceName": "장치 이름",
+                "roomName": "방 이름",
+                "applianceName":"가전제품 이름",
+                "deviceId": "장치 ID",
+                "type": "유형",
+                "applianceId": "가전제품 ID",
+                "roomId": "방 ID",
+                "label": "라벨",
+                "serialNumber": "일련번호",
+                "macAddress": "MAC 주소",
+                "regFlag": "등록 여부",
+                "deviceCount": "장치 수",
+                "applianceCount": "가전제품 수",
+                "signalCount": "신호 수",
+                "createdAt": "생성일",
+                "dateAdded": "추가일",
+                "action": ""
+            },
+            "modalTitleCreateAccount": "네이처 레모 계정 추가",
+            "modalTitleRegisterDevice": "네이처 레모 장치 등록",
+            "formFields": {
+                "accountName": "계정 이름",
+                "accessToken": "액세스 토큰",
+                "accessTokenPlaceholder": "여기에 액세스 토큰을 붙여넣으세요",
+                "serialNumber": "일련번호",
+                "room": "방",
+                "deviceName": "장치 이름"
+            },
+            "save": "저장",
+            "saving": "저장 중",
+            "alert": {
+                "deleteAccount": {
+                    "title": "확인하셨습니까?",
+                    "text": "이 계정에 연결된 장치, 가전 제품 및 신호가 삭제됩니다.",
+                    "confirm": "확인",
+                    "cancel": "취소",
+                    "onSuccess": "계정이 성공적으로 삭제되었습니다.",
+                    "onFail": "계정 삭제 실패"
+                },
+                "createAccount": {
+                    "onSuccess": "계정이 성공적으로 생성되었습니다.",
+                    "onFail": "계정 생성 실패"
+                },
+                "scanDevices": {
+                    "onSuccess": "검색 완료",
+                    "onFail": "장치 검색 실패"
+                },
+                "registerDevice": {
+                    "onSuccess": "장치가 성공적으로 등록되었습니다.",
+                    "onFail": "장치 등록 실패"
+                },
+                "scanAppliances": {
+                    "onSuccess": "검색 완료",
+                    "onFail": "가전 제품 검색 실패"
+                },
+                "sendSignals": {
+                    "onSuccess": "신호가 성공적으로 전송되었습니다.",
+                    "onFail": "신호 전송 실패"
+                }
+            }
+        },
+        "param":{
+            "title": "PARAM 설정",
+            "ac": "에어컨",
+            "staysee": "스테이시",
+            "pincode": "PIN 코드",
+            "mail": "메일",
+            "wifi": "Wi-Fi",
+            "acHeader": "체크인 시간 이전 자동 에어컨 시작 설정.",
+            "autoStart": "자동 시작",
+            "on": "켜짐",
+            "off": "꺼짐",
+            "checkIn": "체크인",
+            "hoursBefore": "시간 전",
+            "hoursOption1": "0.0",
+            "hoursOption2": "0.5",
+            "dropDownMode": "모드",
+            "warmMode": "온난",
+            "coolMode": "냉난",
+            "dryMode": "건조",
+            "autoMode": "자동",
+            "stayseeHeader": "스테이시 자동 동기화 주기 설정",
+            "syncFrequency": "동기화 주기",
+            "minutesFrequency": "분 주기",
+            "pinHeader": "PIN 코드의 자릿수 설정.",
+            "numberOfDigits": "숫자의 수",
+            "digits": "자릿수",
+            "mailHeader": "메일 텍스트 및 리마인드 메일 설정",
+            "enThankyouMail": "영문 감사 메일 텍스트",
+            "jaThankyouMail": "일본어 감사 메일 텍스트",
+            "remindMail": "리마인드 메일 전송 일자",
+            "dateThankyouMail": "감사 이메일 발송일",
+            "dayBefore": "전 날",
+            "dayAfter": "퇴실 후 일 수",
+            "mailText": "메일 본문",
+            "wifiHeader": "게스트 화면에 표시되는 Wi-Fi 이름 및 비밀번호 설정",
+            "wifiName": "Wi-Fi 이름",
+            "wifiPassword": "비밀번호",
+            "apply": "적용",
+            "applying": "적용 중",
+            "reset": "초기화",
+            "attention": "※NETFLIX 및 기타 앱 사용 시 주의 사항\n　본인 계정으로 로그인한 경우\n　사용 종료 후 로그아웃을 반드시 하세요.",
+            "tempAdjustment": "온도 조절",
+            "setTemp": "설정 온도",
+            "autoStartTemp": "자동 시작 온도",
+            "heatStart": "난방 시작 온도",
+            "coolStart": "냉방 시작 온도",
+            "heating": "난방",
+            "cooling": "냉방"
+        }
+    },
+    "remotelock": {
+        "accounttype": "계정 유형",
+        "adminTitle": "관리자 계정 생성",
+        "guestTitle": "게스트 계정 생성",
+        "username": "사용자 이름",
+        "name": "이름",
+        "firstname": "이름",
+        "lastname": "성",
+        "checkin": "체크인 날짜 및 시간",
+        "checkout": "체크아웃 날짜 및 시간",
+        "email": "이메일 주소",
+        "phoneNumber": "전화번호",
+        "pin": "PIN 코드",
+        "room": "객실",
+        "device": "장치",
+        "send": "보내기",
+        "back": "뒤로",
+        "status": "객실 상태",
+        "checkedIn": "체크인 완료",
+        "checkedOut": "체크아웃 완료",
+        "available": "이용 가능",
+        "unavailable": "이용 불가능",
+        "booked": "예약 완료",
+        "updateGuestAccount": "게스트 계정 업데이트",
+        "update":"업데이트",
+        "generateNewPin": "새 PIN 생성",
+        "updatePinFlag": "새 PIN 요청?",
+        "errors": {
+            "firstName": {
+                "empty": "이름을 입력해주세요."
+            },
+            "lastName": {
+                "empty": "성을 입력해주세요."
+            },
+            "checkIn": {
+                "empty": "체크인 날짜와 시간을 선택해주세요.",
+                "later": "체크인 날짜와 시간은 체크아웃 날짜와 시간보다 빨라야 합니다."
+            },
+            "checkOut": {
+                "empty": "체크아웃 날짜와 시간을 선택해주세요.",
+                "earlier": "체크아웃 날짜와 시간은 체크인 날짜와 시간보다 늦어야 합니다."
+            },
+            "email": {
+                "empty": "이메일 주소를 입력해주세요.",
+                "invalid": "유효하지 않은 이메일 주소입니다."
+            },
+            "phoneNumber": {
+                "empty": "휴대폰 번호를 입력해주세요."
+            },
+            "remoteLockId": {
+                "empty": "객실을 선택해주세요.",
+                "no_available": "사용 가능한 객실이 없습니다."
+            },
+            "createRemoteLockGuestAccount": {
+                "general": "createRemoteLockGuestAccount 프로세스가 실패했습니다."
+            },
+            "createiBMSGuestAccount": {
+                "general": "createiBMSGuestAccount 프로세스가 실패했습니다.",
+                "duplicate": "createiBMSGuestAccount 프로세스가 실패했습니다: 이미 사용 중인 사용자 이름입니다."
+            },
+            "sendAlertEmail": {
+                "general": "sendAlertEmail 프로세스가 실패했습니다."
+            },
+            "authCode": {
+                "empty": "이 페이지에는 인증 코드가 없습니다."
+            },
+            "pin": {
+                "empty": "6자리 PIN을 입력해주세요.",
+                "invalid": "PIN은 최소 6자리여야 합니다.",
+                "duplicate": "이미 사용 중인 PIN입니다. 다른 PIN을 입력해주세요."
+            },
+            "unknownError": {
+                "title": "오류!",
+                "redirect": "이 페이지는 3초 후 iBMS 관리 대시보드 화면으로 이동됩니다."
+            }
+        },
+        "message": {
+            "success": {
+                "title": "성공!",
+                "body": "예약 및 계정 정보가 아래 이메일로 전송되었습니다. 이 페이지는 3초 후 iBMS 관리 대시 보드 화면으로 리디렉션됩니다."
+            },
+            "successCancel": {
+                "title": "성공",
+                "body": "예약 취소 세부 정보가 게스트의 이메일로 전송되었습니다. 이 페이지는 3초 후 iBMS 관리 대시 보드 화면으로 리디렉션됩니다."
+            }
+        }
+    },
+    "restaurant": {
+        "admin": {
+            "menu": {
+                "home": "홈",
+                "monitor": "공기 모니터",
+                "registry": "레지스트리",
+                "logs": "로그",
+                "notifications": "알림",
+                "logout": "로그아웃"
+            },
+            "home": {
+                "rooms": "객실",
+                "devices": "장치",
+                "air_sensor": "공기 센서"
+            },
+            "chart": {
+                "co2_level": "이산화탄소 농도"
+            },
+            "external": {
+                "legends": {
+                    "low": "낮음",
+                    "normal": "보통",
+                    "elevated": "높음",
+                    "dangerous": "위험"
+                }
+            },
+            "restroom": {
+                "title": "화장실 모니터",
+                "occupied": "사용 중",
+                "vacant": "사용 가능",
+                "no_vacant": "사용 불가"
+            }
+        },
+        "guest": {
+            "menu": {
+                "home": "홈",
+                "order": "주문",
+                "history": "주문 내역",
+                "payment": "결제",
+                "logout": "로그아웃"
+            },
+            "home": {
+                "air_monitor": "공기 모니터링",
+                "sound_level": "소음 레벨",
+                "co2_level": "이산화탄소 농도",
+                "restroom_status": "화장실 이용 상태",
+                "occupied": "사용 중",
+                "vacant": "빈 자리"
+            },
+            "restroom": {
+                "title": "화장실 이용",
+                "occupied": "사용 중",
+                "vacant": "빈 자리"
+            }
+        },
+        "help": {
+            "title": "Co2 농도",
+            "body": "고객 안전을 위해 공기 내 Co2 농도를 측정합니다.",
+            "low": {
+                "amount": "800 ppm 미만",
+                "status": "(낮음)"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "(보통)"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "(높음)"
+            },
+            "dangerous": {
+                "amount": "2501 ppm 이상",
+                "status": "(위험)"
+            }
+        },
+        "logout": {
+            "title": "확인",
+            "content": "로그아웃 하시겠습니까?"
+        }
+    },
+    "tablet": {
+        "tabletBtn": "기기 등록",
+        "regist":"등록",
+        "uuid": "기기 UUID",
+        "room": "방 이름",
+        "userType": "관리자/게스트",
+        "placeholder": "선택...",
+        "tabletTable": {
+            "uuid": "UUID",
+            "room": "객실 이름",
+            "admin": "관리자"
+        },
+        "choices": {
+            "admin": "관리자",
+            "guest": "게스트"
+        },
+        "footer": {
+            "save": "저장",
+            "saving": "저장 중",
+            "cancel": "취소"
+        },
+        "success": "장치가 성공적으로 등록되었습니다.",
+        "fail": "장치 등록에 실패했습니다.",
+        "errors": {
+            "ifEmptyRoom": "방이 선택되지 않았습니다",
+            "ifEmptyUser": "사용자가 선택되지 않았습니다"
+        },
+        "deleteMessage": {
+            "deleteUuid": "UUID 삭제",
+            "deleteModal": "해당 UUID 계정을 삭제하시겠습니까?",
+            "cancel":"취소",
+            "delete":"삭제"
+        },
+        "message": {
+            "success": "UUID 계정이 성공적으로 삭제되었습니다.",
+            "fail": "UUID 계정 삭제에 실패했습니다."
+        }
+    },
+    "termsAndCondition": {
+        "title": "일반 약관 및 조건",
+        "backBtn": "이전",
+        "nxtBtn": "다음",
+        "agree": "일반 약관 및 조건에 동의합니다."
+    },
+    "clientCode": {
+        "checkIn": "체크인",
+        "checkOut": "체크아웃",
+        "lateCheckIn":"늦은 체크인",
+        "reCheckIn":"재체크인 시도",
+        "lateCheckOut": "늦은 체크아웃",
+        "failedCheckOut": "체크아웃 실패"
+    },
+    "notificationCode":{
+        "notification":"알림",
+        "event":"이벤트 유형",
+        "message": "메시지",
+        "roomName": "방 이름",
+        "date": "날짜"
+    },
+    "roomMessageCode": {
+        "noMessage": "메시지 없음",
+        "dontDisturb": "방해 금지",
+        "cleanUpTime": "정리 시간"
+    },
+    "imageWarning":{
+        "inputWarning": "!입력은 3에서 20자 사이의 문자만 포함해야 합니다."
+    },
+    "guestcard": {
+        "guestcardTitle": "게스트 등록 카드",
+        "require": "필수",
+        "go": "박",
+        "haku": "박",
+        "date": "날짜",
+        "print": "루비",
+        "name": "이름",
+        "guests": "인원",
+        "adult": "성인",
+        "child": "어린이",
+        "toddler": "유아",
+        "toddlerName": "유아 이름",
+        "toddlerNamePrint": "유아 루비",
+        "mei": "명",
+        "sum": "총합",
+        "addressNumber": "우편번호",
+        "address": "주소",
+        "receipt": "영수증 이름",
+        "tel1": "전화번호1",
+        "tel2": "전화번호2",
+        "car": "차량 종류, 번호판",
+        "birthday": "생년월일",
+        "email": "이메일",
+        "nationality": "국적을 선택해주세요.",
+        "passport_no": "여권번호",
+        "photo": "여권 촬영",
+        "representative": "대표자",
+        "companion": "동반자",
+        "instructions": "※ 대표자나 동반자가 외국인일 경우 「외국인」 체크를 해주세요.",
+        "images": "여권 사진을 촬영해주세요.",
+        "images_desc1": "※ 외국인에 한해서 여권 사진을 촬영해주세요.",
+        "images_desc2": "※ 얼굴과 여권 번호가 보이는 페이지를 촬영해주세요.",
+        "japanese_nationality": "일본국적",
+        "foreign_nationality": "외국인",
+        "purpose": {
+            "purpose": "여행 목적",
+            "sightseeing": "관광",
+            "gourmet": "음식",
+            "hotSprings": "온천",
+            "refreshment": "휴식",
+            "rest": "휴식과 치유",
+            "familyFriends": "가족과 친구와 함께",
+            "nature": "자연과 접촉",
+            "Other": "기타",
+            "business": "비즈니스"
+        },
+        "questionnaire": "저희 특별 매거진(하쿠바노모토)을 받으시겠습니까?",
+        "answer1": "받고 싶습니다.",
+        "answer2": "이미 받았습니다.",
+        "next": "다음",
+        "prev": "이전",
+        "complete": "완료",
+        "placeholder": {
+            "name": "John Smith",
+            "ruby": "John Smith",
+            "addressNumber": "399-9301",
+            "receipt": "John Smith",
+            "address": "21582 Hokujo Hakuba-mura,Kitaazumi-gun, Nagano-ken",
+            "tel1": "090-1234-5678",
+            "tel2": "0776-00-1122",
+            "car": "컴팩트 카 나가노 300 A 00-00",
+            "email": "sample@sample.com",
+            "purpose": "(선택)"
+        },
+        "errors": {
+            "nights": {
+                "empty": "숙박 날짜를 입력해주세요.",
+                "invalid": "잘못된 숙박 기간입니다."
+            },
+            "sumGuests": {
+                "invalid": "손님 수를 올바르게 입력해주세요."
+            },
+            "namePrint" : {
+                "empty": "'루비'를 입력해주세요.",
+                "invalid": "'루비'를 50자 이내로 입력해주세요."
+            },
+            "name": {
+                "empty": "이름을 입력해주세요.",
+                "invalid": "이름을 50자 이하로 입력해주세요."
+            },
+            "toddlerNamePrint": {
+                "empty": "'유아 루비'를 입력해주세요.",
+                "invalid": "'유아 루비'는 50자 이내로 입력해주세요."
+            },
+            "toddlerName": {
+                "empty": "'유아 이름'을 입력해주세요.",
+                "invalid": "'유아 이름'은 50자 이하로 입력해주세요."
+            },
+            "addressNumber": {
+                "invalid": "'주소 번호'는 10자 이하의 숫자로 입력해주세요.",
+                "empty": "'주소 번호'를 입력해주세요."
+            },
+            "address": {
+                "empty": "'주소'를 입력해주세요.",
+                "invalid": "'주소'는 255자 이하로 입력해주세요."
+            },
+            "receiptName": {
+                "empty": "'영수증 이름'을 입력해주세요.",
+                "invalid": "'영수증 이름'을 50자 이내로 입력해주세요."
+            },
+            "tel1": {
+                "invalid": "20자 이하의 '전화번호1'를 입력하세요.",
+                "empty": "'전화번호1'을 입력해주세요."
+            },
+            "tel2": {
+                "invalid": "Please enter 'Tel2' with no more than 20 digits."
+            },
+            "car": {
+                "invalid": "차량 모델 및 번호판을 50자 이내로 입력해주세요."
+            },
+            "birthday": {
+                "empty": "'Date of birth'을 입력하세요."
+            },
+            "email": {
+                "empty": "'이메일'을 입력하세요.",
+                "invalid": "유효하지 않은 '이메일 주소'입니다.",
+                "invalid_characters": "'이메일'을 255자 이하로 입력하세요."
+            },
+            "purpose": {
+                "empty": "'목적'을 입력하세요."
+            },
+            "questionnaire": {
+                "empty": "'설문조사'를 선택하세요."
+            },
+            "passport_no": {
+                "empty": "'여권 번호'를 입력하세요."
+            },
+            "guestcard_image": "최소한 하나의 여권 사진을 찍어주세요."
+        }
+    },
+    "spareKeys": {
+        "tabName": "스페어 키",
+        "tableHeaders": {
+            "id": "키 ID",
+            "pinCode": "PIN 코드",
+            "roomID": "객실 ID",
+            "roomName": "객실 이름",
+            "deviceId": "장치 ID",
+            "deviceName": "장치 이름",
+            "period": "유효한 기간"
+        },
+        "error": {
+            "tableEmpty": "스페어 키 데이터 없음"
+        },
+        "refresh": "새로고침",
+        "refreshing": "새로고침 중"
+        },
+    "emergency": {
+        "modal": {
+            "header": "비상 상황",
+            "body1": "비상 버튼이 눌렸습니다.",
+            "body2": "직원은 즉시 상황을 확인해야 합니다.",
+            "body3": "직원의 안내를 기다려주십시오.",
+            "close": "닫기"
+        }
+    },
+    "logoutScreen": {
+        "content1": "추가 주문 사항은 프론트 데스크에서 결제해 주십시오.",
+        "content2": "건물을 나가기 전에 놓치지 않은 물건이 있는지 확인해 주십시오.",
+        "content3": "방을 나와서 물건을 놓친 경우 체크아웃 시간까지 스마트 락을 열고 방으로 들어갈 수 있습니다.",
+        "content4": "체크아웃 시간을 지났을 경우 프론트 데스크로 오십시오."
+    },
+    "termsAndConditions": {
+        "termsOfUse": "이용 약관",
+        "termsOfHotel": "호텔 이용 약관",
+        "introduction": "우리 호텔은 게스트의 안전하고 편안한 숙박을 위해 호텔 이용 약관 제 10조에 기반한 다음 규정을 제정하였으며 게스트의 협조를 요청합니다. 규정을 준수하지 않을 경우, 호텔 이용 약관 제 7조 1항에 따라 게스트 룸 및 시설 사용을 거절할 수 있습니다. 게스트의 협조 부족으로 발생한 사고에 대해서는 호텔에서 책임을 지지 않습니다.",
+        "safety": {
+            "title": "안전 및 보안 조치 엄수 요청",
+            "1": "난방, 조리 등을 위한 소방 장비, 다리미 등을 대여하지 않은 경우를 제외하고는 방 안으로 가져오지 마십시오.",
+            "2": "침대나 화재 위험 지역에서는 금연해 주십시오.",
+            "3": "화재를 유발할 수 있는 활동은 하지 마십시오.",
+            "4": "각 방의 문 안에 디스플레이 된 대피 경로도를 확인하십시오.",
+            "5": "숙박 중 방을 나갈 때 문이 잠겨 있는지 확인해 주십시오. (호텔에는 자동 잠금 시스템이 있습니다.)",
+            "6": "숙박 중 특히 잠자리에 들 때 내부 열쇠(도어 락)로 문을 잠그십시오. 방문객이 오는 경우 도어 락이 없이 문을 열지 마시고 홀목구멍을 이용해 확인해 주십시오. 수상한 사람이 있다고 생각되면 프론트 데스크 직원에게 연락해 주십시오.",
+            "7": "객실 내에 방문객을 입장시키지 말아주세요.",
+            "8": "등록된 투숙객만 호텔에 머무를 수 있습니다."
+        },
+        "handling": {
+            "title": "귀중품 및 보관물품 처리",
+            "1": "숙박 기간 동안 현금 및 귀중품을 관리하기 위해 프런트 데스크의 금고를 이용해주십시오. 위 절차를 따르지 않아 현금이나 귀중품이 분실, 파손, 도난당한 경우, 호텔은 보상에 대한 책임을 지지 않습니다.",
+            "2": "분실물은 법령에 따라 처리되며 별도로 정해지지 않는 한 일반적인 절차가 따릅니다."
+        },
+        "payment": {
+            "title": "결제 정책",
+            "1": "호텔에서 승인한 통화, 여행자 수표, 호텔 티켓, 신용카드로 청구서를 지불해주십시오. 다만, 숙박 기간 동안 호텔에서 청구서를 제시할 때마다 지불을 하셔야 합니다.",
+            "2": "숙박 기간을 변경하고자 하는 경우, 미리 프런트 데스크 직원에게 연락하여 주십시오. 만약 숙박 기간을 연장하고자 하는 경우, 숙박 기간 종료까지 결제를 완료하여 주시기 바랍니다."
+        },
+        "actions": {
+            "title": "피해야 할 행동",
+            "1": "다른 게스트를 방해할 수 있는 물건은 호텔 내부로 가져오지 마세요.",
+            "a": "사전에 호텔로부터 허가를 받지 않은 일반적인 애완동물, 개, 고양이, 새 등.",
+            "b": "폭발물, 휘발성 오일 및 화재가 발생하거나 발화할 수 있는 위험한 제품",
+            "c": "악취나 강한 냄새를 방출하는 물건",
+            "d": "미승인된 총기 및 검",
+            "e": "과다한 수하물 및 물품",
+            "f": "법에 의해 금지된 다른 물품",
+            "2": "호텔 내 다른 게스트에게 불편하거나 불쾌감을 유발할 수 있는 도박, 공공도덕 또는 안전에 위해 방해하는 행동 등은 자제해 주세요.",
+            "3": "호텔 외관을 손상시킬 수 있는 방 창문에 아무것도 걸거나 디스플레이하지 마세요.",
+            "4": "허가 없이 호텔 내에서 광고나 홍보 자료를 배포하거나 물품을 판매하지 마세요.",
+            "5": "호텔 시설 및 장비를 명시된 용도 이외의 목적으로 사용하거나 현재 상태를 심각하게 손상시키는 방법으로 사용하지 마세요.",
+            "6": "허가 없이 비즈니스 목적으로 호텔 내에서 촬영된 사진은 법적 조치를 받을 수 있습니다.",
+            "7": "개인 물품을 복도나 로비에 놓고 가지 마세요.",
+            "8": "비상 계단, 옥상, 하숙집, 기계실 및 게스트가 예약하지 않은 다른 시설에는 비상이나 불가피한 상황이 없는 한 출입하지 마세요.",
+            "9": "18세 미만의 게스트는 부모나 보호자의 허가 없이 혼자 호텔에 머무를 수 없습니다.",
+            "10": "불가항력 이외의 이유로 발생한 건물, 가구, 장비 또는 기타 항목의 손상, 오염 또는 분실의 경우, 합리적인 보상금을 지불해야 할 수 있습니다.",
+            "11": "호텔 외부에서 음식과 음료를 배달받지 않도록 해주세요.",
+            "footer": "※배달 주문의 경우, 1층 로비 또는 외부에서 픽업해주세요."
+        },
+        "article1": {
+            "header": "(적용범위)",
+            "title": "제1조",
+            "1": "본 호텔이 고객과 체결하는 숙박계약 및 관련 계약은 본 약관의 규정에 따릅니다. 본 약관에서 명시하지 않은 사항은 법령 또는 관례에 따릅니다.",
+            "2": "본 호텔이 법령, 규제, 관례를 위반하지 않는 범위 내에서 특별한 약정에 동의하는 경우에는, 이러한 특별한 약정이 본조에 우선하여 적용됩니다."
+        },
+        "article2": {
+            "header": "(숙박계약의 체결)",
+            "title": "제2조",
+            "1": {
+                "content": "본 호텔과의 숙박계약을 신청하는 고객은 다음의 정보를 제공하여야 합니다.",
+                "1": "숙박객 이름",
+                "2": "숙박 일시 및 도착 예정 시간",
+                "3": "호텔이 요구하는 기타 정보, 숙박 인원 수, 연락처(전화번호), 객실 유형"
+            },
+            "2": "고객이 숙박 중에 본조 2항의 숙박 종료일자 이후로 숙박을 계속하고자 할 경우, 본 호텔은 그 요청을 숙박 계약의 새로운 신청으로 처리합니다."
+        },
+        "article3": {
+            "header": "(숙박 계약 체결 등)",
+            "title": "제3조",
+            "1": "이 호텔이 제1조에서 정한 방법에 따라 숙박 신청을 받았을 때에는, 숙박 계약이 체결된 것으로 한다. 다만, 이 호텔이 그 신청을 승낙하지 아니한 때에는 그러하지 아니한다.",
+            "2": "제1항에 따라 숙박 계약이 체결된 때에는, 이 호텔이 정한 기일까지 이 호텔이 정한 요금에 해당하는 예약금을 선불로 지급하여야 한다. 이 경우, 예약금은 숙박일수(3일을 초과하는 경우에는 그 초과하는 일수분)의 숙박요금 중 기본 숙박요금에 한해서 산출된 금액에 한한다.",
+            "3": "예약금은, 적어도 숙박료 등의 지불이 이루어진 후에 변상금, 과태료 등의 지불을 청구할 때, 그 금액을 우선하여 사용할 수 있으며, 남았을 경우, 이에 대하여는 숙박요금 등의 정산시에 반환한다.",
+            "4": "예약금은 제2항에 따른 지급기일에 지급하지 아니한 때에는, 이 호텔이 별도로 정한 계약의 체결 등에 관한 세부안내에 따라 그 숙박계약은 효력을 상실한다. 단, 이 경우 이 호텔은 숙박자에게 지체 없이 그 내용을 통지하여야 한다."
+        },
+        "article4": {
+            "header": "(신청금 지급 요구 없는 특약)",
+            "title": "제4조",
+            "1": "호텔은 계약체결 후에도 제2항의 신청금 지급을 요구하지 않는 특별한 합의를 받을 수 있다.",
+            "2": "호텔은 숙박계약 신청에 대해 제2항에서 규정한 신청금 지급을 요구하지 않거나 지급일을 명시하지 않은 경우에는 제1항의 특약에 따른 것으로 간주된다."
+        },
+        "article5": {
+            "header": "(숙박 계약 거절)",
+            "title": "제 5 조",
+            "1": {
+                "content": "본 호텔은 다음과 같은 경우 숙박 계약을 체결하지 않을 수 있습니다.",
+                "1": "숙박 신청이 이 약관에 부합하지 않는 경우",
+                "2": "만실로 인해 방이 없는 경우",
+                "3": "호텔에 머무르려는 사람이 법령, 공공질서 또는 도덕적 규범에 반하는 행위를 할 가능성이 있다고 인정되는 경우",
+                "4": "머무르려는 사람이 전염병인 것이 분명한 경우",
+                "5": "머무르려는 사람이 폭력, 위협, 강요, 기타 폭력적이거나 위협적인 부당한 요구를 하거나 숙박에 관한 합리적인 범위를 초과하는 부담을 요구한 경우",
+                "6": "천재지변, 시설 고장 또는 기타 부득이한 사정으로 호텔이 손님을 수용할 수 없는 경우",
+                "7": "머무르려는 사람이 소란을 일으키거나 수상쩍은 행동을 하거나 호텔을 이용하거나 머무르는 다른 손님들에게 위험 또는 불안을 유발하는 경우",
+                "8": "손님이 호텔에서 이전에 본 조항 (3), (5) 또는 (7)에 해당하는 행위를 한 경우",
+                "9": "머무르려는 사람이 범죄 조직의 구성원, 범죄 조직과 관련된 사람, 범죄 조직의 구성원이 임원이거나 사업 활동이 범죄 조직의 구성원에 의해 통제되는 기업 또는 기타 범죄 조직과 관련된 사람인 경우",
+                "10": "머무르려는 사람이 반사회적인 조직, 그 구성원 또는 이 조항의 항목 (9)에 나열되지 않은 그 외의 반사회적인 세력인 경우",
+                "11": "약물 또는 알코올 섭취로 인한 정신적 또는 육체적 약화 또는 정신 이상으로 인하여 머무르려는 사람의 안전 보장이 어려운 경우",
+                "12": "호텔사업법 도쿄도시령 제5조의 규정에 해당하는 경우,",
+                "13": "상기 각 호에 준하는 합리적인 이유가 있는 경우."
+            }
+        },
+        "article6": {
+            "header": "(손님의 계약 해지 권리)",
+            "title": "제6조",
+            "1": "손님은 이 호텔에 요청하여 숙박 계약을 취소할 수 있습니다.",
+            "2": "손님이 책임 있는 사유로 전부 또는 일부 숙박 계약을 취소하는 경우(다만, 이 호텔이 제3조 제2항의 규정에 따라 신청금의 납입 기일을 지정하고 요구한 후, 그 납입 전에 손님이 숙박 계약을 취소하는 경우는 제외한다) 이 호텔은 부록 2의 규정에 따라 위약금을 부과합니다. 이 경우, 호텔은 부록 2의 규정에 따라 위약금을 부과합니다. 다만, 제4조 제1항의 특약이 적용되는 경우, 이 호텔이 손님에게 위약금 부과 의무를 알리는 경우에 한하여 이 조항이 적용됩니다.",
+            "3": "손님이 도착 예정일의 12:00 PM까지(미리 명확하게 도착 예정 시간을 통보한 경우, 해당 시간으로부터 2시간 이내) 호텔에 통보 없이 도착하지 않는 경우, 호텔은 숙박 계약을 손님이 취소한 것으로 간주할 수 있습니다."
+        },
+        "article7": {
+            "header": "(계약 종료의 권리)",
+            "title": "제7조",
+            "1": {
+                "content": "본 호텔은 다음의 경우에 숙박 계약을 해지할 수 있습니다.",
+                "1": "제5조의 어느 항목이 적용되거나 해당 사항이 발견된 경우",
+                "2": "침실에서 잠자는 경우, 소방 시설을 개조하거나, 호텔의 이용 약관에서 정한 다른 금지 사항 (소방 예방을 위해 필요한 경우에 한함)을 어기는 경우"
+                },
+                "2": "본 호텔이 전항의 규정에 따라 이용 약관을 해지하는 경우, 호텔은 아직 수령하지 않은 숙박 서비스 등에 대해서는 요금을 청구하지 않습니다."
+        },
+        "article8": {
+            "header": "(숙박 등록)",
+            "title": "제8조",
+            "1": {
+                "content": "게스트는 체류일에 호텔 프론트 데스크에서 다음의 정보를 등록해야 합니다.",
+                "1": "게스트의 이름, 나이, 성별, 직업, 전화번호",
+                "2": "외국 국적인 경우, 여권 번호, 입국지, 입국일",
+                "3": "출발일 및 예정 출발 시간",
+                "4": "호텔이 필요하다고 인정하는 기타 사항"
+            },
+            "2": "게스트가 제12조에서 규정한 요금을 여행 수표, 숙박 쿠폰 또는 신용 카드와 같은 통화로 변경 가능한 방법으로 결제할 경우, 게스트는 이전 항목에서 정한 등록 시점에 미리 제시해야 합니다."
+        },
+        "article9": {
+            "header": "(객실 사용 시간)",
+            "title": "제 9조",
+            "1": "투숙객은 호텔의 객실을 4:00 오후부터 익일 오전 10:00까지 사용할 수 있습니다. 그러나 연속 숙박의 경우, 도착일과 출발일을 제외하고 하루 종일 객실을 사용할 수 있습니다.",
+            "2": {
+                "content": "앞 조항의 규정에 관계없이, 이 호텔은 같은 조항에서 정한 시간 외의 객실 사용을 수용해야 합니다. 이 경우, 다음의 추가 요금이 부과됩니다.",
+                "1": "12:00 PM 이전: 방당 JPY 2,000 (부가세 포함)",
+                "2": "1:00 PM 이전: 방당 JPY 3,000 (부가세 포함)",
+                "3": "1:00 PM 이후: 추가 1박 요금"
+            }
+        },
+        "article10": {
+            "header": "(이용 규칙 준수)",
+            "title": "제10조",
+            "content": "모든 손님은 관리부서가 결정한 호텔 이용 약관을 준수해야 합니다."
+        },
+        "article11": {
+            "header": "(영업 시간)",
+            "title": "제11조",
+            "1": "호텔의 주요 시설물 운영 시간은 제공된 팜플렛, 여러 곳에 게시된 정보 및 객실 안내서에 명시됩니다.",
+            "2": "앞서 언급한 조항에 명시된 시간은 필요나 불가피한 경우 일시적으로 변경될 수 있습니다. 이 경우 적절한 방법으로 통지할 것입니다."
+        },
+        "article12": {
+            "header": "(요금 지불)",
+            "title": "제12조",
+            "1": "손님이 지불해야 하는 숙박 요금 및 기타 요금의 세부 내역은 부록 1에 명시된 대로입니다.",
+            "2": "앞서 언급된 숙박 요금과 같은 요금의 지불은, 통화나 여행 수표, 숙박권, 신용카드 등 이 호텔에서 승인한 대체 수단으로 도와드릴 수 있습니다. 지불은 손님의 도착 시 프론트 데스크에서 또는 이 호텔의 요청에 따라 이루어져야 합니다.",
+            "3": "호텔이 손님에게 객실을 제공하고 이용 가능한 상태로 유지한 경우, 손님의 자발적인 숙박이 이루어지지 않더라도 숙박 요금이 부과됩니다."
+        },
+        "article13": {
+            "header": "(호텔의 책임)",
+            "title": "제13조",
+            "1": "이 호텔이 숙박 계약 또는 이와 관련된 계약의 이행으로 인해 손해를 입힌 경우 또는 이행하지 않은 경우에는 이 호텔은 그러한 손해를 배상합니다. 그러나 그 이유가 이 호텔의 잘못이 아닌 경우에는 해당되지 않습니다.",
+            "2": "이 호텔은 리요칸 책임 보험에 의해 화재 및 기타 사고에 대해 보장 받습니다."
+        },
+        "article14": {
+            "header": "(계약된 객실 제공 불가능 시의 처리)",
+            "title": "제14조",
+            "1": "호텔이 계약된 객실을 제공할 수 없는 경우 호텔은 게스트의 동의를 받아 가능한 한 동일한 조건의 다른 숙박 시설로 안내합니다.",
+            "2": "이 호텔이 앞서 언급한 조항에도 불구하고 다른 숙박 시설을 찾을 수 없는 경우, 호텔은 계약 금액과 동일한 보상금을 게스트에게 지불하며, 보상금은 손해액으로 보상됩니다. 그러나 객실을 제공하지 못한 이유가 호텔이 통제할 수 없는 이유인 경우에는 보상금이 지불되지 않습니다."
+        },
+        "article15": {
+            "header": "(예금 물품 처리)",
+            "title": "제15조",
+            "1": "게스트가 프런트 데스크에 예금한 자산, 현금 또는 귀중품이 분실, 손상 또는 기타 손해를 입은 경우, 본 호텔은 부득이한 사정을 제외하고는 이에 대한 배상을 합니다. 그러나 본 호텔이 이러한 자산, 현금 또는 귀중품의 종류 및 가치를 신고하도록 요청하였으나 게스트가 그러지 않은 경우, 본 호텔은 손해배상을 150,000 JPY까지만 책임집니다.",
+            "2": "게스트가 호텔에 가져온 자산, 현금 또는 귀중품이 프런트 데스크에 예금하지 않은 경우, 본 호텔의 실패 또는 과실로 인해 손실, 손상 또는 기타 손해를 입은 경우, 본 호텔은 이에 대한 배상을 합니다. 그러나 게스트가 미리 그 자산, 현금 또는 귀중품의 종류 및 가치를 명시하지 않은 경우, 본 호텔은 고의 또는 중대한 과실이 없는 한 손해를 150,000 JPY까지만 배상합니다."
+        },
+        "article16": {
+            "header": "(손님의 수하물 또는 개인물품 보관)",
+            "title": "제16조",
+            "1": "손님이 숙박하기 전에 수하물이 호텔에 도착한 경우에는, 호텔이 수하물을 보관하기로 합의한 경우에 한하여 수하물의 보관 책임을 지며, 손님이 프런트 데스크에서 체크인할 때 수하물을 전달합니다. 그러나 냉장이 필요한 물품은 받지 않습니다.",
+            "2": "손님이 체크아웃한 후에도 호텔 내에 방치된 수하물이나 개인물품이 소유자에 의해 확인되면, 호텔은 소유자로부터 지시를 받습니다. 그러나 소유자로부터 지시가 없거나 소유자를 찾을 수 없는 경우에는, 발견된 날을 포함하여 7일간 보관한 후 가까운 경찰서에 신고합니다.",
+            "3": "앞의 두 항목의 경우, 이 호텔은 손님의 수하물 또는 개인물품의 보관에 대한 책임은 앞 항목의 제1항과 동일하며, 전 항목의 경우는 앞 항목의 제2항과 동일합니다."
+        },
+        "article17": {
+            "header": "(주차장 책임)",
+            "title": "제17조",
+            "content": "게스트가 호텔의 주차장을 이용하는 경우, 차량 열쇠가 맡겨져 있던 없던 호텔은 단지 주차 공간을 대여할 뿐 차량 관리에 대한 책임을 지지 않습니다. 그러나 호텔의 고의 또는 과실로 인해 손해가 발생하는 경우, 호텔은 보상 책임을 집니다."
+        },
+        "article18": {
+            "header": "(투숙객의 책임)",
+            "title": "제18조",
+            "content": "만약 투숙객의 고의나 과실로 인해 이 호텔이 손해를 입게 된다면, 투숙객은 그 손해에 대해 이 호텔에 보상해야 합니다. 보상액은 정규 요금을 기준으로 계산되며, 손해의 범위에 따라 결정됩니다."
+        },
+        "table1": {
+            "header1": "부록 표 1 객실 요금 계산 방법",
+            "header2": "(제2조 제1항, 제3조 제2항 및 제12조 제1항과 관련)",
+        "thead": {
+            "th": "세부 내역"
+        },
+        "tbody": {
+            "tr1": {
+                "th": "지불자가 지불해야 하는 총액",
+                "td1": "숙박 요금",
+                "td2": "표준 객실 요금 (객실료)"
+            },
+            "tr2": {
+                "td1": "추가 요금",
+                "td2": "식음료 및 기타 이용 요금"
+            },
+            "tr3": {
+                "td1": "세금",
+                "td2": "소비세"
+            }
+        },
+        "remarks": "비고: 숙박 요금은 프런트 데스크에 게시된 요금표에 기초합니다."
+        },
+        "table2": {
+            "header1": "부록 표 2: 벌금",
+            "header2": "(제6조 제2항 관련)",
+            "thead": {
+                "tr1": {
+                    "th1": "계약 취소 통지일",
+                    "th2": "노쇼",
+                    "th3": "지정일",
+                    "th4": "전날",
+                    "th5": "9일전",
+                    "th6": "20일전"
+                },
+                "tr2": {
+                    "th1": "계약 신청자 수"
+                }
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "일반",
+                    "td1": "14명 이하"
+                },
+                "tr2": {
+                    "th": "단체",
+                    "td1": "15명에서 99명"
+                },
+                "tr3": {
+                    "td1": "100명 이상"
+                }
+            }
+        },
+        "safetyRemarks": {
+            "title": "안전을 위해",
+            "content": "우리 호텔은 안전하고 편안한 숙박을 위해 완벽한 재난 예방 시스템을 갖추고 있습니다.",
+            "1": "■재난 대책 센터에서는 24시간 호텔 시설물을 모니터링하고 있습니다.",
+            "2": "■호텔은 자체 소방서를 운영하며, 비상상황 발생 시 즉각 대응할 것입니다.",
+            "3": "■연기 감지기 뿐 아니라, 화재 확산 방지를 위해 화재문을 설치하였습니다.",
+            "4": "■궁금한 사항이 있으시면 프론트 직원에게 문의하십시오."
+        }
+    },
+    "termsOfUse": {
+        "introduction": "저희는 게스트의 안전과 편안한 숙박을 위해, 컨테이너 하우스 이용에 대한 다음 규칙을 수립하였습니다.",
+        "items": {
+            "title": "화재 예방을 위해 지켜야 할 사항",
+            "1": "침대 등 화재 발생 가능 지역에서는 금연 부탁드립니다.",
+            "2": "화재 발생 가능성이 있는 활동은 자제해주시기 바랍니다."
+        },
+        "matters": {
+            "title": "보안상 지켜야 할 사항",
+            "1": "객실 이용은 등록된 게스트만 가능합니다.",
+            "2": "현금 및 귀중품은 침대 아래의 금고에 보관해주시기 바랍니다."
+        },
+        "parking": {
+            "title": "주차장 이용 방법",
+            "1": "주차 공간은 1인당 1대 제한입니다.",
+            "2": "관광 버스를 제외하고는 1대 이상 주차를 허용하지 않습니다."
+        },
+        "hotelRules": {
+            "title": "호텔 내 규칙",
+            "1": "게스트는 숙박 기간 중에도 예약자 본인 외에는 방을 양도할 수 없습니다.",
+            "2": "호텔에 체크인하지 않은 사람은 07:00 a.m.부터 10:00 p.m.까지만 객실에 머물 수 있습니다. 10:00 p.m. 이후에는 호텔에 체크인을 하셔야 합니다.",
+            "3": "호텔의 규칙 및 규정을 크게 위반하여 호텔 또는 게스트의 재산을 파괴하거나 다른 게스트, 호텔 직원 또는 다른 투숙객들의 편안한 숙박을 방해하거나 호텔의 원활한 운영에 문제를 일으켰을 경우, 호텔은 해당 게스트를 다음 숙박에 거부할 수 있습니다."
+        }
+    }
+}

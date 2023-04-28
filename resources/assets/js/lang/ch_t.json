@@ -1,0 +1,2225 @@
+{
+    "navbar":{
+        "dashboard":"儀表板",
+        "devop":"設備操作",
+        "userm":"用戶管理",
+        "hardwarem":"硬件管理",
+        "gatewaym":"網關",
+        "devicem":"設備",
+        "bindingm":"綁定管理",
+        "ir-m":"遠程控制器",
+        "tabletReg":"平板註冊",
+        "floorm":"樓層管理",
+        "logs":"日誌",
+        "about":"關於我們",
+        "notif":"通知",
+        "logout":"登出",
+        "help":"幫助",
+        "lang":"語言",
+        "logoutModalLabel":"準備離開?",
+        "logoutMessage":"如果您已經準備好結束當前的會話，請選擇登出.",
+        "confirmLogout":"登出",
+        "cancel":"取消"
+    },
+    "footer":"版權所有 © iBMS 2018 | 由 GTI 提供技術支持",
+    "about":{
+        "ab":"關於我們",
+        "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "text2":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+        "commitment":"我們的承諾",
+        "mission":"我們的使命",
+        "provide":"為您提供世界級的護理服務。"
+    },
+    "dashboard":{
+        "gateway-summary":"網關摘要",
+        "gateway-total":"總網關數",
+        "gateway-online":"在線網關數",
+        "gateway-offline":"離線網關數",
+        "devices-summary":"設備摘要",
+        "devices-total":"總設備數",
+        "devices-online":"在線設備數",
+        "devices-offline":"離線設備數",
+        "electric-summary":"電力摘要",
+        "event":"事件",
+        "data":" 數據",
+        "tableFields":{
+            "Target":"目標設備",
+            "Device":"設備",
+            "Command":"命令",
+            "Date":"日期"
+        },
+        "summaryLabels":{
+            "Room":"房間",
+            "Count":"計數",
+            "show_devices":"設備",
+            "DEVICE_NAME":"設備名稱",
+            "DEVICE_TYPE":"設備類型",
+            "ip_address":"IP地址",
+            "Floor":"樓層",
+            "Device":"設備"
+        },
+        "chart":{
+            "date":"日期",
+            "temp":"溫度",
+            "opened":"打開/觸發次數",
+            "status":"狀態"
+        }
+    },
+    "devop":{
+        "devop":"設備操作",
+        "view":"查看",
+        "devices":"設備",
+        "lastupdate":"最後更新時間",
+        "notavailable":"設備不可用",
+        "noremote":"此遙控器無數據",
+        "nostatus":"無狀態顯示",
+        "carouselnodevice":"設備不可用",
+        "gateways":"網關",
+        "nogateway":"沒有可用的網關",
+        "nodevice":"沒有可用的設備",
+        "searchdev": "搜索設備",
+        "searchroom": "搜索房間",
+        "daily":"日常",
+        "monthly":"月度",
+        "total":"總計",
+        "temp":"溫度",
+        "temperature":"溫度",
+        "power":"功率",
+        "hum":"濕度",
+        "tableView":{
+            "floor.FLOOR_NAME":"樓層名稱",
+            "ROOM_NAME":"房間名稱",
+            "show_gateway_details":"網關",
+            "show_device_details":"設備",
+            "GATEWAY_NAME":"網關名稱",
+            "NEW_ONLINE_FLAG":"狀態",
+            "DEVICE_NAME":"設備名稱",
+            "DEVICE_TYPE":"設備類型",
+            "DATA":"設備狀態"
+        },
+        "remoteLogs":{
+            "TARGET":"設備",
+            "BRAND":"品牌",
+            "COMMAND":"命令",
+            "DATE":"日期"
+        },
+        "chart":{
+            "date":"日期",
+            "status":"狀態"
+        }
+    },
+    "user":{
+        "allusers":"所有用戶",
+        "active":"活躍的",
+        "inactive":"非活躍的",
+        "users":"用戶",
+        "add":"添加用戶",
+        "disable": "禁用",
+        "enable": "啟用",
+        "profile": "個人檔案",
+        "designation": "職稱",
+        "userLocation": "用戶位置",
+        "userModules": "用戶模塊",
+        "save": "保存",
+        "cancel": "取消",
+        "changepass": "更改密碼",
+        "usertype":"用戶類型",
+        "username":"序列號",
+        "userlogo":"用戶徽標",
+        "password":"PIN碼",
+        "confirmpass":"確認密碼",
+        "contact": "聯繫電話",
+        "alert": "警報選項",
+        "module":"模塊",
+        "pickmod":"選擇模塊",
+        "location":"位置",
+        "email":"電子郵件",
+        "noData":"無可用數據",
+        "type":{
+            "gtiAdmin":"Go Tensei 管理員",
+            "genAdmin":"一般管理員",
+            "nurse":"護士"
+        },
+        "all":"All",
+        "goTenseiAd":"Go Tensei 管理員",
+        "genAd":"一般管理員",
+        "nurse":"護士",
+        "userTable":{
+            "USERNAME":"用戶名",
+            "USER_ID":"用戶ID",
+            "USERROLE":"用戶角色",
+            "STATUS":"狀態"
+        },
+        "modalText":{
+            "disable":"您即將禁用此用戶",
+            "sure":"您確定嗎?",
+            "enable":"您即將啟用此用戶",
+            "disabled":"已禁用!",
+            "disabledUser":"此用戶已被禁用",
+            "enabled":"已啟用!",
+            "enabledUser":"此用戶已啟用",
+            "passSuccess":"密碼已成功更改!",
+            "saveSuccess":"已成功保存"
+        }
+    },
+    "gateway":{
+        "gatewayInfo": "網關信息",
+        "header":"硬件管理/網關管理",
+        "sysGateway":"系統網關",
+        "modbusGateway":"Modbus網關",
+        "cameraGateway":"攝像頭網關",
+        "noData":"無可用數據",
+        "gatewayCat":{
+            "regist":"已註冊",
+            "unregist":"未註冊",
+            "blocked":"被阻止的",
+            "deleted":"已刪除"
+        },
+        "gatewayIp":"網關IP",
+        "devSerialNo":"設備序列號",
+        "onlineStat":"在線狀態",
+        "scan":"掃描中",
+        "scanSuccessful":"掃描成功",
+        "scanFailed": "掃描失敗",
+        "rescan":"重新掃描",
+        "rescanning": "重新掃描中",
+        "save":"保存",
+        "saving":"正在保存",
+        "addGateway":"添加網關",
+        "manufacturer":"製造商",
+        "gatewayName":"網關名稱",
+        "gatewaySerial":"網關序列號",
+        "floor":"樓層",
+        "modalText":{
+            "activeModbus":"啟用Modbus網關",
+            "sure":"您確定嗎?",
+            "activatedModbus":"已啟用Modbus網關",
+            "modbusActivate":"Modbus網關已啟用",
+            "modbusCantActivate":"無法啟用Modbus網關",
+            "modbusDelete":"Modbus網關已被刪除",
+            "modbusCantDelete":"無法刪除Modbus網關",
+            "gatewayUpdate":"網關更新成功",
+            "delGateway":"刪除網關",
+            "deleted":"已刪除",
+            "gatewayDel":"網關已被刪除.",
+            "contDelete":"繼續刪除?",
+            "gatewayCantDelete":"無法刪除網關.",
+            "blockGateway":"阻止網關",
+            "gatewayBlock":"網關已被阻止.",
+            "block":"阻止",
+            "gatewayCantBlock":"無法阻止網關.",
+            "unblockGateway":"解除阻止網關",
+            "unblock":"解除阻止",
+            "gatewayUnblock":"網關已解除阻止.",
+            "gatewayCantUnblock":"無法解除阻止網關.",
+            "noContact":"無法聯繫網關.",
+            "cantUpdate":"無法更新網關",
+            "gatewayNameExists":"閘道名稱已存在",
+            "regGateway":"註冊網關",
+            "gatewayRegister":"網關已註冊.",
+            "gatewayCantRegister":"網關註冊失敗.",
+            "floorRequired":"閘道序號是必須的",
+            "roomRequired":"樓層必須",
+            "gatewaySerialNoRequired":"房間必須",
+            "gatewayNameRequired":"閘道名稱是必須的",
+            "modGatewayRegister":"Modbus網關已註冊.",
+            "modGatewayNameExists":"Modbus網關名稱已存在",
+            "modGatewayCantRegister":"Modbus網關註冊失敗.",
+            "camGatewayRegister":"攝像頭網關已註冊",
+            "camGatewayCantRegister":"攝像頭網關註冊失敗"
+        },
+        "gatewayTable":{
+            "GATEWAY_ID":"ID",
+            "FLOOR_NAME":"樓層名稱",
+            "ROOM_NAME":"房間名稱",
+            "ip":"網關 IP",
+            "GATEWAY_NAME":"網關名稱",
+            "serial_no":"網關序號",
+            "action":"操作",
+            "GATEWAY_IP":"網關 IP",
+            "MANUFACTURER_NAME":"製造商"
+        }
+    },
+    "device":{
+        "header":"硬體管理 / 設備管理",
+        "sysDevice":"系統設備",
+        "modDevice":"Modbus 計量器",
+        "bacnetDevice":"Bacnet 設備",
+        "cameraDevice": "攝影機",
+        "gatewayName":"網關名稱",
+        "devType":"設備類型",
+        "devName":"設備名稱",
+        "devSerial":"設備序號",
+        "devCat":"設備類別",
+        "onStatus":"在線狀態",
+        "modbusIp":"網關 IP",
+        "modbusSerial":"計量器序號",
+        "modbusSlave":"計量器從 ID",
+        "device":"設備",
+        "save":"儲存",
+        "gang":"群",
+        "addMeter":"新增電表",
+        "addDevice":"新增設備",
+        "deviceTable":{
+            "DEVICE_ID":"ID",
+            "FLOOR_NAME":"樓層名稱",
+            "ROOM_NAME":"房間名稱",
+            "DEVICE_NAME":"設備名稱",
+            "DEVICE_TYPE":"設備類型",
+            "METER_ID":"ID",
+            "SERIAL_NO":"序號",
+            "gateway":"網關名稱",
+            "devtype":"設備類型",
+            "serialno":"設備序號",
+            "action":"操作",
+            "BACNETDEVICE_ID":"ID"
+        },
+        "deviceModals":{
+            "failedModbus":"檢索 Modbus 數據時出錯",
+            "failedDevice":"檢索設備數據時出錯",
+            "activateModbus":"啟用 Modbus 計量儀表",
+            "sure":"你確定嗎?",
+            "yes":"是的",
+            "activatedModbus":"已啟用 Modbus 計量儀表",
+            "modbusActivated":"Modbus 計量儀表已啟用",
+            "error":"錯誤",
+            "cantActivateModbus":"無法啟用 Modbus 計量儀表",
+            "delete":"刪除 ",
+            "deleted":"已刪除",
+            "hasDeleted":" 已刪除.",
+            "cantDelete":" 無法刪除.",
+            "blockDev":"阻止設備",
+            "devBlock":"設備已被阻止",
+            "cantBlock":"無法阻止設備",
+            "block":"阻止",
+            "unblockDev":"解除阻止設備",
+            "devUnblock":"設備已被解除阻止",
+            "cantUnblock":"無法解除阻止設備",
+            "unblock":"解除阻止",
+            "delDevice":"刪除設備",
+            "devDeleted":"設備已被刪除",
+            "devCantDelete":"無法刪除設備",
+            "successfullyUpdated":"更新成功",
+            "cantUpdate":"無法更新設備",
+            "devRegistered":"設備已註冊",
+            "cantRegister":"無法註冊設備"
+        }
+    },
+    "binding":{
+        "header": "硬件管理/綁定管理",
+        "floor": "樓層",
+        "sensorDevice": "感測器到設備",
+        "sensorSensor": "感測器到感測器",
+        "cameraDevice": "攝像頭到設備",
+        "sensorAlert": "感測器到警報",
+        "addDevice": "添加感測器到設備綁定",
+        "addSensor": "添加感測器到感測器綁定",
+        "addCamera": "添加攝像頭到設備綁定",
+        "addAlert": "添加感測器到警報綁定",
+        "total": "總項目數",
+        "room": "房間",
+        "sensors": "感測器",
+        "targetFloor": "選擇目標樓層",
+        "targetRoom": "選擇目標房間",
+        "devCondition": "設備狀況",
+        "targetDevice": "目標設備",
+        "selectAllDev": "選擇所有設備",
+        "selectAllSen": "選擇所有感測器",
+        "min": "分鐘",
+        "createDevice": "創建感測器到設備綁定",
+        "createSensor": "創建感測器到感測器綁定",
+        "createAlert": "創建感測器到警報綁定",
+        "noDevice": "沒有可用的設備",
+        "noBinding": "沒有可用的綁定",
+        "delBind": "刪除綁定",
+        "sure": "您確定要刪除綁定嗎？",
+        "noBindingAvailable": "沒有可用的綁定",
+        "bindingDevice":{
+            "target_device.DEVICE_TYPE":"裝置類型",
+            "target_device.DEVICE_NAME":"裝置名稱",
+            "binding_list.TARGET_DEVICE_CONDITION":"裝置狀態",
+            "time":"時間間隔"
+        },
+        "modalText":{
+            "groupDisable":"群組綁定已停用。",
+            "groupEnable":"群組綁定已啟用。",
+            "bindingEnable":"裝置綁定已啟用。",
+            "bindingDisable":"裝置綁定已停用。",
+            "enable":"已啟用！",
+            "disable":"已停用！",
+            "deviceDeleted":"裝置綁定已刪除。",
+            "deleted":"已刪除！",
+            "bindingDeleted":"綁定已刪除。",
+            "sure":"確定嗎？",
+            "delBinding":"刪除此綁定？",
+            "delDevice":"刪除此裝置綁定？",
+            "disBinding":"停用此綁定？",
+            "disGroup":"停用此群組綁定？",
+            "enBinding":"啟用此綁定？",
+            "enGroup":"啟用此群組綁定？",
+            "delUser": "刪除此使用者警報綁定？"
+        }
+    },
+    "ir":{
+        "header": "硬件管理 / 红外线管理",
+        "appliancetab": "家电",
+        "createappliance": "添加家电",
+        "createir": "添加红外线列表",
+        "irlisttab": "红外线列表",
+        "add": "添加列表",
+        "floor": "楼层",
+        "room": "房间",
+        "irdevice": "红外线设备",
+        "appliance": "家电",
+        "appliancename": "家电名称",
+        "appliancetype": "家电类型",
+        "appliancedetails": "家电详情",
+        "brandname": "品牌名称",
+        "operation": "操作",
+        "learning": "红外线学习值",
+        "save": "保存",
+        "cancel": "取消",
+        "listTable": {
+            "DEVICE_NAME": "红外线设备",
+            "APPLIANCE_NAME": "名称",
+            "APPLIANCE_TYPE": "类型",
+            "BRAND_NAME": "品牌",
+            "STATUS": "状态",
+            "OPERATION_NAME": "操作名称"
+        }
+    },
+    "natureIr": {
+        "header": "硬件管理 / Nature Remo 红外线管理",
+        "search": "搜索",
+        "appliances": {
+            "tab": "家電",
+            "table": {
+                "name": "名稱",
+                "type": "種類",
+                "brand": "品牌",
+                "action": "操作",
+                "ifEmpty": "沒有資料"
+            },
+            "details": {
+                "appliance": {
+                    "title": "設備詳情",
+                    "name": "設備名稱",
+                    "type": "設備類型",
+                    "brand": "品牌名稱"
+                },
+                "operation": {
+                    "title": "操作",
+                    "ifEmpty": "尚未註冊操作"
+                }
+            },
+            "create": {
+                "button": "新增設備",
+                "header": {
+                    "title": "新增新設備"
+                },
+                "body": {
+                    "form": {
+                        "applianceType": {
+                            "label": "設備類型",
+                            "info": "選擇一個設備類型",
+                            "placeholder": "請選擇...",
+                            "choices": {
+                                "tv": "電視",
+                                "ac": "冷氣",
+                                "light": "智慧燈",
+                                "ir": "一般支援紅外線的設備"
+                            },
+                            "errors": {
+                                "ifEmpty": "未選擇任何設備類型"
+                            }
+                        },
+                        "applianceName": {
+                            "label": "設備名稱",
+                            "info": "請輸入設備名稱，名稱應為3至25個字符。只允許字母、數字、空格、破折號和底線。",
+                            "errors": {
+                                "ifEmpty": "設備名稱為必填項目",
+                                "ifInvalid": "名稱長度不能超過25個字符。",
+                                "ifRegexFailed": "只允許字母、數字、破折號、底線和空格",
+                                "ifTaken": "該設備名稱已被使用"
+                            }
+                        },
+                        "brandName": {
+                            "label": "品牌名稱",
+                            "info": "請輸入品牌名稱，名稱應為3至25個字符。只允許字母、數字、空格、破折號和底線。",
+                            "placeholder": "請選擇...",
+                            "errors": {
+                                "ifEmpty": "品牌名稱為必填項目",
+                                "ifInvalid": "名稱長度不能超過25個字符。",
+                                "ifRegexFailed": "只允許字母、數字、破折號、底線和空格"
+                            }
+                        }
+                    }
+                },
+                "footer": {
+                    "save": "儲存",
+                    "saving": "儲存中",
+                    "cancel": "取消"
+                },
+                "success": "成功創建設備",
+                "fail": "創建設備失敗"
+            },
+            "delete": {
+                "title": "刪除家電",
+                "message": "確定要刪除嗎？",
+                "confirm": "是",
+                "cancel": "取消",
+                "success": "家電已成功刪除",
+                "fail": "家電刪除失敗"
+            }
+        },
+        "operations": {
+            "tab": "操作",
+            "table": {
+                "appliance": "家電",
+                "applianceType": "類型",
+                "name": "操作",
+                "action": "操作",
+                "ifEmpty": "沒有資料"
+            },
+            "filters": {
+                "appliance": {
+                    "all": "所有家電"
+                }
+            },
+            "details": {
+                "operation": {
+                    "title": "操作詳情",
+                    "name": "操作名稱",
+                    "applianceName": "家電名稱",
+                    "applianceType": "家電類型"
+                }
+            },
+            "create": {
+                "button": "新增操作",
+                "header": {
+                    "title": "新增操作"
+                },
+                "body": {
+                    "step1": {
+                        "title": "第一步",
+                        "text": "輸入操作信息",
+                        "form": {
+                          "appliance": {
+                            "label": "電器",
+                            "info": "請選擇要保存操作的電器。",
+                            "placeholder": "請選擇...",
+                            "errors": {
+                              "ifEmpty": "請選擇一個電器。"
+                            }
+                          },
+                          "name": {
+                            "label": "操作名稱",
+                            "info": "請輸入操作的名稱。名稱應為3至25個字符。僅允許字母、數字、空格、破折號和下劃線。",
+                            "placeholder": "請選擇...",
+                            "options": {
+                              "power": "電源",
+                              "tv": {
+                                "source": "源",
+                                "vol_up": "音量增大",
+                                "vol_down": "音量降低",
+                                "ch_up": "頻道增加",
+                                "ch_down": "頻道減少"
+                              },
+                              "ac": {
+                                "cool": "冷氣模式",
+                                "warm": "暖氣模式",
+                                "dry": "除濕模式",
+                                "dehum": "濕度調節模式",
+                                "temp_up": "溫度增加",
+                                "temp_down": "溫度降低",
+                                "fan_up": "風速增加",
+                                "fan_down": "風速降低"
+                              }
+                            },
+                            "errors": {
+                              "ifEmpty": "操作名稱不能為空",
+                              "ifInvalid": "值不能超過25個字符。",
+                              "ifRegexFailed": "只允許字母、數字、破折號、下劃線和空格"
+                            }
+                          }
+                        }
+                    },
+                    "step2": {
+                        "title": "第二步",
+                        "text": "取得紅外線訊號資料",
+                        "form": {
+                            "label": "選擇要接收資料的紅外線設備。",
+                            "placeholder": "選擇..."
+                        },
+                        "message1": "將遙控器對準 Nature Remo，按下您要註冊的按鈕。",
+                        "message2": "請確認 Nature Remo 的藍環正在閃爍。"
+                    },
+                    "step3": {
+                        "title": "第三步",
+                        "text": "測試操作",
+                        "message1": "透過選擇下方的紅外線設備來測試操作。",
+                        "message2": "請確認 Nature Remo 與您要操作的電器之間沒有障礙物。",
+                        "form": {
+                            "label": "選擇要傳送資料的紅外線設備。",
+                            "placeholder": "選擇..."
+                        }
+                    },
+                    "step4": {
+                        "title": "第四步",
+                        "text": "確認操作",
+                        "message1": "操作正常嗎？",
+                        "message2": "點擊確定將儲存操作。",
+                        "message3": "點擊取消將返回第二步。"
+                    },
+                    "success": {
+                        "title": "操作建立成功"
+                    },
+                    "error": {
+                        "title": "錯誤",
+                        "ifEmpty": "紅外線訊號資料為空或為 null",
+                        "message": "請重試第二步。"
+                    }
+                },
+                "footer": {
+                    "retry": "重試",
+                    "cancel": "取消",
+                    "save": "保存",
+                    "saving": "保存中",
+                    "fetch": "獲取",
+                    "fetching": "獲取中",
+                    "send": "發送",
+                    "sending": "發送中",
+                    "back": "返回",
+                    "next": "下一步",
+                    "yes": "是",
+                    "no": "否",
+                    "finish": "完成"
+                }
+            },
+            "delete": {
+                "title": "刪除操作",
+                "message": "您確定嗎？",
+                "confirm": "是",
+                "cancel": "取消",
+                "success": "操作已成功刪除",
+                "fail": "刪除操作失敗"
+            }
+        },
+        "irDevices": {
+            "tab": "紅外線裝置",
+            "table": {
+                "floor": "樓層",
+                "room": "房間",
+                "name": "裝置名稱",
+                "ifEmpty": "沒有資料"
+            },
+            "details": {
+                "irDevice": {
+                    "title": "紅外線裝置詳細資訊",
+                    "floor": "樓層名稱",
+                    "room": "房間名稱",
+                    "name": "紅外線裝置名稱"
+                },
+                "appliance": {
+                    "title": "電器清單",
+                    "select": {
+                        "placeholder": "選擇...",
+                        "edit": "編輯",
+                        "save": "儲存",
+                        "saving": "儲存中",
+                        "cancel": "取消"
+                    }
+                },
+                "success": "電器清單更新成功",
+                "fail": "電器清單更新失敗"
+            },
+            "filters": {
+                "floor": {
+                    "all": "所有樓層"
+                },
+                "room": {
+                    "all": "所有房間"
+                }
+            },
+            "delete": {
+                "title": "刪除"
+            }
+        },
+        "errors": {
+            "showDetails": "showDetails: 找不到元素"
+        }
+    },
+    "floor":{
+        "header":"樓層管理",
+        "floor":"樓層",
+        "searchFloor":"搜尋樓層",
+        "room":"房間",
+        "searchRoom":"搜尋房間",
+        "floorPlot":"樓層配置",
+        "addFloor":"新增樓層",
+        "addRoom":"新增房間",
+        "addGateway":"在房間中添加網關",
+        "gateway":"網關",
+        "clear":"清除",
+        "setPlot":"設置配置",
+        "floorName":"樓層名稱",
+        "uploadFloor":"上傳樓層圖像",
+        "roomName":"房間名稱",
+        "editFloor":"編輯樓層",
+        "editRoom":"編輯房間",
+        "noGateway":"房間中沒有可用的網關。",
+        "plotDevice":"已配置的裝置",
+        "noRooms":"當前樓層中沒有房間",
+        "noFloors":"尚未添加樓層",
+        "devicePlot":"配置裝置",
+        "selectDevice":"選擇裝置",
+        "deviceNote":"注意：配置的裝置將覆蓋其現有座標。",
+        "noDevice":"找不到裝置。",
+        "proceed":"繼續",
+        "savePlot":"保存配置",
+        "selectRoom":"選擇房間",
+        "pleaseSelect":"請選擇房間",
+        "tableLabels":{
+            "FLOOR_ID":"樓層ID",
+            "FLOOR_NAME":"樓層名稱",
+            "button":"操作",
+            "ROOM_ID":"房間ID",
+            "ROOM_NAME":"房間名稱",
+            "show_details":"網關",
+            "GATEWAY_ID":"網關ID",
+            "GATEWAY_IP":"網關IP",
+            "GATEWAY_NAME":"網關名稱"
+        }
+    },
+    "logs":{
+        "sysLogs":"系統日誌",
+        "auditLogs":"稽核日誌",
+        "noData":"沒有數據",
+        "export":"導出文件",
+        "chooseFormat":"選擇文件格式",
+        "auditTable":{
+            "AUDIT_LOGS_ID":"ID",
+            "IP":"IP",
+            "HOST":"主機",
+            "MODULE":"模塊",
+            "INSTRUCTION":"指令",
+            "CREATED_AT":"日期"
+        },
+        "systemTable":{
+            "LOGS_ID":"ID",
+            "TYPE":"類型",
+            "INSTRUCTION_TYPE":"指令類型",
+            "CONTENT":"內容",
+            "HOST":"發送者",
+            "CREATED_AT":"日期"
+        },
+        "pdfDownload":"PDF 文件即將下載，請稍候。",
+        "error":"發生錯誤！",
+        "rows":"行數太多！"
+    },
+    "notifs":{
+        "newNotifs": "新通知",
+        "viewAll": "查看所有通知",
+        "noNew": "没有新通知"
+    },
+    "prev": "上一頁",
+    "next": "下一頁",
+    "online": "線上",
+    "offline": "離線",
+    "add": "新增",
+    "reset": "重設",
+    "close": "關閉",
+    "open": "開啟",
+    "search": "搜尋",
+    "searchHere": "在此搜尋",
+    "yes": "是",
+    "modalText": {
+        "floorExist": "樓層名稱已存在",
+        "floorDelete": "樓層已刪除",
+        "editSuccess": "更新成功",
+        "roomExist": "房間名稱已存在",
+        "roomDelete": "房間已刪除",
+        "delete": "刪除",
+        "deleted": "已刪除",
+        "sure": "您確定嗎？",
+        "error": "錯誤",
+        "success": "成功",
+        "successAdd": "新增成功",
+        "successCreate": "建立成功",
+        "successUpdate": "更新成功",
+        "selectDevice": "請選擇設備",
+        "floorData": "找不到樓層資料",
+        "selectFloor": "請選擇樓層",
+        "selectRoom": "請選擇房間",
+        "inputFloorName": "請輸入樓層名稱",
+        "inputRoomName": "請輸入房間名稱",
+        "emptyCoor": "座標為空",
+        "addGate": "新增閘道",
+        "addGateway": "新增閘道至",
+        "deleteDevicePlot": "刪除設備圖示",
+        "devicePlotDeleted": "設備圖示已刪除",
+        "notificationsExcess": "通知超過100條。請檢查日誌了解詳情。"
+    },
+    "error_message_code":{
+        "220050000":"錯誤_220050000：找不到網關",
+        "220050001":"錯誤_220050001：找不到設備",
+        "220050002":"錯誤_220050002：找不到房間",
+        "220050003":"錯誤_220050003：網關已存在",
+        "220050004":"錯誤_220050004：更新失敗",
+        "220050005":"錯誤_220050005：刪除失敗",
+        "220060000":"錯誤_220060000：此欄位為必填項",
+        "230010000":"您輸入的信息不正確。",
+        "230010001":"超出預訂時間。",
+        "230010002":"您不能再次入住。請向接待員尋求協助。",
+        "230010003":"連接失敗。請聯繫接待員。",
+        "230060000":"錯誤_230060000：無效的電子郵件",
+        "310060000":"錯誤_310060000：用戶名已存在",
+        "310060001":"錯誤_310060001：電子郵件已存在",
+        "320010000":"錯誤_320010000：請填寫此字段"
+        },
+    "errorMessage":"存在不支持的錯誤。請檢查通知。",
+    "errorList":{
+        "message":"",
+        "response":"",
+        "E001": {
+            "message":"PMS連線失敗。無法取得預約資訊。",
+            "response":"請按下預約資訊更新按鈕。如果按下更新預約資訊按鈕仍無法解決問題，請聯繫支援。"
+        },
+        "E002": {
+            "message":"（入住日期）：客人姓名未輸入。",
+            "response":"請在PMS上輸入客人的姓名。"
+        },
+        "E003": {
+            "message":"（入住日期）：客人的電子郵件地址未輸入。",
+            "response":"請在PMS上輸入客人的電子郵件地址。"
+        },
+        "E004": {
+            "message":"（入住日期）：未輸入客人的入住日期和時間。",
+            "response":"請在PMS上輸入客人的入住日期和時間。"
+        },
+        "E005": {
+            "message":"（入住日期）：未輸入客人的退房日期和時間。",
+            "response":"請在PMS上輸入客人的退房日期和時間。"
+        },
+        "E006": {
+            "message":"（入住日期）：未輸入客人的人數。",
+            "response":"請在PMS上輸入客人的人數。"
+        },
+        "E007": {
+            "message":"無法發行智能鎖鑰匙。",
+            "response":"聯繫支援。存在智能鎖系統故障的可能性。請在解決問題之前使用實體鑰匙。"
+        },
+        "E008": {
+            "message":"智能鎖PIN碼連續錯誤輸入5次失敗。",
+            "response":"客人可能無法進入房間，或者可能非法進入房間。請聯繫客人確認PIN碼是否正確。"
+        },
+        "E009": {
+            "message":"進入房間後已經過去1小時，但iBMS尚未執行入住操作。",
+            "response":"請聯繫房間並鼓勵他們使用iBMS執行入住操作。"
+        },
+        "E010": {
+            "message":"超過退房時間，但尚未在iBMS中執行退房操作。",
+            "response":"請聯繫房間查看客人是否已經退房。如果客人正在退房，請進行iBMS退房操作。"
+        },
+        "E011": {
+            "message":"智能鎖電池已耗盡。",
+            "response":"更換智能鎖電池。"
+        },
+        "E012": {
+            "message":"智能鎖網絡連接已斷開。",
+            "response":"請設置智能鎖的Wi-Fi設置。"
+        },
+        "E013": {
+            "message":"多功能傳感器（佔用/光線/溫度）的電池已耗盡。",
+            "response":"更換多功能傳感器（佔用/光線/溫度）的電池。如果更換電池後仍然收到此消息，請聯繫支持。傳感器可能已發生故障。"
+        },
+        "E014": {
+            "message":"窗戶/門傳感器的電池已耗盡。",
+            "response":"更換窗戶/門傳感器的電池。如果更換電池後仍然收到此消息，請聯繫支持。傳感器可能已發生故障。"
+        },
+        "E015": {
+            "message":"CO2/溫度/濕度傳感器已斷開連接。",
+            "response":"請聯繫支持。傳感器可能已發生故障。"
+        },
+        "E016": {
+            "message":"智能鎖鑰匙無法刪除。",
+            "response":"請聯繫支持。智能鎖系統可能發生故障。在問題解決之前，請使用實體鑰匙。"
+        },
+        "E017": {
+            "message":"客人遇到緊急情況。",
+            "response":"請聯繫房間並與客人進行確認。如果無法聯繫客人，請前往房間進行確認。"
+        },
+        "E018": {
+            "message":"緊急按鈕的電池已耗盡。",
+            "response":"更換緊急按鈕的電池。如果更換電池後仍然收到此消息，請聯繫支持。傳感器可能已發生故障。"
+        },
+        "I001":"已向客人发送包含预订信息的电子邮件。",
+        "I002":"空调已关闭。",
+        "I003":"空调已设置为制冷。",
+        "I004":"空调已设置为制热。",
+        "I005":"空调已设置为除湿。",
+        "I006":"空调已设置为自动",
+        "I007":"已进入房间。",
+        "I008":"已完成入住手续。",
+        "I009":"已拍摄客人信息照片，请检查是否有问题。",
+        "I010":"已完成退房手续。",
+        "I011":"有一笔预订。",
+        "I012":"预订信息已更新。",
+        "I013":"有一笔预订取消。",
+        "I014":"Staysee 预订数据已同步完成。",
+        "I015":"客人卡已录入。",
+        "W001":"智能门锁电池电量低",
+        "W002":"多功能传感器（占用/光线/温度）电池电量低。",
+        "W003":"窗户/门传感器电池电量低。",
+        "W004":"紧急按钮电池电量非常低。",
+        "W005": "进入房间一小时，但 iBMS 上还未完成入住手续。",
+        "W006": "退房时间已过，但 iBMS 上还未完成退房手续。"
+    },
+    "hotel": {
+        "address": "CARRY CUBE，須山總部",
+        "login": {
+            "nomatch": "錯誤的認證資料",
+            "disabled": "使用者已停用",
+            "nobookingfortoday": "您今天沒有預訂！",
+            "nobooking": "您沒有任何預訂。",
+            "recheckin": "不允許重新入住。請前往櫃檯。"
+        },
+        "co2_monitor": "二氧化碳監測器",
+        "monitoring": "監控中",
+        "external": {
+            "legends": {
+                "low": "低",
+                "normal": "正常",
+                "elevated": "升高",
+                "dangerous": "高"
+            }
+        },
+        "help": {
+            "title": "二氧化碳濃度",
+            "body": "測量空氣中二氧化碳濃度以保障客戶的安全。",
+            "low": {
+                "amount": "低於800 ppm",
+                "status": "（低）"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "（正常）"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "（升高）"
+            },
+            "dangerous": {
+                "amount": "超過2501 ppm",
+                "status": "（危險）"
+            }
+        }
+    },
+    "mobile": {
+        "control": {
+            "aircon": {
+                "aircon": "空調",
+                "power": "電源",
+                "mode": "模式",
+                "temp": "溫度",
+                "fan": "風速",
+                "cool": "冷氣",
+                "dry": "除濕",
+                "warm": "暖氣",
+                "dehum": "抽濕",
+                "auto": "自動",
+                "on": "開",
+                "off": "關"
+            },
+            "lights": {
+                "lights": "燈光",
+                "all": "全部",
+                "cool": "冷色調",
+                "warm": "暖色調",
+                "on": "開",
+                "off": "關",
+                "min": "最小",
+                "mid": "中等",
+                "max": "最大",
+                "night": "夜燈",
+                "up": "增加",
+                "down": "減少",
+                "wind":"風速",
+                "light":"亮度"
+            },
+            "tv": {
+                "tv": "電視",
+                "power": "電源",
+                "source": "來源",
+                "volume": "音量",
+                "channel": "頻道",
+                "mute": "靜音"
+            },
+            "doorlock": {
+                "doorlock": "門鎖",
+                "entrancedoor": "入口門"
+            },
+            "airpurifier": {
+                "exhaustfan": "排風扇",
+                "airpurifier": "空氣淨化器"
+            },
+            "restroom": {
+                "restroom": "洗手間",
+                "nosensor": "無感測器",
+                "occupied": "有人",
+                "vacant": "空閒"
+            },
+            "showerstatus": {
+                "showerstatus": "淋浴室",
+                "occupied": "有人",
+                "empty": "空閒",
+                "nosensor": "無感測器"
+            },
+            "emergency":{
+                "emergencyStatus": "緊急按鈕",
+                "emergencyHeader": "確定要執行嗎？",
+                "notify": "通知工作人員，工作人員將會前來處理。",
+                "yes": "是",
+                "sos":"SOS",
+                "sosButton": "SOS按鈕已按下。",
+                "staff": "請等待工作人員到來。",
+                "close": "關閉",
+                "cancel": "取消",
+                "roomNotification":"將通知客人並進行公告。",
+                "guest1":"請向客人發布通知。",
+                "guest2":"※按下「緊急呼叫」按鈕會啟動語音公告應用程序。",
+                "call":"緊急呼叫"
+            }
+        },
+        "displaydata": {
+            "temp": {
+                "temp": "溫度"
+            },
+            "hum": {
+                "hum": "濕度"
+            },
+            "co2": {
+                "co2": "二氧化碳"
+            },
+            "dust": {
+                "dust": "塵埃"
+            }
+        },
+        "menu": {
+            "alarm": "警報",
+            "notif": "通知",
+            "checkintime": "入住時間",
+            "checkouttime": "退房時間",
+            "message": "訊息",
+            "home": "主頁",
+            "roomservice": "客房服務",
+            "roommanual": "客房手冊",
+            "frontdesk": "呼叫櫃檯",
+            "about": "關於iBMS",
+            "roomnumber": "房間號碼",
+            "checkin": "入住",
+            "checkout": "退房",
+            "greeting": "您好",
+            "greetingextension": " ",
+            "phone": "Skype",
+            "synch": "同步",
+            "editguest": "可以重新輸入客戶卡。",
+            "success": "成功",
+            "order": "訂單"
+        },
+        "welcome": {
+            "welcome": "歡迎來到CARRY CUBE！請自由地享受居住體驗。",
+            "next": "下一步",
+            "prev": "上一步",
+            "roomguide": "客房指南",
+            "roominfo": "房間資訊",
+            "start": "開始"
+        },
+        "checkout": {
+            "title": "要離開了嗎？",
+            "body": "如果您已經準備好離開，請選擇「結帳」。",
+            "cancel": "取消",
+            "checkout": "結帳",
+            "checkInScreen":"前往登記螢幕",
+            "checkOutTitle":"非常感謝您入住。",
+            "caution":"※該畫面將在60秒後自動重新導向。",
+            "return":"結帳後將無法返回此畫面。"
+        },
+        "roomservice":{
+            "menu":"選單",
+            "facilityDescription": "設施介紹",
+            "roomDescription":"客房指南",
+            "evacuationRoute":"緊急逃生路線",
+            "evacuationRouteMap": "緊急逃生路線指南",
+            "entertainment":"娛樂",
+            "food":"餐飲 (DEMO)",
+            "amenities":"便利設施 (DEMO)",
+            "sightseeingMap":"觀光地圖",
+            "rentalservices": "租賃服務 (DEMO)",
+            "foodMenu":"餐飲菜單 (DEMO)",
+            "amenityMenu":"便利設施菜單 (DEMO)",
+            "sightseeingMenu":"觀光菜單",
+            "rentalserviceMenu": "租賃服務菜單 (DEMO)",
+            "total":"總計",
+            "order":"訂單",
+            "rent": "租借",
+            "operationGuest": {
+                "tabName": "設施指南",
+                "linkName": "設施指南頁面"
+            },
+            "special_product": "特色產品",
+            "special_product_introduction": "特色產品介紹",
+            "special_product_link": "特色產品清單",
+            "items": {
+                "hair_dryer": "吹風機",
+                "tv": "電視",
+                "pillow": "枕頭",
+                "remote_control": "遙控器",
+                "toothbrush": "牙刷",
+                "shampoo": "洗髮精",
+                "charger": "充電器",
+                "comforter": "被子",
+                "tissue": "衛生紙",
+                "lock": "鎖",
+                "aircon":"冷氣",
+                "sofa": "沙發",
+                "table": "桌子",
+                "wash_basin": "洗手盆",
+                "mirror": "鏡子",
+                "shower_booth": "淋浴間",
+                "toilet": "洗手間",
+                "bath": "露天風呂",
+                "dining_space": "餐飲空間",
+                "amenity": "設施",
+                "bbq_grill": "燒烤爐（出租）"
+            }
+        },
+        "roommanual":{
+            "wifiInformation":"WiFi 資訊",
+            "wifiName":"WiFi 名稱",
+            "wifiPassword":"WiFi 密碼"
+        },
+        "general_terms_and_conditions":{
+            "title": "一般條款與條件",
+            "titletab": "條款與條件"
+        },
+        "terms_of_usage": {
+            "title": "使用條款",
+            "agree": "我已閱讀並同意使用條款。"
+        },
+        "ibms_manual": {
+            "title": "iBMS 操作手冊",
+            "info": "手冊顯示"
+        },
+        "pet_terms_of_usage": {
+            "title": "寵物使用條款",
+            "agree": "我已閱讀並同意使用條款。"
+        }
+    },
+    "management": {
+        "roomStatus": "房間狀態",
+        "users": "使用者",
+        "floors": "樓層管理",
+        "rooms": "房間管理",
+        "key": "客人",
+        "cleaning": "清潔管理",
+        "logs": "日誌",
+        "logout": "登出",
+        "noDevice": "沒有可用的設備",
+        "clean": "清潔完成",
+        "co2": "二氧化碳",
+        "monitoring": "監控",
+        "hardware": "硬體",
+        "manual": "手冊",
+        "header": "> 網關管理",
+        "device": "> 設備管理",
+        "search": "搜尋",
+        "resetFilters": "重置篩選條件",
+        "clear": "清除",
+        "manuals": {
+            "manual": "手冊",
+            "manualitem": "各種手冊",
+            "cleaningVideo": "清潔（影片）",
+            "cleaningImage": "清潔（圖片）",
+            "operationGuest": {
+                "tabName": "操作指南（客人用）",
+                "linkName": "iBMS 操作手冊（客人用）"
+            },
+            "operationAdmin": {
+                "tabName": "操作指南（管理員用）",
+                "linkName": "iBMS 操作手冊（管理員用）"
+            },
+            "batteryExchange": "更換電池",
+            "pmsSetting": "PMS 設置",
+            "ibmsScreen": {
+                "tabName": "iBMS 畫面說明",
+                "linkName": "iBMS 畫面說明"
+            },
+            "pmsOfficial": "PMS 官方手冊",
+            "support": "支援",
+            "operationFlow": "業務操作流程",
+            "device": "設備",
+            "smartlock": "智能鎖（RemoteLock）",
+            "netvox": "裝置（Netvox）",
+            "initialize": "平板電腦初始化",
+            "manualSmartlock": "iBMS 智能鎖手冊",
+            "manualSensor": "iBMS 設備手冊",
+            "manualSupport": "聯繫支援",
+            "manualTrouble": "故障排除手冊"
+        },
+        "roomStats": {
+            "roomStatus": "房間狀態",
+            "buttonStatus": "狀態",
+            "status": {
+                "available": "可使用",
+                "reserved": "已預約",
+                "checkedIn": "已入住",
+                "checkedOut": "已退房",
+                "unavailable": "無法使用"
+            },
+            "checkInTime": "入住時間",
+            "checkOutTime": "退房時間",
+            "arrivalTime": "抵達時間",
+            "departureTime": "離開時間",
+            "noMessage": "無留言",
+            "dontDisturb": "請勿打擾",
+            "cleanUpTime": "打掃時間"
+        },
+        "roomInfo": {
+            "deviceControl": "設備信息",
+            "remoteLock": "遠程鎖",
+            "windowDoorSensor": "門窗感應器",
+            "occTempLight": "人員/溫度/光感應器",
+            "co2TempHum": "二氧化碳/溫度/濕度感應器",
+            "peopleCountCamera": "人員計數攝像頭",
+            "deviceName": "名稱",
+            "battery": "電池",
+            "low": "低",
+            "elevated": "高",
+            "normal": "正常",
+            "dangerous": "危險",
+            "serialNumber": "序列號",
+            "hum": "濕度",
+            "co2Level": "二氧化碳濃度",
+            "people": "人員",
+            "stripLight": "條狀燈",
+            "turnOn": "開啟",
+            "turnOff": "關閉",
+            "status": "狀態"
+        },
+        "roomOperation": {
+            "roomInfo": "房間資訊",
+            "status":"狀態",
+            "message":"訊息",
+            "checkInTime": "入住時間",
+            "checkOutTime": "退房時間",
+            "peopleCount": "人數",
+            "doorSensor": "門窗感應器",
+            "camera": "攝影機",
+            "co2": "CO2",
+            "temp": "溫度",
+            "hum": "濕度",
+            "toggleSlide": "切換",
+            "deviceList": "設備列表",
+            "editStatus": "編輯房間狀態",
+            "occupied": "已佔用",
+            "vacant": "空閒",
+            "people": "人",
+            "shower": "淋浴",
+            "rest": "休息",
+            "room": "房間",
+            "toilet": "廁所",
+            "checkguestcard":"檢查客房卡",
+            "guestcardcheck":"檢查客房卡",
+            "update": "更新",
+            "cancel": "取消",
+            "updateStatus": "更新",
+            "questionMark":"？",
+            "updateStatusJa": "",
+            "updateRoomStatus": "更新房間狀態？",
+            "lock": "鎖定",
+            "locking": "鎖定中",
+            "lockSuccess": "已鎖定，下次設備操作時生效。",
+            "lockFailed": "鎖定失敗。",
+            "unlock": "解鎖",
+            "unlocking": "解鎖中",
+            "unlockSuccess": "已解鎖，下次設備操作時生效。",
+            "unlockFailed": "解鎖失敗。",
+            "updated": "房間狀態已更新",
+            "failedUpdate": "更新房間狀態失敗",
+            "noBooking": "今天此房間沒有訂房",
+            "areYouSure": "確定嗎？",
+            "updateReserveInstead": "更新為預訂狀態？",
+            "updateReserveAvailable": "今天此房間已有預訂，狀態將改為預訂中。",
+            "reservation": "個預訂",
+            "roomHave": "此房間有",
+            "low": "弱",
+            "medium": "中等",
+            "strong": "強",
+            "locked": "已鎖定",
+            "unlocked": "未鎖定"
+        },
+        "logoutbtn": {
+            "title":"您確定要登出嗎？",
+            "body":"選擇登出按鈕繼續。",
+            "cancel": "取消",
+            "logout":"登出"
+        },
+        "cleaningPage": {
+            "subtitle": "可選擇添加清潔管理功能。",
+            "card1": {
+                "title": "管理員儀表板功能",
+                "content1": "清潔管理功能更新的信息會反映在管理員儀表板上。"
+            },
+            "card2": {
+                "title": "清潔管理功能",
+                "content1": "即時可視化當前清潔狀態。",
+                "content2": "清潔員可以查看時間表。",
+                "content3": "清潔員可以自由註冊清潔註記和照片。"
+            },
+            "r2l": "分享房間的最新狀態",
+            "l2r": "更新清潔狀態",
+            "listview": "列表視圖",
+            "calview": "日曆視圖"
+        },
+        "keyManagementPage": {
+            "keytext1": "可以連接預訂系統發放鑰匙",
+            "keytext2": "只在客人入住期間有效。",
+            "keytext3": "鑰匙是一個四位數字（PIN碼），並且已註冊的PIN碼",
+            "keytext4": "將在入住前一天通過電子郵件發送給客人。",
+            "keytext5": "手動生成鑰匙",
+            "genkey": "生成鑰匙",
+            "userAndGuestAccount": "用戶",
+            "users": "管理員",
+            "guests": "客人",
+            "number": "編號",
+            "name": "姓名",
+            "username": "用戶名",
+            "serial": "序列號",
+            "expiration": "過期日期",
+            "accessCode": "PIN碼",
+            "status": "狀態",
+            "checkIn": "入住",
+            "checkOut": "退房",
+            "arrivalTime": "到達時間",
+            "departureTime": "離開時間",
+            "room": "房間",
+            "createAdminAccount": "創建管理員帳戶",
+            "createGuestAccount": "創建客戶帳戶",
+            "noUserAccountsRegister":"未註冊用戶帳戶",
+            "noGuestAccountsRegister":"未註冊客戶帳戶",
+            "generateNewPin" : "生成新的PIN碼",
+            "updateGuestAccount" : "更新客戶帳戶",
+            "updateUserAccount" : "更新用戶帳戶",
+            "updateAdminAccount" : "更新管理員帳戶",
+            "ok":"確定",
+            "successUpdatingGuestAccount": "客戶帳戶更新成功",
+            "deleteGuestAccount":"刪除客戶帳戶",
+            "deleteAdminAccount":"刪除管理員帳戶",
+            "deleteModal":"確定要刪除此帳戶嗎？ ",
+            "cancel":"取消",
+            "create": "創建",
+            "creating": "創建中",
+            "update": "更新",
+            "updating": "更新中",
+            "delete":"刪除",
+            "deleting": "刪除中",
+            "clear": "清空",
+            "email": "電子郵件地址",
+            "action": "操作",
+            "reset": "重置"
+        },
+        "systemLogs": {
+            "system":"系統日誌",
+            "app":"稽核日誌",
+            "error":"錯誤",
+            "warning":"警告",
+            "info":"資訊",
+            "date":"日期",
+            "userInfo":"使用者資訊",
+            "processingObj":"處理對象",
+            "errorCode":"錯誤碼",
+            "processingDetails":"處理細節",
+            "events":"事件",
+            "content":"內容",
+            "roomName":"房間名稱",
+            "message":"訊息",
+            "responseModal":{
+                "title":"錯誤",
+                "date":"日期",
+                "room":"房間",
+                "message":"訊息",
+                "response":"回應訊息",
+                "responder":"回應人",
+                "responseTime":"回應時間",
+                "done":"已回應"
+            }
+        },
+        "remotelock": {
+            "title": "遠端鎖定",
+            "scan": "掃描",
+            "scanning": "正在掃描",
+            "scanSuccess": "掃描成功",
+            "scanFailed": "掃描失敗",
+            "deleteConfirm": "刪除設備？",
+            "deleteSuccess": "刪除成功",
+            "deleteFailed": "刪除失敗",
+            "noRoomData": "-",
+            "registered": "已註冊",
+            "unregistered": "未註冊",
+            "online": "在線",
+            "offline": "離線",
+            "fields": {
+                "serialNo": "序列號",
+                "name": "名稱",
+                "room": "房間",
+                "status": "狀態",
+                "action": "操作"
+            },
+            "form": {
+                "registerTitle": "註冊遠端鎖定設備",
+                "editTitle": "編輯遠端鎖定設備",
+                "serialNo": "設備序列號",
+                "deviceName": "設備名稱",
+                "roomName": "房間名稱",
+                "register": "註冊",
+                "registering": "正在註冊",
+                "registerSuccess": "註冊成功",
+                "registerFailed": "註冊失敗",
+                "update": "更新",
+                "updating": "正在更新",
+                "updatingSuccess": "更新成功",
+                "updateSuccess": "更新成功",
+                "updatingFailed": "更新失敗"
+            }
+        },
+        "natureRemo": {
+            "title": "遠端控制器",
+            "tabTitleAccounts": "帳戶",
+            "tabTitleDevices": "裝置",
+            "tabTitleAppliances": "家電",
+            "tabTitleSignals": "訊號",
+            "account": "帳戶",
+            "device": "裝置",
+            "room": "房間",
+            "registerStatus": "註冊狀態",
+            "appliance": "家電",
+            "applianceType": "種類",
+            "all": "全部",
+            "search": "搜尋",
+            "send": "發送",
+            "selectAccount": "選擇帳戶",
+            "selectDevice": "選擇裝置",
+            "selectRoom": "選擇房間",
+            "selectStatus": "選擇狀態",
+            "selectAppliance": "選擇家電",
+            "selectType": "選擇種類",
+            "resetFilters": "重設篩選",
+            "scanDevices": "掃描裝置",
+            "scanAppliances": "掃描家電",
+            "showCreateAccountFormModal": "顯示建立帳戶表單視窗",
+            "showRegisterDeviceModal": "顯示註冊裝置表單視窗",
+            "tableNoData": "無資料",
+            "deleteAccount": "刪除帳戶",
+            "status": {
+                "registered": "已註冊",
+                "unregistered": "未註冊"
+            },
+            "type": {
+                "ac": "空調",
+                "light":"智慧燈",
+                "tv":"電視",
+                "ir":"通用紅外線"
+            },
+            "tableFields": {
+                "id": "ID",
+                "uuid": "UUID",
+                "name": "名稱",
+                "token": "令牌",
+                "accountName": "帳戶名稱",
+                "deviceName": "裝置名稱",
+                "roomName": "房間名稱",
+                "applianceName":"電器名稱",
+                "deviceId": "裝置ID",
+                "type": "類型",
+                "applianceId": "電器ID",
+                "roomId": "房間ID",
+                "label": "標籤",
+                "serialNumber": "序號",
+                "macAddress": "MAC位址",
+                "regFlag": "已註冊",
+                "deviceCount": "裝置數量",
+                "applianceCount": "電器數量",
+                "signalCount": "訊號數量",
+                "createdAt": "建立於",
+                "dateAdded": "加入日期",
+                "action": ""
+            },
+            "modalTitleCreateAccount": "新增Nature Remo帳號",
+            "modalTitleRegisterDevice": "註冊Nature Remo設備",
+            "formFields": {
+                "accountName": "帳號名稱",
+                "accessToken": "存取權杖",
+                "accessTokenPlaceholder": "在此貼上您的存取權杖",
+                "serialNumber": "序列號",
+                "room": "房間",
+                "deviceName": "設備名稱"
+            },
+            "save": "儲存",
+            "saving": "儲存中",
+            "alert": {
+                "deleteAccount": {
+                    "title": "你確定嗎?",
+                    "text": "與此帳戶相關聯的設備，裝置和信號都將被刪除",
+                    "confirm": "確認",
+                    "cancel": "取消",
+                    "onSuccess": "成功刪除帳戶",
+                    "onFail": "刪除帳戶失敗"
+                },
+                "createAccount": {
+                    "onSuccess": "成功建立帳戶",
+                    "onFail": "建立帳戶失敗"
+                },
+                "scanDevices": {
+                    "onSuccess": "掃描完成",
+                    "onFail": "掃描設備失敗"
+                },
+                "registerDevice": {
+                    "onSuccess": "成功註冊設備",
+                    "onFail": "註冊設備失敗"
+                },
+                "scanAppliances": {
+                    "onSuccess": "掃描完成",
+                    "onFail": "掃描設備失敗"
+                },
+                "sendSignals": {
+                    "onSuccess": "信號成功發送",
+                    "onFail": "發送信號失敗"
+                }
+            }
+        },
+        "param":{
+            "title": "PARAM 設置",
+            "ac": "冷氣",
+            "staysee": "Staysee",
+            "pincode": "PIN碼",
+            "mail": "電子郵件",
+            "wifi": "Wi-Fi",
+            "acHeader": "入住時間前自動啟動冷氣設置",
+            "autoStart": "自動啟動",
+            "on": "開",
+            "off": "關",
+            "checkIn": "入住時間",
+            "hoursBefore": "提前幾小時",
+            "hoursOption1": "0.0",
+            "hoursOption2": "0.5",
+            "dropDownMode": "模式",
+            "warmMode": "暖氣",
+            "coolMode": "冷氣",
+            "dryMode": "除濕",
+            "autoMode": "自動",
+            "stayseeHeader": "Staysee自動同步頻率設置",
+            "syncFrequency": "同步頻率",
+            "minutesFrequency": "分鐘頻率",
+            "pinHeader": "設置PIN碼的位數",
+            "numberOfDigits": "位數",
+            "digits": "位",
+            "mailHeader": "電子郵件文本和提醒郵件設置",
+            "enThankyouMail": "謝謝郵件的英文文本",
+            "jaThankyouMail": "謝謝郵件的日文文本",
+            "remindMail": "提醒郵件發送日期",
+            "dateThankyouMail": "發送感謝信的日期",
+            "dayBefore": "提前幾天",
+            "dayAfter": "退房後天數",
+            "mailText": "郵件正文",
+            "wifiHeader": "訪客屏幕的Wi-Fi名稱和密碼顯示設置",
+            "wifiName": "Wi-Fi名稱",
+            "wifiPassword": "密碼",
+            "apply": "應用",
+            "applying": "應用中",
+            "reset": "重設",
+            "attention": "※使用NETFLIX等應用程式的注意事項\n　如果您使用自己的帳戶登入\n　使用後請務必登出。\n　",
+            "tempAdjustment": "溫度調整",
+            "setTemp": "設定溫度",
+            "autoStartTemp": "自動啟動溫度",
+            "heatStart": "加熱啟動溫度",
+            "coolStart": "冷卻啟動溫度",
+            "heating": "加熱中",
+            "cooling": "冷卻中"
+        }
+    },
+    "remotelock": {
+        "accounttype": "帳戶類型",
+        "adminTitle": "創建管理員帳戶",
+        "guestTitle": "創建客戶帳戶",
+        "username": "用戶名",
+        "name": "姓名",
+        "firstname": "名字",
+        "lastname": "姓氏",
+        "checkin": "入住日期和時間",
+        "checkout": "退房日期和時間",
+        "email": "電子郵件地址",
+        "phoneNumber": "電話號碼",
+        "pin": "PIN碼",
+        "room": "房間",
+        "device": "設備",
+        "send": "發送",
+        "back": "返回",
+        "status": "房間狀態",
+        "checkedIn": "已入住",
+        "checkedOut": "已退房",
+        "available": "可用",
+        "unavailable": "不可用",
+        "booked": "已預訂",
+        "updateGuestAccount": "更新客戶帳戶",
+        "update":"更新",
+        "generateNewPin": "生成新的PIN碼",
+        "updatePinFlag": "要求新的PIN碼？",
+        "errors": {
+            "firstName": {
+                "empty": "請輸入名字。"
+            },
+            "lastName": {
+                "empty": "請輸入姓氏。"
+            },
+            "checkIn": {
+                "empty": "請選擇入住日期和時間。",
+                "later": "入住日期和時間必須在退房日期和時間之前。"
+            },
+            "checkOut": {
+                "empty": "請選擇退房日期和時間。",
+                "earlier": "退房日期和時間必須在入住日期和時間之後。"
+            },
+            "email": {
+                "empty": "請輸入電子郵件地址。",
+                "invalid": "電子郵件無效。"
+            },
+            "phoneNumber": {
+                "empty": "請輸入客人的電話號碼。"
+            },
+            "remoteLockId": {
+                "empty": "請選擇房間",
+                "no_available": "沒有可用房間"
+            },
+            "createRemoteLockGuestAccount": {
+                "general": "createRemoteLockGuestAccount過程失敗。"
+            },
+            "createiBMSGuestAccount": {
+                "general": "createiBMSGuestAccount過程失敗。",
+                "duplicate": "createiBMSGuestAccount過程失敗：該用戶名已經被使用。"
+            },
+            "sendAlertEmail": {
+                "general": "sendAlertEmail過程失敗。"
+            },
+            "authCode": {
+                "empty": "此頁面沒有授權碼。"
+            },
+            "pin": {
+                "empty": "請輸入您的6位數PIN。",
+                "invalid": "PIN必須至少有6位數字。",
+                "duplicate": "PIN已被使用。請輸入另一個PIN"
+            },
+            "unknownError": {
+                "title": "錯誤！",
+                "redirect": "此頁面將在3秒後重新導向到iBMS管理儀表板畫面。"
+            }
+        },
+        "message": {
+            "success": {
+                "title": "成功！",
+                "body": "预订和帐户信息已发送至以下电子邮件。此页面将在3秒钟内重定向到iBMS管理仪表板屏幕。"
+            },
+            "successCancel": {
+                "title": "成功",
+                "body": "预订取消详细信息已发送到客人的电子邮件。此页面将在3秒钟内重定向到iBMS管理仪表板屏幕。"
+            }
+        }
+    },
+    "restaurant": {
+        "admin": {
+            "menu": {
+                "home": "主頁",
+                "monitor": "空氣監測器",
+                "registry": "登記處",
+                "logs": "日誌",
+                "notifications": "通知",
+                "logout": "登出"
+            },
+            "home": {
+                "rooms": "房間",
+                "devices": "裝置",
+                "air_sensor": "空氣感測器"
+            },
+            "chart": {
+                "co2_level": "二氧化碳水平"
+            },
+            "external": {
+                "legends": {
+                    "low": "低",
+                    "normal": "正常",
+                    "elevated": "提高",
+                    "dangerous": "高"
+                }
+            },
+            "restroom": {
+                "title": "洗手間監視器",
+                "occupied": "佔用",
+                "vacant": "空閒",
+                "no_vacant": "無空閒"
+            }
+        },
+        "guest": {
+            "menu": {
+                "home": "首頁",
+                "order": "訂單",
+                "history": "歷史",
+                "payment": "付款",
+                "logout": "登出"
+            },
+            "home": {
+                "air_monitor": "空氣監測器",
+                "sound_level": "聲音水平",
+                "co2_level": "二氧化碳水平",
+                "restroom_status": "廁所狀態",
+                "occupied": "有人",
+                "vacant": "空位"
+            },
+            "restroom": {
+                "title": "廁所使用情況",
+                "occupied": "有人",
+                "vacant": "空位"
+            }
+        },
+        "help": {
+            "title": "二氧化碳濃度",
+            "body": "測量空氣中的二氧化碳濃度，以確保客戶的安全。",
+            "low": {
+                "amount": "低於 800 ppm",
+                "status": "（低）"
+            },
+            "normal": {
+                "amount": "800 - 1000 ppm",
+                "status": "（正常）"
+            },
+            "elevated": {
+                "amount": "1001 - 2500 ppm",
+                "status": "（升高）"
+            },
+            "dangerous": {
+                "amount": "超過 2501 ppm",
+                "status": "（危險）"
+            }
+        },
+        "logout": {
+            "title": "確認",
+            "content": "我要登出。你確定嗎？"
+        }
+    },
+    "tablet": {
+        "tabletBtn": "註冊設備",
+        "regist":"註冊",
+        "uuid": "設備 UUID",
+        "room": "房間名稱",
+        "userType": "管理員/訪客",
+        "placeholder": "選擇...",
+        "tabletTable": {
+            "uuid": "UUID",
+            "room": "房間名稱",
+            "admin": "管理員"
+        },
+        "choices": {
+            "admin": "管理員",
+            "guest": "訪客"
+        },
+        "footer": {
+            "save": "保存",
+            "saving": "保存中",
+            "cancel": "取消"
+        },
+        "success": "設備註冊成功",
+            "fail": "設備註冊失敗",
+            "errors": {
+            "ifEmptyRoom": "未選擇房間",
+            "ifEmptyUser": "未選擇使用者"
+        },
+        "deleteMessage": {
+            "deleteUuid": "刪除 UUID ",
+            "deleteModal": "你確定要刪除此 UUID 帳號嗎？",
+            "cancel":"取消",
+            "delete":"刪除"
+        },
+        "message": {
+            "success": "UUID 帳號已成功刪除。",
+            "fail": "刪除 UUID 帳號失敗。"
+        }
+    },
+    "termsAndCondition": {
+        "title": "一般條款和條件",
+        "backBtn": "返回",
+        "nxtBtn": "下一步",
+        "agree": "我接受並同意一般條款和條件"
+    },
+    "clientCode": {
+        "checkIn": "登記入住",
+        "checkOut": "退房",
+        "lateCheckIn":"晚點入住",
+        "reCheckIn":"嘗試重新登記入住",
+        "lateCheckOut": "晚點退房",
+        "failedCheckOut": "退房失敗"
+    },
+    "notificationCode":{
+        "notification":"通知",
+        "event":"事件類型",
+        "message": "消息",
+        "roomName": "房間名稱",
+        "date": "日期"
+    },
+    "roomMessageCode": {
+        "noMessage": "無消息",
+        "dontDisturb": "請勿打擾",
+        "cleanUpTime": "清理時間"
+    },
+    "imageWarning":{
+        "inputWarning": "！輸入應只包含3到20個字符。"
+    },
+    "guestcard": {
+        "guestcardTitle": "住客登記卡",
+        "require": "必填",
+        "go": "",
+        "haku": "晚",
+        "date": "日期",
+        "print": "注音",
+        "name": "姓名",
+        "guests": "人數",
+        "adult": "成人",
+        "child": "兒童",
+        "toddler": "幼童",
+        "toddlerName": "幼童姓名",
+        "toddlerNamePrint": "幼童注音",
+        "mei": "人",
+        "sum": "合計",
+        "addressNumber": "地址號碼",
+        "address": "地址",
+        "receipt": "收據姓名",
+        "tel1": "電話1",
+        "tel2": "電話2",
+        "car": "車型、車牌號碼",
+        "birthday": "出生年月日",
+        "email": "電子郵件",
+        "nationality": "請選擇您的國籍。",
+        "passport_no": "護照號碼",
+        "photo": "拍攝護照",
+        "representative": "代表人",
+        "companion": "同行人",
+        "instructions": "※ 如果代表人或同行人是外國人，請勾選「外國人」框。",
+        "images": "請拍攝護照照片。",
+        "images_desc1": "※ 只為外國人拍護照照片。",
+        "images_desc2": "※ 請拍攝您的面部和護照號碼所在的頁面。",
+        "japanese_nationality": "日本國籍",
+        "foreign_nationality": "外國籍",
+        "purpose": {
+            "purpose": "旅行目的",
+            "sightseeing": "觀光",
+            "gourmet": "美食",
+            "hotSprings": "溫泉",
+            "refreshment": "休閒娛樂",
+            "rest": "休息和療癒",
+            "familyFriends": "和家人和朋友共度時光",
+            "nature": "接觸大自然",
+            "Other": "其他",
+            "business": "商務"
+        },
+        "questionnaire": "您想收到我們的特別雜誌（白馬之基）嗎？",
+        "answer1": "是",
+        "answer2": "已經收到了。",
+        "next": "下一步",
+        "prev": "上一步",
+        "complete": "完成",
+        "placeholder": {
+            "name": "約翰·史密斯",
+            "ruby": "約翰·史密斯",
+            "addressNumber": "399-9301",
+            "receipt": "約翰·史密斯",
+            "address": "長野縣北安曇郡白馬村北城21582號",
+            "tel1": "090-1234-5678",
+            "tel2": "0776-00-1122",
+            "car": "輕型車長野300 A 00-00",
+            "email": "sample@sample.com",
+            "purpose": "(選擇)"
+        },
+        "errors": {
+            "nights": {
+                "empty": "請輸入'入住日期'。",
+                "invalid": "入住日期時間範圍不正確。"
+            },
+            "sumGuests": {
+                "invalid": "「客人數量」欄位不正確。"
+            },
+            "namePrint": {
+                "empty": "請填寫'姓名（注音）'欄位。",
+                "invalid": "請填寫50個字元或以下的'姓名（注音）'欄位。"
+            },
+            "name": {
+                "empty": "Please enter 'Name'.",
+                "invalid": "Please enter 'Name' in 50 characters or less."
+            },
+            "toddlerNamePrint": {
+                "empty": "請輸入'幼兒拼音姓名'。",
+                "invalid": "請以50個字符或更少輸入'幼兒拼音姓名'。"
+            },
+            "toddlerName": {
+                "empty": "請輸入幼兒姓名。",
+                "invalid": "請以 50 個字元或更少的字元輸入幼兒姓名。"
+            },
+            "addressNumber": {
+                "invalid": "請輸入不超過10位數的'地址號碼'。",
+                "empty": "請輸入'地址號碼'。"
+            },
+            "address": {
+                "empty": "請輸入'地址'。",
+                "invalid": "請輸入255個字符或更少的'地址'。"
+            },
+            "receiptName": {
+                "empty": "請輸入「收據名稱」。",
+                "invalid": "請輸入 50 字以內的「收據名稱」。"
+            },
+            "tel1": {
+                "invalid": "請輸入不超過20位數的電話號碼。",
+                "empty": "請輸入 'Tel1'。"
+            },
+            "tel2": {
+                "invalid": "請輸入不超過20位數字的 '電話2'。"
+            },
+            "car": {
+                "invalid": "請在50個字符以內輸入“汽車型號，車牌號碼”。"
+            },
+            "birthday": {
+                "empty": "請輸入 '出生日期'。"
+            },
+            "email": {
+                "empty": "請輸入 '電子郵件'。",
+                "invalid": "無效的 '電子郵件地址'。",
+                "invalid_characters": "請在 255 個字符或更少的範圍內輸入 '電子郵件'。"
+            },
+            "purpose": {
+                "empty": "請輸入 '目的'。"
+            },
+            "questionnaire": {
+                "empty": "請選擇 '調查。'"
+            },
+            "passport_no": {
+                "empty": "請輸入 '護照號碼。'"
+            },
+            "guestcard_image": "請拍攝至少一張護照照片。"
+        }
+    },
+    "spareKeys": {
+        "tabName": "備用鑰匙",
+        "tableHeaders": {
+            "id": "鑰匙ID",
+            "pinCode": "PIN碼",
+            "roomID": "房間ID",
+            "roomName": "房間名稱",
+            "deviceId": "設備ID",
+            "deviceName": "設備名稱",
+            "period": "有效期"
+        },
+        "error": {
+            "tableEmpty": "沒有備用鑰匙數據"
+        },
+        "refresh": "刷新",
+        "refreshing": "正在刷新"
+    },
+    "emergency": {
+        "modal": {
+            "header": "緊急事件",
+            "body1": "緊急按鈕已按下。",
+            "body2": "工作人員應立即檢查情況。",
+            "body3": "請耐心等待工作人員的通知。",
+            "close": "關閉"
+        }
+    },
+    "logoutScreen": {
+        "content1": "請在前台付款任何額外的訂單。",
+        "content2": "離開建築物前，請檢查是否有遺漏的物品。",
+        "content3": "如果離開房間後發現遺失物品，請使用智能鎖打開房門，直到退房時間。",
+        "content4": "如果已超過退房時間，請前往前台。"
+    },
+    "termsAndConditions": {
+        "termsOfUse": "使用條款",
+        "termsOfHotel": "旅館條款及規定",
+        "introduction": "為確保賓客的安全與舒適入住，本旅館依據《旅館條款及規定》第10條訂定以下規定，請賓客遵守並配合。若有違反，本旅館得依據《旅館條款及規定》第7條第1款之規定，拒絕提供房間及設施的使用。請注意，若因賓客未遵守規定，發生任何事故，本旅館概不負責。",
+        "safety": {
+        "title": "嚴格遵守的安全預防措施",
+        "1": "請勿攜帶燃氣設備等加熱、烹飪用品、熨斗等進入房間，除非是本旅館出借之物品。",
+        "2": "請勿在床上等易燃物品處吸菸。",
+        "3": "請勿從事其他可能引起火災的行為。",
+        "4": "請確認每個房間門內側的緊急疏散路線圖。",
+        "5": "請在離開房間期間，確認房門是否鎖上。(本旅館採用自動鎖門系統)",
+        "6": "在入住期間，特別是睡覺時，請使用房門內側的鎖(門栓)鎖上房門。若有訪客來訪，請不要在未鎖好門的情況下開門，可從門眼觀察。若有可疑人員，請聯繫櫃檯人員。",
+        "7": "請勿在房間內接待訪客。",
+        "8": "只有登記入住的賓客才能使用本旅館的設施及房間。"
+        },
+
+        "handling": {
+            "title": "貴重物品和存放物品處理",
+            "1": "請在入住期間使用前台提供的保險箱管理現金和貴重物品。如果您未遵循以上程序，且您的現金或貴重物品遺失、損壞或被盜，我們不承擔任何賠償責任。",
+            "2": "除非另有規定，所有尋獲物品均將按照法律進行處理。"
+        },
+        "payment": {
+            "title": "支付政策",
+            "1": "請使用酒店批准的貨幣、旅行支票、酒店票或信用卡支付費用。然而，在您入住期間，每當酒店提出賬單時，必須立即支付費用。",
+            "2": "如果您想要更改入住天數，請提前與前台工作人員聯繫。如果您想要延長入住時間，請確保支付費用至您的入住結束。"
+        },
+        "actions": {
+            "title": "應避免的行為",
+            "1": "請勿攜帶任何可能干擾其他客人的物品進入飯店。",
+            "a": "沒有事先取得飯店許可的動物和寵物，包括狗，貓，鳥等。",
+            "b": "易燃易爆的物品，揮發性油和可能引燃或著火的潛在危險產品。",
+            "c": "散發惡臭或強烈氣味的物品。",
+            "d": "未經授權的槍支和劍。",
+            "e": "過多的行李和商品。",
+            "f": "其他法律禁止的物品。",
+            "2": "請勿進行賭博，擾亂公共道德或公共安全，或任何可能給飯店其他客人帶來不便或不適的活動。",
+            "3": "請勿在客房窗戶中掛放任何會破壞飯店外觀的物品。",
+            "4": "未經許可，請勿在飯店內分發廣告或促銷材料或銷售商品。",
+            "5": "請勿將飯店的設施和設備用於除特定用途以外的其他用途，或以會嚴重損壞它們目前狀況的方式使用它們。",
+            "6": "未經許可拍攝用於商業目的的飯店照片可能會受到法律訴訟。",
+            "7": "請勿在大廳或走廊等公共場所放置個人物品。",
+            "8": "除非有緊急情況或無法避免的情況，否則請勿進入非訪客預約的緊急樓梯，屋頂，旅館，機房和其他設施。",
+            "9": "未經父母或監護人的許可，未滿18歲的客人不得獨自入住飯店。",
+            "10": "如有任何財產損失，污染或損壞，包括結構物，家具，設備或其他物品，因非天然災害原因造成的，您可能需要支付合理的賠償金額。",
+            "11": "請勿從旅館外部接收食品和飲料送遞。",
+            "footer": "※如有送貨服務，請在一樓大堂內或外領取訂單。"
+        },
+        "article1": {
+            "header": "（適用範圍）",
+            "title": "第一條",
+            "1": "本旅館與旅客締結的住宿契約及相關協議，應依照本條款之規定。未盡事宜，應依法令規定或通則。",
+            "2": "本旅館對於不違反法令規定及通則範圍內之特別約定，以特別約定為準，即使有前一項之規定。"
+        },
+        "article2": {
+            "header": "（住宿契約之申請）",
+            "title": "第二條",
+            "1": {
+            "content": "欲締結住宿契約者，應提供下列事項。",
+            "1": "住宿者姓名",
+            "2": "住宿日及抵達時間",
+            "3": "本旅館所要求的其他事項 人數、聯絡方式（電話號碼）、房型等"
+            },
+            "2": "旅客於住宿期間，如欲延長住宿期間，應於住宿期間滿了之前提出，則本旅館將以提出延長住宿之日為申請日，處理為新的住宿契約申請。"
+        },
+        "article3": {
+            "header": "（住宿契約成立等）",
+            "title": "第3條",
+            "1": "當本旅館按照前條的規定同意申請時，住宿契約即成立。但是，本旅館能證明沒有同意申請的場合除外。",
+            "2": "依照前項規定成立住宿契約的場合，申請人應於本旅館規定的期限內支付本旅館規定的申請費用，該費用限定於住宿期間（住宿期間超過3天的場合，限於3天）基本住宿費用。",
+            "3": "申請費用應優先用於支付住宿費用之後的最終結算金額。此外，如果適用第6條和第18條的規定，則申請費用應用於罰款後的賠償金額，如還有剩餘金額，應按照第12條的規定在支付費用時退還。",
+            "4": "當申請人未在附帶文件的規定期限內支付第2條所規定的申請費用時，住宿契約即自行失效。但是，當本旅館告知申請費用的支付期限的場合除外。"
+        },
+        "article4": {
+            "header": "（不需要支付申請費用的特別規定）",
+            "title": "第4條",
+            "1": "不論前條第2項的規定為何，當旅館在契約成立後同意不要求支付前項第2項所規定的申請費用時，則不需支付該費用。",
+            "2": "在旅館接受住宿契約申請時未要求支付前條第2項所規定的申請費用，或者未規定申請費用的支付期限時，則視為適用前項的特別規定。"
+        },
+        "article5": {
+            "header": "（拒絕簽訂住宿合約）",
+            "title": "第5條",
+            "1": {
+                "content": "本旅館在下列情況下，可能拒絕簽訂住宿合約。",
+                "1": "申請住宿不符合本條款和條件的情況。",
+                "2": "因客房已滿而無法提供住宿的情況。",
+                "3": "認為有意住宿的人可能會違反法律、法規、公共秩序或良好風俗的情況。",
+                "4": "認為有意住宿的人患有傳染病的情況。",
+                "5": "有意住宿的人有暴力、威脅、敲詐勒索或其他暴力或恐嚇性的不合理要求行為，或要求住宿的負擔超出合理範圍的情況。",
+                "6": "因天災、設施故障或其他不可抗力的情況，本旅館無法提供住宿的情況。",
+                "7": "有意住宿的人發出妨礙性噪音、行為可疑或以可能危及或引起其他住宿或使用本旅館的客人的危險或焦慮的方式發言或行動的情況。",
+                "8": "過去曾在本旅館內做違反本條例第(3)、(5)或(7)條的行為的住宿客人。",
+                "9": "如有意住宿的人是犯罪集團成員、與犯罪集團有關的人員、或與犯罪集團成員為官的公司或其他犯罪集團控制其業務活動的公司的官員或有關人員。",
+                "10": "如有意住宿的人是反社會組織、其成員或本條第(9)項所列之外的其他反社會勢力。",
+                "11": "因服用藥物或飲酒導致的精神或身體虛弱或瘋狂，難以確保有意住宿的人的安全的情況。",
+                "12": "屬於《東京都旅館業法施行令》第5條規定的情況。",
+                "13": "當有其他與上述項目相當的拒絕提供住宿的合理理由時。"
+            }
+        },
+        "article6": {
+            "header": "（客人取消合約的權利）",
+            "title": "第6條",
+            "1": "客人可以向本旅館提出請求，取消住宿合約。",
+            "2": "如果客人因客人的原因（但本旅館在第3條第2款規定的申請費用的到期日及要求支付該費用並在此之前取消住宿合約的情況除外）而全部或部分取消住宿合約，本旅館將按附錄2的規定收取違約金。在這種情況下，本旅館將按附錄2的規定收取違約金。但是，在適用第4條第1款的特殊條款時，只有在本旅館告知客人在客人取消住宿合約的情況下需要支付違約金的義務時，才適用本款。",
+            "3": "如果客人未在入住當天中午12:00之前抵達旅館（如果預估到達時間事先清楚地指示，則在該時間之後2小時），且未通知旅館，旅館可以將住宿合約視為被客人取消。"
+        },
+        "article7": {
+            "header": "（我們取消合約的權利）",
+            "title": "第7條",
+            "1": {
+                "content": "本旅館在以下情況下可以取消住宿合約。",
+                "1": "適用第5條任何項目或被認為適用的情況。",
+                "2": "在臥室內睡覺、損壞防火設備或不遵守本旅館使用條款中的其他禁止事項（僅限於防火必要事項）時。"
+            },
+            "2": "當本旅館根據前項規定取消住宿條款和條件時，本旅館將不會收取客人尚未收到的住宿服務等費用。"
+        },
+        "article8": {
+            "header": "(住宿登記)",
+            "title": "第8條",
+            "1": {
+                "content": "客人需要在入住當天在飯店櫃台登記以下資訊。",
+                "1": "客人的姓名、年齡、性別、職業和電話號碼",
+                "2": "在外國旅客的情況下，需要護照號碼、入境地點和日期",
+                "3": "預定的退房日期和時間",
+                "4": "飯店認為必要的其他事項"
+            },
+            "2": "當客人打算使用可以兌換貨幣的支付方式，例如旅行支票、住宿券或信用卡來支付第12條規定的費用時，客人需要在上述章節所設定的登記時間提前出示它們。"
+        },
+        "article9": {
+            "header": "(客房使用時間)",
+            "title": "第9條",
+            "1": "客人可以從下午4點到翌日早上10點使用飯店客房。但連續住宿的客人可以在抵達當天和離開當天以外的時間全天使用客房。",
+            "2": {
+                "content": "儘管有前款規定，本飯店需要接待在前款所述時段以外的客房使用。在這種情況下，將收取以下額外費用：",
+                "1": "中午12點前：每房收取JPY 2,000（含稅）",
+                "2": "中午1點前：每房收取JPY 3,000（含稅）",
+                "3": "中午1點以後，需支付額外的一晚房費。"
+            }
+        },
+        "article10": {
+            "header": "(遵守使用規則)",
+            "title": "第10條",
+            "content": "所有客人都需要遵守飯店管理層所制定的《使用條款》。"
+        },
+        "article11": {
+            "header": "（營業時間）",
+            "title": "第11條",
+            "1": "本酒店主要設施的營業時間將在提供的小冊子、各個地點的公告牌和客房內的資訊冊中具體說明。",
+            "2": "上述條款所述時間如有必要或不可避免的情況，可暫時改變。在這種情況下，我們將以適當的方式通知您。"
+        },
+        "article12": {
+            "header": "（費用支付）",
+            "title": "第12條",
+            "1": "客人需支付的住宿費和其他費用的明細列在附錄1中。",
+            "2": "住宿費，如前款所述，應在客人抵達時或本酒店要求時，在前台以貨幣或經本酒店批准的旅行支票、住宿券、信用卡等替代方式支付。",
+            "3": "即使客人在酒店提供房間且可供使用後並不自願入住，住宿費仍將收取。"
+        },
+        "article13": {
+            "header": "（酒店的責任）",
+            "title": "第13條",
+            "1": "如果本酒店在執行住宿合同或任何相關合同時對客人造成損害，或由於未履行合同而導致損害，本酒店將對此進行賠償。但是，如果原因不是本酒店的過錯，則不適用此條款。",
+            "2": "本酒店已投保旅館責任保險，以應對火災和其他事故。"
+        },
+        "article14": {
+            "header": "(無法提供已訂房間時的處理方式)",
+            "title": "第14條",
+            "1": "如果酒店無法提供旅客已訂的房間，酒店將在旅客同意的情況下盡可能引導旅客前往具有相同條件的其他住宿。",
+            "2": "如果酒店無法找到其他住宿，儘管遵守前項規定，酒店將支付與合同價格相當的補償費用給旅客，而補償費用將由賠償額承擔。然而，如果無法提供房間的原因不是酒店無法控制的原因，則不需支付補償費用。"
+        },
+        "article15": {
+            "header": "(寄存物品處理方式)",
+            "title": "第15條",
+            "1": "如果旅客在前台寄存財物、現金或貴重物品時損失、損壞或遭受其他損害，除非無法避免的情況，酒店將對此類損害進行賠償。然而，對於現金和貴重物品，如果酒店要求旅客聲明此類物品的類型和價值，而旅客未能這樣做，酒店將對損害進行最高150,000日元的賠償。",
+            "2": "如果旅客將其自己攜帶的財物、現金或貴重物品留在酒店，並沒有放在前台，但物品遭受損失、損壞或遭受其他損害，是由於酒店的疏忽或失誤導致的，則酒店將對此類損害進行賠償。然而，對於旅客未提前聲明物品類型和價值的物品，酒店將對損害進行最高150,000日元的賠償，除非是因酒店故意或重大疏忽而造成的。"
+        },
+        "article16": {
+            "header": "（旅客行李或財物的存放）",
+            "title": "第16條",
+            "1": "如果旅客的行李在住宿前到達旅館，旅館只會在事先同意存放該行李的情況下承擔存儲責任，並在客人辦理入住手續時交還該行李。但是，我們不接受需要冷藏的物品。",
+            "2": "如果旅客在退房後把行李或個人物品遺留在旅館內，且已經確認物品的主人身份，則旅館應徵求主人的指示。但是，如果主人沒有指示，或者無法找到主人，則應將物品保存7天（包括發現當天），然後將其報告給最近的警察局。",
+            "3": "在前兩項的情況下，旅館對旅客行李或財物的保管責任應與前一條第1項的規定相同，在前一項的情況下，應與同一條第2項的規定相同。"
+        },
+        "article17": {
+            "header": "（停車場責任）",
+            "title": "第17條",
+            "content": "如果住客使用旅館的停車場，無論車輛的鑰匙是否存放，旅館只提供車位，不負責車輛的管理。然而，如果是由於旅館管理停車場的故意或疏忽行為造成損壞，旅館將負責賠償。"
+        },
+        "article18": {
+            "header": "（住客的責任）",
+            "title": "第18條",
+            "content": "如果旅館因住客的故意瀆職或疏忽行為而遭受損害，住客應賠償旅館所遭受的損害。賠償金額將根據正常費率計算，並根據損害程度確定。"
+        },
+        "table1": {
+            "header1": "附表1：客房費用計算方式",
+            "header2": "（關於第2條第1項、第3條第2項和第12條第1項）",
+            "thead": {
+                "th": "明細"
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "支付者應付總額",
+                    "td1": "住宿費",
+                    "td2": "標準客房費（房費）"
+                },
+                "tr2": {
+                    "td1": "額外費用",
+                    "td2": "飲食、飲料和其他公用事業費用"
+                },
+                "tr3": {
+                    "td1": "稅金",
+                    "td2": "消費稅"
+                }
+            },
+            "remarks": "備註：住宿費用以前台公告的費用表為準。"
+        },
+        "table2": {
+            "header1": "附表2：違約金",
+            "header2": "（關於第6條第2項）",
+            "thead": {
+                "tr1": {
+                    "th1": "取消合約通知收到日",
+                    "th2": "未報到",
+                    "th3": "預約當日",
+                    "th4": "前一天",
+                    "th5": "9日前",
+                    "th6": "20日前"
+                },
+                "tr2": {
+                    "th1": "合約申請人數"
+                }
+            },
+            "tbody": {
+                "tr1": {
+                    "th": "一般",
+                    "td1": "14人以下"
+                },
+                "tr2": {
+                    "th": "團體",
+                    "td1": "15至99人"
+                },
+                "tr3": {
+                    "td1": "100人以上"
+                }
+            }
+        },
+        "safetyRemarks": {
+            "title": "安全注意事項",
+            "content": "為確保安全和舒適的住宿，我們有完整的防災系統。",
+            "1": "■防災中心24小時監控酒店設施，以防止災害。",
+            "2": "■酒店設有專屬消防部門，以應對緊急情況。",
+            "3": "■除了煙霧探測器外，我們還安裝了防火門，以防止火災擴散。",
+            "4": "■如有任何問題，請聯繫前台工作人員。"
+        }
+    },
+    "termsOfUse": {
+        "introduction": "為確保我們客人的安全和舒適，我們設立了以下使用貨櫃屋的規則。",
+        "items": {
+            "title": "消防預防事項",
+            "1": "請勿在可能引起火災的區域，特別是床上吸煙。",
+            "2": "請勿從事可能引起火災的任何其他活動。"
+        },
+        "matters": {
+            "title": "安全事項",
+            "1": "只有註冊過的客人才可以留在房間。",
+            "2": "請將現金和貴重物品放在床底下的保險箱中。"
+        },
+        "parking": {
+            "title": "停車場使用方法",
+            "1": "停車位數量限制為每人一個。",
+            "2": "原則上，我們不允許停放超過一輛車，除了旅遊巴士。"
+        },
+        "hotelRules": {
+            "title": "酒店內部規定",
+            "1": "即使客人付費的期限尚未到期，酒店客人也不得將房間轉交給第三人。",
+            "2": "未入住酒店的人員可以在早上7:00至晚上10:00之間入住酒店房間。在晚上10:00之後入住房間的人員必須入住酒店。",
+            "3": "如果客人在上次入住期間嚴重違反酒店的規則和規定，損壞酒店或客人的財產，或對其他住在酒店或其他地方的客人、酒店員工或其他人造成損害，或以其他方式違反其他客人的住宿或酒店的運作，酒店可以拒絕接受此類客人。"
+        }
+    }
+}
